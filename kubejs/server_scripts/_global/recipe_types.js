@@ -848,12 +848,11 @@ function haunt(event, input, output) {
     })
 }
 global.haunt = haunt
-function itemApplication(event, input, inputBlock, postAction) {
+function itemApplication(event, input, inputBlock, outputBlock) {
     event.custom({
-        type: 'lychee:block_interacting',
-        item_in: input,
-        block_in: inputBlock,
-        post: postAction
+        type: 'create:item_application',
+        ingredients: [ input, inputBlock ],
+        results: [ outputBlock ]
     })
 }
 global.itemApplication = itemApplication
@@ -1653,7 +1652,7 @@ global.godOffering = godOffering
 function dryingRack(event, input, output, time) {
     event.custom({
         type: 'hexerei:drying_rack',
-        ingredients: input,
+        ingredients: [input],
         output: output,
         dryingTimeInTicks: time
     })
