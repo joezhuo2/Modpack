@@ -1,3 +1,6 @@
+#CA1807 minecraft:acacia_planks
+#C722B0 minecraft:acacia_slab
+#52B53D minecraft:air
 #FBEB73 minecraft:allium
 #B08B3B minecraft:amethyst_cluster
 #FA75A8 minecraft:andesite
@@ -19,6 +22,7 @@
 #03DC45 minecraft:bricks
 #403FED malum:brilliant_stone
 #207534 minecraft:brown_mushroom
+#B78C11 minecraft:brown_wool
 #1F77D9 productivebees:bumble_bee_nest
 #FC842A minecraft:campfire
 #CB6F00 minecraft:candle
@@ -37,10 +41,15 @@
 #8B8A11 minecraft:cobweb
 #B76D44 create:cogwheel
 #6E76AF minecraft:copper_ore
+#589E8E create:copycat_step
 #CC07F6 minecraft:cornflower
 #306005 minecraft:cracked_stone_bricks
 #468304 minecraft:crafting_table
 #E9A8F5 minecraft:crying_obsidian
+#2E71D6 minecraft:cut_red_sandstone_slab
+#58DFAC create:cut_scoria
+#1B74F2 farmersdelight:cutting_board
+#194874 minecraft:cyan_terracotta
 #B2A2E1 minecraft:dandelion
 #A66708 minecraft:dark_oak_log
 #19C8D3 minecraft:dark_oak_planks
@@ -49,6 +58,7 @@
 #2D271D minecraft:dark_oak_trapdoor
 #30370D evilcraft:dark_ore
 #5E9420 minecraft:deepslate
+#818D47 mekanism:deepslate_tin_ore
 #BED665 minecraft:diorite
 #80497A minecraft:dirt
 #4FA7D0 minecraft:dirt_path
@@ -120,12 +130,15 @@
 #BBA6D1 minecraft:oak_log
 #374FD3 minecraft:oak_slab
 #72BC63 minecraft:oak_stairs
+#9DDACA productivebees:oak_wood_nest
 #4A5E4E minecraft:obsidian
 #5C837A create:ochrum
 #2D6ABE pneumaticcraft:oil
 #0AC430 projectvibrantjourneys:orange_bark_mushroom
 #0D2635 quark:orange_shingles_stairs
+#4A3089 minecraft:orange_terracotta
 #8F6314 minecraft:orange_tulip
+#4C4219 minecraft:orange_wool
 #B29458 mekanism:osmium_ore
 #F6678E minecraft:oxeye_daisy
 #29B1B4 regions_unexplored:peat_dirt
@@ -139,6 +152,7 @@
 #6A5197 minecraft:polished_andesite
 #FB03F5 minecraft:polished_blackstone_brick_slab
 #19F005 minecraft:polished_blackstone_brick_stairs
+#FC3FCF minecraft:polished_blackstone_bricks
 #AFAC0D minecraft:poppy
 #E6B35B minecraft:pumpkin
 #C0B171 minecraft:purple_bed
@@ -152,6 +166,8 @@
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
 #A81CD2 projectvibrantjourneys:sandstone_rocks
+#AD99B7 born_in_chaos_v1:scorched_wood
+#33130F create:scoria
 #8CCE97 quark:shingles
 #E01CB6 quark:shingles_slab
 #93C646 quark:shingles_stairs
@@ -160,6 +176,7 @@
 #5DBDF9 thermal:silver_ore
 #468B47 ae2:sky_stone_block
 #F846EA minecraft:small_amethyst_bud
+#34D755 minecraft:smooth_red_sandstone
 #3A9287 minecraft:smooth_stone
 #CB82F8 minecraft:smooth_stone_slab
 #872D76 minecraft:snow
@@ -183,6 +200,7 @@
 #F8955F minecraft:stone_bricks
 #A5CFF8 productivebees:stone_nest
 #B001A7 minecraft:stripped_dark_oak_wood
+#B7266F born_in_chaos_v1:stripped_scorched_wood
 #82F982 minecraft:stripped_spruce_log
 #5C31B5 minecraft:stripped_spruce_wood
 #F1B8D3 supplementaries:structure_temp

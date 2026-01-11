@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "age_2"
+	group: "45411B44422BC11F"
+	icon: "minecraft:stone"
+	id: "699C94D1DF16C0AF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "7E3A83F78252AEF0"
+		tasks: [{
+			id: "7B2F53880012B64C"
+			item: "minecraft:blast_furnace"
+			type: "item"
+		}]
+		x: 1.0d
+		y: 0.5d
+	}]
+	title: "Age 2"
+}

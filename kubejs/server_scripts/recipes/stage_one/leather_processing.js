@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     // no leather cheating
-    event.remove({id: 'farmersdelight:cutting/leather_from_hide'})
+    event.remove({output: 'leather'})
     // raw hide
     cut(
         event,
@@ -10,6 +10,53 @@ ServerEvents.recipes(event => {
             { item: 'untamedwilds:hide_gray' , count: 2}, 
             { item: 'untamedwilds:hide_gray' , chance: 0.75},
             { item: 'untamedwilds:hide_gray' , chance: 0.3}
+        ]
+    )
+    cut(
+        event,
+        { item: 'rabbit_hide' },
+        'forge:tools/knives',
+        [
+            { item: 'untamedwilds:hide_gray' , chance: 0.6}, 
+            { item: 'untamedwilds:hide_gray' , chance: 0.15}
+        ]
+    )
+    cut(
+        event,
+        { item: 'irons_spellbooks:hogskin' },
+        'forge:tools/knives',
+        [
+            { item: 'untamedwilds:hide_gray' , count: 3}, 
+            { item: 'untamedwilds:hide_gray' , chance: 0.9},
+            { item: 'untamedwilds:hide_gray' , chance: 0.6}
+        ]
+    )
+    // rotten leather
+    cut(
+        event,
+        { item: 'born_in_chaos_v1:monster_skin' },
+        'forge:tools/knives',
+        [
+            { item: 'forbidden_arcanus:rotten_leather'}, 
+            { item: 'untamedwilds:hide_gray' , chance: 0.35}
+        ]
+    )
+    cut(
+        event,
+        { item: 'forbidden_arcanus:rotten_leather' },
+        'forge:tools/knives',
+        [
+            { item: 'untamedwilds:hide_gray'}, 
+            { item: 'untamedwilds:hide_gray' , chance: 0.25}
+        ]
+    )
+    // cleaned hide
+    cut(
+        event,
+        { item: 'untamedwilds:hide_gray' },
+        'forge:tools/shovels',
+        [
+            { item: 'untamedwilds:hide_golden' }
         ]
     )
     // washed hide
@@ -30,4 +77,23 @@ ServerEvents.recipes(event => {
             'sugar'
         ]
     )
+    // dried hide
+    dryingRack(
+        event,
+        { item: 'untamedwilds:hide_white' },
+        { item: 'untamedwilds:hide_tan' },
+        6000
+    )
+    // raw leather
+    itemBurn(
+        event,
+        {item: 'untamedwilds:hide_tan'},
+        {
+            type: "drop_item",
+            item: "untamedwilds:hide_orange",
+            count: 1
+        }
+    )
+    // leather
+    event.campfireCooking('leather', 'untamedwilds:hide_orange', 0.05, 600)
 })

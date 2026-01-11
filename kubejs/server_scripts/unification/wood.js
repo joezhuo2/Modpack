@@ -190,7 +190,8 @@ ServerEvents.recipes(event => {
             )
         }
     })
-    
+    event.remove({output: 'stick', type: 'minecraft:crafting_shapeless'})
+    event.remove({output: 'stick', type: 'minecraft:crafting_shaped'})
     // sticks from planks
     cut(
         event, 

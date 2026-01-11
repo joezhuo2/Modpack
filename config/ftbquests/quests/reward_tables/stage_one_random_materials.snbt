@@ -1,0 +1,58 @@
+{
+	id: "24FD4E3A9871D8AE"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 2, item: "minecraft:oak_log", random_bonus: 5 }
+		{ count: 4, item: "minecraft:oak_planks", random_bonus: 12 }
+		{ count: 2, item: "minecraft:flint", random_bonus: 3 }
+		{ count: 2, item: "minecraft:gravel", random_bonus: 5 }
+		{ count: 3, item: "minecraft:sand", random_bonus: 3 }
+		{ count: 4, item: "kubejs:mud_ball", random_bonus: 7 }
+		{ count: 2, item: "minecraft:bone", random_bonus: 3 }
+		{ count: 2, item: "supplementaries:fine_wood", random_bonus: 2 }
+		{ count: 5, item: "supplementaries:ash", random_bonus: 3 }
+		{ item: "supplementaries:ash_brick", random_bonus: 3 }
+		{ count: 3, item: "minecraft:brick", random_bonus: 6 }
+		{ count: 2, item: "ceramics:unfired_porcelain", random_bonus: 2 }
+		{ item: "ceramics:porcelain_brick", random_bonus: 1 }
+		{ item: "farmersdelight:canvas_rug" }
+		{ item: "farmersdelight:canvas", random_bonus: 1 }
+		{ count: 2, item: "kubejs:plant_fiber", random_bonus: 6 }
+		{ item: "farmersdelight:half_tatami_mat", random_bonus: 2 }
+		{ item: "farmersdelight:full_tatami_mat", weight: 0.4f }
+		{ item: "farmersdelight:tatami", weight: 0.1f }
+		{ item: "minecraft:leather", weight: 0.2f }
+		{ count: 2, item: "kubejs:cut_leather", random_bonus: 3, weight: 0.8f }
+		{ item: "supplementaries:daub", random_bonus: 2 }
+		{ count: 3, item: "minecraft:clay_ball", random_bonus: 6 }
+		{ item: "quark:clear_shard", random_bonus: 2 }
+		{ count: 2, item: "minecraft:sugar", random_bonus: 6 }
+		{ count: 3, item: "projectvibrantjourneys:rocks", random_bonus: 5 }
+		{ item: "farmersdelight:tree_bark", random_bonus: 2 }
+		{ count: 3, item: "mekanism:sawdust", random_bonus: 4 }
+		{ item: "kubejs:thermal_blend", weight: 0.6f }
+		{ item: "minecraft:string", random_bonus: 3 }
+		{ item: "minecraft:white_wool", random_bonus: 1 }
+		{ count: 2, item: "supplementaries:flax", random_bonus: 3 }
+		{ count: 3, item: "minecraft:feather", random_bonus: 4 }
+		{ count: 5, item: "untamedwilds:hide_brown", random_bonus: 7 }
+		{ count: 2, item: "mekanism:salt", random_bonus: 3 }
+		{ item: "kubejs:mining_level_orb", weight: 0.3f }
+		{ item: "kubejs:gathering_level_orb", weight: 0.4f }
+		{ item: "kubejs:attack_level_orb", weight: 0.3f }
+		{ item: "kubejs:defense_level_orb", weight: 0.2f }
+		{ item: "kubejs:building_level_orb", weight: 0.3f }
+		{ item: "kubejs:farming_level_orb", weight: 0.4f }
+		{ item: "kubejs:agility_level_orb", weight: 0.3f }
+		{ item: "rootsclassic:old_root" }
+		{ count: 4, item: "minecraft:oak_leaves", random_bonus: 8 }
+		{
+			amount: 5L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+	]
+	title: "Stage One Random Materials"
+}

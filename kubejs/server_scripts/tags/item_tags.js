@@ -42,4 +42,7 @@ ServerEvents.tags('item', event => {
     // gears
     event.remove('forge:gears/wood', 'enderio:wood_gear')
     event.remove('forge:gears/stone', 'enderio:stone_gear')
+
+    // hammers
+    event.add('forge:tools/hammers', '#forbidden_arcanus:blacksmith_gavel')
 })

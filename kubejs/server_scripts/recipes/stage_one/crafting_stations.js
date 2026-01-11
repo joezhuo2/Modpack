@@ -68,7 +68,69 @@ ServerEvents.recipes(event => {
             A: 'regions_unexplored:cyan_painted_planks',
             B: 'sugar_cane',
             C: 'composter',
-            E: 'regions_unexplored:gray_painted_planks'
+            E: 'kubejs:gear_bone'
+        }
+    )
+    // drying rack
+    event.remove({output: 'hexerei:herb_drying_rack'})
+    event.shaped(Item.of('hexerei:herb_drying_rack', 1),
+        [
+            ' A ',
+            'B B',
+            'CDC'
+        ],
+        {
+            A: 'kubejs:gear_porcelain',
+            B:'string',
+            C: 'kubejs:plate_fine_wood',
+            D: 'supplementaries:daub'
+        }
+    )
+    // crude kiln
+    event.remove({output: 'ceramics:kiln'})
+    event.shaped(Item.of('ceramics:kiln', 1),
+        [
+            'ABA',
+            'CDC',
+            'FEF'
+        ],
+        {
+            A: 'bricks',
+            B: 'kubejs:gear_stone',
+            C: 'ceramics:unfired_faucet',
+            D: 'ceramics:unfired_cistern',
+            E: 'farmersdelight:tatami',
+            F: 'kubejs:plate_brick',
+        }
+    )
+    // primitive chest
+    event.remove({output: 'primitivechests:primitive_chest'})
+    event.shaped(Item.of('primitivechests:primitive_chest', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'kubejs:plate_fine_wood',
+            B: 'farmersdelight:half_tatami_mat',
+            C: 'red_dye',
+            D: 'kubejs:gear_brick'
+        }
+    )
+    // primitive chest
+    event.remove({output: 'primitivechests:advanced_primitive_chest'})
+    event.shaped(Item.of('primitivechests:advanced_primitive_chest', 1),
+        [
+            'ABA',
+            'CDC',
+            'ABA'
+        ],
+        {
+            A: 'farmersdelight:half_tatami_mat',
+            B: 'farmersdelight:canvas',
+            C: 'lime_wool',
+            D: 'primitivechests:primitive_chest'
         }
     )
 })

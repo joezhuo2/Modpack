@@ -1,6 +1,7 @@
 const clumpDrops = [
-    {block: 'minecraft:gravel', clump: 'kubejs:gravel_clump', extra: {item: 'minecraft:flint', chance: 0.1}},
+    {block: 'minecraft:gravel', clump: 'kubejs:gravel_clump', extra: {item: 'minecraft:flint', chance: 0.2}},
     {block: 'minecraft:dirt', clump: 'kubejs:dirt_clump'},
+    {block: 'minecraft:grass_block', clump: 'kubejs:dirt_clump'},
     {block: 'minecraft:sand', clump: 'kubejs:sand_clump'},
     {block: 'minecraft:mud', clump: 'kubejs:mud_ball'}
 ]

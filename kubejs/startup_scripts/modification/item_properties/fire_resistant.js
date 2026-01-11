@@ -1,7 +1,8 @@
 const fireResItems = [
     'kubejs:thermal_blend',
     'kubejs:plate_stone',
-    'supplementaries:ash_brick'
+    'supplementaries:ash_brick',
+    'brick'
 ]
 
 ItemEvents.modification(event => {

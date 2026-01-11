@@ -1,0 +1,28 @@
+{
+	id: "6D3386696651A2A1"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "kubejs:mining_level_orb" }
+		{ item: "kubejs:gathering_level_orb" }
+		{ item: "kubejs:attack_level_orb" }
+		{ item: "kubejs:defense_level_orb" }
+		{ item: "kubejs:building_level_orb" }
+		{ item: "kubejs:farming_level_orb" }
+		{ item: "kubejs:agility_level_orb" }
+		{ item: "kubejs:magic_level_orb" }
+		{
+			amount: 10L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+			weight: 5.0f
+		}
+		{
+			type: "xp"
+			weight: 5.0f
+			xp: 50
+		}
+	]
+	title: "Random Skill Level"
+}

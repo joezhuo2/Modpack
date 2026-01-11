@@ -17,10 +17,10 @@
     "itemKey": "minecraft:leather_boots",
     "mustBeEmpty": false
   },
-  "mainhand": {
-    "itemKey": "mowziesmobs:spear",
-    "mixAndMatch": [
-      "wooden_sword",
+  "mainHand": {
+    "itemKey":"mowziesmobs:spear",
+    "mixAndMatch" : [
+      "minecraft:stone_sword",
       "farmersdelight:flint_knife"
     ]
   },

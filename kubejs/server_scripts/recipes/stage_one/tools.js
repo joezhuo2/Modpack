@@ -17,10 +17,11 @@ ServerEvents.recipes(event => {
     event.shaped(Item.of('farmersdelight:flint_knife', 1),
         [
             ' C',
-            'A '
+            'AB'
         ],
         {
             A: '#forge:rods/wooden',
+            B: 'projectvibrantjourneys:rocks',
             C: 'flint'
         }
     )
@@ -108,7 +109,7 @@ ServerEvents.recipes(event => {
             'D A'
         ],
         {
-            A: 'kubejs:ash_plate',
+            A: 'kubejs:plate_ash',
             B: 'kubejs:gear_flint',
             C: 'kubejs:handle',
             D: 'kubejs:rod_fine_wood'
@@ -126,6 +127,105 @@ ServerEvents.recipes(event => {
             A: 'kubejs:plate_stone',
             B: 'kubejs:handle',
             C: 'kubejs:rod_fine_wood'
+        }
+    )
+    // wooden shield
+    event.remove({output: 'spartanshields:wooden_basic_shield'})
+    event.shaped(Item.of('spartanshields:wooden_basic_shield', 1),
+        [
+            ' AB',
+            'ACA',
+            'BA '
+        ],
+        {
+            A: 'supplementaries:fine_wood',
+            B: 'kubejs:plate_stone',
+            C: 'kubejs:rod_wood'
+        }
+    )
+    // wooden blacksmith gavel
+    event.remove({output: 'forbidden_arcanus:wooden_blacksmith_gavel'})
+    event.shaped(Item.of('forbidden_arcanus:wooden_blacksmith_gavel', 1),
+        [
+            ' AB',
+            'ECA',
+            'DE '
+        ],
+        {
+            A: 'kubejs:plate_wood',
+            B: 'forbidden_arcanus:blacksmith_gavel_head',
+            C: 'kubejs:gear_fine_wood',
+            D: 'kubejs:handle',
+            E: 'mekanism:sawdust'
+        }
+    )
+    // clay bucket
+    event.remove({output: 'ceramics:unfired_clay_bucket'})
+    event.shaped(Item.of('ceramics:unfired_clay_bucket', 1),
+        [
+            'A A',
+            ' A '
+        ],
+        {
+            A: 'kubejs:plate_porcelain'
+        }
+    )
+    // clay bucket
+    event.remove({output: 'ceramics:empty_clay_bucket'})
+    event.campfireCooking('ceramics:empty_clay_bucket', 'ceramics:unfired_clay_bucket', 0.5, 2400)
+    // bundle
+    event.remove({output: 'bundle'})
+    event.shaped(Item.of('bundle', 1),
+        [
+            ' C ',
+            'A A',
+            'ABA'
+        ],
+        {
+            A: 'leather',
+            B: 'farmersdelight:half_tatami_mat',
+            C: 'string'
+        }
+    )
+    // boomerang
+    event.remove({output: 'hunters_return:boomerang'})
+    event.shaped(Item.of('hunters_return:boomerang', 1),
+        [
+            'A ',
+            'BC',
+            'A '
+        ],
+        {
+            A: 'kubejs:plate_fine_wood',
+            B: 'leather',
+            C: 'kubejs:rod_wood'
+        }
+    )
+    // handheld crafting table
+    event.remove({output: 'extendedcrafting:handheld_table'})
+    event.shaped(Item.of('extendedcrafting:handheld_table', 1),
+        [
+            ' A',
+            'B '
+        ],
+        {
+            A: 'crafting_table',
+            B: 'kubejs:handle'
+        }
+    )
+    // spear
+    event.remove({output: 'mowziesmobs:spear'})
+    event.shaped(Item.of('mowziesmobs:spear', 1),
+        [
+            '  A',
+            ' CD',
+            'B  '
+        ],
+        {
+            A: 'kubejs:plate_porcelain',
+            B: 'kubejs:rod_fine_wood',
+            C: 'kubejs:handle',
+            D: 'yellow_dye'
         }
     )
 })

@@ -1327,19 +1327,19 @@
     "curseForgeHash": 4281946638,
     "modrinthHash": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
   },
-  "embersrekindled-1.20.1-1.4.6.jar": {
-    "jarName": "embersrekindled-1.20.1-1.4.6.jar",
+  "embersrekindled-1.20.1-1.4.7.jar": {
+    "jarName": "embersrekindled-1.20.1-1.4.7.jar",
     "modId": "embers",
-    "version": "1.20.1-1.4.6",
-    "curseForgeHash": 939754368,
-    "modrinthHash": "d75c77ba20199bbd4743fbcc17236fb6538f9440"
+    "version": "1.20.1-1.4.7",
+    "curseForgeHash": 1250291908,
+    "modrinthHash": "e480919fd0645aebe9996b42ec65b41f16dcb6dd"
   },
-  "EnderIO-1.20.1-6.2.16-beta-all.jar": {
-    "jarName": "EnderIO-1.20.1-6.2.16-beta-all.jar",
+  "EnderIO-1.20.1-6.2.17-beta-all.jar": {
+    "jarName": "EnderIO-1.20.1-6.2.17-beta-all.jar",
     "modId": "enderio",
-    "version": "6.2.16-beta",
-    "curseForgeHash": 2074588032,
-    "modrinthHash": "f75ddee7d531efa47c91799539099935a6d3f927"
+    "version": "6.2.17-beta",
+    "curseForgeHash": 3138600415,
+    "modrinthHash": "8b5aad2aa546d2ff8f2408a77c74e8dbb5d2c6d8"
   },
   "EnderStorage-1.20.1-2.11.0.188-universal.jar": {
     "jarName": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
@@ -2704,12 +2704,12 @@
     "curseForgeHash": 3074548209,
     "modrinthHash": "4069534174e618393f0c14d9dc61ac27a04bb992"
   },
-  "modonomicon-1.20.1-forge-1.79.2.jar": {
-    "jarName": "modonomicon-1.20.1-forge-1.79.2.jar",
+  "modonomicon-1.20.1-forge-1.79.3.jar": {
+    "jarName": "modonomicon-1.20.1-forge-1.79.3.jar",
     "modId": "modonomicon",
-    "version": "1.79.2",
-    "curseForgeHash": 2761737060,
-    "modrinthHash": "9d55f629c8a9b0ea1912051fe04b16400c640944"
+    "version": "1.79.3",
+    "curseForgeHash": 1944026113,
+    "modrinthHash": "bf2254dfd0d92345b7c7ed9082afb3e6b542ac2a"
   },
   "modular-routers-12.1.1+mc1.20.1.jar": {
     "jarName": "modular-routers-12.1.1+mc1.20.1.jar",
@@ -3194,12 +3194,12 @@
     "curseForgeHash": 3336012854,
     "modrinthHash": "a6d83f41f0bff392fec5db7e392d57d8b0c818e0"
   },
-  "Re-Avaritia-forge-1.20.1-1.3.9.5-release-fix1.jar": {
-    "jarName": "Re-Avaritia-forge-1.20.1-1.3.9.5-release-fix1.jar",
+  "Re-Avaritia-forge-1.20.1-1.3.9.6-release.jar": {
+    "jarName": "Re-Avaritia-forge-1.20.1-1.3.9.6-release.jar",
     "modId": "avaritia",
-    "version": "1.3.9.5",
-    "curseForgeHash": 2893387470,
-    "modrinthHash": "784f221d00964396bae9c32a73c1c564438a2467"
+    "version": "1.3.9.6",
+    "curseForgeHash": 4133104883,
+    "modrinthHash": "1fd48b676ae430c6a223c5f7af0c83eba8c44d57"
   },
   "recipeessentials-1.20.1-4.0.jar": {
     "jarName": "recipeessentials-1.20.1-4.0.jar",
@@ -3544,19 +3544,19 @@
     "curseForgeHash": 2582286335,
     "modrinthHash": "8df763308e195f8769afc928d3a9e0af85840319"
   },
-  "sophisticatedbackpacks-1.20.1-3.24.18.1488.jar": {
-    "jarName": "sophisticatedbackpacks-1.20.1-3.24.18.1488.jar",
+  "sophisticatedbackpacks-1.20.1-3.24.19.1492.jar": {
+    "jarName": "sophisticatedbackpacks-1.20.1-3.24.19.1492.jar",
     "modId": "sophisticatedbackpacks",
-    "version": "3.24.18.1488",
-    "curseForgeHash": 163980409,
-    "modrinthHash": "4accb2fa35b90a65908c79e97c1830150aef73b6"
+    "version": "3.24.19.1492",
+    "curseForgeHash": 1964306539,
+    "modrinthHash": "641c32496cdb8b04d0db8bcfa5939f1e0d1e7dc3"
   },
-  "sophisticatedcore-1.20.1-1.2.117.1347.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.2.117.1347.jar",
+  "sophisticatedcore-1.20.1-1.2.118.1357.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.2.118.1357.jar",
     "modId": "sophisticatedcore",
-    "version": "1.2.117.1347",
-    "curseForgeHash": 203125196,
-    "modrinthHash": "3da2d7a6c27f333a71a547076d0379c5295ee4c1"
+    "version": "1.2.118.1357",
+    "curseForgeHash": 125906161,
+    "modrinthHash": "b8a60ec16a42e7183e93f3ba04621948000c003e"
   },
   "Sounds-2.2.1+1.20.1+forge.jar": {
     "jarName": "Sounds-2.2.1+1.20.1+forge.jar",
@@ -3600,12 +3600,12 @@
     "curseForgeHash": 3834769597,
     "modrinthHash": "a915880c7834a0b0f9f300f0e3053deaa9a3205a"
   },
-  "Steam_Rails-1.6.14-beta+forge-mc1.20.1.jar": {
-    "jarName": "Steam_Rails-1.6.14-beta+forge-mc1.20.1.jar",
+  "Steam_Rails-1.6.15-beta+forge-mc1.20.1.jar": {
+    "jarName": "Steam_Rails-1.6.15-beta+forge-mc1.20.1.jar",
     "modId": "railways",
-    "version": "1.6.14-beta+forge-mc1.20.1",
-    "curseForgeHash": 2914385349,
-    "modrinthHash": "90ea1d917bc20a5e4cc50abaa512d2084149dc64"
+    "version": "1.6.15-beta+forge-mc1.20.1",
+    "curseForgeHash": 1571373559,
+    "modrinthHash": "924c3efb2187138b85a0d5285dbb65b371c4f7e9"
   },
   "Stony Cliffs FML v1.1.2.jar": {
     "jarName": "Stony Cliffs FML v1.1.2.jar",

@@ -1,7 +1,3 @@
-const stageOneItems = [
-
-]
-
 const stageTwoItems = [
     
 ]
@@ -38,7 +34,6 @@ const stageTenItems = [
     
 ]
 
-global.stageOneItems = stageOneItems
 global.stageTwoItems = stageTwoItems
 global.stageThreeItems = stageThreeItems
 global.stageFourItems = stageFourItems
