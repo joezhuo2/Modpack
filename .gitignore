@@ -2,6 +2,7 @@
 logs/
 crash-reports/
 screenshots/
+ct_dumps/
 saves/
 backups/
 
@@ -40,3 +41,8 @@ shaderpacks/
 mods/*.jar
 mods/*.jar.disabled
 mods/.connector/
+
+# User specific files
+minecraftinstance.json
+todo.txt
+win_event*.txt

@@ -1,2 +1,0 @@
-<targetingstrategy:crafttweaker:deep>
-<targetingstrategy:crafttweaker:shallow>
