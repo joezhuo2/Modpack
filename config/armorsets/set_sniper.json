@@ -1,0 +1,86 @@
+{
+  "armorSetName": "sniper",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey":"minecraft:bow",
+    "mixAndMatch" : [
+      "botania:livingwood_bow", 
+      "mysticalagriculture:supremium_bow", 
+      "botania:crystal_bow", 
+      "deep_aether:storm_bow", 
+      "enigmaticaddons:dragon_bow", 
+      "mysticalagriculture:inferium_bow", 
+      "mysticalagriculture:prudentium_bow", 
+      "mysticalagriculture:tertium_bow", 
+      "mysticalagriculture:imperium_bow", 
+      "aether:phoenix_bow", 
+      "cataclysm:cursed_bow", 
+      "twilightforest:ender_bow", 
+      "twilightforest:ice_bow", 
+      "twilightforest:seeker_bow", 
+      "twilightforest:triple_bow", 
+      "aquaculture:neptunium_bow", 
+      "totemic:baykok_bow", 
+      "mysticalagriculture:awakened_supremium_bow",
+      "redstone_arsenal:flux_bow", 
+      "redstone_arsenal:flux_crossbow", 
+      "mysticalagriculture:awakened_supremium_crossbow", 
+      "ars_nouveau:spell_bow", 
+      "hunters_return:mini_crossbow", 
+      "minecraft:crossbow", 
+      "mysticalagriculture:tertium_crossbow", 
+      "mekanism:electric_bow", 
+      "mysticalagriculture:supremium_crossbow", 
+      "aether_redux:subzero_crossbow", 
+      "mysticalagriculture:imperium_crossbow", 
+      "mysticalagriculture:inferium_crossbow", 
+      "mysticalagriculture:prudentium_crossbow",
+      "alexscaves:dreadbow",
+      "ars_nouveau:spell_crossbow"
+    ]
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "relics:midnight_robe",
+      "mixAndMatch" : [
+          "confluence:putrid_scent",
+          "confluence:stalkers_quiver",
+          "relics:hunter_belt"
+      ]
+    },
+    {
+      "itemKey": "confluence:rifle_scope",
+      "mixAndMatch" : [
+          "confluence:sniper_scope",
+          "confluence:recon_scope"
+      ]
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_velocity",
+      "value": 0.30,
+      "attributeOperation": 2,
+      "modifierUUID": "7ba4b401-63a7-402f-8a19-132c82fe34ad",
+      "description": "+30% Arrow Speed"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:crit_chance",
+      "value": 0.05,
+      "attributeOperation": 0,
+      "modifierUUID": "a63c6a7c-f96c-43fe-aefa-e4ca63d56966",
+      "description": "+5% Crit Chance"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:draw_speed",
+      "value": -0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "ccae92bb-ed46-46e6-9b4c-98cb0f2f3c76",
+      "description": "-20% Draw Speed"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

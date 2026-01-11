@@ -1,0 +1,56 @@
+{
+  "armorSetName": "iron",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:iron_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "minecraft:iron_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "minecraft:iron_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "minecraft:iron_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.knockback_resistance",
+      "value": 0.2,
+      "attributeOperation": 0,
+      "modifierUUID": "bb19fa8f-b802-4082-b6be-98341a7057ad",
+      "description": "+20% Knockback Resistance"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 3.0,
+      "attributeOperation": 0,
+      "modifierUUID": "2ea32739-fc99-49d6-9153-0e60a353f783",
+      "description": "+3 Armor"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:armor_shred",
+      "value": 0.2,
+      "attributeOperation": 0,
+      "modifierUUID": "4a9a8ce9-b9b5-41fd-b2c1-b5004261336e",
+      "description": "+20% Armor Shred"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "interactionType": "immunity",
+      "description": "Slowness immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

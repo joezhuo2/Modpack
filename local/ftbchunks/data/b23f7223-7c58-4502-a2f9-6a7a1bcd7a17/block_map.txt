@@ -1,0 +1,9 @@
+#52B53D minecraft:air
+#C6BBBD totemic:cedar_log
+#058353 minecraft:cobblestone
+#4C16EE eidolon:research_table
+#2E28D7 eidolon:scriptorium
+#DC3458 minecraft:stone
+#CAAB54 totemic:totem_base
+#D13C3B totemic:totem_pole
+#57CE21 eidolon:worktable

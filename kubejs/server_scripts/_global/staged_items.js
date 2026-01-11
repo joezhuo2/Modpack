@@ -1,0 +1,50 @@
+const stageOneItems = [
+
+]
+
+const stageTwoItems = [
+    
+]
+
+const stageThreeItems = [
+    
+]
+
+const stageFourItems = [
+    
+]
+
+const stageFiveItems = [
+    
+]
+
+const stageSixItems = [
+    
+]
+
+const stageSevenItems = [
+    
+]
+
+const stageEightItems = [
+    
+]
+
+const stageNineItems = [
+    
+]
+
+const stageTenItems = [
+    
+]
+
+global.stageOneItems = stageOneItems
+global.stageTwoItems = stageTwoItems
+global.stageThreeItems = stageThreeItems
+global.stageFourItems = stageFourItems
+global.stageFiveItems = stageFiveItems
+global.stageSixItems = stageSixItems
+global.stageSevenItems = stageSevenItems
+global.stageEightItems = stageEightItems
+global.stageNineItems = stageNineItems
+global.stageTenItems = stageTenItems

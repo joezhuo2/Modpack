@@ -1,0 +1,42 @@
+# Minecraft runtime folders
+logs/
+crash-reports/
+screenshots/
+saves/
+backups/
+
+# Caches & temp files
+.minecraft/
+libraries/
+versions/
+runtime/
+cache/
+*.tmp
+
+# Mod loader files
+usercache.json
+usernamecache.json
+options.txt
+optionsof.txt
+
+# Java / OS junk
+*.log
+*.pid
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# CurseForge / Modrinth launchers
+Install/
+profile.json
+
+# Shaders
+shaderpacks/
+
+mods/*.jar
+mods/*.jar.disabled
+mods/.connector/

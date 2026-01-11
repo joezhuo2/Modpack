@@ -1,0 +1,137 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "mysticalagriculture:inferium_ore",
+    "mysticalagradditions:end_inferium_ore",
+    "mysticalagradditions:nether_inferium_ore",
+    "mysticalagriculture:deepslate_inferium_ore",
+
+    "rootsclassic:healing_poultice",
+
+    "actuallyadditions:wooden_aiot",
+    "actuallyadditions:stone_aiot",
+    "actuallyadditions:iron_aiot",
+    "actuallyadditions:gold_aiot",
+    "actuallyadditions:diamond_aiot",
+    "actuallyadditions:netherite_aiot",
+
+    "reliquary:mob_charm",
+    "reliquary:mob_charm_fragment",
+
+    "apotheosis:iron_mining_arrow",
+    "apotheosis:diamond_mining_arrow",
+
+    "mekanismtools:bronze_paxel", 
+    "mysticalagradditions:awakened_supremium_paxel", 
+    "mekanismtools:osmium_paxel", 
+    "mysticalagradditions:inferium_paxel", 
+    "mekanismtools:wood_paxel", 
+    "mysticalagradditions:tertium_paxel", 
+    "mekanismtools:netherite_paxel", 
+    "mysticalagradditions:supremium_paxel", 
+    "mekanismtools:diamond_paxel", 
+    "mekanismtools:gold_paxel", 
+    "mysticalagradditions:prudentium_paxel", 
+    "mekanismtools:refined_obsidian_paxel", 
+    "mekanismtools:refined_glowstone_paxel", 
+    "mekanismtools:lapis_lazuli_paxel", 
+    "mekanismtools:steel_paxel", 
+    "mekanismtools:iron_paxel", 
+    "mekanismtools:stone_paxel", 
+    "mysticalagradditions:imperium_paxel",
+
+    "ars_nouveau:glyph_break",
+
+    "thermal:cinnabar_ore",
+    "thermal:deepslate_cinnabar_ore",
+    "thermal:sulfur_ore",
+    "thermal:deepslate_sulfur_ore",
+
+    "embers:silver_sword",
+    "embers:silver_shovel",
+    "embers:silver_axe",
+    "embers:silver_hoe",
+    "embers:silver_pickaxe",
+    
+    "enderio:wood_gear",
+    "enderio:stone_gear",
+    "enderio:energized_gear",
+    "enderio:vibrant_gear",
+    "enderio:dark_bimetal_gear",
+    "hammerlib:gears/wooden",
+    "hammerlib:gears/stone",
+    "pneumaticcraft:compressed_iron_gear",
+    
+    "mahoutsukai:pestle",
+    "mahoutsukai:mortar",
+    "mahoutsukai:mortar_and_pestle",
+    "mahoutsukai:hammer",
+    "immersiveengineering:plate_uranium",
+
+    "rootsclassic:bark_knife",
+    "rootsclassic:oak_bark",
+    "rootsclassic:spruce_bark",
+    "rootsclassic:birch_bark",
+    "rootsclassic:jungle_bark",
+    "rootsclassic:acacia_bark",
+    "rootsclassic:dark_oak_bark",
+
+    "minecraft:wooden_hoe",
+
+    "supplementaries:timber_frame",
+    "supplementaries:timber_brace",
+    "supplementaries:timber_cross_brace",
+
+    "ceramicshears:clay_shears_part",
+    "ceramicshears:ceramic_shears_part"
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": true
+}

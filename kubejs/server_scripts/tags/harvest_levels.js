@@ -1,0 +1,34 @@
+import { tierOneBlocks,  tierTwoBlocks, tierThreeBlocks, tierFourBlocks, tierFiveBlocks, tierSixBlocks, tierSevenBlocks, tierEightBlocks, tierNineBlocks, tierTenBlocks } from '/_global/harvest_levels.js';
+
+ServerEvents.tags('block', event => {
+    tierOneBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t1_tool', blockId)
+    })
+    tierTwoBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t2_tool', blockId)
+    })
+    tierThreeBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t3_tool', blockId)
+    })
+    tierFourBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t4_tool', blockId)
+    })
+    tierFiveBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t5_tool', blockId)
+    })
+    tierSixBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t6_tool', blockId)
+    })  
+    tierSevenBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t7_tool', blockId)
+    })
+    tierEightBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t8_tool', blockId)
+    })
+    tierNineBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t9_tool', blockId)
+    })
+    tierTenBlocks.forEach(blockId => {
+        event.add('hltweaker:needs_t10_tool', blockId)
+    })
+});

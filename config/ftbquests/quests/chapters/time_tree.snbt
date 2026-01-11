@@ -1,0 +1,358 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	filename: "time_tree"
+	group: "00EC63AFE5312D99"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:clock"
+	id: "2A544983D980AE21"
+	images: [{
+		height: 36.0d
+		image: "forbidden_arcanus:block/aurum_sapling"
+		order: -5
+		rotation: 0.0d
+		width: 36.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "24483022FCB01F10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DFF030500013A96"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "5C3B6DF9AFC9727A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 10
+				id: "20DFF30BA3240E18"
+				type: "questsadditions:days"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["24483022FCB01F10"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "31A87311EF19B957"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EF98D3DA1D64CE4"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 10L
+					currency: "eternalcurrencies:coins"
+					id: "2F98E388B93E332E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 25
+				id: "095B5D51F28975D5"
+				type: "questsadditions:days"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["31A87311EF19B957"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5E2D65EC76E68975"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A887D7D44873738"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 20L
+					currency: "eternalcurrencies:coins"
+					id: "5B486B51F5268DCB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 50
+				id: "0C85B6B82855C78C"
+				type: "questsadditions:days"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5E2D65EC76E68975"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2DF4D635623B7AC4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20749AF9392AE1C1"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					id: "51430E9772ED71ED"
+					item: {
+						Count: 1
+						id: "tiab:time_in_a_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					amount: 35L
+					currency: "eternalcurrencies:coins"
+					id: "6732D8A5681A905A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 100
+				id: "4E9942A639211D9C"
+				type: "questsadditions:days"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2DF4D635623B7AC4"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "187576F788ABECD2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DCA86D24E32B2E6"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "0F17D425B216DAA2"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 200
+				id: "1C428BC4792BFFC1"
+				type: "questsadditions:days"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["187576F788ABECD2"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "762E719FD5C6A628"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BB58C51AC465644"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 70L
+					currency: "eternalcurrencies:coins"
+					id: "13AB61101472ACEC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 350
+				id: "2E652C16ED0CB07D"
+				type: "questsadditions:days"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["762E719FD5C6A628"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "01BC6755782291E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B27450904425473"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 90L
+					currency: "eternalcurrencies:coins"
+					id: "26DB055278C468C7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 500
+				id: "2A13008307456E44"
+				type: "questsadditions:days"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01BC6755782291E8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3CA6479E614A3440"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BE0FD365C0F7A60"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 135L
+					currency: "eternalcurrencies:coins"
+					id: "39A92DCEDE20E7C0"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 800
+				id: "12053F134FD0A66C"
+				type: "questsadditions:days"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CA6479E614A3440"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6B4187087445FE44"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A1CEF1A5477C7C4"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 180L
+					currency: "eternalcurrencies:coins"
+					id: "25FFDB35BCF8616E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 1000
+				id: "51E4912A5681E6AE"
+				type: "questsadditions:days"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6B4187087445FE44"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4BF5ECBFF5547CBD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "126CD862CD8CD20D"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 240L
+					currency: "eternalcurrencies:coins"
+					id: "0CE10145F79689EC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 1200
+				id: "6A71018BADF7DD1B"
+				type: "questsadditions:days"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4BF5ECBFF5547CBD"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "423CBC70269F7B70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "392C73D61B6852AB"
+				table_id: 6814849358033531864L
+				type: "choice"
+			}]
+			tasks: [{
+				days: 1500
+				id: "1F37291C4B24464F"
+				type: "questsadditions:days"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["423CBC70269F7B70"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7D41F3A8A3635F3E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C4AB4DBC4261EE3"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "22F452EEB7555A67"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			tasks: [{
+				days: 2000
+				id: "7FEBF7DB82265AD0"
+				type: "questsadditions:days"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+	]
+	title: "Time Tree"
+}

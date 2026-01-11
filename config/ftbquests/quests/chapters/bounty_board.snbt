@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_board"
+	group: "00EC63AFE5312D99"
+	icon: "bountiful:bountyboard"
+	id: "637A1167953AB417"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Bounty Board"
+}

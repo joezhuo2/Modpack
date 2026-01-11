@@ -1,0 +1,5 @@
+#1DE the_bumblezone:hive_pillar
+#03E the_bumblezone:hive_wall
+#3A5 theabyss:mud_plains
+#34D theabyss:slime_forest
+#495 minecraft:the_void

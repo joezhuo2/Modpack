@@ -1,0 +1,14 @@
+#556 minecraft:beach
+#1D9 regions_unexplored:blackwood_taiga
+#6D8 regions_unexplored:boreal_taiga
+#420 biomesoplenty:clover_patch
+#4E1 regions_unexplored:clover_plains
+#3D6 minecraft:cold_ocean
+#3DE minecraft:deep_ocean
+#0AF biomesoplenty:glowing_grotto
+#24E regions_unexplored:golden_boreal_taiga
+#67B biomesoplenty:grassland
+#056 biomesoplenty:maple_woods
+#4D4 regions_unexplored:muddy_river
+#4F1 minecraft:ocean
+#5FF minecraft:river

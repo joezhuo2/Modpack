@@ -1,0 +1,22 @@
+{
+  "text.hltweaker.level": "Tier",
+  
+  "text.hltweaker.level.t1": "Crude",
+  "text.hltweaker.level.t2": "Rough",
+  "text.hltweaker.level.t3": "Solid",
+  "text.hltweaker.level.t4": "Sturdy",
+  "text.hltweaker.level.t5": "Hardened",
+  "text.hltweaker.level.t6": "Reinforced",
+  "text.hltweaker.level.t7": "Refined",
+  "text.hltweaker.level.t8": "Pristine",
+  "text.hltweaker.level.t9": "Mythic",
+  "text.hltweaker.level.t10": "Creative",
+
+  "text.hltweaker.tool.minecraft.axe": "Axe",
+  "text.hltweaker.tool.minecraft.hoe": "Hoe",
+  "text.hltweaker.tool.minecraft.pickaxe": "Pickaxe",
+  "text.hltweaker.tool.minecraft.shovel": "Shovel",
+
+  "tooltip.hltweaker.tool_type_level": "%s Tier: %s",
+  "tooltip.hltweaker.block_harvest_level": "Block Harvest Tier: %s"
+}

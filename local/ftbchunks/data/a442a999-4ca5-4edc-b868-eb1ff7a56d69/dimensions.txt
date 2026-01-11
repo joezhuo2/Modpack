@@ -1,0 +1,3 @@
+minecraft:overworld
+the_deep_void:deep_void
+minecraft:the_nether

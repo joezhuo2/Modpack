@@ -1,0 +1,9 @@
+#52B53D minecraft:air
+#3A1BB0 hexerei:book_of_shadows_altar
+#058353 minecraft:cobblestone
+#6E76AF minecraft:copper_ore
+#1B74F2 farmersdelight:cutting_board
+#80497A minecraft:dirt
+#3F84B7 minecraft:grass_block
+#83CED3 minecraft:lava
+#DC3458 minecraft:stone

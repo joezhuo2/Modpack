@@ -1,0 +1,1 @@
+{"jarName":"rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar","modId":"embeddium_extra","version":"0.5.4.4+mc1.20.1-build.131","mixinConfigs":["sodium-extra.mixins.json"],"jarJarMods":[{"jarName":"NanoLiveConfig-1.2.1.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}],"curseForgeHash":1062087820,"modrinthHash":"bb422d5626bf69841e444a3e545c8e71b6928cf8"}

@@ -1,0 +1,3 @@
+#52B53D minecraft:air
+#058353 minecraft:cobblestone
+#DC3458 minecraft:stone

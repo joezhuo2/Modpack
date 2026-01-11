@@ -1,0 +1,13 @@
+#52B53D minecraft:air
+#61C3B4 alexsmobs:capsid
+#058353 minecraft:cobblestone
+#B2A2E1 minecraft:dandelion
+#80497A minecraft:dirt
+#722115 aether:icestone
+#83CED3 minecraft:lava
+#BBA6D1 minecraft:oak_log
+#4A5E4E minecraft:obsidian
+#A7D2E1 apotheosis:reforging_table
+#C9E474 apotheosis:salvaging_table
+#31A081 minecraft:smithing_table
+#DC3458 minecraft:stone

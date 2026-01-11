@@ -1,0 +1,31 @@
+{
+  "armorSetName": "baykok",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey":"totemic:baykok_bow"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:draw_speed",
+      "value": 0.65,
+      "attributeOperation": 2,
+      "modifierUUID": "ca49ee11-b9a4-41c2-939d-804da94a6278",
+      "description": "+5650% Draw Speed"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_velocity",
+      "value": 0.80,
+      "attributeOperation": 2,
+      "modifierUUID": "4ec11c61-4cac-41b8-980a-d8e3822c56bc",
+      "description": "+80% Arrow Velocity"
+    },
+    {
+        "type": "effect",
+        "name": "minecraft:slowness",
+        "value": 0.0
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,3 @@
+#7FB theabyss:blaru_forest
+#2AB theabyss:blue_mountain
+#495 minecraft:the_void

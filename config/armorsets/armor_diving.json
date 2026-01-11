@@ -1,0 +1,59 @@
+{
+  "armorSetName": "diving",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "alexscaves:diving_helmet",
+    "mustBeEmpty": false,
+    "mixAndMatch" : [
+      "thermal:diving_helmet"
+    ]
+  },
+  "chest": {
+    "itemKey": "alexscaves:diving_chestplate",
+    "mustBeEmpty": false,
+    "mixAndMatch" : [
+      "thermal:diving_chestplate"
+    ]
+  },
+  "legs": {
+    "itemKey": "alexscaves:diving_leggings",
+    "mustBeEmpty": false,
+    "mixAndMatch" : [
+      "thermal:diving_leggings"
+    ]
+  },
+  "boots": {
+    "itemKey": "alexscaves:diving_boots",
+    "mustBeEmpty": false,
+    "mixAndMatch" : [
+      "thermal:diving_boots"
+    ]
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+        "type": "effect",
+        "name": "alexsmobs:lava_vision",
+        "value": 0
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:cold_damage",
+      "value": 2.0,
+      "attributeOperation": 0,
+      "modifierUUID": "e7925f48-bbc7-4ab3-89c1-6b87e48a11f5",
+      "description": "+2 Cold Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:dodge_chance",
+      "value": 0.15,
+      "attributeOperation": 0,
+      "modifierUUID": "34eacc98-5427-4943-ae4b-df33463a880c",
+      "description": "+15% Dodge Chance"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

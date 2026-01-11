@@ -1,0 +1,14 @@
+#3FF ars_nouveau:archwood_forest
+#453 regions_unexplored:cold_boreal_taiga
+#3D6 minecraft:cold_ocean
+#705 minecraft:deep_frozen_ocean
+#6D4 biomesoplenty:field
+#292 minecraft:frozen_ocean
+#01C regions_unexplored:frozen_pine_taiga
+#3A0 minecraft:frozen_river
+#1AB biomesoplenty:ominous_woods
+#5FF minecraft:river
+#72D minecraft:snowy_beach
+#4E5 minecraft:snowy_plains
+#51A minecraft:stony_shore
+#169 minecraft:taiga

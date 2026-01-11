@@ -1,0 +1,3 @@
+https://github.com/Apertyotis/Custom-Machinery/blob/1.20.1/test_datapack/data/custommachinery/machines/magic_spawner.json
+https://wikis.degrassi.es/docs/custom-machinery-ars-nouveau
+https://wikis.degrassi.es/docs/custom-machinery-botania

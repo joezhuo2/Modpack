@@ -1,0 +1,15 @@
+minecraft:overworld
+the_deep_void:deep_void
+ad_astra:mercury
+ad_astra:venus
+ad_astra:moon
+adastraextra:metis
+adastraextra:saturn
+adastraextra:amalthea
+adastraextra:neptune
+adastraextra:adrastea
+adastraextra:uranus
+adastraextra:deimos
+adastraextra:phobos
+adastraextra:jupiter
+adastraextra:thebe

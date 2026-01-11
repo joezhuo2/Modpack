@@ -1,0 +1,47 @@
+{
+  "armorSetName": "diamond",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:diamond_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "minecraft:diamond_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "minecraft:diamond_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "minecraft:diamond_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+        "type": "effect",
+        "name": "minecraft:resistance",
+        "value": 0.0
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:armor_pierce",
+      "value": 5.0,
+      "attributeOperation": 0,
+      "modifierUUID": "0e4ab281-3b4d-483e-b7b6-fe32cabac2f2",
+      "description": "+5 Armor Pierce"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:crit_damage",
+      "value": 0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "a2a79852-37dc-4816-a25c-a2220c355955",
+      "description": "+20% Increased Crit Damage"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

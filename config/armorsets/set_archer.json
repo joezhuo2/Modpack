@@ -1,0 +1,92 @@
+{
+  "armorSetName": "archer",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey":"minecraft:bow",
+    "mixAndMatch" : [
+      "botania:livingwood_bow", 
+      "mysticalagriculture:supremium_bow", 
+      "botania:crystal_bow", 
+      "deep_aether:storm_bow", 
+      "enigmaticaddons:dragon_bow", 
+      "mysticalagriculture:inferium_bow", 
+      "mysticalagriculture:prudentium_bow", 
+      "mysticalagriculture:tertium_bow", 
+      "mysticalagriculture:imperium_bow", 
+      "aether:phoenix_bow", 
+      "cataclysm:cursed_bow", 
+      "twilightforest:ender_bow", 
+      "twilightforest:ice_bow", 
+      "twilightforest:seeker_bow", 
+      "twilightforest:triple_bow", 
+      "aquaculture:neptunium_bow", 
+      "totemic:baykok_bow", 
+      "mysticalagriculture:awakened_supremium_bow",
+      "redstone_arsenal:flux_bow", 
+      "redstone_arsenal:flux_crossbow", 
+      "mysticalagriculture:awakened_supremium_crossbow", 
+      "ars_nouveau:spell_bow", 
+      "hunters_return:mini_crossbow", 
+      "minecraft:crossbow", 
+      "mysticalagriculture:tertium_crossbow", 
+      "mekanism:electric_bow", 
+      "mysticalagriculture:supremium_crossbow", 
+      "aether_redux:subzero_crossbow", 
+      "mysticalagriculture:imperium_crossbow", 
+      "mysticalagriculture:inferium_crossbow", 
+      "mysticalagriculture:prudentium_crossbow",
+      "alexscaves:dreadbow",
+      "ars_nouveau:spell_crossbow"
+    ]
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "confluence:magic_quiver",
+        "mixAndMatch" : [ 
+          "confluence:molten_quiver", 
+          "confluence:stalkers_quiver",
+          "relics:arrow_quiver",
+          "thermal:potion_quiver",
+          "supplementaries:quiver"
+        ]
+    },
+    {
+      "itemKey": "confluence:eye_of_the_golem",
+      "mixAndMatch" : [
+          "confluence:avenger_emblem", 
+          "confluence:destroyer_emblem",
+          "confluence:ranger_emblem"
+      ]
+    }
+  ],
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:draw_speed",
+      "value": 0.35,
+      "attributeOperation": 2,
+      "modifierUUID": "74a37b3e-e8b3-42b2-ab85-2dfc1a3e88c0",
+      "description": "+35% Draw Speed"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_damage",
+      "value": 0.10,
+      "attributeOperation": 2,
+      "modifierUUID": "387184b4-2a6c-4222-ae93-ebcb0b85d6bf",
+      "description": "+10% Arrow Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:crit_damage",
+      "value": 0.10,
+      "attributeOperation": 2,
+      "modifierUUID": "f10e78db-3588-4e4f-9c14-114a4c7ae935",
+      "description": "+10% Increased Crit Damage"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,50 @@
+{
+  "armorSetName": "clay",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ceramics:clay_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ceramics:clay_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ceramics:clay_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ceramics:clay_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 1.0,
+      "modifierUUID": "09d3d6d1-c405-47d0-8b98-39d0c15dc493",
+      "description": "+1 Armor",
+      "attributeOperation": 0
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 1.0,
+      "modifierUUID": "e767d782-7b6f-476c-bd34-b3c742281b26",
+      "description": "+1 Armor",
+      "attributeOperation": 0
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 1.0,
+      "modifierUUID": "efd24aec-31e0-4e94-8613-6099cca42a0d",
+      "description": "+1 Armor Toughness",
+      "attributeOperation": 0
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,7 @@
+{
+	"analysis": {
+		"jdeps": {
+			"include_nested": true
+		}
+	}
+}

@@ -1,0 +1,1553 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "age_1"
+	group: "45411B44422BC11F"
+	icon: "minecraft:oak_wood"
+	id: "0203F09F6FFA6568"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4002FD57716EBC86"
+				"6D10A58F66E96D56"
+				"5B96AD38435757FA"
+				"129C848D193EA1AD"
+			]
+			id: "00B73BC038F90333"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "6A3723BDCB440287"
+				item: "ceramics:kiln"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["125D11F4445CAD1C"]
+			id: "3CBFB5C274CBB5F7"
+			tasks: [
+				{
+					id: "03FB0BE578B19B60"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					id: "3B8A5BD6972BDEB2"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)"
+						}
+					}
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "4BE0AC4B57AC3420"
+			tasks: [
+				{
+					id: "71D91289A14DFF85"
+					item: "kubejs:gravel_clump"
+					type: "item"
+				}
+				{
+					id: "2D95CF5199CC24DA"
+					item: "projectvibrantjourneys:rocks"
+					type: "item"
+				}
+			]
+			title: "Basic Resources"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34E1541D67A48379"]
+			id: "125D11F4445CAD1C"
+			tasks: [{
+				id: "0F0A0A8E8DFB0788"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B4A3F0ABF77AB04"
+				"7994B40B7FBE407F"
+				"6FDD9BA2AE2E966D"
+			]
+			id: "151630C48B3DB3B7"
+			shape: "epstar"
+			size: 2.0d
+			tasks: [{
+				id: "3EBDC974D87822F4"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5ADFDC49F9FE9E23"
+				"6E1CCBB6CE25161D"
+				"3B4C6C061179B69C"
+			]
+			id: "6B4A3F0ABF77AB04"
+			tasks: [{
+				id: "144E17B0B9EB5566"
+				item: "kubejs:thermal_blend"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["127E104FBC60BAEF"]
+			id: "085791158FE5C7C3"
+			tasks: [{
+				id: "6E624065AAB2CC66"
+				item: "supplementaries:ash"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"16041838BA5CAE4B"
+				"1249A05447B4FDD0"
+			]
+			id: "73D1F5B21A86146E"
+			tasks: [{
+				id: "625349C7DDE92DF6"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["73D1F5B21A86146E"]
+			id: "436665954D7F5415"
+			tasks: [{
+				id: "2D1221E144211758"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"436665954D7F5415"
+				"085791158FE5C7C3"
+			]
+			id: "5ADFDC49F9FE9E23"
+			tasks: [{
+				id: "1743D91A9858B0D1"
+				item: "ceramics:unfired_porcelain"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"392575864862E9D3"
+				"5BF14B7AF85E1262"
+			]
+			id: "3F34D5982D20CF11"
+			tasks: [{
+				id: "44681BD1D729A3B4"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F34D5982D20CF11"]
+			id: "34E1541D67A48379"
+			tasks: [{
+				id: "4AD4DA0F168CAEE1"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4777A32B5CA2E473"
+				"7C8BCBA2241C2B42"
+			]
+			id: "5A9596A56CBEFEDA"
+			shape: "spstar"
+			size: 2.0d
+			tasks: [{
+				id: "057A4F162319AF47"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7FF5580377A51A68"]
+			id: "1C7F471850ECE630"
+			tasks: [{
+				id: "13D6AB548455557B"
+				item: "supplementaries:daub"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["151630C48B3DB3B7"]
+			id: "04F33C554DD47A3D"
+			tasks: [{
+				id: "30162AAA22E80C65"
+				item: "ceramics:clay_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["04F33C554DD47A3D"]
+			id: "399723C29FE148DA"
+			tasks: [
+				{
+					id: "102516556615DB3D"
+					item: {
+						Count: 1
+						id: "ceramics:clay_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "683633F757906C65"
+					item: {
+						Count: 1
+						id: "ceramics:clay_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CB2D0978C19735E"
+					item: {
+						Count: 1
+						id: "ceramics:clay_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C3ACDA3B359151F"
+					item: {
+						Count: 1
+						id: "ceramics:clay_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5312937642BA4A52"]
+			id: "7FF5580377A51A68"
+			tasks: [{
+				id: "7149C46B5BB72563"
+				item: "mekanism:dye_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"34E1541D67A48379"
+				"4EE0D821237EDC2F"
+			]
+			id: "46CD2C2927E82FE0"
+			tasks: [{
+				id: "531069C514600927"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["04F33C554DD47A3D"]
+			id: "1CA8663B93143A92"
+			tasks: [{
+				id: "7E40BCBB23EFCA03"
+				item: {
+					Count: 1
+					id: "ceramicshears:ceramic_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["412603F941349426"]
+			id: "6E1CCBB6CE25161D"
+			tasks: [{
+				id: "68EC3EAA1F2B90C0"
+				item: "mekanism:sawdust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["46CD2C2927E82FE0"]
+			id: "412603F941349426"
+			tasks: [{
+				id: "468DB444A73AE0CA"
+				item: "farmersdelight:tree_bark"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4BE0AC4B57AC3420"]
+			id: "392575864862E9D3"
+			tasks: [{
+				id: "161CD1B9BD821C0E"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5312937642BA4A52"]
+			id: "7F177FB207EC9E7A"
+			tasks: [{
+				id: "508FFF812F1659EF"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4C7A2B72C324B24B"]
+			id: "7994B40B7FBE407F"
+			tasks: [{
+				id: "061130308E1E9164"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:leaves)"
+					}
+				}
+				title: "Any #minecraft:leaves"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"412603F941349426"
+				"0F0B68BDD5AB8399"
+			]
+			id: "7C8BCBA2241C2B42"
+			tasks: [{
+				id: "5670E669DCA46373"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3CBFB5C274CBB5F7"
+				"0E194A6926703A28"
+			]
+			id: "092471702A3A74A7"
+			tasks: [{
+				id: "1A42E7DC65FB8882"
+				item: "born_in_chaos_v1:scorched_log"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["092471702A3A74A7"]
+			id: "4EE0D821237EDC2F"
+			tasks: [
+				{
+					id: "7AEFD2D337835914"
+					item: "kubejs:plate_wood"
+					type: "item"
+				}
+				{
+					id: "6BA34D2E6F6869E9"
+					item: "kubejs:rod_wood"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1C7F471850ECE630"
+				"107390AB729C8DB5"
+			]
+			id: "323D8E0F90702505"
+			tasks: [{
+				id: "0FF6671AC4289FBA"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4EE0D821237EDC2F"]
+			id: "6E6F69445DE14774"
+			tasks: [{
+				id: "54CCA195E56D0FDA"
+				item: {
+					Count: 1
+					id: "embers:tinker_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E6F69445DE14774"]
+			id: "4777A32B5CA2E473"
+			tasks: [{
+				id: "16E331A9B974B282"
+				item: "kubejs:plate_flint"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46CD2C2927E82FE0"]
+			id: "0F0B68BDD5AB8399"
+			tasks: [{
+				id: "6E12C23FF3FA8656"
+				item: "kubejs:plant_fiber"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6E6F69445DE14774"
+				"5CFE3B52D2C10AC7"
+			]
+			id: "45362441AD3B101A"
+			tasks: [{
+				id: "554F6165D822C5EF"
+				item: "ceramics:unfired_clay_plate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5A9596A56CBEFEDA"
+				"45362441AD3B101A"
+				"4384803FE47DBEAA"
+			]
+			id: "16041838BA5CAE4B"
+			tasks: [{
+				id: "5180554B6D55340A"
+				item: "ceramics:clay_cistern"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4BDA1CE3D25044F6"]
+			id: "4384803FE47DBEAA"
+			tasks: [{
+				id: "3EFDDE163FB63788"
+				item: "kubejs:plate_bone"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			id: "4BDA1CE3D25044F6"
+			tasks: [{
+				id: "1DBED256DB58F8A5"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "5CFE3B52D2C10AC7"
+			tasks: [{
+				id: "258313BAF3E16B76"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "3B4C6C061179B69C"
+			tasks: [{
+				id: "038A81A81619B56E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:flowers)"
+					}
+				}
+				title: "Any #minecraft:flowers"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			id: "5BF14B7AF85E1262"
+			tasks: [{
+				id: "0C57E2CD799FA34E"
+				item: "projectvibrantjourneys:twigs"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5ADFDC49F9FE9E23"]
+			id: "4C7A2B72C324B24B"
+			tasks: [{
+				id: "59942DC808C26E76"
+				item: {
+					Count: 1
+					id: "kubejs:flint_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1AC6ED272369EC32"]
+			id: "5312937642BA4A52"
+			tasks: [{
+				id: "2B5665C4103605B0"
+				item: "supplementaries:ash_brick"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["551472C3A45D4530"]
+			id: "2822D3001811757D"
+			tasks: [{
+				id: "6FCD605C2108C4C9"
+				item: "untamedwilds:hide_golden"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"59E857E2AD2F5B8A"
+				"46CD2C2927E82FE0"
+			]
+			id: "551472C3A45D4530"
+			tasks: [{
+				id: "2D6CD2651A4C2205"
+				item: "untamedwilds:hide_gray"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["436665954D7F5415"]
+			id: "5ED583F923F7590A"
+			tasks: [{
+				id: "1C10094859AECCA7"
+				item: "untamedwilds:hide_beige"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"323D8E0F90702505"
+				"5A8F8206B27E568E"
+			]
+			id: "740EE5031340B79D"
+			tasks: [{
+				id: "5ED83DB7C0231750"
+				item: "untamedwilds:hide_tan"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["389DAAB6BF0F5FB6"]
+			id: "1249A05447B4FDD0"
+			tasks: [{
+				id: "1CAE6CDF2C7EDFCB"
+				item: "kubejs:mud_brick"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["67A11DB711A57880"]
+			id: "389DAAB6BF0F5FB6"
+			tasks: [{
+				id: "5E1A44AD80DB9B54"
+				item: "kubejs:mud_ball"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			id: "67A11DB711A57880"
+			tasks: [{
+				id: "6A3BAA0853C6F14F"
+				item: "kubejs:dirt_clump"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"5ED583F923F7590A"
+				"47F333A236A77869"
+				"2806B978CE1BDB75"
+			]
+			id: "5A8F8206B27E568E"
+			tasks: [{
+				id: "5ADB6678B1C075CA"
+				item: "untamedwilds:hide_white"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2024DF46CC5BA7C3"]
+			id: "2806B978CE1BDB75"
+			tasks: [{
+				id: "29B20FEEF5DAEEA4"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			id: "2024DF46CC5BA7C3"
+			tasks: [{
+				id: "0D7152AB825C51EC"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5B5871F32399AA7C"]
+			id: "47F333A236A77869"
+			tasks: [{
+				id: "2CCC66E22556B46B"
+				item: "kubejs:salt"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			id: "5B5871F32399AA7C"
+			tasks: [{
+				id: "51B6DB5B965216A1"
+				item: "mekanism:salt"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["740EE5031340B79D"]
+			id: "6CE0EB709E87EBFD"
+			tasks: [{
+				id: "419FA5D64746E853"
+				item: "untamedwilds:hide_orange"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6CE0EB709E87EBFD"]
+			id: "6B8BF67ED39FB5C8"
+			tasks: [{
+				id: "1360E437D3E0FCE9"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5A9596A56CBEFEDA"]
+			id: "078DD4939863BE87"
+			tasks: [{
+				id: "60FB1C610F6C9CCA"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["107390AB729C8DB5"]
+			id: "57BA1817E8818D5A"
+			tasks: [{
+				id: "74338348CFF3C5D2"
+				item: {
+					Count: 1
+					id: "spartanshields:wooden_basic_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["107390AB729C8DB5"]
+			id: "276B567AD1043A57"
+			tasks: [{
+				id: "5A9B72BADB6A278A"
+				item: "primitivechests:primitive_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7F177FB207EC9E7A"]
+			id: "4B0213F16F89DF2B"
+			tasks: [{
+				id: "2E19E7A5D0F5C436"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:cobblestone)"
+					}
+				}
+				title: "Any #forge:cobblestone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["436665954D7F5415"]
+			id: "51D39EF172780875"
+			tasks: [{
+				id: "3A4DC5C8E16259C9"
+				item: "minecraft:farmland"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			id: "59E857E2AD2F5B8A"
+			tasks: [{
+				id: "07D55604D406F672"
+				item: "untamedwilds:hide_brown"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "6FDD9BA2AE2E966D"
+			tasks: [{
+				id: "0289EEBF085BAEEA"
+				item: "rootsclassic:old_root"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"151630C48B3DB3B7"
+				"2FA59A8A23E339FB"
+			]
+			id: "1AC6ED272369EC32"
+			tasks: [{
+				id: "6F758D7DFE31412E"
+				item: "quark:clear_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			id: "2FA59A8A23E339FB"
+			tasks: [{
+				id: "62F5D506099B3F3F"
+				item: "kubejs:sand_clump"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6B8BF67ED39FB5C8"]
+			id: "1B7AC64E143A5DC3"
+			tasks: [{
+				id: "3EC5D5529C947A06"
+				item: "kubejs:cut_leather"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"1B7AC64E143A5DC3"
+				"045A8A40A1EE2FC8"
+			]
+			id: "0AE05AE0D3E4DAC6"
+			tasks: [{
+				id: "5A8D288988E4BC83"
+				item: "kubejs:handle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["46CD2C2927E82FE0"]
+			id: "3562D77BB7396554"
+			tasks: [
+				{
+					id: "59D076698434757B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wooden_stairs)"
+						}
+					}
+					title: "Any #minecraft:wooden_stairs"
+					type: "item"
+				}
+				{
+					id: "2B9259994AAAF603"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wooden_slabs)"
+						}
+					}
+					title: "Any #minecraft:wooden_slabs"
+					type: "item"
+				}
+				{
+					id: "2F0AC782B429C19B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:trapdoors)"
+						}
+					}
+					title: "Any #minecraft:wooden_pressure_plates"
+					type: "item"
+				}
+				{
+					id: "14885DEDFA537A5D"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wooden_pressure_plates)"
+						}
+					}
+					title: "Any #minecraft:wooden_pressure_plates"
+					type: "item"
+				}
+				{
+					id: "5A207DE54F46C2B6"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:buttons)"
+						}
+					}
+					title: "Any #minecraft:buttons"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0AE05AE0D3E4DAC6"]
+			id: "1D18E592E0B97E9B"
+			tasks: [{
+				id: "229BEAB2B4556F99"
+				item: {
+					Count: 1
+					id: "mowziesmobs:spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -18.0d
+		}
+		{
+			id: "045A8A40A1EE2FC8"
+			tasks: [{
+				id: "15A7EACB2457B47F"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7C8BCBA2241C2B42"]
+			id: "28632040EA4125B0"
+			tasks: [{
+				id: "59458E6D9B641518"
+				item: {
+					Count: 1
+					id: "minecraft:painting"
+					tag: {
+						EntityTag: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1C7F471850ECE630"
+				"26453B2A1A4229CA"
+				"5E6F64D25833B532"
+			]
+			id: "255AA03860641E91"
+			tasks: [{
+				id: "0EFEB5242F3FDA4F"
+				item: "farmersdelight:half_tatami_mat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6B8BF67ED39FB5C8"]
+			id: "6534A4EB25B57056"
+			tasks: [
+				{
+					id: "7A2C87F49553C196"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5465DEEA64BA1A45"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BBDF4EFF9FC174F"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0077981D6082849C"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2910F9105987BA0C"
+					item: {
+						Count: 1
+						id: "aether:leather_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -15.0d
+		}
+		{
+			id: "43F8B420813DD1BC"
+			tasks: [{
+				id: "1DA295DFF868CABC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool)"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["0AE05AE0D3E4DAC6"]
+			id: "76BC1EB6B1793397"
+			tasks: [{
+				id: "4E939143E7ACF5DA"
+				item: "extendedcrafting:handheld_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"255AA03860641E91"
+				"1B7AC64E143A5DC3"
+				"299800E6B2A553E5"
+			]
+			id: "3105E65D2A456657"
+			tasks: [{
+				id: "2CC13CD9EAFFF3D8"
+				item: "farmersdelight:full_tatami_mat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"43F8B420813DD1BC"
+				"3105E65D2A456657"
+			]
+			id: "129C848D193EA1AD"
+			tasks: [{
+				id: "0F0B383A034A42B4"
+				item: "farmersdelight:tatami"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6B8BF67ED39FB5C8"]
+			id: "7FA3BF0D404468E2"
+			tasks: [{
+				id: "42559F3ADC8E6D8D"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"6E1CCBB6CE25161D"
+				"5A9596A56CBEFEDA"
+			]
+			id: "127E104FBC60BAEF"
+			tasks: [{
+				id: "4BA4431345EA4774"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["085791158FE5C7C3"]
+			id: "12779C19E38D9454"
+			tasks: [{
+				id: "4C0FACD937DB1F65"
+				item: "actuallyadditions:tiny_torch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5BF14B7AF85E1262"]
+			id: "0E194A6926703A28"
+			tasks: [{
+				id: "608B0E3AA9B52591"
+				item: {
+					Count: 1
+					id: "survival_firesticks:firestick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C7A2B72C324B24B"]
+			id: "7327D36D3DEA5D8F"
+			tasks: [{
+				id: "04C36E0AF797B3CD"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7327D36D3DEA5D8F"]
+			id: "107390AB729C8DB5"
+			tasks: [{
+				id: "6F12C4DC6076444A"
+				item: "supplementaries:fine_wood"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4B0213F16F89DF2B"]
+			id: "196998D75E90DA30"
+			tasks: [{
+				id: "3FC7D5BF09FE187A"
+				item: "kubejs:plate_stone"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["196998D75E90DA30"]
+			id: "5014AD15F3FBC27A"
+			tasks: [{
+				id: "24795AB35ED5505E"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5014AD15F3FBC27A"]
+			id: "4002FD57716EBC86"
+			tasks: [{
+				id: "7575D92578AB8BDA"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["151630C48B3DB3B7"]
+			id: "6034FBEF94057C52"
+			tasks: [{
+				id: "56CC71562DA6F626"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			id: "26453B2A1A4229CA"
+			tasks: [{
+				id: "1C53C621A45CB7D6"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"7FF5580377A51A68"
+				"453FE7197F9B04DA"
+			]
+			id: "6D10A58F66E96D56"
+			tasks: [{
+				id: "7E73F3ADD92A5656"
+				item: "ceramics:unfired_cistern"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -14.0d
+		}
+		{
+			id: "299800E6B2A553E5"
+			tasks: [{
+				id: "780B9C016FC7F344"
+				item: "supplementaries:flax"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["5014AD15F3FBC27A"]
+			id: "4DC4AE309BEBE21F"
+			tasks: [{
+				id: "2592C217A5BA94AA"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4DC4AE309BEBE21F"]
+			id: "72A684A416938808"
+			tasks: [{
+				id: "2CA7B403F59FDD47"
+				item: "supplementaries:flower_box"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["72A684A416938808"]
+			id: "453FE7197F9B04DA"
+			tasks: [{
+				id: "134A403BEA4D1B3F"
+				item: "supplementaries:planter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7FF5580377A51A68"]
+			id: "5B96AD38435757FA"
+			tasks: [{
+				id: "50E96223123761B1"
+				item: "ceramics:unfired_faucet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["255AA03860641E91"]
+			id: "554B2996837F2A6F"
+			tasks: [{
+				id: "55214AE335644FF3"
+				item: "primitivechests:advanced_primitive_chest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["45362441AD3B101A"]
+			id: "487AE6B1B6EFE710"
+			tasks: [
+				{
+					id: "407700682E79EF8E"
+					item: "ceramics:clay_channel"
+					type: "item"
+				}
+				{
+					id: "2D7AF4A369100132"
+					item: "ceramics:clay_faucet"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["196998D75E90DA30"]
+			id: "44B90BA3A0838557"
+			tasks: [{
+				id: "332C497225AC06E0"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6B8BF67ED39FB5C8"]
+			id: "6E923C6345C544A0"
+			tasks: [{
+				id: "5740FEB2A8CF37F9"
+				item: {
+					Count: 1
+					id: "hunters_return:boomerang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["3105E65D2A456657"]
+			id: "36A469F473003D21"
+			tasks: [{
+				id: "2C057ECB0CE3449D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:boats)"
+					}
+				}
+				title: "Any #minecraft:boats"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"73D1F5B21A86146E"
+				"2024DF46CC5BA7C3"
+			]
+			id: "7E208FCB3FFCC4B0"
+			tasks: [{
+				id: "2DB11B76F66F133E"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7E208FCB3FFCC4B0"]
+			id: "445570CB233AE9AD"
+			tasks: [{
+				id: "0E71A3680C4F4B98"
+				item: {
+					Count: 1
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3562D77BB7396554"]
+			id: "298EEF5179B1A604"
+			tasks: [{
+				id: "336B6128FE23BF39"
+				item: {
+					Count: 1
+					id: "iceandfire:earplugs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C8BCBA2241C2B42"]
+			hide_dependent_lines: true
+			id: "5E6F64D25833B532"
+			tasks: [{
+				id: "08C064162B7499DB"
+				item: "farmersdelight:canvas_rug"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7FF5580377A51A68"]
+			hide_dependent_lines: true
+			id: "3691F0FAE7009848"
+			tasks: [{
+				id: "7BB57749AAAAC485"
+				item: "forbidden_arcanus:blacksmith_gavel_head"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"107390AB729C8DB5"
+				"3691F0FAE7009848"
+			]
+			id: "5D92F7467E177B01"
+			tasks: [{
+				id: "7532975F1F33D2D4"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:wooden_blacksmith_gavel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.5d
+		}
+	]
+	title: "Age 1"
+}

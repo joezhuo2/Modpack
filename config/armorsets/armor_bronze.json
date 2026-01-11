@@ -1,0 +1,50 @@
+{
+  "armorSetName": "bronze",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "mekanismtools:bronze_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "mekanismtools:bronze_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "mekanismtools:bronze_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "mekanismtools:bronze_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 2.0,
+      "attributeOperation": 0,
+      "modifierUUID": "ed6b096d-f778-46c3-91da-de428eda938f",
+      "description": "+2 Max Health"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:life_steal",
+      "value": 0.05,
+      "attributeOperation": 0,
+      "modifierUUID": "4d179cf6-81c1-4650-b815-48ba0378ea9f",
+      "description": "+5% Lifesteal"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 3.0,
+      "attributeOperation": 0,
+      "modifierUUID": "4c1b9b58-6a44-4af3-88e7-dff1e8d7800a",
+      "description": "+3 Max Health"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,23 @@
+{
+  "minecraft:wooden_pickaxe": {
+    "minecraft:mineable/pickaxe": "t1"
+  },
+  "minecraft:wooden_axe": {
+    "minecraft:mineable/axe": "t1"
+  },
+  "minecraft:wooden_shovel": {
+    "minecraft:mineable/shovel": "t1"
+  },
+  "minecraft:stone_pickaxe": {
+    "minecraft:mineable/pickaxe": "t2"
+  },
+  "minecraft:stone_axe": {
+    "minecraft:mineable/axe": "t2"
+  },
+  "minecraft:stone_shovel": {
+    "minecraft:mineable/shovel": "t2"
+  },
+  "minecraft:stone_hoe": {
+    "minecraft:mineable/hoe": "t2"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "armorSetName": "leather",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:leather_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "minecraft:leather_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "minecraft:leather_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "minecraft:leather_boots",
+    "mustBeEmpty": false
+  },
+  "mainhand": {
+    "itemKey": "mowziesmobs:spear",
+    "mixAndMatch": [
+      "wooden_sword",
+      "farmersdelight:flint_knife"
+    ]
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:leather_gloves"
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "attributeOperation": 2,
+      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "description": "+10% Move Speed"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.30,
+      "attributeOperation": 2,
+      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "description": "+30% Attack Speed"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "attributeOperation": 2,
+      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "description": "+15% Move Speed"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

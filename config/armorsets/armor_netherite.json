@@ -1,0 +1,47 @@
+{
+  "armorSetName": "netherite",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:netherite_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "minecraft:netherite_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "minecraft:netherite_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "minecraft:netherite_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+        "type": "effect",
+        "name": "minecraft:fire_resistance",
+        "value": 0.0
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:fire_damage",
+      "value": 6.0,
+      "attributeOperation": 0,
+      "modifierUUID": "7d519f23-034c-411d-8c20-2fd2d1ff2d14",
+      "description": "+6 Fire Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 3.0,
+      "attributeOperation": 0,
+      "modifierUUID": "6d0b8a96-0c4b-484f-aee9-fadafd6d9f6d",
+      "description": "+3 Armor"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

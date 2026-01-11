@@ -1,0 +1,42 @@
+{
+  "active": true,
+  "showOnlyOneTime": true,
+  "chatMessage": false,
+  "showCreator": true,
+  "requireDifferentStructure": true,
+  "continuousDisplay": false,
+  "autoCalculateDuration": true,
+  "textSize": 1.0,
+  "labelColor": 11184810,
+  "nameColor": 16777215,
+  "displayDuration": 60,
+  "displayPosition": "BOTTOM_CENTER",
+  "displayOffsetX": 0,
+  "displayOffsetY": 40,
+  "customStructureName": {
+    "minecraft:swamp_hut": "a_cat:cat_hut"
+  },
+  "dontShowAll": [
+    "minecraft:",
+    "dimdungeons:"
+  ],
+  "dontShow": [
+    "minecraft:plains_village",
+    "minecraft:desert_village",
+    "the_deep_void:lighthouse",
+    "the_deep_void:cult_ruins_3",
+    "the_deep_void:bone_spike_3",
+    "the_deep_void:common_giant_skeleton",
+    "aether:silver_dungeon",
+    "the_deep_void:ambushed_fortress",
+    "the_deep_void:giant_skull_broken",
+    "the_deep_void:giant_skeleton",
+    "betterfortresses:fortress",
+    "bosses_of_mass_destruction:gauntlet_arena",
+    "the_deep_void:fossil_4",
+    "ad_astra:pygro_village",
+    "the_deep_void:fossil_1",
+    "additionalstructures:camp_1",
+    "graveyard:small_grave"
+  ]
+}

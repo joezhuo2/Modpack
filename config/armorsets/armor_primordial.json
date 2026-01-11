@@ -1,0 +1,32 @@
+{
+  "armorSetName": "primordial",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "alexscaves:primordial_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "alexscaves:primordial_tunic",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "alexscaves:primordial_pants",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_damage",
+      "value": 0.15,
+      "attributeOperation": 2,
+      "modifierUUID": "e78bb5a1-ede2-4af5-8741-cf2eabd6709a",
+      "description": "+15% Arrow Damage"
+    },
+    {
+        "type": "effect",
+        "name": "minecraft:speed",
+        "value": 0.0
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,63 @@
+{
+  "armorSetName": "chainmail",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:chainmail_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "minecraft:chainmail_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "minecraft:chainmail_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "minecraft:chainmail_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "a721369a-e1d6-4dda-9725-165dd1d31814",
+      "description": "+1 Armor"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "704d54b3-388f-49d4-b3f4-8b946e74fcf4",
+      "description": "+1 Armor Toughness"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 3.0,
+      "attributeOperation": 0,
+      "modifierUUID": "e33b0c55-238c-4408-9919-8b18415bde97",
+      "description": "+4 Armor"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "attributeOperation": 0,
+      "modifierUUID": "8375c4a2-54bd-4420-af3e-0266ed360e95",
+      "description": "+2 Armor Toughness"
+    },
+    {
+        "type": "effect",
+        "name": "minecraft:slowness",
+        "value": 0.0
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

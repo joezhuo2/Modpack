@@ -1,0 +1,47 @@
+{
+  "armorSetName": "gold",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:golden_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "minecraft:golden_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "minecraft:golden_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "minecraft:golden_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 2.0,
+      "attributeOperation": 0,
+      "modifierUUID": "215f4ce0-bc94-4726-985b-5c9cb577a715",
+      "description": "+2 Max Health"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 3.0,
+      "attributeOperation": 0,
+      "modifierUUID": "247a06f2-287d-480d-a77a-981470072694",
+      "description": "+3 Max Health"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:regeneration",
+      "value": 0.0
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

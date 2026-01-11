@@ -1,0 +1,1 @@
+{"jarName":"manaunification-1.20.1-1.0.3.jar","modId":"manaunification","version":"1.0.3","mixinConfigs":["manaunification.mixins.json"],"jarJarMods":[{"jarName":"capabilitysyncer-1.20.1-4.0.1.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}],"curseForgeHash":2084610523,"modrinthHash":"21d6433c3e7403235bcd6a476f5eaf30b8c1ebfe"}
