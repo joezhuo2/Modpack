@@ -45,7 +45,11 @@ const itemsToName = [
 
     {id: 'mekanism:sawdust', name: 'Wood Chips'},
 
-    {id: 'vampirism:pure_salt', name: 'Pure Salt Dust'}
+    {id: 'vampirism:pure_salt', name: 'Pure Salt Dust'},
+
+    {id: 'thermal:flax', name: 'Hemp'},
+    {id: 'thermal:flax_seeds', name: 'Hemp Seeds'},
+    {id: 'thermal:flax_block', name: 'Hemp Bale'},
 ]
 
 ClientEvents.lang('en_us', event => {
