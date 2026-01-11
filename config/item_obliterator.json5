@@ -98,7 +98,24 @@
     "supplementaries:timber_cross_brace",
 
     "ceramicshears:clay_shears_part",
-    "ceramicshears:ceramic_shears_part"
+    "ceramicshears:ceramic_shears_part",
+
+    "suppsquared:daub_stairs",
+    "suppsquared:daub_slab",
+    "suppsquared:daub_frame_stairs",
+    "suppsquared:daub_frame_slab",
+
+    "hexerei:mahogany_drying_rack",
+    "hexerei:willow_drying_rack",
+    "hexerei:witch_hazel_drying_rack",
+    "hexerei:mahogany_drying_rack",
+    "hexerei:herb_drying_rack_full",
+
+    "actuallyadditions:flax_seeds",
+    "actuallyadditions:rice",
+    "actuallyadditions:rice_seeds",
+    "actuallyadditions:rice_dough",
+    "actuallyadditions:rice_slimeball",
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
