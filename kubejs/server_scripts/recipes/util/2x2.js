@@ -1,3 +1,5 @@
+// priority: 900
+
 const twoByTwoCompactingItems = [
     {raw: 'kubejs:sand_clump', compact: 'minecraft:sand'},
     {raw: 'kubejs:gravel_clump', compact: 'minecraft:gravel'},

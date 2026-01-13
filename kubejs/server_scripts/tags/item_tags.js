@@ -1,3 +1,15 @@
+// priority: 1000
+
+const keepOnlyItemFromTag = [
+    { tag: 'forge:nuggets/copper', item: 'thermal:copper_nugget' },
+    { tag: 'forge:nuggets/tin', item: 'thermal:tin_nugget' },
+    { tag: 'forge:rods/stone', item: 'kubejs:rod_stone' },
+    
+    { tag: 'forge:ingots/tin', item: 'thermal:tin_ingot' },
+
+    {tag: 'forge:raw_materials/tin', item: 'thermal:raw_tin' },
+]
+
 ServerEvents.tags('item', event => {
     // materials
     materialsList.forEach(mat => {
@@ -24,9 +36,10 @@ ServerEvents.tags('item', event => {
     event.add('forge:string', 'evilcraft:golden_string')
     event.add('forge:string', 'kubejs:plant_fiber')
 
-    // plates
+    // fix plates
     event.add('forge:plates/clay', 'ceramics:unfired_clay_plate')
     event.add('forge:plates/terracotta', 'ceramics:clay_plate')
+    event.remove('forge:plates/brick', 'ceramics:clay_plate')
 
     // bark mushroom
     event.add('kubejs:bark_mushrooms', 'projectvibrantjourneys:light_brown_bark_mushroom')
@@ -39,10 +52,11 @@ ServerEvents.tags('item', event => {
     event.add('forge:leather', 'totemic:buffalo_hide')
     event.add('forge:leather', 'immersiveengineering:ersatz_leather')
 
-    // gears
-    event.remove('forge:gears/wood', 'enderio:wood_gear')
-    event.remove('forge:gears/stone', 'enderio:stone_gear')
-
     // hammers
     event.add('forge:tools/hammers', '#forbidden_arcanus:blacksmith_gavel')
+
+    keepOnlyItemFromTag.forEach(entry => {
+        event.removeAll(entry.tag)
+        event.add(entry.tag, entry.item)
+    })
 })

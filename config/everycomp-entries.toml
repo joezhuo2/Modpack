@@ -12,9 +12,6 @@
 			chocolate_cake = true
 			spice_cake = true
 
-		[types.cake.ferdinandsflowers]
-			birthday_cake_darkosto = true
-
 		[types.cake.blue_skies]
 			comet_berry_pie = true
 

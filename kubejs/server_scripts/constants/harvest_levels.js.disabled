@@ -1,0 +1,51 @@
+// priority: 1000
+
+const tierOneBlocks = [
+    
+]
+
+const tierTwoBlocks = [
+    
+]
+
+const tierThreeBlocks = [
+    
+]
+
+const tierFourBlocks = [
+    
+]
+
+const tierFiveBlocks = [
+    
+]
+
+const tierSixBlocks = [
+    
+]
+
+const tierSevenBlocks = [
+    
+]
+
+const tierEightBlocks = [
+    
+]
+
+const tierNineBlocks = [
+    
+]
+
+const tierTenBlocks = [
+    
+]
+global.tierOneBlocks = tierOneBlocks
+global.tierTwoBlocks = tierTwoBlocks
+global.tierThreeBlocks = tierThreeBlocks
+global.tierFourBlocks = tierFourBlocks
+global.tierFiveBlocks = tierFiveBlocks
+global.tierSixBlocks = tierSixBlocks
+global.tierSevenBlocks = tierSevenBlocks
+global.tierEightBlocks = tierEightBlocks
+global.tierNineBlocks = tierNineBlocks
+global.tierTenBlocks = tierTenBlocks

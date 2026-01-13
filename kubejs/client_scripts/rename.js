@@ -50,6 +50,20 @@ const itemsToName = [
     {id: 'thermal:flax', name: 'Hemp'},
     {id: 'thermal:flax_seeds', name: 'Hemp Seeds'},
     {id: 'thermal:flax_block', name: 'Hemp Bale'},
+
+    {id: 'rootsclassic:mortar', name: 'Spellbound Mortar'},
+    {id: 'rootsclassic:pestle', name: 'Arcane Pestle'},
+
+    {id: "eidolon:silver_pickaxe", name: "Tin Pickaxe"},
+    {id: "eidolon:silver_axe", name: "Tin Axe"},
+    {id: "eidolon:silver_shovel", name: "Tin Shovel"},
+    {id: "eidolon:silver_hoe", name: "Tin Hoe"},
+    {id: "eidolon:silver_sword", name: "Tin Sword"},
+    
+    {id: "iceandfire:armor_silver_metal_helmet", name: "Tin Helmet"},
+    {id: "iceandfire:armor_silver_metal_chestplate", name: "Tin Chestplate"},
+    {id: "iceandfire:armor_silver_metal_leggings", name: "Tin Leggings"},
+    {id: "iceandfire:armor_silver_metal_boots", name: "Tin Boots"},
 ]
 
 ClientEvents.lang('en_us', event => {

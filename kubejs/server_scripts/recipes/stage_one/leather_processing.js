@@ -1,6 +1,4 @@
 ServerEvents.recipes(event => {
-    // no leather cheating
-    event.remove({output: 'leather'})
     // raw hide
     cut(
         event,
@@ -60,7 +58,6 @@ ServerEvents.recipes(event => {
         ]
     )
     // washed hide
-    event.remove({output: 'untamedwilds:hide_beige'})
     transform(
         event, 
         'minecraft:water', 
@@ -69,7 +66,6 @@ ServerEvents.recipes(event => {
         'fluid'
     )
     // prepared hide
-    event.remove({output: 'untamedwilds:hide_white'})
     event.shapeless(Item.of('untamedwilds:hide_white', 1),
         [
             'untamedwilds:hide_beige',

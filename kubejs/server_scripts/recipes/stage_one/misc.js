@@ -1,8 +1,5 @@
 ServerEvents.recipes(event => {
-    // painting must use canvas
-    event.remove({id: 'minecraft:painting'})
     // clay faucet
-    event.remove({output: 'ceramics:clay_faucet'})
     event.shaped(Item.of('ceramics:clay_faucet', 1),
         [
             'A A',
@@ -14,7 +11,6 @@ ServerEvents.recipes(event => {
         }
     )  
     // clay channel
-    event.remove({output: 'ceramics:clay_channel'})
     event.shaped(Item.of('ceramics:clay_channel', 1),
         [
             ' A ',
@@ -27,7 +23,6 @@ ServerEvents.recipes(event => {
         }
     )
     // tiny torch
-    event.remove({output: 'actuallyadditions:tiny_torch'})
     event.shaped(Item.of('actuallyadditions:tiny_torch', 2),
         [
             'A',
@@ -39,12 +34,10 @@ ServerEvents.recipes(event => {
         }
     )
     // farmland
-    event.remove({output: 'farmland'})
     event.shapeless(Item.of('farmland'),
         ['dirt', 'bone_meal']
     )
     // clay cistern
-    event.remove({output: 'ceramics:clay_cistern'})
     event.shaped(Item.of('ceramics:clay_cistern', 1),
         [
             'C C',
@@ -59,10 +52,8 @@ ServerEvents.recipes(event => {
     )
     // torch
     event.remove({output: 'torch', type: 'minecraft:crafting_shaped'})
-    event.remove({id: 'apotheosis:torch'})
     event.campfireCooking('torch', 'actuallyadditions:tiny_torch', 0.15, 900)
     // flower pot
-    event.remove({output: 'flower_pot'})
     event.shaped(Item.of('flower_pot', 1),
         [
             'A A',
@@ -74,7 +65,6 @@ ServerEvents.recipes(event => {
         }
     )
     // flower box
-    event.remove({output: 'supplementaries:flower_box'})
     event.shaped(Item.of('supplementaries:flower_box', 1),
         [
             'ABA'
@@ -85,7 +75,6 @@ ServerEvents.recipes(event => {
         }
     )
     // planter
-    event.remove({output: 'supplementaries:planter'})
     event.shaped(Item.of('supplementaries:planter', 1),
         [
             'A A',
@@ -102,7 +91,6 @@ ServerEvents.recipes(event => {
         }
     )
     // unfired faucet
-    event.remove({output: 'ceramics:unfired_faucet'})
     event.shaped(Item.of('ceramics:unfired_faucet', 1),
         [
             'A A',
@@ -114,7 +102,6 @@ ServerEvents.recipes(event => {
         }
     )
     // unfired channel
-    event.remove({output: 'ceramics:unfired_channel'})
     event.shaped(Item.of('ceramics:unfired_channel', 1),
         [
             ' A ',
@@ -127,7 +114,6 @@ ServerEvents.recipes(event => {
         }
     )
     // unfired cistern
-    event.remove({output: 'ceramics:unfired_cistern'})
     event.shaped(Item.of('ceramics:unfired_cistern', 1),
         [
             'B B',

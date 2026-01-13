@@ -1,3 +1,5 @@
+// priority: 800
+
 const peltMobs = [
     {mob: 'mooshroom', min: 1, max: 3, chance: 0.8},
     {mob: 'horse', min: 1, max: 4, chance: 0.75},

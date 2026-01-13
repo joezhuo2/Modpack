@@ -116,6 +116,22 @@
     "actuallyadditions:rice_seeds",
     "actuallyadditions:rice_dough",
     "actuallyadditions:rice_slimeball",
+
+    "untamedwilds:hide_black",
+    "untamedwilds:hide_ashen",
+
+    "iceandfire:armor_copper_metal_helmet",
+    "iceandfire:armor_copper_metal_chestplate",
+    "iceandfire:armor_copper_metal_leggings",
+    "iceandfire:armor_copper_metal_boots",
+    "iceandfire:copper_sword",
+    "iceandfire:copper_pickaxe",
+    "iceandfire:copper_axe",
+    "iceandfire:copper_shovel",
+    "iceandfire:copper_hoe",
+
+    "cb_microblocks:stone_rod",
+    "createaddition:copper_rod"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

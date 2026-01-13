@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
     // cutting board
-    event.remove({output: 'farmersdelight:cutting_board'})
     event.shaped(Item.of('farmersdelight:cutting_board', 1),
         [
             'BC',
@@ -13,7 +12,6 @@ ServerEvents.recipes(event => {
         }
     )
     // crafting table
-    event.remove({output: 'crafting_table'})
     event.shaped(Item.of('crafting_table', 1),
         [
             'AB',
@@ -27,7 +25,6 @@ ServerEvents.recipes(event => {
         }
     )
     // composter
-    event.remove({output: 'composter'})
     event.shaped(Item.of('composter', 1),
         [
             'A A',
@@ -41,7 +38,6 @@ ServerEvents.recipes(event => {
         }
     )
     // campfire
-    event.remove({output: 'campfire'})
     event.shaped(Item.of('campfire', 1),
         [
             ' A ',
@@ -57,7 +53,6 @@ ServerEvents.recipes(event => {
         }
     )
     // worm farm
-    event.remove({output: 'aquaculture:worm_farm'})
     event.shaped(Item.of('aquaculture:worm_farm', 1),
         [
             'A A',
@@ -72,7 +67,6 @@ ServerEvents.recipes(event => {
         }
     )
     // drying rack
-    event.remove({output: 'hexerei:herb_drying_rack'})
     event.shaped(Item.of('hexerei:herb_drying_rack', 1),
         [
             ' A ',
@@ -87,7 +81,6 @@ ServerEvents.recipes(event => {
         }
     )
     // crude kiln
-    event.remove({output: 'ceramics:kiln'})
     event.shaped(Item.of('ceramics:kiln', 1),
         [
             'ABA',
@@ -104,7 +97,6 @@ ServerEvents.recipes(event => {
         }
     )
     // primitive chest
-    event.remove({output: 'primitivechests:primitive_chest'})
     event.shaped(Item.of('primitivechests:primitive_chest', 1),
         [
             'ABA',
@@ -119,7 +111,6 @@ ServerEvents.recipes(event => {
         }
     )
     // primitive chest
-    event.remove({output: 'primitivechests:advanced_primitive_chest'})
     event.shaped(Item.of('primitivechests:advanced_primitive_chest', 1),
         [
             'ABA',

@@ -1,5 +1,5 @@
 #Disable wool drops to force the player to get shears.
-disableWoolDrops = false
+disableWoolDrops = true
 #Reset all skills to 1 when a player dies.
 deathSkillReset = false
 #Should you gain health on set level ups?
@@ -8,7 +8,7 @@ HealthBonus = true
 showTabButtons = true
 #Global scaling multiplier for XP costs.
 #Range: 0.1 ~ 10.0
-xpScalingMultiplier = 1.0
+xpScalingMultiplier = 3.0
 #Maximum level each skill can be upgraded to.
 #Range: 2 ~ 100
 maximumLevel = 100
@@ -17,7 +17,7 @@ maximumLevel = 100
 #Format: key=value
 #Valid values: attack, defense, mining, gathering, farming, building, agility, magic
 #Enable or disable skill leveling via GUI or selection. If disabled, skill levels must be granted by commands.
-enableSkillLeveling = false
+enableSkillLeveling = true
 #Enable or disable the skill level-up message.
 enableSkillUpMessage = false
 skillAliases = ["defense=defense"]

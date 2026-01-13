@@ -1,0 +1,119 @@
+// priority: 1000
+
+const itemsToRemove = [
+    'mysticalagriculture:inferium_ore',
+    'mysticalagradditions:end_inferium_ore',
+    'mysticalagradditions:nether_inferium_ore',
+    'mysticalagriculture:deepslate_inferium_ore',
+
+    'rootsclassic:healing_poultice',
+
+    'actuallyadditions:wooden_aiot',
+    'actuallyadditions:stone_aiot',
+    'actuallyadditions:iron_aiot',
+    'actuallyadditions:gold_aiot',
+    'actuallyadditions:diamond_aiot',
+    'actuallyadditions:netherite_aiot',
+
+    'reliquary:mob_charm',
+    'reliquary:mob_charm_fragment',
+
+    'apotheosis:iron_mining_arrow',
+    'apotheosis:diamond_mining_arrow',
+
+    'mekanismtools:bronze_paxel', 
+    'mysticalagradditions:awakened_supremium_paxel', 
+    'mekanismtools:osmium_paxel', 
+    'mysticalagradditions:inferium_paxel', 
+    'mekanismtools:wood_paxel', 
+    'mysticalagradditions:tertium_paxel', 
+    'mekanismtools:netherite_paxel', 
+    'mysticalagradditions:supremium_paxel', 
+    'mekanismtools:diamond_paxel', 
+    'mekanismtools:gold_paxel', 
+    'mysticalagradditions:prudentium_paxel', 
+    'mekanismtools:refined_obsidian_paxel', 
+    'mekanismtools:refined_glowstone_paxel', 
+    'mekanismtools:lapis_lazuli_paxel', 
+    'mekanismtools:steel_paxel', 
+    'mekanismtools:iron_paxel', 
+    'mekanismtools:stone_paxel', 
+    'mysticalagradditions:imperium_paxel',
+
+    'embers:silver_sword',
+    'embers:silver_shovel',
+    'embers:silver_axe',
+    'embers:silver_hoe',
+    'embers:silver_pickaxe',
+    
+    'enderio:wood_gear',
+    'enderio:stone_gear',
+    'enderio:energized_gear',
+    'enderio:vibrant_gear',
+    'enderio:dark_bimetal_gear',
+    'hammerlib:gears/wooden',
+    'hammerlib:gears/stone',
+    'pneumaticcraft:compressed_iron_gear',
+    
+    'mahoutsukai:pestle',
+    'mahoutsukai:mortar',
+    'mahoutsukai:mortar_and_pestle',
+    'mahoutsukai:hammer',
+
+    'rootsclassic:bark_knife',
+    'rootsclassic:oak_bark',
+    'rootsclassic:spruce_bark',
+    'rootsclassic:birch_bark',
+    'rootsclassic:jungle_bark',
+    'rootsclassic:acacia_bark',
+    'rootsclassic:dark_oak_bark',
+
+    'minecraft:wooden_hoe',
+
+    'supplementaries:timber_frame',
+    'supplementaries:timber_brace',
+    'supplementaries:timber_cross_brace',
+
+    'ceramicshears:clay_shears_part',
+    'ceramicshears:ceramic_shears_part',
+
+    'suppsquared:daub_stairs',
+    'suppsquared:daub_slab',
+    'suppsquared:daub_frame_stairs',
+    'suppsquared:daub_frame_slab',
+
+    'hexerei:mahogany_drying_rack',
+    'hexerei:willow_drying_rack',
+    'hexerei:witch_hazel_drying_rack',
+    'hexerei:mahogany_drying_rack',
+    'hexerei:herb_drying_rack_full',
+
+    'actuallyadditions:flax_seeds',
+    'actuallyadditions:rice',
+    'actuallyadditions:rice_seeds',
+    'actuallyadditions:rice_dough',
+    'actuallyadditions:rice_slimeball',
+
+    'untamedwilds:hide_black',
+    'untamedwilds:hide_ashen',
+
+    'iceandfire:armor_copper_metal_helmet',
+    'iceandfire:armor_copper_metal_chestplate',
+    'iceandfire:armor_copper_metal_leggings',
+    'iceandfire:armor_copper_metal_boots',
+    'iceandfire:copper_sword',
+    'iceandfire:copper_pickaxe',
+    'iceandfire:copper_axe',
+    'iceandfire:copper_shovel',
+    'iceandfire:copper_hoe',
+
+    'cb_microblocks:stone_rod',
+    'createaddition:copper_rod'
+]
+
+ServerEvents.tags('item', event => {
+    itemsToRemove.forEach(itemID => {
+        event.removeAllTagsFrom(itemID)
+        event.add('kubejs:removed_items', itemID)
+    })
+})

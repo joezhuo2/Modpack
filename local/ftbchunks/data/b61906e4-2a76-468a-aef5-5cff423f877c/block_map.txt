@@ -1,5 +1,6 @@
 #AFEF03 suppsquared:ad_astra/item_shelf_glacian
 #52B53D minecraft:air
+#311C65 bloodmagic:alchemyarray
 #01FCEE theabyss:areno
 #ADF429 supplementaries:ash
 #056054 supplementaries:awning_brown
@@ -22,8 +23,10 @@
 #2848C0 minecraft:cobbled_deepslate
 #43C85F minecraft:cobbled_deepslate_slab
 #4341EF minecraft:cobbled_deepslate_stairs
+#8B8A11 minecraft:cobweb
 #421280 ecologics:coconut_leaves
 #011FD4 ecologics:coconut_log
+#2AAE1F hexalia:cottonwood_log
 #468304 minecraft:crafting_table
 #1B74F2 farmersdelight:cutting_board
 #DB697D supplementaries:daub
@@ -59,6 +62,7 @@
 #BBA6D1 minecraft:oak_log
 #374FD3 minecraft:oak_slab
 #392E46 minecraft:oak_wood
+#F5EB01 hexerei:pestle_and_mortar
 #3C720B supplementaries:planter
 #EA3611 minecraft:polished_deepslate
 #E685AE minecraft:polished_deepslate_slab
@@ -69,6 +73,7 @@
 #45E11A theabyss:roma_mud_2
 #E238E9 supplementaries:sack
 #86FC77 minecraft:sand
+#7C5BEF occultism:spirit_fire
 #DC3458 minecraft:stone
 #00B23E theabyss:stone
 #72DDC0 theabyss:stone_brick

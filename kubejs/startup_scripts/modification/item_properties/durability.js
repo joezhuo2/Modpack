@@ -1,6 +1,6 @@
 const durabilityChanges = [
     { id: 'embers:tinker_hammer', amount: 32},
-    { id: 'forbidden_arcanus:wooden_blacksmith_gavel', amount: 160},
+    { id: 'forbidden_arcanus:wooden_blacksmith_gavel', amount: 96},
 ]
 
 ItemEvents.modification(event => {

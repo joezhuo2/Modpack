@@ -38,6 +38,13 @@
     "the_deep_void:fossil_1",
     "additionalstructures:camp_1",
     "graveyard:small_grave",
-    "vampirism:hunter_camp"
+    "vampirism:hunter_camp",
+    "mowziesmobs:wrought_chamber",
+    "integrated_villages:tavern_village",
+    "evilcraft:dark_temple",
+    "vampirism:hunter_outpost_plains",
+    "additionalstructures:tomb_3",
+    "bettermineshafts:mineshaft_spruce",
+    "apotheosis:tower_spruce"
   ]
 }

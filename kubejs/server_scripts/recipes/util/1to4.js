@@ -1,3 +1,5 @@
+// priority: 900
+
 const decompactingItems = [
     {raw: 'kubejs:sand_clump', compact: 'minecraft:sand', tool: 'shovel'},
     {raw: 'kubejs:gravel_clump', compact: 'minecraft:gravel', tool: 'shovel'},

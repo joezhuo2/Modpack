@@ -20,7 +20,7 @@
   "mainHand": {
     "itemKey":"mowziesmobs:spear",
     "mixAndMatch" : [
-      "minecraft:stone_sword",
+      "minecraft:wooden_sword",
       "farmersdelight:flint_knife"
     ]
   },
@@ -34,7 +34,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.movement_speed",
-      "value": 0.05,
+      "value": 0.10,
       "attributeOperation": 2,
       "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
       "description": "+10% Move Speed"

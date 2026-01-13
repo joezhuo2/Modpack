@@ -1,21 +1,5 @@
-/*
-This file is responsible for unifying wood types across mods.
-This file is not to be copied by other modpacks, but can be used as a learning tool
+// priority: 1000
 
-woodTypes follows the following structure:
-{
-    log: 'modid:log_block',
-    stripped_log: 'modid:stripped_log_block',
-    plank: 'modid:plank_block',,
-    stair: 'modid:stair_block',
-    slab: 'modid:slab_block', 
-    trapdoor: 'modid:trapdoor_block',
-    pressure_plate: 'modid:pressure_plate_block',
-    button: 'modid:button_item'
-}
-
-for 'content': put null if the item does not exist
-*/
 ServerEvents.recipes(event => {
     woodTypes.forEach(type => {
         // removal of existing recipes and addition of simple one

@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
     // crude hatchet
-    event.remove({output: 'wooden_axe'})
     event.shaped(Item.of('wooden_axe', 1),
         [
             'CA',
@@ -13,7 +12,6 @@ ServerEvents.recipes(event => {
         }
     )
     // flint knife
-    event.remove({output: 'farmersdelight:flint_knife'})
     event.shaped(Item.of('farmersdelight:flint_knife', 1),
         [
             ' C',
@@ -26,7 +24,6 @@ ServerEvents.recipes(event => {
         }
     )
     // tinker hammer
-    event.remove({output: 'embers:tinker_hammer'})
     event.shaped(Item.of('embers:tinker_hammer', 1),
         [
             'AB',
@@ -39,7 +36,6 @@ ServerEvents.recipes(event => {
         }
     )
     // crude shovel
-    event.remove({output: 'wooden_shovel'})
     event.shaped(Item.of('wooden_shovel', 1),
         [
             ' AB',
@@ -53,7 +49,6 @@ ServerEvents.recipes(event => {
         }
     )
     // crude sword
-    event.remove({output: 'wooden_sword'})
     event.shaped(Item.of('wooden_sword', 1),
         [
             '  B',
@@ -67,7 +62,6 @@ ServerEvents.recipes(event => {
         }
     )
     // earplugs
-    event.remove({output: 'iceandfire:earplugs'})
     event.shapeless(Item.of('iceandfire:earplugs', 1),
         [
             '#minecraft:buttons',
@@ -75,7 +69,6 @@ ServerEvents.recipes(event => {
         ]
     )
     // flint shears
-    event.remove({output: 'kubejs:flint_shears'})
     event.shaped(Item.of('kubejs:flint_shears', 1),
         [
             'A  ',
@@ -89,7 +82,6 @@ ServerEvents.recipes(event => {
         }
     )
     // ceramic shears
-    event.remove({output: 'ceramicshears:ceramic_shears'})
     event.shaped(Item.of('ceramicshears:ceramic_shears', 1),
         [
             'A ',
@@ -101,7 +93,6 @@ ServerEvents.recipes(event => {
         }
     )
     // crude pick
-    event.remove({output: 'wooden_pickaxe'})
     event.shaped(Item.of('wooden_pickaxe', 1),
         [
             'AAB',
@@ -116,7 +107,6 @@ ServerEvents.recipes(event => {
         }
     )
     // crude pick
-    event.remove({output: 'constructionwand:stone_wand'})
     event.shaped(Item.of('constructionwand:stone_wand', 1),
         [
             '  A',
@@ -130,7 +120,6 @@ ServerEvents.recipes(event => {
         }
     )
     // wooden shield
-    event.remove({output: 'spartanshields:wooden_basic_shield'})
     event.shaped(Item.of('spartanshields:wooden_basic_shield', 1),
         [
             ' AB',
@@ -144,7 +133,6 @@ ServerEvents.recipes(event => {
         }
     )
     // wooden blacksmith gavel
-    event.remove({output: 'forbidden_arcanus:wooden_blacksmith_gavel'})
     event.shaped(Item.of('forbidden_arcanus:wooden_blacksmith_gavel', 1),
         [
             ' AB',
@@ -160,7 +148,6 @@ ServerEvents.recipes(event => {
         }
     )
     // clay bucket
-    event.remove({output: 'ceramics:unfired_clay_bucket'})
     event.shaped(Item.of('ceramics:unfired_clay_bucket', 1),
         [
             'A A',
@@ -171,10 +158,8 @@ ServerEvents.recipes(event => {
         }
     )
     // clay bucket
-    event.remove({output: 'ceramics:empty_clay_bucket'})
     event.campfireCooking('ceramics:empty_clay_bucket', 'ceramics:unfired_clay_bucket', 0.5, 2400)
     // bundle
-    event.remove({output: 'bundle'})
     event.shaped(Item.of('bundle', 1),
         [
             ' C ',
@@ -188,7 +173,6 @@ ServerEvents.recipes(event => {
         }
     )
     // boomerang
-    event.remove({output: 'hunters_return:boomerang'})
     event.shaped(Item.of('hunters_return:boomerang', 1),
         [
             'A ',
@@ -202,7 +186,6 @@ ServerEvents.recipes(event => {
         }
     )
     // handheld crafting table
-    event.remove({output: 'extendedcrafting:handheld_table'})
     event.shaped(Item.of('extendedcrafting:handheld_table', 1),
         [
             ' A',
@@ -214,7 +197,6 @@ ServerEvents.recipes(event => {
         }
     )
     // spear
-    event.remove({output: 'mowziesmobs:spear'})
     event.shaped(Item.of('mowziesmobs:spear', 1),
         [
             '  A',

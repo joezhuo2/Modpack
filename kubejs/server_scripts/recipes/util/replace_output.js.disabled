@@ -1,0 +1,15 @@
+// priority: 900
+
+const replaceOutputRecipes = [
+
+]
+
+ServerEvents.recipes(event => {
+    replaceOutputRecipes.forEach((recipe) => {
+        event.replaceOutput(
+            recipe.filter,
+            recipe.toReplace,
+            recipe.replaceWith
+        )
+    })
+})

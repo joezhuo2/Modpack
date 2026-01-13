@@ -11,18 +11,6 @@
 		{ item: "kubejs:farming_level_orb" }
 		{ item: "kubejs:agility_level_orb" }
 		{ item: "kubejs:magic_level_orb" }
-		{
-			amount: 10L
-			currency: "eternalcurrencies:coins"
-			ignore_reward_blocking: true
-			type: "eternalcurrencies:currency"
-			weight: 5.0f
-		}
-		{
-			type: "xp"
-			weight: 5.0f
-			xp: 50
-		}
 	]
 	title: "Random Skill Level"
 }

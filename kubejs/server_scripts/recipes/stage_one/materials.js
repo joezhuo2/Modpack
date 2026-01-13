@@ -26,7 +26,6 @@ ServerEvents.recipes(event => {
         }
     )
     // unfired porcelain
-    event.remove({output: 'ceramics:unfired_porcelain'})
     transform(
         event, 
         'minecraft:water', 
@@ -45,7 +44,6 @@ ServerEvents.recipes(event => {
         }
     )
     // scorched log
-    event.remove({output: 'born_in_chaos_v1:scorched_log'})
     itemBurn(event, 
         {
             tag: 'minecraft:logs', 
@@ -55,8 +53,6 @@ ServerEvents.recipes(event => {
             item: 'born_in_chaos_v1:scorched_log'
         }
     )
-    // remove original clay plate recipe
-    event.remove({output: 'ceramics:unfired_clay_plate'})
     // salt dust from clump
     cut(
         event,
@@ -76,7 +72,6 @@ ServerEvents.recipes(event => {
         [{ item: 'mekanism:sawdust' }]
     )
     // canvas
-    event.remove({output: 'farmersdelight:canvas'})
     event.shaped(Item.of('farmersdelight:canvas', 1),
         [
             'AB',
@@ -102,7 +97,6 @@ ServerEvents.recipes(event => {
         }
     )
     // canvas rug
-    event.remove({output: 'farmersdelight:canvas_rug'})
     event.shaped(Item.of('farmersdelight:canvas_rug', 1),
         [
             ' D ',
@@ -145,7 +139,6 @@ ServerEvents.recipes(event => {
     )
     // ash brick
     event.remove({output: 'supplementaries:ash_brick', type: 'minecraft:smelting'})
-    event.remove({id: 'enderio:smelting/supplementaries/ash_brick'})
     event.shaped(Item.of('supplementaries:ash_brick', 3),
         [
             'ABA',
@@ -173,7 +166,6 @@ ServerEvents.recipes(event => {
         'fluid'
     )
     // fine wood
-    event.remove({id: 'supplementaries:fine_wood'})
     itemApplication(
         event,
         {item: 'honeycomb'},
@@ -181,7 +173,6 @@ ServerEvents.recipes(event => {
         {item: 'supplementaries:fine_wood'}
     )
     // porcelain brick
-    event.remove({id: 'ceramics:porcelain_brick'})
     event.shaped(Item.of('ceramics:porcelain_brick', 5),
         [
             'AAA',
@@ -195,12 +186,10 @@ ServerEvents.recipes(event => {
         }
     )
     // daub
-    event.remove({id: 'supplementaries:daub'})
     event.shapeless(Item.of('supplementaries:daub', 3),
         ['gravel', 'sand', 'ceramics:unfired_porcelain_block', 'ceramics:porcelain_bricks']
     )
     // gavel head
-    event.remove({id: 'forbidden_arcanus:blacksmith_gavel_head'})
     event.shaped(Item.of('forbidden_arcanus:blacksmith_gavel_head', 1),
         [
             ' AB',
@@ -215,11 +204,6 @@ ServerEvents.recipes(event => {
             E: 'ceramics:unfired_clay_plate'
         }
     )
-    // remove clay recycling
-    event.remove({id: 'ceramics:clay_uncrafting'})
-    event.remove({id: 'ceramics:clay_uncrafting_2'})
-    event.remove({id: 'ceramics:clay_uncrafting_3'})
-    event.remove({id: 'ceramics:clay_uncrafting_4'})
     // cut leather
     cut(
         event,
@@ -243,7 +227,6 @@ ServerEvents.recipes(event => {
         }
     )
     // half tatami mat
-    event.remove({output: 'farmersdelight:half_tatami_mat'})
     event.shaped(Item.of('farmersdelight:half_tatami_mat', 2),
         [
             'BAB',
@@ -257,7 +240,6 @@ ServerEvents.recipes(event => {
         }
     )
     // full tatami mat
-    event.remove({output: 'farmersdelight:full_tatami_mat'})
     event.shaped(Item.of('farmersdelight:full_tatami_mat', 1),
         [
             ' A ',
@@ -271,7 +253,6 @@ ServerEvents.recipes(event => {
         }
     )
     // tatami block
-    event.remove({output: 'farmersdelight:tatami'})
     event.shaped(Item.of('farmersdelight:tatami', 3),
         [
             'BBB',
@@ -284,7 +265,6 @@ ServerEvents.recipes(event => {
         }
     )
     // better canvas recipe
-    event.remove({output: 'farmersdelight:canvas'})
     event.shaped(Item.of('farmersdelight:canvas', 6),
         [
             'ABA',
@@ -319,4 +299,7 @@ ServerEvents.recipes(event => {
             { item: 'kubejs:plant_fiber' , chance: 0.2}
         ]
     )
+    // easier recipes with kiln
+    kiln(event, 300, 0.2, {item: 'supplementaries:ash'}, 'supplementaries:ash_brick')
+    kiln(event, 300, 0.2, {item: 'kubejs:sand_clump'}, 'quark:clear_shard')
 })
