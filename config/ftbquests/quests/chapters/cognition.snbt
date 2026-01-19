@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cognition"
+	group: "2F688CAF980A2EE4"
+	icon: "experienceobelisk:cognitive_amalgam"
+	id: "0B00F5E076F85545"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Cognition"
+}

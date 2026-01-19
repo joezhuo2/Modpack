@@ -17,12 +17,17 @@
     "itemKey": "minecraft:diamond_boots",
     "mustBeEmpty": false
   },
-  "partialBonusRequiredAmount": 2,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:diamond_gloves"
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
   "partialSetBonuses": [
     {
         "type": "effect",
         "name": "minecraft:resistance",
-        "value": 0.0
+        "value": 2.0
     }
   ],
   "fullSetBonuses": [

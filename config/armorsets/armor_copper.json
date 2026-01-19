@@ -17,14 +17,22 @@
     "itemKey": "create_sa:copper_boots",
     "mustBeEmpty": false
   },
-  "partialBonusRequiredAmount": 2,
+  "mainHand": {
+    "itemKey": "create_sa:copper_sword"
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "iceandfire_curios:copper_amulet"
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
   "partialSetBonuses": [
     {
       "type": "attribute",
       "name": "minecraft:generic.movement_speed",
-      "value": 0.10,
+      "value": 0.15,
       "modifierUUID": "35649d2a-8179-4606-a426-18919ce02bd7",
-      "description": "+10% Movement Speed",
+      "description": "+15% Movement Speed",
       "attributeOperation": 2
     }
   ],

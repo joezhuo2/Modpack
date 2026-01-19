@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forbidden_and_arcanus"
+	group: "2849284214DF0BB2"
+	icon: "forbidden_arcanus:soul"
+	id: "41D899740EF483CC"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	title: "Forbidden and Arcanus"
+}

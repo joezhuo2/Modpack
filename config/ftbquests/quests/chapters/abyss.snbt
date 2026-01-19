@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "abyss"
+	group: "639F1BAEFB3D9BE5"
+	icon: {
+		Count: 1
+		id: "theabyss:loran_energy"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0F14A7A7823A68B8"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Abyss"
+}

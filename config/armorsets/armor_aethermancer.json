@@ -1,0 +1,69 @@
+{
+  "armorSetName": "aethermancer",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ars_elemental:air_hat",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ars_elemental:air_robes",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ars_elemental:air_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ars_elemental:air_boots",
+    "mustBeEmpty": false
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:wind_shield"
+    },
+    {
+      "itemKey": "ars_elemental:air_bangle"
+    },
+    {
+      "itemKey": "ars_elemental:lesser_air_focus",
+      "mixAndMatch": [
+        "ars_elemental:air_focus"
+      ]
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:holy_spell_power",
+      "value": 0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "description": "+20% Holy Spell Power"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:jump_boost",
+      "value": 5.0
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:dodge_chance",
+      "value": 0.25,
+      "attributeOperation": 2,
+      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "description": "+25% Dodge Chance"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.6,
+      "attributeOperation": 2,
+      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "description": "+60% Roll Recharge"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

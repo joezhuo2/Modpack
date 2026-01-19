@@ -64,6 +64,20 @@ const itemsToName = [
     {id: "iceandfire:armor_silver_metal_chestplate", name: "Tin Chestplate"},
     {id: "iceandfire:armor_silver_metal_leggings", name: "Tin Leggings"},
     {id: "iceandfire:armor_silver_metal_boots", name: "Tin Boots"},
+
+    {id: 'alexscaves:pewen_sap', name: 'Sap'},
+    {id: 'immersiveengineering:dust_wood', name: 'Fine Wood Dust'},
+
+    
+    {id: 'iceandfire:armor_copper_metal_helmet', name: 'Bronze Helmet'},
+    {id: 'iceandfire:armor_copper_metal_chestplate', name: 'Bronze Chestplate'},
+    {id: 'iceandfire:armor_copper_metal_leggings', name: 'Bronze Leggings'},
+    {id: 'iceandfire:armor_copper_metal_boots', name: 'Bronze Boots'},
+    {id: 'iceandfire:copper_sword', name: 'Bronze Sword'},
+    {id: 'iceandfire:copper_pickaxe', name: 'Bronze Pickaxe'},
+    {id: 'iceandfire:copper_axe', name: 'Bronze Axe'},
+    {id: 'iceandfire:copper_shovel', name: 'Bronze Shovel'},
+    {id: 'iceandfire:copper_hoe', name: 'Bronze Hoe'},
 ]
 
 ClientEvents.lang('en_us', event => {

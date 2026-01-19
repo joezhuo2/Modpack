@@ -17,7 +17,12 @@
     "itemKey": "minecraft:netherite_boots",
     "mustBeEmpty": false
   },
-  "partialBonusRequiredAmount": 2,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:netherite_gloves"
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
   "partialSetBonuses": [
     {
         "type": "effect",

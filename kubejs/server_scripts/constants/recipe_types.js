@@ -1668,6 +1668,7 @@ function mixingCauldron(event, liquid, input, output, liquidOutput, fluidAmount)
         fluidLevelsConsumed: fluidAmount
     })
 }
+// https://github.com/JoeFoxe/Hexerei-1.18/tree/main/src/main/resources/data/hexerei/recipes
 function pestleMortar(event, input, output, time) {
     event.custom({
         type: 'hexerei:pestle_and_mortar',

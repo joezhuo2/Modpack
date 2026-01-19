@@ -1,0 +1,55 @@
+{
+  "armorSetName": "technomancer",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ars_technica:technomancer_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ars_technica:technomancer_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ars_technica:technomancer_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ars_technica:technomancer_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "cataclysm_spellbooks:technomancy_spell_power",
+      "value": 0.15,
+      "attributeOperation": 2,
+      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "description": "+15% Technomancy Spell Power"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:haste",
+      "value": 0.0
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:armor_pierce",
+      "value": 6,
+      "attributeOperation": 0,
+      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "description": "+6 Armor Pierce"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:experience_gained",
+      "value": 0.4,
+      "attributeOperation": 2,
+      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "description": "+40% Experience Gained"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

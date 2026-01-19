@@ -21,6 +21,8 @@
 	spellDamageEnderDragon = true
 	#Casting Spells will cause the caster to completely stop moving, Default: false
 	fullStopCast = false
+	#Whether explosions made by SpellExplosion class has double the radius, Default: false
+	spellExplosionDouble = false
 
 [Spells]
 

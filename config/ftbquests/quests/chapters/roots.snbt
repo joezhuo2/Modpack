@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	filename: "roots"
+	group: "2F688CAF980A2EE4"
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "totemic:totempedia"
+		}
+	}
+	id: "14F24EF6BBE1DA4F"
+	images: [{
+		height: 5.0d
+		image: "new:textures/quests/totemic_logo.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.5d
+		y: -1.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0F0B1A0332EFE2E5"
+			tasks: [{
+				id: "1126D09BF2E78008"
+				item: "totemic:drum"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "69D7F92AC0702E7F"
+			tasks: [{
+				id: "2C06B3A852B0205F"
+				item: "totemic:flute"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0F0B1A0332EFE2E5"
+				"69D7F92AC0702E7F"
+			]
+			id: "1701CCD773BEDAB0"
+			tasks: [{
+				icon: "totemic:cedar_sapling"
+				id: "7708283F7AB6932E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "totemic:cedar_sapling"
+				type: "observation"
+			}]
+			title: "Rite of Spring"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A864754A15152E2"]
+			id: "011BC7919AE8CBB0"
+			tasks: [{
+				id: "100F28204A9C706E"
+				item: "totemic:rattle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "4282CF97CFFC9FE5"
+			tasks: [{
+				id: "5485FB80A88B3141"
+				item: {
+					Count: 1
+					id: "totemic:totem_whittling_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0F0B1A0332EFE2E5"]
+			id: "1DA93798EA259B0B"
+			tasks: [{
+				id: "118ECAFFBACB6A12"
+				title: "War Dance"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69D7F92AC0702E7F"]
+			id: "4CC68390A201B942"
+			tasks: [{
+				id: "447881BDFAC15180"
+				title: "Symphony of the Depths"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1701CCD773BEDAB0"]
+			id: "633EF78EC6AA4F02"
+			tasks: [{
+				id: "4013CFB4FF6E234C"
+				item: "totemic:wind_chime"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["633EF78EC6AA4F02"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "totemic:buffalo"
+				}
+			}
+			id: "3A864754A15152E2"
+			shape: "none"
+			tasks: [
+				{
+					id: "1F7B7A33A565B596"
+					item: "totemic:buffalo_hide"
+					type: "item"
+				}
+				{
+					id: "62FA7829547A3E08"
+					item: "totemic:buffalo_tooth"
+					type: "item"
+				}
+			]
+			title: "Buffalo Dance"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3A864754A15152E2"
+				"011BC7919AE8CBB0"
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "totemic:bald_eagle"
+				}
+			}
+			icon_scale: 2.0d
+			id: "6EE6E40E4EF2E48B"
+			shape: "none"
+			tasks: [
+				{
+					id: "690537BD01142CB9"
+					item: "totemic:eagle_bone"
+					type: "item"
+				}
+				{
+					id: "6EDF47A56509933F"
+					item: "totemic:eagle_feather"
+					type: "item"
+				}
+			]
+			title: "Eagle Dance"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F18CC6B22CB38E1"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "totemic:baykok"
+				}
+			}
+			id: "5AD61DFEAA4E11EE"
+			shape: "none"
+			tasks: [{
+				id: "0491519BEFA77C4D"
+				item: {
+					Count: 1
+					id: "totemic:baykok_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Totentanz"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EE6E40E4EF2E48B"]
+			id: "4F18CC6B22CB38E1"
+			tasks: [{
+				id: "1699CFBD5C6A9FE9"
+				item: "totemic:eagle_bone_whistle"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["011BC7919AE8CBB0"]
+			id: "6F8C0FB3ED0772AC"
+			tasks: [{
+				id: "1EB1F069902A2206"
+				item: "totemic:infused_flute"
+				type: "item"
+			}]
+			title: "Serenade for Syrinx"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "1F5C51F36E4AD110"
+			tasks: [{
+				id: "05FCDB6CEE63926A"
+				item: "totemic:totemic_staff"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			id: "3BEF8BA73CCBC855"
+			tasks: [{
+				id: "52E195E327DAD96A"
+				item: "totemic:ceremony_cheat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			id: "5F088153363B809C"
+			tasks: [{
+				id: "1FA150AAD1A708CF"
+				item: "totemic:medicine_bag"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			id: "7699546D0FB55876"
+			tasks: [{
+				id: "7EB4BE3602A6B56E"
+				item: "totemic:creative_medicine_bag"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			id: "202E25D2141ABF47"
+			tasks: [{
+				id: "19B6AF92406B8DDD"
+				item: "totemic:totem_torch"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			id: "623228A8D2DD7755"
+			tasks: [{
+				id: "3539DDE3B2910480"
+				item: "totemic:tipi"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			id: "5415485C8169E2BD"
+			tasks: [{
+				id: "35FE324FE169BDF7"
+				item: {
+					Count: 1
+					id: "totemic:jingle_dress"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+	]
+	title: "Totemic"
+}

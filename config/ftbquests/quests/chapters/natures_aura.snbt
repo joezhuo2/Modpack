@@ -1,0 +1,497 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "2849284214DF0BB2"
+	icon: "naturesaura:gold_leaf"
+	id: "7E3E1B5B8734F127"
+	images: [{
+		height: 0.01d
+		image: "hexalia:textures/armor/bogged_boots.png"
+		rotation: 0.0d
+		width: 0.01d
+		x: -25.0d
+		y: -11.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28680F0739277D3C"
+			tasks: [{
+				id: "63E29A2097F98262"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			id: "14349E566810C017"
+			tasks: [{
+				id: "23ECB23383EE9A2B"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			id: "1D374E2DD0247790"
+			tasks: [{
+				id: "070EAE308F6DB9E0"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			id: "762ED1247885FBB4"
+			tasks: [{
+				id: "326681A821F3CD8F"
+				item: "naturesaura:token_joy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			id: "6A700E4C37D15941"
+			tasks: [{
+				id: "3FAAFCE9A253F14A"
+				item: "naturesaura:token_fear"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			id: "13A8015F63E133D5"
+			tasks: [{
+				id: "339AFA678DFB5738"
+				item: "naturesaura:token_anger"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			id: "0D69647EEE97CB59"
+			tasks: [{
+				id: "6C1C496282D47454"
+				item: "naturesaura:token_sorrow"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			id: "32B41CCE9CC46C41"
+			tasks: [{
+				id: "6D3A422B098C6673"
+				item: "naturesaura:vacuum_bottle"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			id: "5F2F8AC16E106407"
+			tasks: [{
+				id: "79688DBC3324C293"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			id: "6AD8B042A038499B"
+			tasks: [{
+				icon: "naturesaura:ancient_sapling"
+				id: "6837479D987B3059"
+				observe_type: 0
+				timer: 0L
+				to_observe: "naturesaura:ancient_sapling"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			id: "1B3F8D449092C26E"
+			tasks: [{
+				id: "1390440234AADA0D"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.5d
+		}
+		{
+			id: "18274A3FE7557E84"
+			tasks: [{
+				id: "07E820D5C6A8839D"
+				item: "naturesaura:crushing_catalyst"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			id: "0E898AC315639F16"
+			tasks: [{
+				id: "0C0C163CF3DBF700"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -9.0d
+		}
+		{
+			id: "44050CF8CB3CF80A"
+			tasks: [{
+				id: "52EC6BC74DA44CE8"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			id: "6A3279885C0D1A93"
+			tasks: [{
+				id: "67ED2C08F28A6679"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			id: "4A7CBF6D1A9FEA4D"
+			tasks: [{
+				id: "43A4BF49801BDD44"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -9.5d
+		}
+		{
+			id: "712432DECFA7A968"
+			tasks: [{
+				id: "33F6A487F8903354"
+				item: "naturesaura:token_euphoria"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -9.5d
+		}
+		{
+			id: "2937ABF6539ACDEA"
+			tasks: [{
+				id: "4759C2F9177BA3A6"
+				item: "naturesaura:token_terror"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -10.5d
+		}
+		{
+			id: "4F40CC7E14FA5763"
+			tasks: [{
+				id: "3C2620CA293D77EB"
+				item: "naturesaura:token_rage"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -8.5d
+		}
+		{
+			id: "5E54C91292BBF7A5"
+			tasks: [{
+				id: "7C035DC41D28064C"
+				item: "naturesaura:token_grief"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -9.5d
+		}
+		{
+			id: "27ECDF2273FDAA39"
+			tasks: [{
+				id: "15441BD0D346BF48"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -9.5d
+		}
+		{
+			id: "17CF7399228F7594"
+			tasks: [{
+				id: "4CAD131CE14C6E14"
+				item: "naturesaura:depth_ingot"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -9.5d
+		}
+		{
+			id: "4EBAC8B9900EBAC6"
+			tasks: [{
+				id: "3A50898B6B4AA9AF"
+				item: "naturesaura:furnace_heater"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "6B2663143C3F3F49"
+			tasks: [{
+				id: "083EE4F65E8F24A2"
+				item: "naturesaura:potion_generator"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			id: "1D22DF2AFB9378D4"
+			tasks: [{
+				id: "196B7B6A618AA6D7"
+				item: "naturesaura:aura_detector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			id: "1D4DA37A56C611C6"
+			tasks: [{
+				id: "79C11F1208344A22"
+				item: "naturesaura:flower_generator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			id: "1134897355223E7C"
+			tasks: [{
+				id: "0742188088FE4D86"
+				item: "naturesaura:placer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "3E2402C3828DD7A3"
+			tasks: [{
+				id: "78D7D01D1610DAA7"
+				item: "naturesaura:hopper_upgrade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			id: "58BDDD2E599D7DA4"
+			tasks: [{
+				id: "43CC583779BD339B"
+				item: "naturesaura:field_creator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "0EF55508969DB1EB"
+			tasks: [{
+				id: "5F00B9D09D9C56A7"
+				item: "naturesaura:oak_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "582C4F070C45C483"
+			tasks: [{
+				id: "574AAA028ED6E598"
+				item: "naturesaura:pickup_stopper"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "365DE44A5D57D958"
+			tasks: [{
+				id: "7B367F0D49FF9F39"
+				item: "naturesaura:spawn_lamp"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -6.5d
+		}
+		{
+			id: "5BF23FE93DCAAE04"
+			tasks: [{
+				id: "59ABCD0B2865F366"
+				item: "naturesaura:animal_generator"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			id: "0EAE6B5DBDB444EA"
+			tasks: [{
+				id: "39C6951CF0B3D9E6"
+				item: "naturesaura:end_flower"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -9.5d
+		}
+		{
+			id: "6A3EBD12D82F0983"
+			tasks: [{
+				id: "56826162966BA5F7"
+				item: "naturesaura:grated_chute"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			id: "7D64B48D287F755B"
+			tasks: [{
+				id: "68ADAAE44A454061"
+				item: "naturesaura:animal_spawner"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			id: "5DE828FAAEFD81F1"
+			tasks: [{
+				id: "5DECC64E8FA39139"
+				item: "naturesaura:auto_crafter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			id: "2305DAA7091717EF"
+			tasks: [{
+				id: "07E91CB68BD443C1"
+				item: "naturesaura:gold_brick"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.5d
+		}
+		{
+			id: "7B1CD4B6E9A59AF7"
+			tasks: [{
+				id: "77F54B3EBDF4D725"
+				item: "naturesaura:moss_generator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "705D5E5163889A90"
+			tasks: [
+				{
+					id: "205375E59A0F87D4"
+					item: "naturesaura:time_changer"
+					type: "item"
+				}
+				{
+					id: "1C3A5619FED26160"
+					item: "naturesaura:clock_hand"
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: -6.5d
+		}
+		{
+			id: "397221851B52D94B"
+			tasks: [{
+				id: "4669BE068D2E3C66"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -6.5d
+		}
+		{
+			id: "7229337B415A919D"
+			tasks: [{
+				id: "644B171F0C45E0B4"
+				item: "naturesaura:ender_crate"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -5.5d
+		}
+		{
+			id: "0EB24F77A88B59EE"
+			tasks: [{
+				id: "7117FE4AA29FCC5D"
+				item: "naturesaura:powder_placer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "5DE9019E9B504738"
+			tasks: [{
+				id: "280F67B64AFEAD52"
+				item: "naturesaura:firework_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "00915E6BCFCD689D"
+			tasks: [{
+				id: "2FA279433918B461"
+				item: "naturesaura:animal_container"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			id: "11807D1FBC9D7872"
+			tasks: [{
+				id: "5BA9C2E1FF9ECE44"
+				item: "naturesaura:blast_furnace_booster"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+	]
+	title: "Nature's Aura"
+}

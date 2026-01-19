@@ -1,0 +1,83 @@
+{
+  "armorSetName": "aquamancer",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ars_elemental:aqua_hat",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ars_elemental:aqua_robes",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ars_elemental:aqua_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ars_elemental:aqua_boots",
+    "mustBeEmpty": false
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "traveloptics:guide_to_watery_whispers"
+    },
+    {
+      "itemKey": "ars_elemental:water_bangle"
+    },
+    {
+      "itemKey": "iceandfire_curios:tide_necklace"
+    },
+    {
+      "itemKey": "traveloptics:aqua_echo"
+    },
+    {
+      "itemKey": "ars_elemental:lesser_water_focus",
+      "mixAndMatch": [
+        "ars_elemental:water_focus"
+      ]
+    }
+  ],
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "traveloptics:aqua_spell_power",
+      "value": 0.35,
+      "attributeOperation": 2,
+      "modifierUUID": "4f772693-d551-49ee-840a-e1fe83fd548d",
+      "description": "+35% Aqua Spell Power"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:dolphins_grace",
+      "value": 1.0
+    },
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.4,
+      "attributeOperation": 2,
+      "modifierUUID": "6e9eeb35-a179-4dfa-a6b5-5a513bbafa25",
+      "description": "+40% Swim Speed"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:healing_received",
+      "value": 0.5,
+      "attributeOperation": 2,
+      "modifierUUID": "316e8342-c7b8-4f1d-b4ae-210fbb89667a",
+      "description": "+50% Healing Received"
+    },
+    {
+      "type": "attribute",
+      "name": "traveloptics:aqua_spell_power",
+      "value": 0.6,
+      "attributeOperation": 2,
+      "modifierUUID": "f7273e67-4854-4199-aaba-57b7dbbb4e0e",
+      "description": "+60% Aqua Spell Power"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

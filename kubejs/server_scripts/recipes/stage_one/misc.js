@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
         }
     )
     // torch
-    event.remove({output: 'torch', type: 'minecraft:crafting_shaped'})
+    // event.remove({output: 'torch', type: 'minecraft:crafting_shaped'})
     event.campfireCooking('torch', 'actuallyadditions:tiny_torch', 0.15, 900)
     // flower pot
     event.shaped(Item.of('flower_pot', 1),

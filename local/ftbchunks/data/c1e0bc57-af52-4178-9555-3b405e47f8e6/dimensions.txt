@@ -1,0 +1,4 @@
+minecraft:overworld
+the_afterdark:afterdark
+the_deep_void:the_pit
+the_deep_void:deep_void

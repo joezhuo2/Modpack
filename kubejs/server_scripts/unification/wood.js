@@ -4,14 +4,14 @@ ServerEvents.recipes(event => {
     woodTypes.forEach(type => {
         // removal of existing recipes and addition of simple one
         if (type.plank && type.log) {
-            event.remove({output: type.plank})
+            // event.remove({output: type.plank})
             event.shapeless(Item.of(type.plank, 1), [type.log])
         }
-        if (type.stair) event.remove({output: type.stair})
-        if (type.slab) event.remove({output: type.slab})
-        if (type.trapdoor) event.remove({output: type.trapdoor})
-        if (type.pressure_plate) event.remove({output: type.pressure_plate})
-        if (type.button) event.remove({output: type.button})
+        // if (type.stair) event.remove({output: type.stair})
+        // if (type.slab) event.remove({output: type.slab})
+        // if (type.trapdoor) event.remove({output: type.trapdoor})
+        // if (type.pressure_plate) event.remove({output: type.pressure_plate})
+        // if (type.button) event.remove({output: type.button})
 
         // log => stripped log
         if (type.stripped_log && type.log) {
@@ -174,8 +174,8 @@ ServerEvents.recipes(event => {
             )
         }
     })
-    event.remove({output: 'stick', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'stick', type: 'minecraft:crafting_shaped'})
+    // event.remove({output: 'stick', type: 'minecraft:crafting_shapeless'})
+    // event.remove({output: 'stick', type: 'minecraft:crafting_shaped'})
     // sticks from planks
     cut(
         event, 

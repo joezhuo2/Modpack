@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bumblezone"
+	group: "639F1BAEFB3D9BE5"
+	icon: "minecraft:honeycomb"
+	id: "11F3836D0B73131E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Bumblezone"
+}

@@ -1,7 +1,6 @@
 // priority: 1000
 
 const keepOnlyItemFromTag = [
-    { tag: 'forge:nuggets/copper', item: 'thermal:copper_nugget' },
     { tag: 'forge:nuggets/tin', item: 'thermal:tin_nugget' },
     { tag: 'forge:rods/stone', item: 'kubejs:rod_stone' },
     
@@ -54,6 +53,10 @@ ServerEvents.tags('item', event => {
 
     // hammers
     event.add('forge:tools/hammers', '#forbidden_arcanus:blacksmith_gavel')
+
+    // crushed raw
+    event.add('kubejs:crushed_raw/copper', 'create:crushed_raw_copper')
+    event.add('kubejs:crushed_raw/tin', 'create:crushed_raw_tin')
 
     keepOnlyItemFromTag.forEach(entry => {
         event.removeAll(entry.tag)

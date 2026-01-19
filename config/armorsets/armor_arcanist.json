@@ -1,0 +1,66 @@
+{
+  "armorSetName": "arcanist",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ars_nouveau:arcanist_hood",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ars_nouveau:arcanist_robes",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ars_nouveau:arcanist_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ars_nouveau:arcanist_boots",
+    "mustBeEmpty": false
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "irons_spellbooks:cast_time_ring"
+    },
+    {
+      "itemKey": "irons_spellbooks:cooldown_ring"
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:cast_time_reduction",
+      "value": 0.3,
+      "attributeOperation": 2,
+      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "description": "+30% Cast Time Reduction"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:cooldown_reduction",
+      "value": 0.85,
+      "attributeOperation": 2,
+      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "description": "+85% Spell Cooldown Reduction"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": -0.35,
+      "attributeOperation": 2,
+      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "description": "-35% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": -0.3,
+      "attributeOperation": 2,
+      "modifierUUID": "3a1c5e2e-6f4b-4d2e-9f7a-2c3e4b5d6e7f",
+      "description": "-30% Armor"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

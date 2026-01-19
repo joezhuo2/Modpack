@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon"
+	group: "2849284214DF0BB2"
+	icon: "eidolon:gold_inlay"
+	id: "270A93A60F3DD0F0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Eidolon"
+}

@@ -1,0 +1,606 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_4"
+	group: "45411B44422BC11F"
+	id: "08155443CC6E5533"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7927F6B0A68DC92A"
+			tasks: [{
+				id: "5EC7133CD2FAABE8"
+				item: "born_in_chaos_v1:black_argillite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "3C226B0DD6EF2CB8"
+			tasks: [{
+				id: "11848821DC734296"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "1AED07DD24746819"
+			tasks: [{
+				id: "1FC4BB1ADE5D34CB"
+				item: "minecraft:packed_ice"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "2FBB853A1A9F0015"
+			tasks: [{
+				id: "785997E5744C81BB"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "00A1D698E519C03B"
+			tasks: [{
+				id: "68DA1A0746456B7B"
+				item: "eidolon:tattered_cloth"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "7B3C1CA9C7C537D6"
+			tasks: [{
+				id: "22FE05039CC007E0"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "3A7315F1903EE677"
+			tasks: [{
+				id: "571FDF3B13A046C1"
+				item: "thermal:blitz_rod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "1E30E4E6B3C159C8"
+			tasks: [{
+				id: "742CC772B1894BB3"
+				item: "quark:jasper"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "6EB3A2D36BAF0C2C"
+			tasks: [{
+				id: "2D4D57F15EB74150"
+				item: "evilcraft:lightning_grenade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "048F574472E69FF9"
+			tasks: [{
+				id: "1637941AB98F588A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "42EA98F439370B26"
+			tasks: [{
+				id: "492768FFEA23BF9E"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "5D4BBE9209ED4281"
+			tasks: [{
+				id: "311E56B6AA8089FE"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "7E334ADBCA185368"
+			tasks: [{
+				id: "4DFE1404938C136F"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "007CC74F7F89E0B2"
+			shape: "epstar"
+			tasks: [{
+				id: "12E57828A602616E"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "2D08CDF8BC9F911B"
+			tasks: [{
+				icon: "evilcraft:environmental_accumulator"
+				id: "7267C105995357A4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "evilcraft:environmental_accumulator"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "2E33BC6AB7530436"
+			tasks: [{
+				id: "7F67229049FCCB4E"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "73E3EB80483BAAED"
+			tasks: [{
+				id: "34793CA8282B4298"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "711AB61CB9787CDF"
+			tasks: [{
+				id: "4247E8D71E887251"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			id: "66FEF74458375F75"
+			tasks: [{
+				id: "34C52649642E9A5E"
+				item: "alexscaves:tough_hide"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "7ED934D12C6AA0E6"
+			tasks: [{
+				id: "5F5507944E50FA18"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "242448E4401A9798"
+			tasks: [{
+				id: "0B29314EB7F798B7"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "4EA41F68C5651A4A"
+			tasks: [{
+				id: "351B0784ED0CEC54"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "684D5831A7D5B926"
+			tasks: [{
+				id: "5C1A9A0F6CE9D6DC"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "348EDA9A0AE06B85"
+			tasks: [{
+				id: "16003F0E5C20B98F"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "6BDE85D8B31286EA"
+			tasks: [{
+				id: "21F8E1FFD2B59BB6"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "4E59DAEE81D21FEA"
+			tasks: [{
+				id: "61149D4BF4A2C05C"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "0619F704D3936ABD"
+			tasks: [{
+				id: "7E3463BB7118F9E1"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "0D323425F53027FB"
+			tasks: [{
+				id: "47045A5F68675FBF"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "624E70530B483B64"
+			tasks: [{
+				id: "5E5F686BE633F7AC"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "1B3099509D63C799"
+			tasks: [{
+				id: "60F46A242A1B676C"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "3D7ABAA339DE833A"
+			tasks: [{
+				id: "548487857CF75D90"
+				item: "totemic:rattle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "38D0718B55C13E41"
+			tasks: [
+				{
+					id: "413E822DA11C01FB"
+					item: "totemic:eagle_bone"
+					type: "item"
+				}
+				{
+					id: "1D3C07B1B60E3F94"
+					item: "totemic:eagle_feather"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "6268BB7CE85E0985"
+			tasks: [{
+				id: "12F663E4D0939F5C"
+				item: "occultism:awakened_feather"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "25A0FFD516C2841A"
+			tasks: [{
+				id: "2499FFA463247DF4"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "663388BFF138C9B4"
+			tasks: [{
+				id: "23E8F33CFA6DACA3"
+				item: "occultism:otherworld_essence"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "521395D3D16EBFC9"
+			tasks: [{
+				id: "4A7EC0CAE54155FE"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "46033B88EFA9DA6C"
+			tasks: [{
+				id: "748FDA9205574690"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			id: "2C4A674922DBEE09"
+			tasks: [{
+				id: "46D9F007C0D95794"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "2613D408EC0CE807"
+			tasks: [{
+				id: "641FAF968483F1CB"
+				item: "farmingforblockheads:green_fertilizer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "6045174698CEC4EC"
+			tasks: [{
+				id: "15F564FEE386E94E"
+				item: "farmingforblockheads:red_fertilizer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "609806BE59FF47E3"
+			tasks: [{
+				id: "6069D6E0FCE94CD8"
+				item: "farmingforblockheads:yellow_fertilizer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			id: "0CEF60B06B25474B"
+			tasks: [{
+				id: "186FFA2F83932996"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "31E8D5CAF40489E8"
+			tasks: [{
+				id: "14152F9326A0070F"
+				item: "quark:myalite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			id: "2EF1AFF891D1AE57"
+			tasks: [{
+				id: "2C4B5D6E2A660F8D"
+				item: "quark:permafrost"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "6202EC3ED5E21A8C"
+			tasks: [{
+				id: "15C7B615BA2D13C9"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "75F8C7399CEA0489"
+			tasks: [{
+				id: "5713C8D7282146A4"
+				item: "occultism:purified_ink"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "7DA3DF8E8DCFBD0E"
+			tasks: [{
+				id: "03F62B93A8B83EA1"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			id: "61B8AC01F44CA814"
+			tasks: [{
+				id: "01760AFB3F7A41EF"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			id: "7D1CB66403175635"
+			tasks: [{
+				id: "15A7D415031A5A48"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			id: "5D7A58CAD709B494"
+			tasks: [{
+				id: "093DF5F35E0F623F"
+				item: {
+					Count: 1
+					id: "spartanshields:iron_basic_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			id: "01618685E369CE22"
+			tasks: [{
+				id: "6DF29477605BE0E6"
+				item: {
+					Count: 1
+					id: "spartanshields:bronze_basic_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			id: "7D93938336623AC3"
+			tasks: [{
+				id: "2DC08D3E18EFB166"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			id: "1474185AC8A261B4"
+			tasks: [{
+				id: "77CAB47AB57A1E7F"
+				item: "ae2:ender_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			id: "4A11FFA3BA26B8E5"
+			tasks: [{
+				id: "507EC385E20F87ED"
+				item: "hexalia:ritual_table"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+	]
+	title: "Age 4"
+}

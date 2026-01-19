@@ -2,20 +2,23 @@
   "armorSetName": "bronze",
   "performanceMode": true,
   "head": {
-    "itemKey": "mekanismtools:bronze_helmet",
+    "itemKey": "iceandfire:armor_copper_metal_helmet",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "mekanismtools:bronze_chestplate",
+    "itemKey": "iceandfire:armor_copper_metal_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "mekanismtools:bronze_leggings",
+    "itemKey": "iceandfire:armor_copper_metal_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "mekanismtools:bronze_boots",
+    "itemKey": "iceandfire:armor_copper_metal_boots",
     "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "iceandfire:copper_sword"
   },
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
@@ -40,10 +43,10 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.max_health",
-      "value": 3.0,
+      "value": 4.0,
       "attributeOperation": 0,
       "modifierUUID": "4c1b9b58-6a44-4af3-88e7-dff1e8d7800a",
-      "description": "+3 Max Health"
+      "description": "+4 Max Health"
     }
   ],
   "hideGeneratedTooltip": false

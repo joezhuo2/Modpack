@@ -45,6 +45,14 @@
     "vampirism:hunter_outpost_plains",
     "additionalstructures:tomb_3",
     "bettermineshafts:mineshaft_spruce",
-    "apotheosis:tower_spruce"
+    "apotheosis:tower_spruce",
+    "bettermineshafts:mineshaft_red_desert",
+    "alexscaves:underground_cabin",
+    "integrated_stronghold:stronghold",
+    "bettermineshafts:mineshaft_overgrown",
+    "simply_houses:forest_chapel",
+    "blue_skies:gatekeeper_house_plains",
+    "the_deep_void:rotten_flesh_skull",
+    "embers:small_ruin"
   ]
 }

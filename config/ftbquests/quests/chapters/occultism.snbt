@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "2849284214DF0BB2"
+	icon: "occultism:datura"
+	id: "2F37FD5AAD256F66"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E165AE289F77726"
+			tasks: [{
+				id: "2437D7BEC1DDC50F"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			id: "712F31069D8AB551"
+			tasks: [{
+				icon: "occultism:spirit_fire"
+				id: "668CCEEC7B196394"
+				observe_type: 0
+				timer: 0L
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			id: "48607498AF66817B"
+			tasks: [{
+				id: "1C6B66EC750D9B81"
+				item: {
+					Count: 1
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			id: "49571A0D41AE812D"
+			tasks: [
+				{
+					id: "45ED02C7E3B6126A"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "3B713D0289AEBDD6"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "73BEB9CD575A2FDE"
+					item: "occultism:book_of_binding_empty"
+					type: "item"
+				}
+				{
+					id: "0BDB547F650EFC35"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)"
+						}
+					}
+					title: "Any #minecraft:candles"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			id: "282AB62D50C06AE1"
+			tasks: [{
+				id: "5CB88D06486E9826"
+				item: {
+					Count: 1
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Styrlynmed"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			id: "2F4CC9A0B3E21D9E"
+			tasks: [{
+				id: "25F25660F8374883"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			id: "7EB64CE319FC2267"
+			tasks: [{
+				id: "071E698681F5ADD0"
+				item: "occultism:dimensional_mineshaft"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.5d
+		}
+		{
+			id: "0EB61EC2F984B72C"
+			tasks: [{
+				id: "3431BA9D66270AF3"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			id: "12112152CF2317C2"
+			tasks: [{
+				id: "21F0D61354667CAF"
+				item: "occultism:otherworld_log"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			id: "3662063930595638"
+			tasks: [{
+				id: "180444BADED815AD"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+	]
+	title: "Occultism"
+}

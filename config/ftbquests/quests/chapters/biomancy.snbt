@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomancy"
+	group: "2849284214DF0BB2"
+	icon: "biomancy:flesh_bits"
+	id: "43C14CB6ACB422D5"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "Biomancy"
+}

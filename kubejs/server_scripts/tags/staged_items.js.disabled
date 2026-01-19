@@ -2,4 +2,10 @@ ServerEvents.tags('item', event => {
     stageTwoItems.forEach(itemID => {
         event.add('kubejs:stage_two_items', itemID)
     })
-});
+    terracotta_unlock.forEach(itemID => {
+        event.add('kubejs:stage_terracotta_items', itemID)
+    })
+    stone_unlock_0.forEach(itemID => {
+        event.add('kubejs:stage_stone_0_items', itemID)
+    })
+})

@@ -30,12 +30,9 @@
   ],
   "fullSetBonuses": [
     {
-      "type": "attribute",
-      "name": "minecraft:generic.armor",
-      "value": 1.0,
-      "modifierUUID": "e767d782-7b6f-476c-bd34-b3c742281b26",
-      "description": "+1 Armor",
-      "attributeOperation": 0
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0
     },
     {
       "type": "attribute",

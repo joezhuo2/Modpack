@@ -24,20 +24,14 @@ const items = [
     {id: 'sand_clump', name: "Sand Clump"},
 
     // {id: 'bait_blaze', name: "Blaze Bait"},
-    
-    // {id: 'dust_brass', name: "Brass Dust"},
-    // {id: 'skies_dust', name: "Dust of the Skies"},
 
-    // {id: 'construction_paste', name: "Construction Paste"},
-    // {id: 'dense_construction_paste', name: "Dense Construction Paste"},
-    // {id: 'livingrock_dust', name: "Livingrock Dust"},
+    {id: 'construction_paste', name: "Construction Paste"},
+    {id: 'dense_construction_paste', name: "Dense Construction Paste"},
 
     {id: 'mud_ball', name: "Ball of Mud"},
     {id: 'mud_brick', name: "Mud Brick"},
 
-    // {id: 'blank_rune', name: "Blank Rune"},
-
-    // {id: 'quantum_wire', name: "QV Wire"},
+    {id: 'blank_rune', name: "Blank Rune"},
 
     // {id: 'wonder_chunk', name: 'Wonder Chunk'},
     
@@ -53,7 +47,19 @@ const items = [
     {id: 'salt', name: 'Salt Dust'},
     {id: 'plant_fiber', name: 'Plant Fiber'},
     {id: 'cut_leather', name: 'Cut Leather'},
-    {id: 'handle', name: 'Simple Handle'}
+    {id: 'handle', name: 'Rough Handle'},
+    {id: 'handle_10', name: 'Simple Handle'},
+    {id: 'cooling_components', name: 'Machine Cooling Components'},
+    {id: 'heating_components', name: 'Machine Heating Components'},
+    {id: 'molten_remains', name: 'Molten Remains'},
+    {id: 'kiln_brick', name: 'Kiln Brick'},
+    {id: 'kiln_blend', name: 'Kiln Blend'},
+    {id: 'blast_brick', name: 'Blast Brick'},
+    {id: 'blast_blend', name: 'Blast Blend'},
+    {id: 'coke_brick', name: 'Coke Brick'},
+    {id: 'coke_blend', name: 'Coke Blend'},
+    {id: 'explosive_fuse', name: 'Explosive Fuse'},
+    {id: 'rough_andesite_alloy', name: 'Rough Andesite Alloy'},
 ]
 
 StartupEvents.registry('item', event => {

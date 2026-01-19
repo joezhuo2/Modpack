@@ -1,6 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "45411B44422BC11F", title: "Progression" }
+		{ id: "45411B44422BC11F", title: "Gates" }
+		{ id: "2F688CAF980A2EE4", title: "Technology" }
+		{ id: "2849284214DF0BB2", title: "Magic" }
+		{ id: "639F1BAEFB3D9BE5", title: "Dimensions" }
 		{ id: "00EC63AFE5312D99", title: "Challenges" }
 	]
 }

@@ -1,0 +1,50 @@
+{
+  "armorSetName": "neptunium",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aquaculture:neptunium_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aquaculture:neptunium_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aquaculture:neptunium_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aquaculture:neptunium_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "combatroll:count",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "description": "+1 Roll Charge"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.60,
+      "attributeOperation": 2,
+      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "description": "+60% Swim Speed"
+    },
+    {
+      "type": "attribute",
+      "name": "traveloptics:aqua_spell_power",
+      "value": 0.4,
+      "attributeOperation": 2,
+      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "description": "+40% Water Spell Power"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

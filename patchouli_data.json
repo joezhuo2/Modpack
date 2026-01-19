@@ -44,7 +44,34 @@
         "naturesaura:items/eye",
         "naturesaura:creating/on_generating",
         "naturesaura:creating/ancient_tree",
-        "naturesaura:intro/intro"
+        "naturesaura:intro/intro",
+        "naturesaura:practices/offering",
+        "naturesaura:using/furnace_heater",
+        "naturesaura:creating/potion_generator",
+        "naturesaura:devices/aura_detector",
+        "naturesaura:creating/flower_generator",
+        "naturesaura:using/placer",
+        "naturesaura:using/hopper_upgrade",
+        "naturesaura:using/field_creator",
+        "naturesaura:creating/oak_generator",
+        "naturesaura:devices/pickup_stopper",
+        "naturesaura:using/spawn_lamp",
+        "naturesaura:creating/animal_generator",
+        "naturesaura:creating/end_flower",
+        "naturesaura:devices/grated_chute",
+        "naturesaura:using/animal_spawner",
+        "naturesaura:devices/auto_crafter",
+        "naturesaura:using/altar",
+        "naturesaura:creating/moss_generator",
+        "naturesaura:using/time_changer",
+        "naturesaura:creating/generator_limit_remover",
+        "naturesaura:using/ender_crate",
+        "naturesaura:devices/powder_placer",
+        "naturesaura:creating/firework_generator",
+        "naturesaura:using/dimension_rail",
+        "naturesaura:devices/animal_container",
+        "naturesaura:using/blast_furnace_booster",
+        "naturesaura:using/snow_creator"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -309,7 +336,8 @@
         "botania:functional_flowers/solegnolia",
         "botania:tools/thorn_chakram",
         "botania:mythic_botany/functional",
-        "botania:tools/cobble_rod"
+        "botania:tools/cobble_rod",
+        "botania:botanicadds/misc/terra_catalyst"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -317,7 +345,9 @@
     "hexalia:verdant_grimoire": {
       "viewedEntries": [
         "hexalia:core_mechanics/celestial_infusion",
-        "hexalia:core_mechanics/natures_ritual"
+        "hexalia:core_mechanics/natures_ritual",
+        "hexalia:content/weapons_combat_tools",
+        "hexalia:entities/silk_moth"
       ],
       "bookmarks": [],
       "completedManualQuests": []

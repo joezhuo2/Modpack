@@ -344,64 +344,6 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["04F33C554DD47A3D"]
-			id: "399723C29FE148DA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "27D265B9973ABDDA"
-				table_id: 7868780761192702625L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "102516556615DB3D"
-					item: {
-						Count: 1
-						id: "ceramics:clay_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "683633F757906C65"
-					item: {
-						Count: 1
-						id: "ceramics:clay_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5CB2D0978C19735E"
-					item: {
-						Count: 1
-						id: "ceramics:clay_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5C3ACDA3B359151F"
-					item: {
-						Count: 1
-						id: "ceramics:clay_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: -9.5d
-		}
-		{
 			dependencies: ["5312937642BA4A52"]
 			id: "7FF5580377A51A68"
 			tasks: [{
@@ -890,7 +832,7 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: -11.0d
 		}
 		{
@@ -911,7 +853,7 @@
 				item: "mekanism:salt"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: -12.0d
 		}
 		{
@@ -1246,75 +1188,6 @@
 			y: -15.0d
 		}
 		{
-			dependencies: ["6B8BF67ED39FB5C8"]
-			id: "6534A4EB25B57056"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2AC63D1068231715"
-				table_id: 7868780761192702625L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "7A2C87F49553C196"
-					item: {
-						Count: 1
-						id: "minecraft:leather_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5465DEEA64BA1A45"
-					item: {
-						Count: 1
-						id: "minecraft:leather_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4BBDF4EFF9FC174F"
-					item: {
-						Count: 1
-						id: "minecraft:leather_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0077981D6082849C"
-					item: {
-						Count: 1
-						id: "minecraft:leather_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2910F9105987BA0C"
-					item: {
-						Count: 1
-						id: "aether:leather_gloves"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: -15.0d
-		}
-		{
 			id: "43F8B420813DD1BC"
 			tasks: [{
 				id: "1DA295DFF868CABC"
@@ -1392,7 +1265,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -17.0d
+			y: -16.5d
 		}
 		{
 			dependencies: [
@@ -1550,7 +1423,7 @@
 				item: "ceramics:unfired_cistern"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -14.0d
 		}
 		{
@@ -1573,7 +1446,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -14.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["0B1A5DB7D640BBF9"]
@@ -1583,8 +1456,8 @@
 				item: "supplementaries:flower_box"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -13.0d
+			x: -3.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["72A684A416938808"]
@@ -1611,7 +1484,7 @@
 				item: "ceramics:unfired_faucet"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -14.0d
 		}
 		{
@@ -1699,8 +1572,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -16.0d
+			x: 8.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [

@@ -330,17 +330,6 @@
         "value": 1024
       }
     },
-    "vampirism:dbno_duration": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2147483647,
-        "value": 2147483647
-      }
-    },
     "gtbcs_spell_lib:spell_damage": {
       "enabled": false,
       "min": {
@@ -350,6 +339,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "vampirism:dbno_duration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "goety:storm_potency": {
@@ -495,17 +495,6 @@
         "value": 1000000
       }
     },
-    "vampirism:blood_exhaustion": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
     "malum:scythe_proficiency": {
       "enabled": false,
       "min": {
@@ -515,6 +504,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "vampirism:blood_exhaustion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "obscure_api:accuracy": {

@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "2F688CAF980A2EE4"
+	icon: "thermal:copper_gear"
+	id: "68635339F165A7AE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "63831B55C1476C99"
+			tasks: [{
+				id: "3D0086C2DF627A91"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "76141163814BB5A3"
+			tasks: [{
+				id: "570AF9835B99B92B"
+				item: "immersiveengineering:hemp_fiber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "25D517E26D397ED8"
+			tasks: [{
+				id: "2CB6FA48478DDF8F"
+				item: "kubejs:kiln_blend"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	title: "Immersive Engineering"
+}

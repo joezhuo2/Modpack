@@ -18,5 +18,6 @@ const materialsList = [
     {id: 'ancient_wood', raw_resource: 'naturesaura:ancient_log'},
     {id: 'smooth_stone', raw_resource: 'minecraft:smooth_stone'},
     {id: 'dripstone', raw_resource: 'minecraft:dripstone_block'},
+    {id: 'kivi', raw_resource: 'xycraft_world:kivi'},
 ]
 global.materialsList = materialsList

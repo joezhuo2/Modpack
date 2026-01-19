@@ -1,0 +1,36 @@
+{
+  "armorSetName": "gingerbread",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "alexscaves:gingerbread_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "alexscaves:gingerbread_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "alexscaves:gingerbread_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "alexscaves:gingerbread_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "effect": "minecraft:speed",
+      "value": 0.0
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "effect": "alexscaves:sugar_rush",
+      "value": 0.0
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

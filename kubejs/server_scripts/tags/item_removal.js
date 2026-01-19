@@ -97,18 +97,20 @@ const itemsToRemove = [
     'untamedwilds:hide_black',
     'untamedwilds:hide_ashen',
 
-    'iceandfire:armor_copper_metal_helmet',
-    'iceandfire:armor_copper_metal_chestplate',
-    'iceandfire:armor_copper_metal_leggings',
-    'iceandfire:armor_copper_metal_boots',
-    'iceandfire:copper_sword',
-    'iceandfire:copper_pickaxe',
-    'iceandfire:copper_axe',
-    'iceandfire:copper_shovel',
-    'iceandfire:copper_hoe',
-
     'cb_microblocks:stone_rod',
-    'createaddition:copper_rod'
+    'createaddition:copper_rod',
+
+    'embers:copper_nugget',
+    'immersiveengineering:nugget_copper',
+    'pneumaticcraft:copper_nugget',
+    'thermal:copper_nugget',
+    'malum:copper_nugget',
+    'iceandfire:copper_nugget',
+
+    'mekanism:tin_nugget',
+
+    'embers:copper_plate',
+    'immersiveengineering:plate_copper',
 ]
 
 ServerEvents.tags('item', event => {

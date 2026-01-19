@@ -17,6 +17,12 @@
     "itemKey": "minecraft:chainmail_boots",
     "mustBeEmpty": false
   },
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:chainmail_gloves"
+    }
+      
+  ],
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
     {
@@ -48,10 +54,10 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor_toughness",
-      "value": 2.0,
+      "value": 3.0,
       "attributeOperation": 0,
       "modifierUUID": "8375c4a2-54bd-4420-af3e-0266ed360e95",
-      "description": "+2 Armor Toughness"
+      "description": "+3 Armor Toughness"
     },
     {
         "type": "effect",

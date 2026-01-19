@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
         }
     )
     // removing crafting bone meal from bones
-    event.remove({output: 'bone_meal', type: 'minecraft:crafting_shapeless'})
+    // event.remove({output: 'bone_meal', type: 'minecraft:crafting_shapeless'})
     // utility flint recipe
     event.shaped(Item.of('flint', 1), 
         [
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
         }
     )
     // sugar
-    event.remove({output: 'sugar', type: 'minecraft:crafting_shapeless'})
+    // event.remove({output: 'sugar', type: 'minecraft:crafting_shapeless'})
     cut(
         event,
         { item: 'sugar_cane' },
@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
         'fluid'
     )
     // ash brick
-    event.remove({output: 'supplementaries:ash_brick', type: 'minecraft:smelting'})
+    // event.remove({output: 'supplementaries:ash_brick', type: 'minecraft:smelting'})
     event.shaped(Item.of('supplementaries:ash_brick', 3),
         [
             'ABA',
@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
     // stone
     event.campfireCooking('stone', 'cobblestone', 0.4, 1800)
     // brick
-    event.remove({output: 'brick', type: 'minecraft:smelting'})
+    // event.remove({output: 'brick', type: 'minecraft:smelting'})
     transform(
         event,
         'minecraft:lava',

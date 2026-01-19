@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "goety"
+	group: "2849284214DF0BB2"
+	id: "12DADB95D5A6E20B"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Goety"
+}

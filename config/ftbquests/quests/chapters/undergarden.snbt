@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "undergarden"
+	group: "639F1BAEFB3D9BE5"
+	icon: "undergarden:catalyst"
+	id: "07E88AAD35A2F344"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Undergarden"
+}

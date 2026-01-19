@@ -1,0 +1,39 @@
+{
+  "armorSetName": "sorcerer",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ars_nouveau:sorcerer_hood",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ars_nouveau:sorcerer_robes",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ars_nouveau:sorcerer_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ars_nouveau:sorcerer_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.1,
+      "attributeOperation": 2,
+      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "description": "+10% Spell Power"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "ars_nouveau:mana_regen",
+      "value": 0.0
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

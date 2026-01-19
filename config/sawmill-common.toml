@@ -13,7 +13,7 @@
 	#List of Mod ids you want to completely exclude from sawmill recipes. All recipes from these mods will be ignored. Use to remove mods with many recipes as sawmill can display at most 255 at onceFor more fine control use the sawmill:blacklist item tag
 	mods_blacklist = ["framedblocks"]
 	#Makes so planks recipes can only craft items with 1 input plank. Disable to allow more recipes
-	limit_planks_input_to_one = true
+	limit_planks_input_to_one = false
 	#Makes Sawmill GUI slightly wider
 	wider_gui = false
 	#Determines if GUI will have search bar or not. Automatic only enables the bar statically when you have enough mods that add wood recipes. Dynamic changes the gui dynamically depending on how many recipe its displaying

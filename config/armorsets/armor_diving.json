@@ -29,7 +29,16 @@
       "thermal:diving_boots"
     ]
   },
-  "partialBonusRequiredAmount": 2,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:flippers",
+      "mixAndMatch": [
+        "confluence:flipper",
+        "confluence:frog_flipper"
+      ]
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
   "partialSetBonuses": [
     {
         "type": "effect",
@@ -47,12 +56,9 @@
       "description": "+2 Cold Damage"
     },
     {
-      "type": "attribute",
-      "name": "attributeslib:dodge_chance",
-      "value": 0.15,
-      "attributeOperation": 0,
-      "modifierUUID": "34eacc98-5427-4943-ae4b-df33463a880c",
-      "description": "+15% Dodge Chance"
+        "type": "effect",
+        "name": "minecraft:water_breathing",
+        "value": 0
     }
   ],
   "hideGeneratedTooltip": false

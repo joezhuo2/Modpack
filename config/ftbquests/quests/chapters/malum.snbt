@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "malum"
+	group: "2849284214DF0BB2"
+	icon: "malum:cluster_of_brilliance"
+	id: "24778A4546E27465"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Malum"
+}

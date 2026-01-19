@@ -14,7 +14,7 @@
 #Plains
 [plains]
 	#Decides if Foxes should attack Squirrels.
-	replaceAzaleaTree = true
+	foxesAttackSquirrels = true
 
 #Lush Caves Update
 [lush_caves]

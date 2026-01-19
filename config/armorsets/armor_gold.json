@@ -17,30 +17,52 @@
     "itemKey": "minecraft:golden_boots",
     "mustBeEmpty": false
   },
-  "partialBonusRequiredAmount": 2,
-  "partialSetBonuses": [
+  "additionalSetPieces": [
     {
-      "type": "attribute",
-      "name": "minecraft:generic.max_health",
-      "value": 2.0,
-      "attributeOperation": 0,
-      "modifierUUID": "215f4ce0-bc94-4726-985b-5c9cb577a715",
-      "description": "+2 Max Health"
+      "itemKey": "artifacts:golden_hook"
+    },
+    {
+      "itemKey": "aether:golden_gloves"
+    },
+    {
+      "itemKey": "aether:golden_ring"
+    },
+    {
+      "itemKey": "aether:golden_pendant",
+      "mixAndMatch": [
+        "iceandfire_curios:gold_amulet"
+      ]
     }
   ],
-  "fullSetBonuses": [
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
     {
       "type": "attribute",
       "name": "minecraft:generic.max_health",
       "value": 3.0,
       "attributeOperation": 0,
-      "modifierUUID": "247a06f2-287d-480d-a77a-981470072694",
+      "modifierUUID": "215f4ce0-bc94-4726-985b-5c9cb577a715",
       "description": "+3 Max Health"
     },
     {
       "type": "effect",
       "name": "minecraft:regeneration",
       "value": 0.0
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.3,
+      "attributeOperation": 2,
+      "modifierUUID": "247a06f2-287d-480d-a77a-981470072694",
+      "description": "+30% Max Health"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:regeneration",
+      "value": 1.0
     }
   ],
   "hideGeneratedTooltip": false
