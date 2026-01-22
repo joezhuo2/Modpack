@@ -36,7 +36,7 @@
       "name": "attributeslib:armor_pierce",
       "value": 5.0,
       "attributeOperation": 0,
-      "modifierUUID": "0e4ab281-3b4d-483e-b7b6-fe32cabac2f2",
+      "modifierUUID": "daeae118-55a9-4396-b6d4-4572d89a5214",
       "description": "+5 Armor Pierce"
     },
     {
@@ -44,7 +44,7 @@
       "name": "attributeslib:crit_damage",
       "value": 0.2,
       "attributeOperation": 2,
-      "modifierUUID": "a2a79852-37dc-4816-a25c-a2220c355955",
+      "modifierUUID": "62159c19-f045-4312-a1f8-0e1726176e95",
       "description": "+20% Increased Crit Damage"
     }
   ],

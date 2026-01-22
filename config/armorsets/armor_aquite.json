@@ -1,0 +1,55 @@
+{
+  "armorSetName": "aquite",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "blue_skies:aquite_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "blue_skies:aquite_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "blue_skies:aquite_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "blue_skies:aquite_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.1,
+      "attributeOperation": 2,
+      "modifierUUID": "21d516b5-3119-4c11-a19a-48ed0539e092",
+      "description": "+10% Spell Power"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "ars_nouveau:mana_regen_potion",
+      "value": 0.0
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:max_mana",
+      "value": 200.0,
+      "attributeOperation": 0,
+      "modifierUUID": "a9bef430-a3db-459f-a5d0-17d639cea28d",
+      "description": "+200 Max Mana"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:crit_chance",
+      "value": 0.15,
+      "attributeOperation": 2,
+      "modifierUUID": "d6d530f7-490d-4a8e-a043-cf877f2ecb6b",
+      "description": "+15% Crit Chance"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

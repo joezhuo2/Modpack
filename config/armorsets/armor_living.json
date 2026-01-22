@@ -24,7 +24,7 @@
       "name": "irons_spellbooks:blood_spell_power",
       "value": 0.15,
       "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "modifierUUID": "417493bc-485c-41e2-8990-04342f3e07bf",
       "description": "+15% Blood Spell Power"
     }
   ],
@@ -39,7 +39,7 @@
       "name": "attributeslib:crit_chance",
       "value": 0.15,
       "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "0e8208cf-78ed-46bd-88a8-12136be35a2f",
       "description": "+15% Crit Chance"
     },
     {
@@ -47,7 +47,7 @@
       "name": "attributeslib:life_steal",
       "value": 0.1,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "eee90ad6-6b07-4911-8a6a-def9d85fdaf8",
       "description": "+10% Life Steal"
     }
   ],

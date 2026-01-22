@@ -21,14 +21,14 @@
   "partialSetBonuses": [
     {
       "type": "effect",
-      "effect": "minecraft:speed",
+      "name": "minecraft:speed",
       "value": 0.0
     }
   ],
   "fullSetBonuses": [
     {
       "type": "effect",
-      "effect": "alexscaves:sugar_rush",
+      "name": "alexscaves:sugar_rush",
       "value": 0.0
     }
   ],

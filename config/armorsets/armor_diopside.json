@@ -1,0 +1,63 @@
+{
+  "armorSetName": "diopside",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "blue_skies:diopside_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "blue_skies:diopside_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "blue_skies:diopside_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "blue_skies:diopside_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_damage",
+      "value": 0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "99392bee-3571-4813-adc0-5d6959f63635",
+      "description": "+20% Arrow Damage"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "occultism:double_jump",
+      "value": 0.0
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_damage",
+      "value": 0.4,
+      "attributeOperation": 2,
+      "modifierUUID": "f7c234e0-a88b-451f-a601-a82fe692bb37",
+      "description": "+40% Arrow Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:armor_shred",
+      "value": 0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "51bfcf79-4117-4386-9dec-085c990941be",
+      "description": "+20% Armor Shred"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_velocity",
+      "value": -0.3,
+      "attributeOperation": 2,
+      "modifierUUID": "e6f4e81d-9b4c-4f57-976a-572c0606459c",
+      "description": "-30% Arrow Velocity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

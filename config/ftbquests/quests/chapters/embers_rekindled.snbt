@@ -7,6 +7,106 @@
 	id: "7343B2C784AED57B"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "0E63D0D2B4B0C679"
+			tasks: [{
+				id: "29D2EB524EF22BD6"
+				item: "embers:caminite_blend"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "02744D6C4DB9766A"
+			tasks: [{
+				id: "08014963866038CF"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0FC86879F0E89032"
+			tasks: [{
+				id: "302F70DBB564489B"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "49430577F39020B8"
+			tasks: [{
+				id: "1BC756802266AF2F"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "3B500122D0E29355"
+			tasks: [
+				{
+					id: "1462F02506B09038"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+				{
+					id: "72FD372E7B38EAAD"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+				{
+					id: "794A367D98DD6330"
+					item: "embers:beam_cannon"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "09CB06EFB867235B"
+			tasks: [{
+				id: "732F8577DAE32281"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "1CBA35031E33121C"
+			tasks: [{
+				id: "3E0A685C15A1C107"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "2F67B280EA632698"
+			tasks: [
+				{
+					id: "2E84BCEA4698FC23"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "5C5E1519A78028B5"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
 	title: "Embers Rekindled"
 }

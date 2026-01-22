@@ -19,6 +19,7 @@
   },
   "mainHand": {
     "itemKey":"mowziesmobs:spear",
+    "mustBeEmpty": false,
     "mixAndMatch" : [
       "minecraft:wooden_sword",
       "farmersdelight:flint_knife"
@@ -36,7 +37,7 @@
       "name": "minecraft:generic.movement_speed",
       "value": 0.10,
       "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "modifierUUID": "c97a40ce-93c1-4b5b-a08c-0b25493aff6b",
       "description": "+10% Move Speed"
     }
   ],
@@ -46,7 +47,7 @@
       "name": "minecraft:generic.attack_speed",
       "value": 0.30,
       "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "814e871e-2801-4608-83fe-7eabfc16f959",
       "description": "+30% Attack Speed"
     },
     {
@@ -54,7 +55,7 @@
       "name": "minecraft:generic.movement_speed",
       "value": 0.15,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "bef6925d-948d-4cf8-a7f8-964a88d33d90",
       "description": "+15% Move Speed"
     }
   ],

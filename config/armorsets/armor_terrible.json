@@ -1,0 +1,52 @@
+{
+  "armorSetName": "terrible",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aquamirae:terrible_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aquamirae:terrible_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aquamirae:terrible_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aquamirae:terrible_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.15,
+      "modifierUUID": "87a26c74-0b2f-42dd-b34d-e296ba228a85",
+      "description": "+15% Swim Speed",
+      "attributeOperation": 2
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "interactionType": "immunity",
+      "description": "Slowness immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "Weakness immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

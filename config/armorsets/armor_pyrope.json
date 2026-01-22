@@ -21,33 +21,33 @@
   "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "irons_spellbooks:fire_spell_power",
+      "name": "minecraft:generic.attack_damage",
       "value": 0.15,
       "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
-      "description": "+15% Fire Spell Power"
+      "modifierUUID": "c7676dbc-b05a-4b3b-b3fb-dec3691bfa5b",
+      "description": "+15% Attack Damage"
     }
   ],
   "fullSetBonuses": [
     {
       "type": "effect",
-      "name": "minecraft:jump_boost",
-      "value": 5.0
+      "name": "theabyss:firestorm",
+      "value": 0.0
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": 4.0,
+      "value": 16.0,
       "attributeOperation": 0,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
-      "description": "+4 Armor"
+      "modifierUUID": "51cd74eb-4390-4a09-bb17-ea759e021121",
+      "description": "+16 Armor"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
       "value": 0.25,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "bc4c04b3-9aa1-436d-8281-6cb9910c32b7",
       "description": "+25% Attack Speed"
     }
   ],

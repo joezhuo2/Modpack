@@ -25,7 +25,7 @@
       "name": "confluence:aggro",
       "value": -900.0,
       "attributeOperation": 0,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "5705174b-c05e-4107-b8f6-dc8e6750276a",
       "description": "-900 Aggro"
     },
     {
@@ -33,7 +33,7 @@
       "name": "irons_spellbooks:blood_spell_power",
       "value": 0.4,
       "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "e834ee99-9be1-4669-a5eb-69a0df2a5525",
       "description": "+40% Blood Spell Power"
     },
     {

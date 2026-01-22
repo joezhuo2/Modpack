@@ -24,7 +24,7 @@
       "name": "gtbcs_geomancy_plus:geo_spell_power",
       "value": 0.15,
       "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "modifierUUID": "eda88990-08b3-47b6-beb3-57c619d0efd5",
       "description": "+15% Geo Spell Power"
     }
   ],
@@ -39,7 +39,7 @@
       "name": "irons_spellbooks:spell_resist",
       "value": 0.4,
       "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "53ca1717-b82f-48fc-8a63-f07e07cf7e30",
       "description": "+40% Spell Resist"
     },
     {
@@ -47,7 +47,7 @@
       "name": "attributeslib:current_hp_damage",
       "value": 0.05,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "29ac973f-a950-47a0-ad63-86531c375762",
       "description": "+5% Current HP Damage"
     }
   ],

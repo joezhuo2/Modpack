@@ -1,0 +1,49 @@
+{
+  "armorSetName": "jet_suit",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ad_astra:jet_suit_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ad_astra:jet_suit",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ad_astra:jet_suit_pants",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ad_astra:jet_suit_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.25,
+      "attributeOperation": 2,
+      "modifierUUID": "ec46f598-f96d-44f4-80ef-887ce51cf68c",
+      "description": "+25% Move Speed"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:jump_boost",
+      "value": 14.0
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slow_falling",
+      "value": 2.0
+    },
+    {
+      "type": "effect",
+      "name": "occultism:double_jump",
+      "value": 1.0
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

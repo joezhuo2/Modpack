@@ -18,7 +18,8 @@
     "mustBeEmpty": false
   },
   "mainHand": {
-    "itemKey": "create_sa:copper_sword"
+    "itemKey": "create_sa:copper_sword",
+    "mustBeEmpty": false
   },
   "additionalSetPieces": [
     {
@@ -31,7 +32,7 @@
       "type": "attribute",
       "name": "minecraft:generic.movement_speed",
       "value": 0.15,
-      "modifierUUID": "35649d2a-8179-4606-a426-18919ce02bd7",
+      "modifierUUID": "b8094186-ac7b-44f0-a356-e42e8890353b",
       "description": "+15% Movement Speed",
       "attributeOperation": 2
     }
@@ -42,7 +43,7 @@
       "name": "minecraft:generic.armor",
       "value": 3.0,
       "attributeOperation": 0,
-      "modifierUUID": "577e4b14-6898-11f0-a8e8-325096b39f47",
+      "modifierUUID": "05d7aace-da8c-474a-a606-7dface38fa41",
       "description": "+3 Armor"
     },
     {
@@ -50,7 +51,7 @@
       "name": "attributeslib:overheal",
       "value": 0.1,
       "attributeOperation": 0,
-      "modifierUUID": "5d59aa7e-6898-11f0-a73d-325096b39f47",
+      "modifierUUID": "640e6856-1913-4f84-b63b-e95e4978c696",
       "description": "+10% Overheal"
     }
   ],

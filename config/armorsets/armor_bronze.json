@@ -18,7 +18,8 @@
     "mustBeEmpty": false
   },
   "mainHand": {
-    "itemKey": "iceandfire:copper_sword"
+    "itemKey": "iceandfire:copper_sword",
+    "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
@@ -27,7 +28,7 @@
       "name": "minecraft:generic.max_health",
       "value": 2.0,
       "attributeOperation": 0,
-      "modifierUUID": "ed6b096d-f778-46c3-91da-de428eda938f",
+      "modifierUUID": "2d62860d-9620-4c9d-a9f0-99e5a8613218",
       "description": "+2 Max Health"
     }
   ],
@@ -37,7 +38,7 @@
       "name": "attributeslib:life_steal",
       "value": 0.05,
       "attributeOperation": 0,
-      "modifierUUID": "4d179cf6-81c1-4650-b815-48ba0378ea9f",
+      "modifierUUID": "f8c14264-6163-4eb8-ad87-9a2a20416b56",
       "description": "+5% Lifesteal"
     },
     {
@@ -45,7 +46,7 @@
       "name": "minecraft:generic.max_health",
       "value": 4.0,
       "attributeOperation": 0,
-      "modifierUUID": "4c1b9b58-6a44-4af3-88e7-dff1e8d7800a",
+      "modifierUUID": "79151fee-8b01-45db-9545-8b722b1ac376",
       "description": "+4 Max Health"
     }
   ],

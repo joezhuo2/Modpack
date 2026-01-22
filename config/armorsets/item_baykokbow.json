@@ -2,7 +2,8 @@
   "armorSetName": "baykok",
   "performanceMode": true,
   "mainHand": {
-    "itemKey":"totemic:baykok_bow"
+    "itemKey":"totemic:baykok_bow",
+    "mustBeEmpty": false
   },
   "fullSetBonuses": [
     {
@@ -10,7 +11,7 @@
       "name": "attributeslib:draw_speed",
       "value": 0.65,
       "attributeOperation": 2,
-      "modifierUUID": "ca49ee11-b9a4-41c2-939d-804da94a6278",
+      "modifierUUID": "a19478c4-83c4-4b8b-af97-58b22cc3964f",
       "description": "+5650% Draw Speed"
     },
     {
@@ -18,7 +19,7 @@
       "name": "attributeslib:arrow_velocity",
       "value": 0.80,
       "attributeOperation": 2,
-      "modifierUUID": "4ec11c61-4cac-41b8-980a-d8e3822c56bc",
+      "modifierUUID": "0d38a22f-985e-48c9-94b8-f42af09e5834",
       "description": "+80% Arrow Velocity"
     },
     {

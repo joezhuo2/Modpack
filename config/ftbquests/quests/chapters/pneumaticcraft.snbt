@@ -7,6 +7,104 @@
 	id: "0C63EEA600DA9F34"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "1C10EBDD2812806A"
+			tasks: [{
+				id: "2AD5BFC6FC8211B8"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "43EB3E351FDED817"
+			tasks: [
+				{
+					id: "0EE338BE759B4DAD"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "7F78CFB9A263C779"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					id: "1C3ED748E70CE921"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "197B079D7BB0D0E4"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "4A15C6D2AACAF077"
+			tasks: [{
+				id: "4D932B4F9865C49D"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "039C1729128D9E14"
+			tasks: [{
+				id: "5DC29187D5BB08DC"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "7DED72A9C8F1737F"
+			tasks: [{
+				id: "0F44794FFEE0EFBB"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "425E05507D158761"
+			tasks: [{
+				id: "1DD1472801CF5D6C"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "3F2611A1E989EF2F"
+			tasks: [{
+				id: "23E83A7B31805360"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "392DF354C4C361C5"
+			tasks: [{
+				id: "48C79ABEF6CBBF1C"
+				item: "pneumaticcraft:assembly_drill"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+	]
 	title: "PneumaticCraft"
 }

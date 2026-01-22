@@ -1,0 +1,60 @@
+{
+  "armorSetName": "netherite_space",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ad_astra:netherite_space_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ad_astra:netherite_space_suit",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ad_astra:netherite_space_pants",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ad_astra:netherite_space_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.10,
+      "attributeOperation": 2,
+      "modifierUUID": "5ce04d48-1cb5-4ae9-b1ca-2ab83b85aa12",
+      "description": "+10% Move Speed"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:jump_boost",
+      "value": 8.0
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slow_falling",
+      "value": 1.0
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:dodge_chance",
+      "value": 0.65,
+      "attributeOperation": 2,
+      "modifierUUID": "c16f82ae-b0ee-4904-87cc-97ddb350f5da",
+      "description": "+65% Dodge Chance"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:distance",
+      "value": 0.35,
+      "attributeOperation": 2,
+      "modifierUUID": "df41b3b3-a988-4184-82bc-234f67cf3e27",
+      "description": "+35% Roll Distance"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

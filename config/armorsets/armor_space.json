@@ -1,0 +1,52 @@
+{
+  "armorSetName": "space",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ad_astra:space_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ad_astra:space_suit",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ad_astra:space_pants",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ad_astra:space_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "4a8735f0-36e3-453e-b976-776c8973d5ec",
+      "description": "+1 Armor"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:jump_boost",
+      "value": 4.0
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slow_falling",
+      "value": 0.0
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:dodge_chance",
+      "value": 0.4,
+      "attributeOperation": 2,
+      "modifierUUID": "f56c29ff-75dd-4b44-9e9e-e0796ca545db",
+      "description": "+40% Dodge Chance"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

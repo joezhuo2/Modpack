@@ -21,29 +21,34 @@
   "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.movement_speed",
-      "value": 0.10,
-      "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
-      "description": "+10% Move Speed"
+      "name": "minecraft:generic.armor",
+      "value": 5.0,
+      "attributeOperation": 0,
+      "modifierUUID": "c82f7f36-cad4-4cd7-84de-41a2403e0c5b",
+      "description": "+5 Armor"
     }
   ],
   "fullSetBonuses": [
     {
-      "type": "attribute",
-      "name": "minecraft:generic.attack_speed",
-      "value": 0.30,
-      "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
-      "description": "+30% Attack Speed"
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 5.0
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.movement_speed",
-      "value": 0.15,
+      "name": "minecraft:generic.attack_damage",
+      "value": -0.8,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
-      "description": "+15% Move Speed"
+      "modifierUUID": "48dc7f4c-e595-4eac-a335-3d6a0f60fc9e",
+      "description": "-80% Attack Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": -0.6,
+      "attributeOperation": 2,
+      "modifierUUID": "b28a8d05-2d88-46e8-aa95-91c7bba973ce",
+      "description": "-60% Spell Power"
     }
   ],
   "hideGeneratedTooltip": false

@@ -7,6 +7,114 @@
 	id: "698312E4300ADA79"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "13789634DFE6781A"
+			tasks: [{
+				id: "7DF0D3D2A567827C"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "4CD0ED0E4C7B8D50"
+			tasks: [{
+				id: "58A9E429E265F36C"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "6F2C4542B53556F1"
+			tasks: [{
+				id: "333D9060BF5EAB52"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "7CB79C91461B7E22"
+			tasks: [{
+				id: "2C4B993F89C2CBC0"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "35D8B07C2CA7EAFF"
+			tasks: [{
+				id: "2BF90DFF5AE97584"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "7C4E5BE0730A5A59"
+			tasks: [{
+				id: "4C8312A262807670"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "2505F99987EA62D7"
+			tasks: [{
+				id: "75EFC37DC0E4F353"
+				item: "industrialforegoing:pink_slime"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "1C5C99C9D35DEA5A"
+			tasks: [{
+				id: "7CD4D06D3D6E6620"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "12D41458FBACF0C0"
+			tasks: [
+				{
+					id: "26893FE99543F068"
+					item: "industrialforegoing:stasis_chamber"
+					type: "item"
+				}
+				{
+					id: "7753A402ABCCA7B3"
+					item: "industrialforegoingsouls:soul_laser_base"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "7B73CD0AE648639C"
+			tasks: [{
+				id: "22F982FAE3750D34"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+	]
 	title: "Industrial Foregoing"
 }

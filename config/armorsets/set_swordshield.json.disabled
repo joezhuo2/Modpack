@@ -3,6 +3,7 @@
   "performanceMode": true,
   "mainHand": {
     "itemKey":"minecraft:wooden_sword",
+    "mustBeEmpty": false,
     "mixAndMatch" : [
       "minecraft:stone_sword",
       "create_sa:copper_sword",
@@ -12,6 +13,7 @@
   },
   "offHand": {
     "itemKey": "spartanshields:copper_basic_shield",
+    "mustBeEmpty": false,
     "mixAndMatch" : [
       "spartanshields:wooden_basic_shield",
       "spartanshields:stone_basic_shield",

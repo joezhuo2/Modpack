@@ -7,6 +7,127 @@
 	id: "164F8B05744CFD7F"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "1669D4C1640FB459"
+			tasks: [{
+				id: "2DA628D02F708762"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "432A7B8F91F0D607"
+			tasks: [{
+				id: "57F002ADB129966D"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "7F01A87A193BA194"
+			tasks: [{
+				id: "41CFCC0A6B9E67E8"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "0BDC0032481E42E3"
+			tasks: [{
+				id: "198E15329E479A5F"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "6F5E1C7353F43A8D"
+			tasks: [{
+				id: "23E45D1311887916"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "2EA4C498FB34065C"
+			tasks: [{
+				id: "2977B2833C69DF9D"
+				item: "thermal_extra:component_assembly"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			id: "335EA2FBE0091617"
+			tasks: [{
+				id: "6888BF6F099E9553"
+				item: "thermal_extra:advanced_refinery"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			id: "6757B683E262F7DE"
+			tasks: [{
+				id: "382CE5B172F002CA"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "1C4437C68B2E1975"
+			tasks: [{
+				id: "6C7C8F3FE95D5972"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "39F5295368062DC3"
+			tasks: [{
+				id: "632AC96AF074353D"
+				item: "thermal:rosin"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			id: "5527D964A5855C0E"
+			tasks: [{
+				id: "7CD9E74050BC79D0"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "654FF8831D4D1D7C"
+			tasks: [{
+				id: "66F06D47C18729CB"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+	]
 	title: "Thermal Series"
 }

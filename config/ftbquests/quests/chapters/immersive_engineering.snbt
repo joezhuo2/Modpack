@@ -29,13 +29,193 @@
 			y: 0.5d
 		}
 		{
-			id: "25D517E26D397ED8"
+			id: "02A294F255654AB2"
 			tasks: [{
-				id: "2CB6FA48478DDF8F"
-				item: "kubejs:kiln_blend"
+				id: "0CC1DF03201760B1"
+				item: "immersiveengineering:alloybrick"
 				type: "item"
 			}]
 			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "2EDB29AE6B2DA728"
+			tasks: [{
+				id: "156BE43C1AF1FAAF"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "7316E3A08E4AB5E0"
+			tasks: [{
+				id: "0802DD31381DBF2C"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			id: "62CBDC74430C8C3D"
+			tasks: [{
+				id: "3CEEB3769564765D"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "21EC27067890DC5B"
+			tasks: [{
+				id: "51C49EE4FB33AA9B"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			id: "327C3D264840C073"
+			tasks: [{
+				id: "75B2A840F064233D"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "12AA36D5C6FB5089"
+			tasks: [{
+				id: "1FAF13A066BE8625"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "bannerpatterns"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "718574BE268B766B"
+			tasks: [{
+				id: "1695A8E87602917C"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "4C1B3D826B60E5E2"
+			tasks: [{
+				id: "19D88D0A0E7FD646"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "bullet"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "688C3B46E3C43F62"
+			tasks: [{
+				id: "47101F9B47E5FF08"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.5d
+		}
+		{
+			id: "5BD0FC7836A73DEE"
+			tasks: [{
+				id: "3D45A093E20F68B3"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			id: "605E5B41ADD7C80A"
+			tasks: [{
+				id: "5EB4E984C0643F59"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			id: "36E311F03D88EA46"
+			tasks: [{
+				id: "7FE912344040E3DD"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			id: "3910EE36E9F22DCE"
+			tasks: [{
+				id: "432EDF87B58AB623"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			id: "2B1FB7BBC4BE17F7"
+			tasks: [{
+				id: "5D8DDF8B1ECA1490"
+				item: "immersivepetroleum:petcoke"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.5d
+		}
+		{
+			id: "7CB028F8A70B1C47"
+			tasks: [{
+				id: "7FBB6D754DAAD2D6"
+				item: "immersiveengineering:ingot_hop_graphite"
+				type: "item"
+			}]
+			x: 21.0d
 			y: 0.5d
 		}
 	]

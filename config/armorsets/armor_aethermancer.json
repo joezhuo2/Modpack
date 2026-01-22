@@ -38,7 +38,7 @@
       "name": "irons_spellbooks:holy_spell_power",
       "value": 0.2,
       "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "modifierUUID": "4726a553-95c4-4020-8b6c-7fc3b6dd5ca1",
       "description": "+20% Holy Spell Power"
     }
   ],
@@ -53,7 +53,7 @@
       "name": "attributeslib:dodge_chance",
       "value": 0.25,
       "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "e2ee140b-ad44-4ec0-99dc-27a083803645",
       "description": "+25% Dodge Chance"
     },
     {
@@ -61,7 +61,7 @@
       "name": "combatroll:recharge",
       "value": 0.6,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "bb3508ef-9948-4d99-b412-03bda7263764",
       "description": "+60% Roll Recharge"
     }
   ],

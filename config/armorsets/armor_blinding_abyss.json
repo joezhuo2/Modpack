@@ -1,0 +1,66 @@
+{
+  "armorSetName": "blinding_abyss",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aquamirae:abyssal_heaume",
+    "mixAndMatch": [
+      "aquamirae:abyssal_tiara"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aquamirae:abyssal_brigantine",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aquamirae:abyssal_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aquamirae:abyssal_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:ender_spell_power",
+      "value": 0.45,
+      "attributeOperation": 2,
+      "modifierUUID": "19db0d05-a545-4f6c-8b22-f425de8010b9",
+      "description": "+45% Ender Spell Power"
+    },
+    {
+      "type": "effect",
+      "name": "traveloptics:abyssal_strike",
+      "value": 5.0
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:life_steal",
+      "value": 0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "9c99e479-f0b6-4583-a27c-ecc8b4fe474a",
+      "description": "+20% Life Steal"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.6,
+      "attributeOperation": 2,
+      "modifierUUID": "82be3568-88ad-46e4-a16f-4c4cf4378a09",
+      "description": "+60% Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 14.0,
+      "attributeOperation": 0,
+      "modifierUUID": "40e569a7-009b-4777-8092-cff405090a9c",
+      "description": "+14 Armor"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

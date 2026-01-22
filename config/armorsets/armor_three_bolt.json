@@ -1,0 +1,58 @@
+{
+  "armorSetName": "three_bolt",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aquamirae:three_bolt_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aquamirae:three_bolt_suit",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aquamirae:three_bolt_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aquamirae:three_bolt_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "traveloptics:aqua_spell_power",
+      "value": 0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "2cfafc97-7ef1-4918-8603-25bab9db1efa",
+      "description": "+20% Water Spell Power"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "858a481d-9acd-4293-bc63-60e484b62e57",
+      "description": "+20% Swim Speed"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4,
+      "attributeOperation": 0,
+      "modifierUUID": "d9c4de02-a40a-48d3-b52d-2fada78217a6",
+      "description": "+4 Armor Toughness"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 6,
+      "attributeOperation": 0,
+      "modifierUUID": "8c094e39-4b17-4a3e-b598-9cacbc8f57b7",
+      "description": "+6 Armor"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

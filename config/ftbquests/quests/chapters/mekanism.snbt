@@ -7,6 +7,147 @@
 	id: "52F4095D01A9960D"
 	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4F8E95745A3A4147"
+			tasks: [{
+				id: "4473EA09A5AA2B47"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "4CE66ED0EC755E92"
+			tasks: [{
+				id: "0326A3720469CED9"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "4591B17162F7BDE1"
+			tasks: [{
+				id: "67B3B254185CDACA"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "6CB87F1B48FC64D8"
+			tasks: [{
+				id: "504E8CF166AB98CC"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			id: "211D88E78BE72B1F"
+			tasks: [{
+				id: "1BFD81BDDE548572"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			id: "29EAFF53002985F7"
+			tasks: [{
+				id: "3A64E0450299914B"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "092468E0A99308A4"
+			tasks: [{
+				id: "1FA14C47C2D7DF33"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "4B4E166022FC342D"
+			tasks: [{
+				id: "7F2E60D55E136C1C"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "4DEC8A6A9AFCEBC6"
+			tasks: [{
+				id: "42ED046CC9A1752D"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "785AE8F2E7372365"
+			tasks: [{
+				id: "024808B73851FBC7"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "4BB80F167DFF020F"
+			tasks: [{
+				id: "01ADFF6389A8A06F"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "5D19F2169CE1C0BA"
+			tasks: [{
+				id: "31925AA6F5B13C7E"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "093FF287A3949C40"
+			tasks: [{
+				id: "59D591D8E72F7C0A"
+				item: "mekanism:sps_casing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "3A6323F5A4381EA7"
+			tasks: [{
+				id: "40092830855C4BFE"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+	]
 	title: "Mekanism"
 }

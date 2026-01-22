@@ -44,7 +44,7 @@
       "name": "traveloptics:aqua_spell_power",
       "value": 0.35,
       "attributeOperation": 2,
-      "modifierUUID": "4f772693-d551-49ee-840a-e1fe83fd548d",
+      "modifierUUID": "b8119f4a-5763-46bb-b97e-8d9a69b2e1a4",
       "description": "+35% Aqua Spell Power"
     }
   ],
@@ -59,7 +59,7 @@
       "name": "forge:swim_speed",
       "value": 0.4,
       "attributeOperation": 2,
-      "modifierUUID": "6e9eeb35-a179-4dfa-a6b5-5a513bbafa25",
+      "modifierUUID": "bc08371d-4309-4bb8-b314-4e082d7bc6fe",
       "description": "+40% Swim Speed"
     },
     {
@@ -67,7 +67,7 @@
       "name": "attributeslib:healing_received",
       "value": 0.5,
       "attributeOperation": 2,
-      "modifierUUID": "316e8342-c7b8-4f1d-b4ae-210fbb89667a",
+      "modifierUUID": "698441a2-0a7e-46aa-8852-071bd26a93cd",
       "description": "+50% Healing Received"
     },
     {
@@ -75,7 +75,7 @@
       "name": "traveloptics:aqua_spell_power",
       "value": 0.6,
       "attributeOperation": 2,
-      "modifierUUID": "f7273e67-4854-4199-aaba-57b7dbbb4e0e",
+      "modifierUUID": "9b351b27-c5d4-4247-97bb-825514713ed5",
       "description": "+60% Aqua Spell Power"
     }
   ],

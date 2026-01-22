@@ -40,6 +40,7 @@
 #2564E6 minecraft:deepslate_tiles
 #A4C760 theabyss:dirt
 #BFC66B totemic:drum
+#DCB1A4 esotericreforging:esoteric_reforging_table
 #914F15 everycomp:fd/ad_astra/glacian_cabinet
 #89B4EE biomesoplenty:fir_log
 #4F1AB7 biomesoplenty:fir_wood
@@ -88,6 +89,7 @@
 #E238E9 supplementaries:sack
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
+#31A081 minecraft:smithing_table
 #7C5BEF occultism:spirit_fire
 #DC3458 minecraft:stone
 #00B23E theabyss:stone

@@ -41,7 +41,7 @@
       "name": "minecraft:generic.max_health",
       "value": 3.0,
       "attributeOperation": 0,
-      "modifierUUID": "215f4ce0-bc94-4726-985b-5c9cb577a715",
+      "modifierUUID": "49ee14df-c2c1-463b-acfa-5ec769886dcf",
       "description": "+3 Max Health"
     },
     {
@@ -56,7 +56,7 @@
       "name": "minecraft:generic.max_health",
       "value": 0.3,
       "attributeOperation": 2,
-      "modifierUUID": "247a06f2-287d-480d-a77a-981470072694",
+      "modifierUUID": "bb40a508-42ed-43c5-9213-3343b93f3421",
       "description": "+30% Max Health"
     },
     {

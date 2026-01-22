@@ -30,7 +30,7 @@
       "name": "minecraft:generic.armor",
       "value": 1.0,
       "attributeOperation": 0,
-      "modifierUUID": "a721369a-e1d6-4dda-9725-165dd1d31814",
+      "modifierUUID": "272af2d6-20e4-4f43-9994-a162359a3d87",
       "description": "+1 Armor"
     },
     {
@@ -38,7 +38,7 @@
       "name": "minecraft:generic.armor_toughness",
       "value": 1.0,
       "attributeOperation": 0,
-      "modifierUUID": "704d54b3-388f-49d4-b3f4-8b946e74fcf4",
+      "modifierUUID": "b68664ac-1614-40dc-a396-164af6e74963",
       "description": "+1 Armor Toughness"
     }
   ],
@@ -48,7 +48,7 @@
       "name": "minecraft:generic.armor",
       "value": 3.0,
       "attributeOperation": 0,
-      "modifierUUID": "e33b0c55-238c-4408-9919-8b18415bde97",
+      "modifierUUID": "83798036-8f03-4299-9841-f44218831967",
       "description": "+4 Armor"
     },
     {
@@ -56,7 +56,7 @@
       "name": "minecraft:generic.armor_toughness",
       "value": 3.0,
       "attributeOperation": 0,
-      "modifierUUID": "8375c4a2-54bd-4420-af3e-0266ed360e95",
+      "modifierUUID": "022c983b-b2d8-4433-882b-3a56837ff7ba",
       "description": "+3 Armor Toughness"
     },
     {

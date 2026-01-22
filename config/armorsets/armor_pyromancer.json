@@ -24,7 +24,7 @@
       "name": "irons_spellbooks:fire_spell_power",
       "value": 0.20,
       "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "modifierUUID": "50d3c2c2-9429-4ddc-8ea5-9619b134b638",
       "description": "+20% Fire Spell Power"
     }
   ],
@@ -39,7 +39,7 @@
       "name": "irons_spellbooks:spell_power",
       "value": 0.30,
       "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "f689d050-a253-4712-9f52-1edcd043ff88",
       "description": "+30% Spell Power"
     },
     {
@@ -47,7 +47,7 @@
       "name": "attributeslib:fire_damage",
       "value": 4,
       "attributeOperation": 0,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "fe9ecb81-5ac7-4b86-8b07-9f204612bf08",
       "description": "+4 Fire Damage"
     }
   ],

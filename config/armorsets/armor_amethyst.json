@@ -1,0 +1,55 @@
+{
+  "armorSetName": "amethyst",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "amethyst_tools:amethyst_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "amethyst_tools:amethyst_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "amethyst_tools:amethyst_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "amethyst_tools:amethyst_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:healing_received",
+      "value": 0.35,
+      "attributeOperation": 2,
+      "modifierUUID": "c63b0809-a53e-4b43-b8f7-bbdb9f8ef614",
+      "description": "+35% Healing Received"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:regeneration",
+      "value": 0.0
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:ender_spell_power",
+      "value": 0.25,
+      "attributeOperation": 2,
+      "modifierUUID": "a3ede57a-b463-441f-9795-177e2f56ca62",
+      "description": "+25% Ender Spell Power"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 12.0,
+      "attributeOperation": 0,
+      "modifierUUID": "cfbc855b-b05f-4ee1-8faf-0884e942f74d",
+      "description": "+12 Max Health"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

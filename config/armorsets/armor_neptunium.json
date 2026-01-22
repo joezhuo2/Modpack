@@ -24,7 +24,7 @@
       "name": "combatroll:count",
       "value": 1.0,
       "attributeOperation": 0,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "modifierUUID": "31353ebe-7ae3-407c-98b2-2e71c755e365",
       "description": "+1 Roll Charge"
     }
   ],
@@ -34,7 +34,7 @@
       "name": "forge:swim_speed",
       "value": 0.60,
       "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "75b04f2c-3f69-415b-b4b1-46cf18bdecdc",
       "description": "+60% Swim Speed"
     },
     {
@@ -42,7 +42,7 @@
       "name": "traveloptics:aqua_spell_power",
       "value": 0.4,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "03a2ab5c-a4b8-4de2-b8e9-df2c805e2893",
       "description": "+40% Water Spell Power"
     }
   ],

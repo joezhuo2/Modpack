@@ -24,7 +24,7 @@
       "name": "cataclysm_spellbooks:technomancy_spell_power",
       "value": 0.15,
       "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "modifierUUID": "309c970d-a032-48e2-af43-3782816481a0",
       "description": "+15% Technomancy Spell Power"
     }
   ],
@@ -39,7 +39,7 @@
       "name": "attributeslib:armor_pierce",
       "value": 6,
       "attributeOperation": 0,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "2cc63856-bdf7-4cb7-acac-241c18e1f24c",
       "description": "+6 Armor Pierce"
     },
     {
@@ -47,7 +47,7 @@
       "name": "attributeslib:experience_gained",
       "value": 0.4,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "e66c3a21-3f74-42c9-82eb-4073d8fb772c",
       "description": "+40% Experience Gained"
     }
   ],

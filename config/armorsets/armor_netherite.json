@@ -36,7 +36,7 @@
       "name": "attributeslib:fire_damage",
       "value": 6.0,
       "attributeOperation": 0,
-      "modifierUUID": "7d519f23-034c-411d-8c20-2fd2d1ff2d14",
+      "modifierUUID": "713e2e40-570d-4c20-9fad-58a4b83e3261",
       "description": "+6 Fire Damage"
     },
     {
@@ -44,7 +44,7 @@
       "name": "minecraft:generic.armor",
       "value": 3.0,
       "attributeOperation": 0,
-      "modifierUUID": "6d0b8a96-0c4b-484f-aee9-fadafd6d9f6d",
+      "modifierUUID": "395ab99e-276d-468a-99c8-de02381165af",
       "description": "+3 Armor"
     }
   ],

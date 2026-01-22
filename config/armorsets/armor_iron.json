@@ -24,7 +24,7 @@
       "name": "minecraft:generic.knockback_resistance",
       "value": 0.2,
       "attributeOperation": 0,
-      "modifierUUID": "bb19fa8f-b802-4082-b6be-98341a7057ad",
+      "modifierUUID": "203ec287-c43a-434d-9bf4-3393c1018967",
       "description": "+20% Knockback Resistance"
     }
   ],
@@ -34,7 +34,7 @@
       "name": "minecraft:generic.armor",
       "value": 3.0,
       "attributeOperation": 0,
-      "modifierUUID": "2ea32739-fc99-49d6-9153-0e60a353f783",
+      "modifierUUID": "1b83ec44-5374-4d1d-b199-15407d1c61ff",
       "description": "+3 Armor"
     },
     {
@@ -42,7 +42,7 @@
       "name": "attributeslib:armor_shred",
       "value": 0.2,
       "attributeOperation": 0,
-      "modifierUUID": "4a9a8ce9-b9b5-41fd-b2c1-b5004261336e",
+      "modifierUUID": "9b89d222-b46a-45d6-b82f-561e7afd3863",
       "description": "+20% Armor Shred"
     },
     {

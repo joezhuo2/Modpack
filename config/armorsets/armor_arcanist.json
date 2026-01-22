@@ -32,7 +32,7 @@
       "name": "irons_spellbooks:cast_time_reduction",
       "value": 0.3,
       "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "modifierUUID": "d62ecf68-c542-405b-b78e-5450c0704647",
       "description": "+30% Cast Time Reduction"
     }
   ],
@@ -42,7 +42,7 @@
       "name": "irons_spellbooks:cooldown_reduction",
       "value": 0.85,
       "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "890e0877-beaf-410f-a3d2-f7ce12083979",
       "description": "+85% Spell Cooldown Reduction"
     },
     {
@@ -50,7 +50,7 @@
       "name": "irons_spellbooks:spell_power",
       "value": -0.35,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "13b6a829-40cf-4239-933c-dc090c062d5c",
       "description": "-35% Spell Power"
     },
     {
@@ -58,7 +58,7 @@
       "name": "minecraft:generic.armor",
       "value": -0.3,
       "attributeOperation": 2,
-      "modifierUUID": "3a1c5e2e-6f4b-4d2e-9f7a-2c3e4b5d6e7f",
+      "modifierUUID": "d1f45037-69bf-46be-84f7-04f5394e26b5",
       "description": "-30% Armor"
     }
   ],

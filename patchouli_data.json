@@ -357,6 +357,14 @@
       "bookmarks": [],
       "completedManualQuests": []
     },
+    "pneumaticcraft:book": {
+      "viewedEntries": [
+        "pneumaticcraft:base_concepts/getting_started",
+        "pneumaticcraft:manufacturing/pressure_chamber"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "ars_nouveau:worn_notebook": {
       "viewedEntries": [
         "ars_nouveau:getting_started/world_generation",

@@ -31,7 +31,7 @@
       "name": "irons_spellbooks:summon_damage",
       "value": 0.40,
       "attributeOperation": 2,
-      "modifierUUID": "fbde8c0e-12a7-4a8d-af9f-5f626d4f870b",
+      "modifierUUID": "b4803b19-263e-4d2a-91e5-b54c3d678c80",
       "description": "+40% Summon Damage"
     },
     {
@@ -39,7 +39,7 @@
       "name": "irons_spellbooks:spell_power",
       "value": -0.25,
       "attributeOperation": 2,
-      "modifierUUID": "ebd6d3bd-f9bf-4f79-967e-ae06bd103b2f",
+      "modifierUUID": "71eba584-0c86-4d88-aa2a-20a2cba513a8",
       "description": "-25% Spell Power"
     },
     {
@@ -47,7 +47,7 @@
       "name": "irons_spellbooks:cast_time_reduction",
       "value": 0.4,
       "attributeOperation": 2,
-      "modifierUUID": "910b2848-04bf-4f53-bbfe-2f7951893450",
+      "modifierUUID": "f37032ba-dee9-4215-9d70-66ae9d48b3da",
       "description": "+40% Cast Time Reduction"
     }
   ],

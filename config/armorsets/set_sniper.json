@@ -3,6 +3,7 @@
   "performanceMode": true,
   "mainHand": {
     "itemKey":"minecraft:bow",
+    "mustBeEmpty": false,
     "mixAndMatch" : [
       "botania:livingwood_bow", 
       "mysticalagriculture:supremium_bow", 
@@ -62,7 +63,7 @@
       "name": "attributeslib:arrow_velocity",
       "value": 0.30,
       "attributeOperation": 2,
-      "modifierUUID": "7ba4b401-63a7-402f-8a19-132c82fe34ad",
+      "modifierUUID": "bca75df5-5807-41a6-ab55-70919b525301",
       "description": "+30% Arrow Speed"
     },
     {
@@ -70,7 +71,7 @@
       "name": "attributeslib:crit_chance",
       "value": 0.05,
       "attributeOperation": 0,
-      "modifierUUID": "a63c6a7c-f96c-43fe-aefa-e4ca63d56966",
+      "modifierUUID": "468899dc-c382-477e-8a65-08f841688b18",
       "description": "+5% Crit Chance"
     },
     {
@@ -78,7 +79,7 @@
       "name": "attributeslib:draw_speed",
       "value": -0.2,
       "attributeOperation": 2,
-      "modifierUUID": "ccae92bb-ed46-46e6-9b4c-98cb0f2f3c76",
+      "modifierUUID": "a30984d7-695d-4828-85f3-23e362c2f3ae",
       "description": "-20% Draw Speed"
     }
   ],
