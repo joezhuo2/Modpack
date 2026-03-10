@@ -21,6 +21,12 @@
     "itemKey": "create_sa:copper_sword",
     "mustBeEmpty": false
   },
+  "offHand": {
+    "itemKey": "spartanshields:copper_basic_shield",
+    "mixAndMatch": [
+      "spartanshields:copper_tower_shield"
+    ]
+  },
   "additionalSetPieces": [
     {
       "itemKey": "iceandfire_curios:copper_amulet"
@@ -41,10 +47,10 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": 3.0,
+      "value": 2.0,
       "attributeOperation": 0,
       "modifierUUID": "05d7aace-da8c-474a-a606-7dface38fa41",
-      "description": "+3 Armor"
+      "description": "+2 Armor"
     },
     {
       "type": "attribute",

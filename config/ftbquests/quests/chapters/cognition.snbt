@@ -5,8 +5,83 @@
 	group: "2F688CAF980A2EE4"
 	icon: "experienceobelisk:cognitive_amalgam"
 	id: "0B00F5E076F85545"
-	order_index: 8
+	order_index: 11
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "54D229DA4F853DC6"
+			tasks: [{
+				id: "07D6628983902E76"
+				item: {
+					Count: 1
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "41743FF8964E24F6"
+			tasks: [{
+				id: "6C3142020906CD35"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "389826F3DD08FF3D"
+			tasks: [{
+				id: "7CFA6D1F315634A4"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "7DE99856A8A93E59"
+			tasks: [{
+				id: "2173DABAD4A599E3"
+				item: "experienceobelisk:cognitive_amalgam"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			id: "58D4C727D0AA0913"
+			tasks: [{
+				id: "3C14B2D5934C12FB"
+				item: "experienceobelisk:cognitive_crystal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "5380A20960D1892E"
+			tasks: [{
+				id: "222F6AA608FA11E5"
+				item: "experienceobelisk:calcarine_matrix"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "573A64EFD65C53F3"
+			tasks: [{
+				id: "61A1E342BB4E5FBD"
+				item: "experienceobelisk:primordial_assembly"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
 	title: "Cognition"
 }

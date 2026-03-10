@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pre_otherside"
+	group: "0BE42B5AD6E4C6EE"
+	icon: "malum:block_of_soul_stained_steel"
+	id: "0A366F9991DFD0F2"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	title: "Pre Otherside"
+}

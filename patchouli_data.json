@@ -347,13 +347,22 @@
         "hexalia:core_mechanics/celestial_infusion",
         "hexalia:core_mechanics/natures_ritual",
         "hexalia:content/weapons_combat_tools",
-        "hexalia:entities/silk_moth"
+        "hexalia:entities/silk_moth",
+        "hexalia:core_mechanics/brewing",
+        "hexalia:content/brews",
+        "hexalia:core_mechanics/censer",
+        "hexalia:core_mechanics/mutation",
+        "hexalia:core_mechanics/enchanted_plants",
+        "hexalia:content/tools",
+        "hexalia:content/structures"
       ],
       "bookmarks": [],
       "completedManualQuests": []
     },
     "theabyss:the_abyss": {
-      "viewedEntries": [],
+      "viewedEntries": [
+        "theabyss:getting_started/portal"
+      ],
       "bookmarks": [],
       "completedManualQuests": []
     },
@@ -361,6 +370,13 @@
       "viewedEntries": [
         "pneumaticcraft:base_concepts/getting_started",
         "pneumaticcraft:manufacturing/pressure_chamber"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "psi:encyclopaedia_psionica": {
+      "viewedEntries": [
+        "psi:basics/tutorial_1"
       ],
       "bookmarks": [],
       "completedManualQuests": []

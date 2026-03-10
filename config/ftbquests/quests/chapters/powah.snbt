@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "2F688CAF980A2EE4"
+	icon: "powah:crystal_nitro"
+	id: "487B8EA4169A4745"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "16B13E1664C06C3C"
+			tasks: [{
+				id: "738D5B041CEE48CF"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "675E40F8E0DA6E39"
+			tasks: [{
+				id: "356312307C73056E"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "6A4522C197673F70"
+			tasks: [{
+				id: "65A324495F893198"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "24A09E439F7FF86B"
+			tasks: [{
+				id: "2C9A802253619BD0"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "11C73F3853DAC2C9"
+			tasks: [{
+				id: "6B169D6E20C5BB9E"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "15388D6686F3AF04"
+			tasks: [{
+				id: "1CBAF0043DAFBF4D"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+	]
+	title: "Powah"
+}

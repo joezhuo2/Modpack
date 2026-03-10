@@ -417,4 +417,7 @@
 	foodWolf = "minecraft:bone"
 	#Disable the Dingot pet (default:false)
 	disableDingot = false
+	#Chunks Biome Pet will search through (default:96)
+	#Range: 1 ~ 225
+	dingotSearchChunks = 96
 

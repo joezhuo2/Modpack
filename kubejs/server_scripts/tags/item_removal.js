@@ -111,6 +111,15 @@ const itemsToRemove = [
 
     'embers:copper_plate',
     'immersiveengineering:plate_copper',
+    
+    'stone_shovel',
+    'stone_axe',
+    'stone_pickaxe',
+    'stone_sword',
+    'stone_hoe',
+
+    'aquaculture:wooden_fillet_knife',
+    'aquaculture:stone_fillet_knife'
 ]
 
 ServerEvents.tags('item', event => {

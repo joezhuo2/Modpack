@@ -81,6 +81,7 @@ const mat_id_blacklist = [
     'plate_terracotta',
     'wire_ancient_wood',
     'plate_tin',
+    'plate_caminite',
 
     'gear_tin',
     'gear_kivi',

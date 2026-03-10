@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "ender_eye_hunt"
+	group: "0BE42B5AD6E4C6EE"
+	icon: "minecraft:ender_eye"
+	id: "14C3F45A380BF144"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ender Eye Hunt"
+}

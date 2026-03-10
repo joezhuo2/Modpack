@@ -39,6 +39,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:plates/clay', 'ceramics:unfired_clay_plate')
     event.add('forge:plates/terracotta', 'ceramics:clay_plate')
     event.remove('forge:plates/brick', 'ceramics:clay_plate')
+    event.add('forge:plates/caminite', 'embers:caminite_plate')
+    event.add('forge:plates/raw_caminite', 'embers:raw_caminite_plate')
 
     // bark mushroom
     event.add('kubejs:bark_mushrooms', 'projectvibrantjourneys:light_brown_bark_mushroom')

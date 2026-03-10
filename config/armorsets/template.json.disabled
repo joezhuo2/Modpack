@@ -1,0 +1,62 @@
+{
+  "armorSetName": "xxxxxxxxxxxxxxxxxxxxxx",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
+    "mustBeEmpty": false
+  },
+  "offHand": {
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
+    "mixAndMatch": [
+      "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx"
+    ]
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx"
+    }
+  ],
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
+      "value": 0.0,
+      "attributeOperation": 0,
+      "modifierUUID": "UUID-GOES-HERE-0000-000000000000",
+      "description": "+xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
+      "value": 0.0
+    },
+    {
+      "type": "attribute",
+      "name": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
+      "value": 0.0,
+      "attributeOperation": 0,
+      "modifierUUID": "UUID-GOES-HERE-0000-000000000000",
+      "description": "+xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

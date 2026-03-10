@@ -68,7 +68,6 @@ const itemsToName = [
     {id: 'alexscaves:pewen_sap', name: 'Sap'},
     {id: 'immersiveengineering:dust_wood', name: 'Fine Wood Dust'},
 
-    
     {id: 'iceandfire:armor_copper_metal_helmet', name: 'Bronze Helmet'},
     {id: 'iceandfire:armor_copper_metal_chestplate', name: 'Bronze Chestplate'},
     {id: 'iceandfire:armor_copper_metal_leggings', name: 'Bronze Leggings'},
@@ -78,6 +77,8 @@ const itemsToName = [
     {id: 'iceandfire:copper_axe', name: 'Bronze Axe'},
     {id: 'iceandfire:copper_shovel', name: 'Bronze Shovel'},
     {id: 'iceandfire:copper_hoe', name: 'Bronze Hoe'},
+
+    {id: 'immersiveengineering:alloybrick', name: 'Kiln Bricks'},
 ]
 
 ClientEvents.lang('en_us', event => {

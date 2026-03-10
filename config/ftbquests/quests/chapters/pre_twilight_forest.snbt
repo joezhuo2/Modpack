@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pre_twilight_forest"
+	group: "0BE42B5AD6E4C6EE"
+	id: "73A87510E16570DF"
+	order_index: 11
+	quest_links: [ ]
+	quests: [ ]
+	title: "Pre Twilight Forest"
+}

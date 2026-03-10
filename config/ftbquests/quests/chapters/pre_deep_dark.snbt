@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pre_deep_dark"
+	group: "0BE42B5AD6E4C6EE"
+	icon: "thermal_extra:soul_infused_block"
+	id: "77C4FB84008A4140"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Pre Deep Void"
+}

@@ -57,8 +57,8 @@
 				item: "create:gearbox"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			id: "72D3E8A148B3791B"
@@ -107,7 +107,7 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -117,8 +117,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			id: "6FD643CE3394DD49"
@@ -128,146 +128,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -3.0d
-		}
-		{
-			id: "277872D4422F2700"
-			tasks: [{
-				id: "4C35A118C43D4B49"
-				item: "create:brass_ingot"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 0.0d
-		}
-		{
-			id: "3B3659F394417070"
-			tasks: [{
-				id: "002108622011DA15"
-				item: "create:brass_casing"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 0.0d
-		}
-		{
-			id: "29B3B34CB50A9F2F"
-			tasks: [{
-				id: "01B67007F9A3E62D"
-				item: "create:crushing_wheel"
-				type: "item"
-			}]
-			x: 21.0d
-			y: -2.0d
-		}
-		{
-			id: "13E8A2C25FB65E9D"
-			tasks: [{
-				id: "6ED4AC9E6C17B02B"
-				item: "create:deployer"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			id: "3AF07D400FDA90DA"
-			tasks: [{
-				id: "293AA897DE5F3CA8"
-				item: "create:blaze_burner"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 0.0d
-		}
-		{
-			id: "1476C23033010AD8"
-			tasks: [{
-				id: "2933811A11219D01"
-				item: "create:mechanical_crafter"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 0.0d
-		}
-		{
-			id: "1FF27316EE98788A"
-			tasks: [{
-				id: "5EC7BF3456BCB29B"
-				item: "create:rose_quartz"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 0.0d
-		}
-		{
-			id: "631090F46BDA50F4"
-			tasks: [{
-				id: "5F69A697B9057C9B"
-				item: "create_new_age:basic_energiser"
-				type: "item"
-			}]
-			x: 25.0d
-			y: 0.0d
-		}
-		{
-			id: "7851707E274CE398"
-			tasks: [
-				{
-					id: "17E0DD3E65C5E72D"
-					item: "create_new_age:generator_coil"
-					type: "item"
-				}
-				{
-					id: "70A753BDDC5943F0"
-					item: "create_new_age:magnetite_block"
-					type: "item"
-				}
-				{
-					id: "7580B708E3F16393"
-					item: "create_new_age:carbon_brushes"
-					type: "item"
-				}
-			]
-			x: 23.0d
-			y: 0.0d
-		}
-		{
-			id: "3DE6E93113C2178B"
-			tasks: [
-				{
-					id: "6C46C37CBA8AA79A"
-					item: "create_new_age:overcharged_iron"
-					type: "item"
-				}
-				{
-					id: "635F7503C8BC9567"
-					item: "create_new_age:overcharged_gold"
-					type: "item"
-				}
-			]
-			x: 27.0d
-			y: 0.0d
-		}
-		{
-			id: "6E09AB35F5A55243"
-			tasks: [{
-				id: "03AB4A1334E03ECB"
-				item: "createaddition:tesla_coil"
-				type: "item"
-			}]
-			x: 29.0d
-			y: 0.0d
-		}
-		{
-			id: "188C408B4300E442"
-			tasks: [{
-				id: "05988BCA19068E8C"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
-			x: 31.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			id: "3EC3E6FFC736AA10"
@@ -280,24 +141,24 @@
 			y: 1.5d
 		}
 		{
-			id: "301650248E5A1DD9"
-			tasks: [{
-				id: "72109ED04EB5756A"
-				item: "create:mechanical_arm"
-				type: "item"
-			}]
-			x: 33.0d
-			y: 0.0d
-		}
-		{
 			id: "5995C515B1EE45B2"
 			tasks: [{
 				id: "1EFD93ABB21CF195"
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "79CDC5682CF00C2F"
+			tasks: [{
+				id: "7A39BE51C2D6329F"
+				item: "createlowheated:basic_burner"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
 		}
 	]
 	title: "Create"

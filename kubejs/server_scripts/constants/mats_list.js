@@ -19,5 +19,16 @@ const materialsList = [
     {id: 'smooth_stone', raw_resource: 'minecraft:smooth_stone'},
     {id: 'dripstone', raw_resource: 'minecraft:dripstone_block'},
     {id: 'kivi', raw_resource: 'xycraft_world:kivi'},
+    {id: 'caminite', raw_resource: 'embers:caminite_brick'},
+    {id: 'raw_caminite', raw_resource: 'embers:caminite_blend'},
+    {id: 'granite', raw_resource: 'polished_granite'},
+    {id: 'diorite', raw_resource: 'polished_diorite'},
+    {id: 'andesite', raw_resource: 'polished_andesite'},
+    {id: 'limestone', raw_resource: 'create:limestone'},
+    {id: 'marble', raw_resource: 'goety:marble'},
+    {id: 'scoria', raw_resource: 'create:scoria'},
+    {id: 'basalt', raw_resource: 'smooth_basalt'},
+    {id: 'calcite', raw_resource: 'polished_calcite'},
+    {id: 'deepslate', raw_resource: 'polished_deepslate'},
 ]
 global.materialsList = materialsList

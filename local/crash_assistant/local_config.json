@@ -1,4 +1,8 @@
 {
+	"shown_reasons": {
+		"MissingUnsupportedDependencies": true,
+		"MixinApply": true
+	},
 	"analysis": {
 		"jdeps": {
 			"include_nested": true

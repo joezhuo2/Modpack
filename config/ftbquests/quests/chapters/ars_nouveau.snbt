@@ -5,8 +5,101 @@
 	group: "2849284214DF0BB2"
 	icon: "ars_nouveau:source_gem"
 	id: "7120E36B3F0885C8"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "2F9ADADBAAC09E76"
+			tasks: [{
+				id: "4BD782C6479DE0BC"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6DC57A2BC02C2BC8"
+			tasks: [{
+				id: "4EA22680A80406EF"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "6A6CE830B3C3C8B7"
+			tasks: [
+				{
+					id: "609B702769CF010E"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "7735690A231458E6"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "42EB26EEBF664AD2"
+					item: "ars_nouveau:arcane_platform"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "72AD7EB12CF545C5"
+			tasks: [{
+				id: "2DF884C56A2AFC83"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "670DC46223D08731"
+			tasks: [{
+				id: "70D1494B53C431C5"
+				item: "ars_elemental:mark_of_mastery"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "31EC0B1F39CDA68D"
+			tasks: [{
+				id: "44975FC4B1C7D3CD"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "725185FDE81CC239"
+			tasks: [{
+				id: "5FEC9D0D7F117A6E"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "2E8F6E97BBC3B9EB"
+			tasks: [{
+				id: "1787DEDC945127CA"
+				item: "ars_nouveau:archwood_planks"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
 	title: "Ars Nouveau"
 }

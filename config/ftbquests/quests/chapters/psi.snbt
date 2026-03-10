@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "psi"
+	group: "2849284214DF0BB2"
+	icon: "psi:cad_assembly_psimetal"
+	id: "06D321AAF485FA3F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0D2738F3D96675EC"
+			tasks: [{
+				id: "7C596D9FC1D83749"
+				item: "psi:cad_assembly_iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "22266C888CF431D5"
+			tasks: [{
+				id: "0780DB70E5BB4336"
+				item: "psi:psimetal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "120789045A43DA4F"
+			tasks: [{
+				id: "06DBE561E58033F9"
+				item: "psi:cad_assembly_psimetal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "0ECCB521EDBAE796"
+			tasks: [{
+				id: "2A763D1F87EC7EA6"
+				item: "psi:psigem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "390C77D651D365C7"
+			tasks: [{
+				id: "4A00250E9C008F5B"
+				item: "psi:ivory_psimetal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Psi"
+}

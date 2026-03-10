@@ -31,7 +31,7 @@
   "fullSetBonuses": [
     {
       "type": "effect",
-      "name": "ars_nouveau:mana_regen_potion",
+      "name": "ars_nouveau:mana_regen",
       "value": 0.0
     },
     {

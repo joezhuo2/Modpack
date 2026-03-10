@@ -1,0 +1,53 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "game_modes"
+	group: "0BE42B5AD6E4C6EE"
+	icon: {
+		Count: 1
+		id: "stalwart_dungeons:teleporter_pearl"
+		tag: { }
+	}
+	id: "2C416BD4348DC1C5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1090590E05CD531C"
+			tasks: [{
+				id: "463156194FE73D43"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.1f
+					}
+				}
+				type: "item"
+			}]
+			title: "Normal Mode"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "73F3715062EFAAF9"
+			tasks: [
+				{
+					id: "44CDA070D3BB5CA9"
+					item: "enigmaticlegacy:cursed_ring"
+					type: "item"
+				}
+				{
+					advancement: "enigmaticlegacy:main/cursed_ring"
+					criterion: ""
+					id: "0705E4263D177306"
+					type: "advancement"
+				}
+			]
+			title: "Expert Mode"
+			x: -1.5d
+			y: -1.0d
+		}
+	]
+	title: "Game Modes"
+}

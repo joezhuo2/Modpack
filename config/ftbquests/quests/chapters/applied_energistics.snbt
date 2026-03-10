@@ -5,8 +5,129 @@
 	group: "2F688CAF980A2EE4"
 	icon: "ae2:singularity"
 	id: "20C8FEA035158CB5"
-	order_index: 9
+	order_index: 12
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "0CF5CAB1999E5703"
+			tasks: [{
+				id: "462B05A7E1482F81"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "4DE55366F4528699"
+			tasks: [{
+				id: "3DA1A2040B503535"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "488989770563D890"
+			tasks: [{
+				id: "316AAEC56E168281"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "5AE99C39B0F9DF61"
+			tasks: [{
+				id: "5942EAA0EA20D727"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "53E6B1102011B113"
+			tasks: [{
+				id: "09CE74DF20947C24"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "19B8A216D1C361F9"
+			tasks: [{
+				id: "28517332D31C4720"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "7153394F06C066B3"
+			tasks: [{
+				id: "3A60A487FD8BB28A"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "068F16B672B2050D"
+			tasks: [{
+				id: "4326771541096409"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "77EC2D4BDC1A9B0F"
+			tasks: [{
+				id: "7648BFCE1022FA1C"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "4D454C8447EBEE75"
+			tasks: [{
+				id: "060A181D5F76F50B"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			id: "79DA5EF355DE594C"
+			tasks: [{
+				id: "375758B723504EF8"
+				item: "advanced_ae:quantum_alloy"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "75A39D68537CBF7F"
+			tasks: [{
+				id: "58FEF301C5AB8DDA"
+				item: "advanced_ae:quantum_processor"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+	]
 	title: "Applied Energistics"
 }

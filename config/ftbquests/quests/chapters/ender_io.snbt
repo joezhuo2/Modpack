@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_io"
+	group: "2F688CAF980A2EE4"
+	icon: "enderio:grains_of_infinity"
+	id: "2C38C04354D4C11C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "019637FD0ED1A830"
+			tasks: [{
+				id: "3787E4B491D71EA3"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "578B32A920FFA810"
+			tasks: [{
+				id: "5E17A5B402CB09DE"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "1CBA6004AFCABE4A"
+			tasks: [{
+				id: "49E8ECE06F360FC5"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "73B231B80B848EE7"
+			tasks: [{
+				id: "0E8DE8F6CEF2AAEB"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "094CEA0A59887F02"
+			tasks: [{
+				id: "1DFABA1ACCA53C97"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "04982886A9F6BB32"
+			tasks: [{
+				id: "10C615177DB5919C"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "6ECCDBA6E0EE4742"
+			tasks: [{
+				id: "1D0CC71201C67CFF"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "2CF74F9D1B0CE280"
+			tasks: [{
+				id: "258E8269F77A8E6F"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "2A001AE2A8D0456B"
+			tasks: [{
+				id: "47CC09859652FE93"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			id: "7D900C32645105CA"
+			tasks: [{
+				id: "54242F547856A07D"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+	]
+	title: "Ender IO"
+}

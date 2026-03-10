@@ -3,6 +3,7 @@
 	default_quest_shape: "square"
 	filename: "roots"
 	group: "2F688CAF980A2EE4"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		id: "patchouli:guide_book"
@@ -11,14 +12,699 @@
 		}
 	}
 	id: "14F24EF6BBE1DA4F"
-	images: [{
-		height: 5.0d
-		image: "new:textures/quests/totemic_logo.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.5d
-		y: -1.0d
-	}]
+	images: [
+		{
+			height: 5.0d
+			image: "new:textures/quests/totemic_logo.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependency: "1701CCD773BEDAB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependency: "633EF78EC6AA4F02"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependency: "633EF78EC6AA4F02"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependency: "633EF78EC6AA4F02"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependency: "3A864754A15152E2"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependency: "3A864754A15152E2"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependency: "3A864754A15152E2"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependency: "3A864754A15152E2"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependency: "011BC7919AE8CBB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependency: "011BC7919AE8CBB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependency: "011BC7919AE8CBB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependency: "011BC7919AE8CBB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependency: "6EE6E40E4EF2E48B"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependency: "6EE6E40E4EF2E48B"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependency: "6EE6E40E4EF2E48B"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependency: "1701CCD773BEDAB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependency: "011BC7919AE8CBB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependency: "011BC7919AE8CBB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependency: "0F0B1A0332EFE2E5"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependency: "0F0B1A0332EFE2E5"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependency: "0F0B1A0332EFE2E5"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependency: "69D7F92AC0702E7F"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependency: "69D7F92AC0702E7F"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependency: "69D7F92AC0702E7F"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependency: "0F0B1A0332EFE2E5"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependency: "0F0B1A0332EFE2E5"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependency: "69D7F92AC0702E7F"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependency: "69D7F92AC0702E7F"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependency: "633EF78EC6AA4F02"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 90.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependency: "011BC7919AE8CBB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependency: "1701CCD773BEDAB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependency: "011BC7919AE8CBB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependency: "4F18CC6B22CB38E1"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependency: "4F18CC6B22CB38E1"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependency: "4F18CC6B22CB38E1"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependency: "4F18CC6B22CB38E1"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependency: "4F18CC6B22CB38E1"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependency: "3A864754A15152E2"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.25d
+			y: 2.5d
+		}
+		{
+			dependency: "3A864754A15152E2"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.25d
+			y: 3.0d
+		}
+		{
+			dependency: "3A864754A15152E2"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.25d
+			y: 3.5d
+		}
+		{
+			dependency: "1701CCD773BEDAB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependency: "1701CCD773BEDAB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependency: "6F8C0FB3ED0772AC"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependency: "202E25D2141ABF47"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependency: "1DA93798EA259B0B"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependency: "3A864754A15152E2"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 30.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependency: "3A864754A15152E2"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 30.0d
+			width: 1.0d
+			x: -1.75d
+			y: 5.0d
+		}
+		{
+			dependency: "6EE6E40E4EF2E48B"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependency: "6EE6E40E4EF2E48B"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependency: "6EE6E40E4EF2E48B"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependency: "4282CF97CFFC9FE5"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependency: "4282CF97CFFC9FE5"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependency: "4B4AC26F379B0EAA"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependency: "4B4AC26F379B0EAA"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: -30.0d
+			width: 1.0d
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependency: "4B4AC26F379B0EAA"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: -30.0d
+			width: 1.0d
+			x: -0.75d
+			y: 5.0d
+		}
+		{
+			dependency: "5F088153363B809C"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependency: "5F088153363B809C"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependency: "7699546D0FB55876"
+			height: 1.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependency: "5AD61DFEAA4E11EE"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependency: "5AD61DFEAA4E11EE"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependency: "5AD61DFEAA4E11EE"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependency: "5AD61DFEAA4E11EE"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependency: "1F5C51F36E4AD110"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependency: "1F5C51F36E4AD110"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependency: "1F5C51F36E4AD110"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependency: "3BEF8BA73CCBC855"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "regions_unexplored:block/flowering_lily_pad"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			height: 1.25d
+			image: "regions_unexplored:block/flowering_lily_pad"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependency: "1701CCD773BEDAB0"
+			height: 1.25d
+			image: "regions_unexplored:block/flowering_lily_pad"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.25d
+			y: 4.0d
+		}
+		{
+			dependency: "011BC7919AE8CBB0"
+			height: 1.25d
+			image: "regions_unexplored:block/flowering_lily_pad"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependency: "4F18CC6B22CB38E1"
+			height: 1.5d
+			image: "regions_unexplored:block/flowering_lily_pad"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.0d
+			y: 4.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -29,8 +715,8 @@
 				item: "totemic:drum"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: -5.5d
+			y: 6.0d
 		}
 		{
 			id: "69D7F92AC0702E7F"
@@ -39,8 +725,8 @@
 				item: "totemic:flute"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -48,6 +734,7 @@
 				"69D7F92AC0702E7F"
 			]
 			id: "1701CCD773BEDAB0"
+			min_required_dependencies: 1
 			tasks: [{
 				icon: "totemic:cedar_sapling"
 				id: "7708283F7AB6932E"
@@ -57,7 +744,7 @@
 				type: "observation"
 			}]
 			title: "Rite of Spring"
-			x: -4.5d
+			x: -5.5d
 			y: 4.0d
 		}
 		{
@@ -72,6 +759,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["6EE6E40E4EF2E48B"]
 			id: "4282CF97CFFC9FE5"
 			tasks: [{
 				id: "5485FB80A88B3141"
@@ -84,8 +772,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0F0B1A0332EFE2E5"]
@@ -95,7 +783,7 @@
 				title: "War Dance"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: 6.0d
 		}
 		{
@@ -106,7 +794,7 @@
 				title: "Symphony of the Depths"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 2.0d
 		}
 		{
@@ -144,7 +832,7 @@
 				}
 			]
 			title: "Buffalo Dance"
-			x: -1.5d
+			x: -1.25d
 			y: 4.0d
 		}
 		{
@@ -187,6 +875,7 @@
 					DisplayEntityType: "totemic:baykok"
 				}
 			}
+			icon_scale: 1.5d
 			id: "5AD61DFEAA4E11EE"
 			shape: "none"
 			tasks: [{
@@ -228,16 +917,18 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["5AD61DFEAA4E11EE"]
 			id: "1F5C51F36E4AD110"
 			tasks: [{
 				id: "05FCDB6CEE63926A"
 				item: "totemic:totemic_staff"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.5d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1F5C51F36E4AD110"]
 			id: "3BEF8BA73CCBC855"
 			tasks: [{
 				id: "52E195E327DAD96A"
@@ -245,49 +936,57 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 8.5d
+			y: 6.0d
 		}
 		{
+			dependencies: [
+				"3A864754A15152E2"
+				"4B4AC26F379B0EAA"
+			]
 			id: "5F088153363B809C"
 			tasks: [{
 				id: "1FA150AAD1A708CF"
 				item: "totemic:medicine_bag"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.5d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
+			dependencies: ["5F088153363B809C"]
 			id: "7699546D0FB55876"
 			tasks: [{
 				id: "7EB4BE3602A6B56E"
 				item: "totemic:creative_medicine_bag"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.5d
+			x: -0.5d
+			y: 7.0d
 		}
 		{
+			dependencies: ["1701CCD773BEDAB0"]
 			id: "202E25D2141ABF47"
 			tasks: [{
 				id: "19B6AF92406B8DDD"
 				item: "totemic:totem_torch"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.5d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["3A864754A15152E2"]
 			id: "623228A8D2DD7755"
 			tasks: [{
 				id: "3539DDE3B2910480"
 				item: "totemic:tipi"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.5d
+			x: -1.25d
+			y: 2.0d
 		}
 		{
+			dependencies: ["3A864754A15152E2"]
 			id: "5415485C8169E2BD"
 			tasks: [{
 				id: "35FE324FE169BDF7"
@@ -300,8 +999,22 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.5d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4282CF97CFFC9FE5"]
+			id: "4B4AC26F379B0EAA"
+			tasks: [{
+				icon: "totemic:totem_base"
+				id: "6FDFFD55386A824B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "totemic:totem_base"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "Totemic"

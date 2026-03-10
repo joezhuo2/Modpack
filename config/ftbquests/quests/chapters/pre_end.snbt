@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pre_end"
+	group: "0BE42B5AD6E4C6EE"
+	icon: "thermal:enderium_block"
+	id: "0A1D4A7086F93AD7"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "Pre End"
+}

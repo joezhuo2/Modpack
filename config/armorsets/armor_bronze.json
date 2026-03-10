@@ -26,28 +26,28 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.max_health",
-      "value": 2.0,
+      "value": 4.0,
       "attributeOperation": 0,
       "modifierUUID": "2d62860d-9620-4c9d-a9f0-99e5a8613218",
-      "description": "+2 Max Health"
+      "description": "+4 Max Health"
     }
   ],
   "fullSetBonuses": [
     {
       "type": "attribute",
       "name": "attributeslib:life_steal",
-      "value": 0.05,
+      "value": 0.10,
       "attributeOperation": 0,
       "modifierUUID": "f8c14264-6163-4eb8-ad87-9a2a20416b56",
-      "description": "+5% Lifesteal"
+      "description": "+10% Lifesteal"
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.max_health",
-      "value": 4.0,
+      "name": "minecraft:generic.armor",
+      "value": 6.0,
       "attributeOperation": 0,
       "modifierUUID": "79151fee-8b01-45db-9545-8b722b1ac376",
-      "description": "+4 Max Health"
+      "description": "+6 Armor"
     }
   ],
   "hideGeneratedTooltip": false

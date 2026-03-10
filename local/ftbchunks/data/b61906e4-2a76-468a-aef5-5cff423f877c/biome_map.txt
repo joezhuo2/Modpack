@@ -1,3 +1,15 @@
 #7FB theabyss:blaru_forest
 #2AB theabyss:blue_mountain
+#314 blue_skies:brightlands
+#549 blue_skies:calming_skies
+#276 the_bumblezone:crystal_canyon
+#708 blue_skies:crystal_dunes
+#1E9 blue_skies:crystal_roughs
+#573 the_bumblezone:floral_meadow
+#1DE the_bumblezone:hive_pillar
+#03E the_bumblezone:hive_wall
+#54C blue_skies:moonlit_reservoir
+#2A9 blue_skies:rising_creek
+#060 the_bumblezone:sugar_water_floor
+#0B6 blue_skies:sunset_maple_forest
 #495 minecraft:the_void

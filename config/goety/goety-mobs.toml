@@ -4,6 +4,8 @@
 	holidaySkins = true
 	#If Brood Mothers uses their old textures, Default: false
 	broodMotherOldTexture = false
+	#If armor worn by mobs that uses HierarchicalArmorLayer(ie, Illager Servants) shows Armor Trim, Default: true
+	hierarchicalArmorTrim = true
 
 	[Textures."Summoned Mobs"]
 
@@ -18,6 +20,8 @@
 			frozenZombieServantTexture = true
 			#If Jungle Zombie Servants have custom textures, Default: true
 			jungleZombieServantTexture = true
+			#If Frayed Servants have custom textures, Default: true
+			frayedServantTexture = true
 
 		[Textures."Summoned Mobs"."Skeleton Servants"]
 			#If Skeleton Servants have custom textures, Default: true
@@ -34,6 +38,8 @@
 			necromancerServantTexture = true
 			#If Vanguard Servants have custom textures, Default: true
 			vanguardServantTexture = true
+			#If Rattled Servants have custom textures, Default: true
+			rattledServantTexture = true
 
 		[Textures."Summoned Mobs"."Wraith Servants"]
 			#If Wraith Servants have custom textures, Default: true
@@ -98,6 +104,8 @@
 			warlockServantTexture = true
 			#If Maverick Servants have custom textures, Default: true
 			maverickServantTexture = true
+			#If Ripper Servants have custom textures, Default: true
+			ripperServantTexture = true
 
 		[Textures."Summoned Mobs"."Spider Servants"]
 			#If Spiders Servants have custom textures, Default: true
@@ -378,6 +386,45 @@
 		prisonerUnshackleDamage = true
 		#Whether Prisoners can pick up Pickaxes that are dropped near them and mobGriefing is true, Default: true
 		prisonerPickUpPickaxe = true
+
+	[Servants."Geo Servants"]
+		#Whether Geo Servants can heal if summoned while wearing Frost Robe, Default: true
+		geoMinionHeal = true
+		#How much Soul Energy it cost per second for a Geo Servant to heal, Default: 1
+		#Range: > 0
+		geoMinionHealCost = 1
+		#How frequent Geo Servants heal, count seconds, Default: 1
+		#Range: > 0
+		geoMinionHealTime = 1
+		#How much Health Geo Servants heal, numerically, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		geoMinionHealAmount = 1.0
+
+	[Servants."Wind Servants"]
+		#Whether Wind Servants can heal if summoned while wearing Frost Robe, Default: true
+		windMinionHeal = true
+		#How much Soul Energy it cost per second for a Wind Servant to heal, Default: 1
+		#Range: > 0
+		windMinionHealCost = 1
+		#How frequent Wind Servants heal, count seconds, Default: 1
+		#Range: > 0
+		windMinionHealTime = 1
+		#How much Health Wind Servants heal, numerically, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		windMinionHealAmount = 1.0
+
+	[Servants."Storm Servants"]
+		#Whether Storm Servants can heal if summoned while wearing Frost Robe, Default: true
+		stormMinionHeal = true
+		#How much Soul Energy it cost per second for a Storm Servant to heal, Default: 1
+		#Range: > 0
+		stormMinionHealCost = 1
+		#How frequent Storm Servants heal, count seconds, Default: 1
+		#Range: > 0
+		stormMinionHealTime = 1
+		#How much Health Storm Servants heal, numerically, Default: 1.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		stormMinionHealAmount = 1.0
 
 [Illagers]
 	#Whether Cryologers can summon Ice Chunks on Hard Difficulty, Default: false
@@ -681,6 +728,28 @@
 		#Range: > 1
 		maverickSpawnMaxCount = 1
 
+	[Spawning.Frayed]
+		#Spawn Weight for Frayeds, Default: 80
+		#Range: > 0
+		frayedSpawnWeight = 80
+		#Spawn minimum group count for Frayeds, Default: 4
+		#Range: > 1
+		frayedSpawnMinCount = 4
+		#Spawn maximum group count for Frayeds, must be equal or higher than min count, Default: 4
+		#Range: > 1
+		frayedSpawnMaxCount = 4
+
+	[Spawning.Rattled]
+		#Spawn Weight for Rattleds, Default: 80
+		#Range: > 0
+		rattledSpawnWeight = 80
+		#Spawn minimum group count for Rattleds, Default: 4
+		#Range: > 1
+		rattledSpawnMinCount = 4
+		#Spawn maximum group count for Rattleds, must be equal or higher than min count, Default: 4
+		#Range: > 1
+		rattledSpawnMaxCount = 4
+
 [Misc]
 	#How long invulnerability, Default: 15
 	#Range: > 0
@@ -697,6 +766,10 @@
 	hostileCryptUndead = true
 	#Whether ender mobs in the Final Terminal and certain tagged structures remain hostile even if players wear Void Set, Default: true
 	hostileTerminalEnder = true
+	#Whether Zombies convert into Frayed when struck by lightning, Default: true
+	zombieConvertFrayed = true
+	#Whether Skeletons convert into Rattled when struck by lightning, Default: true
+	skeletonConvertRattled = true
 
 	[Misc.Apostle]
 		#Apostle spreads Nether biomes, and Nether Meteors deals environmental damage and spread Nether biomes as well. WARNING: Causes lots of lag. Default: false
@@ -747,6 +820,9 @@
 		#How many Minecraft days, since spawning in, until unowned Obsidian Monoliths start spreading, Default: 3
 		#Range: > 1
 		obsidianMonolithStartUpTime = 3
+		#Add mobs that ownerless Obsidian Monolith will not spawn. 
+		#To do so, enter the namespace ID of the mob, like "minecraft:zombie, minecraft:skeleton".
+		obsidianMonolithBlackList = ["minecraft:slime", "minecraft:ghast", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:hoglin"]
 
 	[Misc.Crone]
 		#Whether Crones inflict thorn damage at attackers, when attacked. Default: true
@@ -755,4 +831,8 @@
 	[Misc.Damned]
 		#Whether Damned shoot indicator is enabled. Default: true
 		damnedShootIndicator = true
+
+	[Misc."Ender Keeper"]
+		#Whether Ender Keeper has their after-image effect. Disable can prevent frame drop. Default: true
+		enderKeeperAfterImage = true
 

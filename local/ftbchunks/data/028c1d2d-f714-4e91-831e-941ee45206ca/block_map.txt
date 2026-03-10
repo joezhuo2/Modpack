@@ -1,0 +1,12 @@
+#52B53D minecraft:air
+#2925D4 minecraft:black_stained_glass
+#2848C0 minecraft:cobbled_deepslate
+#43C85F minecraft:cobbled_deepslate_slab
+#4341EF minecraft:cobbled_deepslate_stairs
+#5E9420 minecraft:deepslate
+#2564E6 minecraft:deepslate_tiles
+#EA3611 minecraft:polished_deepslate
+#E685AE minecraft:polished_deepslate_slab
+#2BE77E minecraft:polished_deepslate_stairs
+#E82F3E minecraft:polished_deepslate_wall
+#DC3458 minecraft:stone

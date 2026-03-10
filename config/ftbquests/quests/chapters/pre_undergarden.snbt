@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pre_undergarden"
+	group: "0BE42B5AD6E4C6EE"
+	icon: "minecraft:diamond_block"
+	id: "6C33B9E3D9F5D338"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "7A030067427B4026"
+		tasks: [{
+			id: "1E84A8D81AAF11EE"
+			item: "undergarden:catalyst"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
+	title: "Pre Undergarden"
+}

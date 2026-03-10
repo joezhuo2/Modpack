@@ -1,0 +1,57 @@
+{
+  "armorSetName": "charoite",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "blue_skies:charoite_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "blue_skies:charoite_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "blue_skies:charoite_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "blue_skies:charoite_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:summon_damage",
+      "value": 0.15,
+      "attributeOperation": 2,
+      "modifierUUID": "21d516b5-3119-4c11-a19a-48ed0539e092",
+      "description": "+15% Summon Damage"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:summon_damage",
+      "value": 0.4,
+      "modifierUUID": "5f4e1d3e-2b6e-4f4c-8f4a-8b6e5c9d7e3f",
+      "description": "+40% Summon Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 6.0,
+      "attributeOperation": 0,
+      "modifierUUID": "a9bef430-a3db-459f-a5d0-17d639cea28d",
+      "description": "+6 Armor Toughness"
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:cast_time_reduction",
+      "value": 0.25,
+      "attributeOperation": 2,
+      "modifierUUID": "d6d530f7-490d-4a8e-a043-cf877f2ecb6b",
+      "description": "+25% Cast Time Reduction"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -3,9 +3,9 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "2F688CAF980A2EE4"
-	icon: "thermal:netherite_gear"
+	icon: "mekanism:ultimate_control_circuit"
 	id: "52F4095D01A9960D"
-	order_index: 7
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

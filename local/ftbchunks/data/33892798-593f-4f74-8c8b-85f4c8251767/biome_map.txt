@@ -1,0 +1,7 @@
+#7E7 biomeswevegone:allium_shrubland
+#3FF ars_nouveau:archwood_forest
+#47F minecraft:birch_forest
+#512 integrateddynamics:meneglin
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#51A minecraft:stony_shore

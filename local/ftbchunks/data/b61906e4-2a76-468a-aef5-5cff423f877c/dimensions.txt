@@ -1,2 +1,5 @@
 minecraft:overworld
 theabyss:the_abyss
+the_bumblezone:the_bumblezone
+blue_skies:everbright
+blue_skies:everdawn

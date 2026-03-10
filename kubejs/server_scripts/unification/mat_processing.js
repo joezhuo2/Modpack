@@ -3,11 +3,11 @@
 ServerEvents.recipes(event => {
     materialsList.forEach(mat => {
         var raw_resource = Ingredient.of(`#kubejs:resources/${mat.id}`).itemIds[0] ?? null
-        // var ingot = Ingredient.of(`#forge:ingots/${mat.id}`).itemIds[0] ?? null
+        var ingot = Ingredient.of(`#forge:ingots/${mat.id}`).itemIds[0] ?? null
         var nugget = Ingredient.of(`#forge:nuggets/${mat.id}`).itemIds[0] ?? null
-        // var block = Ingredient.of(`#forge:storage_blocks/${mat.id}`).itemIds[0] ?? null
-        // var dust = Ingredient.of(`#forge:dusts/${mat.id}`).itemIds[0] ?? null
-        // var gem = Ingredient.of(`#forge:gems/${mat.id}`).itemIds[0] ?? null
+        var block = Ingredient.of(`#forge:storage_blocks/${mat.id}`).itemIds[0] ?? null
+        var dust = Ingredient.of(`#forge:dusts/${mat.id}`).itemIds[0] ?? null
+        var gem = Ingredient.of(`#forge:gems/${mat.id}`).itemIds[0] ?? null
 
         var rod = Ingredient.of(`#forge:rods/${mat.id}`).itemIds[0] ?? null
         var gear = Ingredient.of(`#forge:gears/${mat.id}`).itemIds[0] ?? null
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
             smelting(event, raw, {item: nugget, count: 3}, 0.6, 200)
 
             // event.remove([{output: nugget, type: 'minecraft:blasting'}, {input: raw, type: 'minecraft:blasting'}])
-            blasting(event, raw, {item: nugget, count: 5}, 1.0, 100)
+            blasting(event, raw, {item: nugget, count: 6}, 1.0, 100)
         }
 
         if (rod && plate) {

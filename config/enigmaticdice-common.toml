@@ -9,7 +9,7 @@ lootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/ancient_
 #Chance for Enigmatic Die to drop from a mob when killed by a player.
 #For example, a value of 0.005 means a 0.5% chance to drop.
 #Range: 0.0 ~ 1.0
-enigmaticDieDropChance = 0.005
+enigmaticDieDropChance = 0.0
 #Defines the time requirement (in minutes) for earning Enigmatic Dice from killing mobs.
 #This is NOT a cooldown.
 #For every X minutes the player spends in the world, they are allowed to obtain 1 die from mobs.
@@ -20,7 +20,7 @@ mobDiceTimeInterval = 10
 #Chance for Enigmatic Die to drop from a block when broken by a player.
 #For example, a value of 0.001 means a 0.1% chance to drop.
 #Range: 0.0 ~ 1.0
-enigmaticDieBlockDropChance = 0.001
+enigmaticDieBlockDropChance = 0.0
 #Defines the time requirement (in minutes) for earning Enigmatic Dice from breaking blocks.
 #This is NOT a cooldown.
 #For every X minutes the player spends in the world, they are allowed to obtain 1 die from blocks.
@@ -31,7 +31,7 @@ blockDiceTimeInterval = 10
 #Chance for Enigmatic Die to appear in a chest.
 #Value is between 0.0 and 1.0. For example, 0.1 means a 10% chance.
 #Range: 0.0 ~ 1.0
-enigmaticDieChestChance = 0.1
+enigmaticDieChestChance = 0.03
 #Radius within which the structure is searched for during the 'minecraft_teleport_to_structure' event. Default is 100.
 #Higher values search further but may impact performance.
 #Range: 1 ~ 10000
@@ -51,23 +51,23 @@ biomeVerticalStep = 128
 #Percentage of target's max health reduced per hit by Unequal Exchange sword.
 #Example: 0.10 = 10% of target's max health.
 #Range: 0.0 ~ 1.0
-unequalExchangeTargetHealthReduction = 0.1
+unequalExchangeTargetHealthReduction = 0.8
 #Percentage of player's max health reduced per hit by Unequal Exchange sword.
 #Example: 0.20 = 20% of player's max health.
 #Range: 0.0 ~ 1.0
-unequalExchangePlayerHealthReduction = 0.2
+unequalExchangePlayerHealthReduction = 0.15
 #Percentage reduction of player's stats (armor, speed, etc.) per hit by Unequal Exchange sword.
 #Example: 0.20 = 20% reduction.
 #Range: 0.0 ~ 1.0
-unequalExchangeStatDebuff = 0.2
+unequalExchangeStatDebuff = 0.15
 #Duration of the Unequal Exchange debuff (stat reduction) in seconds.
 #Each hit refreshes this timer.
 #Range: 0 ~ 10000
-unequalExchangeDebuffDuration = 30
+unequalExchangeDebuffDuration = 20
 #Unequal Exchange Attack Damage.
 unequalExchangeAttackDamage = 1.0
 #Unequal Exchange Attack Speed.
-unequalExchangeAttackSpeed = 1.6
+unequalExchangeAttackSpeed = 1.8
 #Extra magic damage of Soul Eater's charged attack per HP spent.
 #Range: 0.0 ~ 100.0
 soulEaterChargedAttackDamagePerHP = 2.5
@@ -77,14 +77,14 @@ soulEaterChargeDuration = 60
 #Percent of killed enemy's max HP restored to the player.
 #Example: 0.1 = 10% of target's max HP.
 #Range: 0.0 ~ 1.0
-soulEaterHealPercentOnKill = 0.1
+soulEaterHealPercentOnKill = 0.07
 #Percent of killed enemy's max HP added to player's max HP as bonus.
 #Example: 0.1 = +10% max HP of killed enemy.
 #Range: 0.0 ~ 1.0
-soulEaterMaxHealthStealPercent = 0.1
+soulEaterMaxHealthStealPercent = 0.05
 #Duration (in seconds) of max health buff after killing an enemy.
 #Range: 0 ~ 100000
-soulEaterMaxHealthBuffDuration = 300
+soulEaterMaxHealthBuffDuration = 400
 #Maximum multiplier for player's max HP from Soul Eater.
 #Example: 1.0 = Player's max HP can be increased up to 100%.
 #Range: 0.0 ~ 100.0

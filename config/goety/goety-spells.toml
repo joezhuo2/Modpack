@@ -237,7 +237,7 @@
 		#Killing Spell Cooldown, Default: 200
 		#Range: > 0
 		killingCoolDown = 200
-		#How much damage percentage multiplier of the target's health is applied back to caster, Default: 1.25
+		#How much damage percentage multiplier of the target's health is applied back to caster, Default: 1.1
 		#Range: 0.0 ~ 1.7976931348623157E308
 		killingFeedback = 1.25
 
@@ -380,7 +380,7 @@
 		#How many shots are allowed to be fired before spell ends, set 0 to allow spell to be cast indefinitely, Default: 6
 		#Range: 0 ~ 72000
 		bombardmentShots = 6
-		#Time to cast Bombardment Spell per second, Default: 6
+		#Time to cast Bombardment Spell per tick, Default: 6
 		#Range: 0 ~ 72000
 		bombardmentTime = 6
 		#Bombardment Spell Cooldown, Default: 100
@@ -462,6 +462,12 @@
 		#How much base damage Necro Bolts deals, Default: 12.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		necroBoltDamage = 12.0
+		#How much base damage Poison Bolts deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		poisonBoltDamage = 3.0
+		#How much base damage Wither Bolts deals directly, Default: 4.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		witherBoltDamage = 4.0
 
 	[Spells."Magic Bolt Spell"]
 		#Magic Bolt Spell Cost, Default: 8
@@ -678,7 +684,7 @@
 		#Time to cast Hail Spell, Default: 40
 		#Range: 0 ~ 72000
 		hailTime = 40
-		#Hail Spell Cooldown, Default: 20
+		#Hail Spell Cooldown, Default: 100
 		#Range: > 0
 		hailCoolDown = 20
 		#How much base damage Hail deals, Default: 1.0
@@ -726,6 +732,9 @@
 		#How much base maximum damage Frost Nova Spell deals, Default: 10.0
 		#Range: 2.0 ~ 1.7976931348623157E308
 		frostNovaMaxDamage = 10.0
+		#Frost Nova Spell Cooldown when cast on a target, Default: 160
+		#Range: > 0
+		frostNovaTargetCoolDown = 160
 
 	[Spells."Frostborn Spell"]
 		#Frostborn Spell Cost, Default: 24
@@ -1597,6 +1606,9 @@
 		#Initial lifespan of the Bulwark Spell's shields, count in ticks, Default: 1500
 		#Range: > 1
 		bulwarkShieldTime = 1500
+		#If damage received exceeds this amount, an additional shield will be broken per exceeded amount. Set to 0.0 to disable, Default: 15.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		bulwarkShieldBreakExtra = 15.0
 
 	[Spells."Soul Heal Spell"]
 		#Soul Heal Spell Cost, Default: 250
@@ -1686,6 +1698,26 @@
 		corruptedBeamDamage = 10.0
 		#Whether casting Corruption spell immobilizes the caster, Default: true
 		corruptionImmobile = true
+
+	[Spells."Surging Spell"]
+		#Surging Spell Cost, Default: 24
+		#Range: > 0
+		surgingCost = 24
+		#How many ticks the Surging Spell much charge before casting, Default: 80
+		#Range: > 0
+		surgingChargeUp = 80
+		#How many shots are allowed to be fired before spell ends, set 0 to allow spell to be cast indefinitely, Default: 0
+		#Range: 0 ~ 72000
+		surgingShots = 0
+		#Time to cast Surging Spell per tick, Default: 6
+		#Range: 0 ~ 72000
+		surgingTime = 6
+		#Surging Spell Cooldown, Default: 200
+		#Range: 0 ~ 72000
+		surgingCoolDown = 200
+		#How much base damage Surging Orbs deals, Default: 3.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		surgingDamage = 3.0
 
 ["Servant Limits"]
 	#Number of Spider Servants that an individual player can have in total, Default: 32

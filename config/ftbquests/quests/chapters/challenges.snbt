@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "challenges"
+	group: "00EC63AFE5312D99"
+	icon: "enigmaticlegacy:astral_dust"
+	id: "6515C27CF3E43D14"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Challenges"
+}

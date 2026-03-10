@@ -5,8 +5,185 @@
 	group: "2849284214DF0BB2"
 	icon: "bloodmagic:weakbloodorb"
 	id: "00077906C89D1404"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "2C418B83767436C6"
+			tasks: [{
+				id: "511F92CDE60D2353"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "419B330DC0889311"
+			tasks: [{
+				id: "49E2EC3846F917B5"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "00277788E94A65EA"
+			tasks: [{
+				id: "3B28AA7237440A9F"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "0DCF4E72B6B916D8"
+			tasks: [{
+				id: "348187D962A51BF8"
+				item: "bloodmagic:soulsnare"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0CF1E95CFB8EA913"
+			tasks: [{
+				id: "29704077805C5328"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "0456D72B2CD478F4"
+			tasks: [{
+				id: "776529C26DEB4D12"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "04F52200543FCC5B"
+			tasks: [{
+				id: "46BA3A17C68A9DD8"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "31C4F902761DD98A"
+			tasks: [{
+				id: "746B0E1C2D22DAB5"
+				title: "Tier 2"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "3C0EB8F9270C19C0"
+			tasks: [{
+				id: "77B50C4632CC9B2B"
+				title: "Tier 3"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "483F160F4DEDBA97"
+			tasks: [{
+				id: "461334CCB36B38C2"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "24AA19D6AA24953E"
+			tasks: [{
+				id: "23B6E09107F61D15"
+				title: "Edge of the Hidden Realm"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "5C92A59074D418BC"
+			tasks: [{
+				id: "4FFA52A2573E6B99"
+				title: "Tier 4"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "738427569CAB77D9"
+			tasks: [{
+				id: "317EB51D632618CB"
+				item: "bloodmagic:dungeon_metal"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "2B4BDB8871DF680F"
+			tasks: [{
+				id: "2C7FBFE9BC092884"
+				title: "Tier 5"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "3B75ED79EE6F30C6"
+			tasks: [{
+				id: "3C450C64C117405B"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "73E102C1C19F716A"
+			tasks: [{
+				id: "5C74AE11A0B21F4F"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "5D9C4606B471646B"
+			tasks: [{
+				id: "5414C2C606B7A527"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+	]
 	title: "Blood Magic"
 }

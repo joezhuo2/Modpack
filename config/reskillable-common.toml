@@ -17,7 +17,7 @@ maximumLevel = 100
 #Format: key=value
 #Valid values: attack, defense, mining, gathering, farming, building, agility, magic
 #Enable or disable skill leveling via GUI or selection. If disabled, skill levels must be granted by commands.
-enableSkillLeveling = true
+enableSkillLeveling = false
 #Enable or disable the skill level-up message.
 enableSkillUpMessage = false
 skillAliases = ["defense=defense"]

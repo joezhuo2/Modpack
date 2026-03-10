@@ -206,6 +206,36 @@
 		[types.wood_type.palegardenbackport]
 			pale_oak = true
 
+		[types.wood_type.dimdoors]
+			driftwood = true
+
+		[types.wood_type.bloodyhell]
+			blood = true
+			soul = true
+
+		[types.wood_type.betternether]
+			nether_reed = true
+			stalagnate = true
+			willow = true
+			wart = true
+			rubeus = true
+			mushroom_fir = true
+			nether_mushroom = true
+			anchor_tree = true
+			nether_sakura = true
+
+		[types.wood_type.betterend]
+			mossy_glowshroom = true
+			pythadendron = true
+			end_lotus = true
+			lacugrove = true
+			dragon_tree = true
+			tenanea = true
+			helix_tree = true
+			umbrella_tree = true
+			jellyshroom = true
+			lucernia = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.ars_nouveau]
@@ -443,6 +473,26 @@
 		[types.leaves_type.palegardenbackport]
 			pale_oak = true
 
+		[types.leaves_type.dimdoors]
+			driftwood = true
+
+		[types.leaves_type.bloodyhell]
+			blood = true
+			soul = true
+
+		[types.leaves_type.betternether]
+			willow = true
+			rubeus = true
+			anchor_tree = true
+			nether_sakura = true
+
+		[types.leaves_type.betterend]
+			pythadendron = true
+			lacugrove = true
+			dragon_tree = true
+			tenanea = true
+			lucernia = true
+
 #Disables specific entries
 [entries]
 
@@ -458,11 +508,6 @@
 			ladder = false
 			hollow_log = true
 			vertical_slab = false
-
-		[entries.wood_type.functionalstorage]
-			1 = true
-			4 = true
-			2 = true
 
 		[entries.wood_type.twilightforest]
 			hollow_log_horizontal = false

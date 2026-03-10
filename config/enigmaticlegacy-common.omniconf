@@ -118,7 +118,7 @@
     B:EnderRodEnabled=true
 
     # Whether or not Enigmatic Amulet should be enabled. [default: true, synchronized: yes]
-    B:EnigmaticAmuletEnabled=true
+    B:EnigmaticAmuletEnabled=false
 
     # Whether or not Essence of Raging Life should be enabled. [default: true, synchronized: yes]
     B:EssenceofRagingLifeEnabled=true
@@ -247,7 +247,7 @@
     B:RingofEnderEnabled=true
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
-    B:RingoftheSevenCursesEnabled=true
+    B:RingoftheSevenCursesEnabled=false
 
     # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
     B:ScrollofAgelessWisdomEnabled=true
@@ -364,13 +364,13 @@
     # Chance to get an Emerald when slaying any mob with Pact of Infinite Avarice equipped. [range: 0 ~ 100, default: 15, synchronized: yes]
     I:AvariceScrollEmeraldChance=15
 
-    # Attack speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
+    # Attack speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 4.0, synchronized: yes]
     D:BerserkEmblemAttackSpeedBoost=1.0
 
-    # Damage increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
+    # Damage increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 2.0, synchronized: yes]
     D:BerserkEmblemDamageBoost=1.0
 
-    # Damage resistance provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
+    # Damage resistance provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
     D:BerserkEmblemResistanceBoost=0.5
 
     # Movement speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
@@ -400,10 +400,10 @@
     # Knockback bonus of The Architect's Favor against non-chosen players. [range: 0 ~ 32768, default: 100, synchronized: yes]
     I:CosmicScrollUnchosenKnockbackBonus=100
 
-    # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
+    # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 8, synchronized: yes]
     I:CursedScrollDamageBoost=4
 
-    # Mining speed increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 7, synchronized: yes]
+    # Mining speed increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 12, synchronized: yes]
     I:CursedScrollMiningBoost=7
 
     # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
@@ -770,7 +770,7 @@
 ##########################################################################################################
 
 "The Seven Curses" {
-    # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
+    # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 60, synchronized: yes]
     I:CursedRingArmorDebuff=30
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory. This is different from ultra hardcore option as the way through which ring ends up in player's inventory does not matter. [default: false, synchronized: yes]
@@ -779,7 +779,7 @@
     # Set to false to disable ALL special drops that can be obtained from vanilla mobs when bearing Ring of the Seven Curses. [default: true, synchronized: yes]
     B:CursedRingEnableSpecialDrops=true
 
-    # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 10, synchronized: yes]
+    # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 80, synchronized: yes]
     I:CursedRingEnchantingBonus=10
 
     # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
@@ -791,16 +791,16 @@
     # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
     I:CursedRingExperienceBonus=400
 
-    # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
+    # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 7, synchronized: yes]
     I:CursedRingFortuneBonus=1
 
     # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:CursedRingKnockbackDebuff=200
 
-    # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
+    # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 7, synchronized: yes]
     I:CursedRingLootingBonus=1
 
-    # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
+    # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 0, synchronized: yes]
     I:CursedRingMonsterDamageDebuff=50
 
     # List of entities that should never be affected by the Second Curse of Ring of the Seven Curses. Examples: minecraft:iron_golem, minecraft:zombified_piglin. Changing this option required game restart to take effect. [default: , synchronized: no]
@@ -817,7 +817,7 @@
     I:CursedRingPainModifier=200
 
     # A fraction of time the player should bear the Seven Curses to use Abyssal Artifacts. [range: 0.0 ~ 32768.0, default: 0.995, synchronized: yes]
-    D:CursedRingSuperCursedTime=0.995
+    D:CursedRingSuperCursedTime=0.500
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when entering a new world, instead of just being added to their inventory. [default: false, synchronized: yes]
     B:CursedRingUltraHardcore=false

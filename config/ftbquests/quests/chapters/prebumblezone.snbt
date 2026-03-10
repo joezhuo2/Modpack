@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "prebumblezone"
+	group: "0BE42B5AD6E4C6EE"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:cobblestone"
+	id: "388738A249C7291B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4391EDF2DD2D05AB"]
+			id: "45A80CD074A48031"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "53FF3FC674F091CF"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A0438B031B1C785"]
+			id: "454AEF7E83778B95"
+			tasks: [{
+				id: "3892271E1D8C46CE"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["454AEF7E83778B95"]
+			id: "39AB36AB0DD51967"
+			tasks: [{
+				id: "73ADF422BC721F49"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["39AB36AB0DD51967"]
+			id: "1AE31B4E7941A8F1"
+			tasks: [{
+				id: "0C49DB39DE6E577F"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1AE31B4E7941A8F1"]
+			id: "5A51E8E84597E9B2"
+			tasks: [{
+				id: "4AFFE6888B23557D"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01866A1490116FB3"]
+			id: "476FAD6C008141E0"
+			tasks: [{
+				id: "5F0359CF9C842317"
+				item: "kubejs:rough_andesite_alloy"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["476FAD6C008141E0"]
+			id: "7E532675E098D68D"
+			tasks: [{
+				id: "476770BD4B38D43A"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E532675E098D68D"]
+			id: "64E089EC3B1949D5"
+			tasks: [{
+				id: "38D005DE7121A30D"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64E089EC3B1949D5"]
+			id: "4391EDF2DD2D05AB"
+			tasks: [{
+				id: "025B713CC42E248E"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1AE31B4E7941A8F1"]
+			id: "01866A1490116FB3"
+			tasks: [{
+				id: "49FBC469BA08C524"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["454AEF7E83778B95"]
+			id: "0B4369013A1BE636"
+			tasks: [{
+				id: "5ED54B8CF7753228"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16BCF7F61DAC20B9"]
+			id: "2A0438B031B1C785"
+			tasks: [{
+				id: "256A0E779F1B8B53"
+				item: "thermal:raw_tin"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+	]
+	title: "Pre Bumblezone"
+}

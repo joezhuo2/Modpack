@@ -5,8 +5,69 @@
 	group: "2849284214DF0BB2"
 	icon: "eidolon:gold_inlay"
 	id: "270A93A60F3DD0F0"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "7477C5BDD743AECF"
+			tasks: [{
+				id: "4AFCBC167557ACAB"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "500C7FC8743C515F"
+			tasks: [{
+				id: "16680815FC5D0F54"
+				item: "eidolon:brazier"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "61E0DA55E3C7C22B"
+			tasks: [{
+				id: "415599D9BCC585F7"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "091E69151B938E0E"
+			tasks: [{
+				id: "6429B49E6BB04AE9"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "56CAB0E5EF60FC72"
+			tasks: [{
+				id: "3045F02093F4568F"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "07BB866C19A1F94F"
+			tasks: [{
+				id: "0CE2AD2455E7A330"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
 	title: "Eidolon"
 }

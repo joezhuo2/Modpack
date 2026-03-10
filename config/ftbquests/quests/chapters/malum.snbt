@@ -5,8 +5,132 @@
 	group: "2849284214DF0BB2"
 	icon: "malum:cluster_of_brilliance"
 	id: "24778A4546E27465"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4D89FECAA1ED1444"
+			tasks: [{
+				icon: "malum:void_depot"
+				id: "1F694ABB06A1E573"
+				observe_type: 0
+				timer: 0L
+				to_observe: "malum:void_depot"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "0F818B1351B605AD"
+			tasks: [{
+				id: "23206D3AF9CC9D5C"
+				item: "malum:raw_soulstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "28D4EF0787C47DFF"
+			tasks: [{
+				id: "6766E7C4E85B3E24"
+				item: "malum:processed_soulstone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "0A42C58D1B5572B5"
+			tasks: [{
+				id: "33ADA8A9A2A36844"
+				item: "malum:runewood_planks"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "730676FD2BF6968C"
+			tasks: [{
+				id: "67D17B7E973969B4"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "38239336DA1F40E4"
+			tasks: [{
+				id: "0A4476FCE9A68C54"
+				item: "malum:runic_workbench"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "4A06E3EFF25D58C4"
+			tasks: [{
+				id: "727F5DD76283A6C1"
+				item: "malum:spirit_crucible"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "168EA62B485A3E19"
+			tasks: [{
+				id: "2D4E203AF05FEC8D"
+				item: "malum:cthonic_gold"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "5FB4CFB9FFF06392"
+			tasks: [{
+				id: "6A13DA73072CC719"
+				item: "malum:soul_stained_steel_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "0C89CDA908B6F889"
+			tasks: [{
+				id: "445423F18F74D5AD"
+				item: "malum:cluster_of_brilliance"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "6904F5014DB0B844"
+			tasks: [{
+				id: "22870CEBC8BEBDBC"
+				item: "malum:soulwood_log"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "7899096EA5E00AC5"
+			tasks: [{
+				id: "7DFBBA7BCD9A0960"
+				item: "malum:hallowed_gold_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
 	title: "Malum"
 }

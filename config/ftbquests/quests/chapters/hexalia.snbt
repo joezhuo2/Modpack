@@ -5,8 +5,85 @@
 	group: "2849284214DF0BB2"
 	icon: "minecraft:amethyst_shard"
 	id: "1FC03A45C77DFDB4"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "75E037AA0D2ACF1F"
+			tasks: [{
+				id: "0B913AB4BBBC7EDE"
+				item: "hexalia:hex_focus"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "6B1E724C71B5AB5B"
+			tasks: [{
+				id: "123CC408F92DADEE"
+				item: "hexalia:small_cauldron"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "6019E3DF0F6DDCE4"
+			tasks: [{
+				id: "272A2A5242304785"
+				item: "hexalia:mutavis"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "514FE98B9BEF851F"
+			tasks: [{
+				id: "6F76BC8AB2F6D83B"
+				item: "hexalia:tree_resin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "217773697A965505"
+			tasks: [{
+				id: "5ED1E29003D2BE6D"
+				item: {
+					Count: 1
+					id: "hexalia:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "128CB197E99C172B"
+			tasks: [{
+				id: "549F46FBCEE47834"
+				item: "hexalia:ritual_brazier"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "0DA0ADDC3DACED49"
+			tasks: [{
+				id: "1C328CCFF6C12249"
+				item: "hexalia:ritual_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
 	title: "Hexalia"
 }

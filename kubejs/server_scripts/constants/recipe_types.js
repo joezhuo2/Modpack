@@ -134,7 +134,7 @@
  * ### Filling By Spout
  * @param {*} fluid fluid input is included as an object in input
  * ### Create Heating
- * @param {*} heat can be 'heated'or 'superheated'
+ * @param {*} heat can be 'heated'or 'superheated' or 'lowheated'
  * ### Mechanical Crafting
  * @param {*} acceptMirrored whether the recipe can be mirrored
  * ### Fermenting Barrel

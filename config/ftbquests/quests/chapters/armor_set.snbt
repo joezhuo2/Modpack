@@ -61,10 +61,11 @@
 			y: -2.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["16BCF7F61DAC20B9"]
 			id: "089A4A9592AEF454"
 			tasks: [
 				{
@@ -128,10 +129,11 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
+			dependencies: ["5EF7075B7F409543"]
 			id: "4B3A1BC9AFA5FA69"
 			tasks: [
 				{
@@ -190,7 +192,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -207,10 +209,11 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["64E089EC3B1949D5"]
 			id: "42BAFF1460F0A1C7"
 			tasks: [
 				{
@@ -269,7 +272,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -286,8 +289,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			id: "3BD3F8B76DC59204"
@@ -437,6 +440,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["5A51E8E84597E9B2"]
 			id: "25D5C188E773E273"
 			tasks: [
 				{
@@ -495,8 +499,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.0d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			id: "0CB461F260D3040D"
@@ -1242,7 +1246,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
+			x: 24.0d
 			y: 2.0d
 		}
 		{
@@ -1318,6 +1322,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["2DCC80EEB78F167B"]
 			id: "6550A234F40BCC8D"
 			tasks: [
 				{
@@ -1365,7 +1370,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: -3.0d
 			y: 2.0d
 		}
 		{

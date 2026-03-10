@@ -1,0 +1,1 @@
+AStages.addRestrictionForTag(`astages/items/disabled`, 'disabled', 'kubejs:removed_items')

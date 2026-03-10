@@ -5,8 +5,69 @@
 	group: "2849284214DF0BB2"
 	icon: "biomancy:flesh_bits"
 	id: "43C14CB6ACB422D5"
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "51004F358B7C30CD"
+			tasks: [{
+				id: "201DE13A0C49CCF5"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "2F64BBEAF7EA368B"
+			tasks: [{
+				id: "58C58E467E5E1587"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "7742145D500E50D5"
+			tasks: [{
+				id: "505DBD0F208CB6AE"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "335F78A0EBDFED59"
+			tasks: [{
+				id: "3B79AC8AC1317B6F"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "6BEC3A1B2374DD4D"
+			tasks: [{
+				id: "0B4BA53ADACE79BC"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "5EFC41BC96E05A15"
+			tasks: [{
+				id: "3C356C2BCA6FFF45"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
 	title: "Biomancy"
 }

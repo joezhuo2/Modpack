@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: "0BE42B5AD6E4C6EE"
+	icon: "minecraft:oak_wood"
+	id: "412F0EEEB4D618CC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3DDB21AEA3E66574"
+			min_width: 10
+			tasks: [{
+				id: "05B7243318F8FB25"
+				item: {
+					Count: 1
+					id: "survival_firesticks:firestick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3DDB21AEA3E66574"]
+			id: "3E53ACBF379B8231"
+			tasks: [{
+				id: "71E470DF588B7A75"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E53ACBF379B8231"]
+			id: "5F4F59ABCBE4A11F"
+			tasks: [{
+				id: "52D76878B3D0E141"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F4F59ABCBE4A11F"]
+			id: "7C04F149CA100BA4"
+			tasks: [{
+				id: "6F07A4476BA3422C"
+				item: "primitivechests:primitive_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C04F149CA100BA4"]
+			id: "3C541910BD0AF0FA"
+			tasks: [{
+				id: "20072DA9481BFFDC"
+				item: "primitivechests:advanced_primitive_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F4F59ABCBE4A11F"]
+			id: "2DCC80EEB78F167B"
+			tasks: [{
+				id: "7D62191F5B77C9F8"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2DCC80EEB78F167B"]
+			id: "73F9F63335CFBB6B"
+			tasks: [{
+				id: "1E6A9642CDF7F265"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73F9F63335CFBB6B"]
+			id: "5EF7075B7F409543"
+			tasks: [{
+				id: "179D50FD4BC78160"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EF7075B7F409543"]
+			id: "07A8D27D58F1DD93"
+			tasks: [{
+				id: "0FC577B58D5E142E"
+				item: "extendedcrafting:handheld_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5EF7075B7F409543"]
+			id: "16BCF7F61DAC20B9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3BCB255C081D10E6"
+				item: "ceramics:kiln"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+	]
+	title: "Introduction"
+}

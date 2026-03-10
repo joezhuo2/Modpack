@@ -120,6 +120,9 @@
   "hammerlib": {
     "root": true
   },
+  "betternether": {
+    "plant_growth": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -146,6 +149,7 @@
     "block_owner": true,
     "soul_energy": true,
     "raider_leader": true,
+    "hostile": true,
     "servant_mode": true,
     "capture_mode": true,
     "zombie_villager": true,
@@ -153,9 +157,6 @@
     "train_to": true,
     "summon_lifespan": true,
     "trainable": true
-  },
-  "replication": {
-    "matter_tank": true
   },
   "framedblocks": {
     "framed_item_frame": true
@@ -193,24 +194,6 @@
   },
   "unlitcampfire": {
     "campfireinfo": true
-  },
-  "vampirism": {
-    "altar_pillar": true,
-    "weapon_table": true,
-    "player_faction.lord_level_number": false,
-    "alchemy_table": true,
-    "entity_blood.show_fraction": false,
-    "entity_blood.max_for_render": 40,
-    "potion_table": true,
-    "totem": true,
-    "research_table": true,
-    "entity_blood.icon_per_line": 10,
-    "player_faction": true,
-    "entity_blood": true,
-    "altar_of_infusion": true,
-    "garlic_beacon": true,
-    "pedestal_charging": true,
-    "altar_of_inspiration": true
   },
   "balm": {
     "jade": true
