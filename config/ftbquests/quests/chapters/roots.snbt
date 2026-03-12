@@ -14,6 +14,7 @@
 	id: "14F24EF6BBE1DA4F"
 	images: [
 		{
+			dependency: "6AD8B042A038499B"
 			height: 5.0d
 			image: "new:textures/quests/totemic_logo.png"
 			rotation: 0.0d
@@ -208,17 +209,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.5d
-			y: 4.5d
-		}
-		{
-			dependency: "0F0B1A0332EFE2E5"
-			height: 1.0d
-			image: "minecraft:block/cave_vines_plant"
-			order: 1
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.5d
+			x: -7.0d
 			y: 5.0d
 		}
 		{
@@ -228,8 +219,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.5d
-			y: 5.5d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
 			dependency: "69D7F92AC0702E7F"
@@ -268,8 +259,8 @@
 			order: 1
 			rotation: 90.0d
 			width: 1.0d
-			x: -5.0d
-			y: 6.0d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			dependency: "0F0B1A0332EFE2E5"
@@ -278,8 +269,8 @@
 			order: 1
 			rotation: 90.0d
 			width: 1.0d
-			x: -4.5d
-			y: 6.0d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependency: "69D7F92AC0702E7F"
@@ -422,20 +413,10 @@
 			height: 1.0d
 			image: "minecraft:block/cave_vines_plant"
 			order: 1
-			rotation: 90.0d
+			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: 4.0d
-		}
-		{
-			dependency: "1701CCD773BEDAB0"
-			height: 1.0d
-			image: "minecraft:block/cave_vines_plant"
-			order: 1
-			rotation: 90.0d
-			width: 1.0d
-			x: -6.5d
-			y: 4.0d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			dependency: "6F8C0FB3ED0772AC"
@@ -452,8 +433,8 @@
 			image: "minecraft:block/cave_vines"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
-			y: 4.5d
+			x: -5.5d
+			y: 6.0d
 		}
 		{
 			dependency: "1DA93798EA259B0B"
@@ -461,8 +442,8 @@
 			image: "minecraft:block/cave_vines"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.0d
-			y: 6.5d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			dependency: "3A864754A15152E2"
@@ -660,14 +641,16 @@
 			y: 6.5d
 		}
 		{
+			dependency: "32ECB5E7CAC2DA39"
 			height: 1.25d
 			image: "regions_unexplored:block/flowering_lily_pad"
 			rotation: 0.0d
 			width: 1.25d
-			x: -5.5d
-			y: 6.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
+			dependency: "6AD8B042A038499B"
 			height: 1.25d
 			image: "regions_unexplored:block/flowering_lily_pad"
 			rotation: 0.0d
@@ -704,21 +687,33 @@
 			x: 8.0d
 			y: 4.0d
 		}
+		{
+			dependency: "1701CCD773BEDAB0"
+			height: 1.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 5.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["32ECB5E7CAC2DA39"]
 			id: "0F0B1A0332EFE2E5"
 			tasks: [{
 				id: "1126D09BF2E78008"
 				item: "totemic:drum"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 6.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["6AD8B042A038499B"]
 			id: "69D7F92AC0702E7F"
 			tasks: [{
 				id: "2C06B3A852B0205F"
@@ -783,8 +778,8 @@
 				title: "War Dance"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 6.0d
+			x: -7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["69D7F92AC0702E7F"]
@@ -971,8 +966,8 @@
 				item: "totemic:totem_torch"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.0d
+			x: -5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3A864754A15152E2"]

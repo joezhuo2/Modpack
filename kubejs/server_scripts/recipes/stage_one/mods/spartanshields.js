@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    // wooden shield
+    // wooden basic shield
     event.shaped(Item.of('spartanshields:wooden_basic_shield', 1),
         [
             ' AB',
@@ -12,4 +12,7 @@ ServerEvents.recipes(event => {
             C: 'kubejs:rod_wood'
         }
     )
+    // wooden tower shield
+    // stone basic shield
+    // stone toweer shield
 })

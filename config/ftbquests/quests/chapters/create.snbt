@@ -3,22 +3,28 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "2F688CAF980A2EE4"
+	hide_quest_until_deps_complete: true
 	icon: "create:cogwheel"
 	id: "6DFC64DB51577E14"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6A5273DF2B51D798"]
 			id: "78BCA33BEDC52C51"
 			tasks: [{
 				id: "05A7F7D157317C7B"
 				item: "kubejs:rough_andesite_alloy"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"01866A1490116FB3"
+				"78BCA33BEDC52C51"
+			]
 			id: "32ECB5E7CAC2DA39"
 			tasks: [{
 				id: "71645225B801F9BA"
@@ -61,23 +67,24 @@
 			y: -3.0d
 		}
 		{
-			id: "72D3E8A148B3791B"
-			tasks: [{
-				id: "02849EA9D7A929BC"
-				item: "create:millstone"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
+			dependencies: [
+				"0E63D0D2B4B0C679"
+				"6AD8B042A038499B"
+			]
 			id: "6A5273DF2B51D798"
-			tasks: [{
-				id: "5C5452316D64558F"
-				item: "create:hand_crank"
-				type: "item"
-			}]
-			x: -3.5d
+			tasks: [
+				{
+					id: "5C5452316D64558F"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "6A9F80E3F56A4938"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			x: -0.5d
 			y: 0.0d
 		}
 		{

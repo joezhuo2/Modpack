@@ -4,4 +4,7 @@ ServerEvents.recipes(event => {
     // smoker
     // tnt
     // chest
+    // boat
+    // item frame
+    // glowing item frame
 })

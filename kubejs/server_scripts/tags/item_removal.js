@@ -119,7 +119,11 @@ const itemsToRemove = [
     'stone_hoe',
 
     'aquaculture:wooden_fillet_knife',
-    'aquaculture:stone_fillet_knife'
+    'aquaculture:stone_fillet_knife',
+
+    'hexerei:mahogany_woodcutter',
+    'hexerei:willow_woodcutter',
+    'hexerei:witch_hazel_woodcutter',
 ]
 
 ServerEvents.tags('item', event => {

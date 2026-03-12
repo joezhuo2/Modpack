@@ -4,11 +4,14 @@ ServerEvents.recipes(event => {
         event,
         [
             { item: 'ceramics:unfired_porcelain' },
-            { item: 'ceramics:unfired_porcelain' },
+            { item: 'kubejs:dust_granite' },
             { item: 'ceramics:unfired_porcelain' },
             { item: 'kubejs:dust_calcite' },
-            { item: 'kubejs:dust_granite' }
+            { item: 'ceramics:unfired_porcelain' }
         ],
-        { item: 'embers:caminite_blend', count: 3}
+        { item: 'embers:caminite_blend', count: 3},
+        300
     )
+    // raw caminite plate
+    // caminite plate
 })

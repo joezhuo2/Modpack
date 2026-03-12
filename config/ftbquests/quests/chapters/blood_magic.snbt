@@ -3,9 +3,10 @@
 	default_quest_shape: ""
 	filename: "blood_magic"
 	group: "2849284214DF0BB2"
+	hide_quest_until_deps_complete: true
 	icon: "bloodmagic:weakbloodorb"
 	id: "00077906C89D1404"
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,6 +30,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["454AEF7E83778B95"]
 			id: "00277788E94A65EA"
 			tasks: [{
 				id: "3B28AA7237440A9F"

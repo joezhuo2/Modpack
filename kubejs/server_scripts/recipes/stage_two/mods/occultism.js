@@ -3,4 +3,5 @@ ServerEvents.recipes(event => {
     // otherstone
     // otherworld ashes
     // purified ink
+    // demon's dream seeds
 })

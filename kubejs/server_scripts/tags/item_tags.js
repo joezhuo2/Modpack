@@ -53,8 +53,12 @@ ServerEvents.tags('item', event => {
     event.add('forge:leather', 'totemic:buffalo_hide')
     event.add('forge:leather', 'immersiveengineering:ersatz_leather')
 
-    // hammers
+    // tools
     event.add('forge:tools/hammers', '#forbidden_arcanus:blacksmith_gavel')
+    event.add('kubejs:can_harvest_mystical_flowers', 'kubejs:botanists_shears')
+    event.add('kubejs:can_harvest_mystical_flowers', 'botania:manasteel_shears')
+    event.add('kubejs:can_harvest_mystical_flowers', 'botania:elementium_shears')
+    event.add('kubejs:can_harvest_mystical_flowers', 'amethyst_tools:amethyst_shears')
 
     // crushed raw
     event.add('kubejs:crushed_raw/copper', 'create:crushed_raw_copper')

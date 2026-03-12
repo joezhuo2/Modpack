@@ -79,6 +79,7 @@ const removeTypes = [
     // 'minecraft:crafting_shapeless',
     // 'minecraft:smelting',
     // 'minecraft:blasting',
+    "hexerei:woodcutting"
 ]
 
 ServerEvents.recipes(event => {

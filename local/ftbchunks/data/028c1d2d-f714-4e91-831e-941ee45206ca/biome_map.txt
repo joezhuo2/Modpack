@@ -1,1 +1,9 @@
+#618 minecraft:basalt_deltas
+#3D5 betternether:flooded_deltas
+#388 regions_unexplored:glistering_meadow
+#0B5 regions_unexplored:mycotoxic_undergrowth
+#0F1 betternether:nether_grasslands
+#13C betternether:nether_jungle
+#614 betternether:poor_nether_grasslands
+#721 minecraft:soul_sand_valley
 #495 minecraft:the_void

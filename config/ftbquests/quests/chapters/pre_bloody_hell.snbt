@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pre_bloody_hell"
+	group: "0BE42B5AD6E4C6EE"
+	icon: "bloodmagic:weak_tau"
+	id: "2485402B8D6730FA"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Pre Bloody Hell"
+}

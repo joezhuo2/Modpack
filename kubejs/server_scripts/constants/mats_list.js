@@ -28,7 +28,7 @@ const materialsList = [
     {id: 'marble', raw_resource: 'goety:marble'},
     {id: 'scoria', raw_resource: 'create:scoria'},
     {id: 'basalt', raw_resource: 'smooth_basalt'},
-    {id: 'calcite', raw_resource: 'polished_calcite'},
+    {id: 'calcite', raw_resource: 'quark:polished_calcite'},
     {id: 'deepslate', raw_resource: 'polished_deepslate'},
 ]
 global.materialsList = materialsList

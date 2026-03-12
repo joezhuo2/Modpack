@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "immersive_engineering"
 	group: "2F688CAF980A2EE4"
+	hide_quest_until_deps_complete: true
 	icon: "thermal:copper_gear"
 	id: "68635339F165A7AE"
 	order_index: 3
@@ -15,8 +16,8 @@
 				item: "immersiveengineering:seed"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "76141163814BB5A3"
@@ -25,17 +26,23 @@
 				item: "immersiveengineering:hemp_fiber"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["64E089EC3B1949D5"]
 			id: "02A294F255654AB2"
 			tasks: [{
-				id: "0CC1DF03201760B1"
-				item: "immersiveengineering:alloybrick"
-				type: "item"
+				hasCustomPicture: false
+				icon: "immersiveengineering:alloybrick"
+				id: "6150F45AFF454D28"
+				ignoreState: false
+				layer: true
+				name: "alloy_kiln"
+				rightclick: false
+				type: "questsadditions:structure"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 0.5d
 		}
 		{

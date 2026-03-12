@@ -1,5 +1,6 @@
 let tools = [
-    {id: 'flint_shears', type: 'shears',name: 'Flint Shears', durability: 32}
+    {id: 'flint_shears', type: 'shears',name: 'Flint Shears', durability: 32},
+    {id: 'botanists_shears', type: 'shears', name: "Botanist's Shears", durability: 12},
 ]
 
 StartupEvents.registry('item', event => {

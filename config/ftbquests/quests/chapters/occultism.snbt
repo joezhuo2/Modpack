@@ -5,20 +5,22 @@
 	group: "2849284214DF0BB2"
 	icon: "occultism:datura"
 	id: "2F37FD5AAD256F66"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0EB61EC2F984B72C"]
 			id: "6E165AE289F77726"
 			tasks: [{
 				id: "2437D7BEC1DDC50F"
 				item: "occultism:datura"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -8.5d
 		}
 		{
+			dependencies: ["6E165AE289F77726"]
 			id: "712F31069D8AB551"
 			tasks: [{
 				icon: "occultism:spirit_fire"
@@ -28,8 +30,8 @@
 				to_observe: "occultism:spirit_fire"
 				type: "observation"
 			}]
-			x: 2.0d
-			y: -9.0d
+			x: 1.0d
+			y: -8.5d
 		}
 		{
 			id: "48607498AF66817B"
@@ -119,6 +121,7 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["7DDACFFB2142968D"]
 			id: "0EB61EC2F984B72C"
 			tasks: [{
 				id: "3431BA9D66270AF3"
@@ -129,24 +132,26 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["712F31069D8AB551"]
 			id: "12112152CF2317C2"
 			tasks: [{
 				id: "21F0D61354667CAF"
 				item: "occultism:otherworld_log"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -8.0d
 		}
 		{
+			dependencies: ["712F31069D8AB551"]
 			id: "3662063930595638"
 			tasks: [{
 				id: "180444BADED815AD"
 				item: "occultism:otherstone"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.5d
+			x: 3.0d
+			y: -9.0d
 		}
 	]
 	title: "Occultism"

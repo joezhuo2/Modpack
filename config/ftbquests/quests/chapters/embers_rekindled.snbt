@@ -3,12 +3,14 @@
 	default_quest_shape: ""
 	filename: "embers_rekindled"
 	group: "2F688CAF980A2EE4"
+	hide_quest_until_deps_complete: true
 	icon: "embers:ember_crystal_cluster"
 	id: "7343B2C784AED57B"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["454AEF7E83778B95"]
 			id: "0E63D0D2B4B0C679"
 			tasks: [{
 				id: "29D2EB524EF22BD6"
