@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "apotheosis:other_tome",
+    "industrialforegoing:infinity_trident",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "deeperdarker:sculk_smite",
+    "minecraft:bane_of_arthropods",
+    "apotheosis:bane_of_illagers",
+    "minecraft:impaling",
+    "minecraft:sharpness",
+    "enigmaticlegacy:torrent",
+    "minecraft:smite"
+  ]
+}

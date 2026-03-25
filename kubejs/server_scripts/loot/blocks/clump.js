@@ -3,7 +3,14 @@ const clumpDrops = [
     {block: 'minecraft:dirt', clump: 'kubejs:dirt_clump'},
     {block: 'minecraft:grass_block', clump: 'kubejs:dirt_clump'},
     {block: 'minecraft:sand', clump: 'kubejs:sand_clump'},
-    {block: 'minecraft:mud', clump: 'kubejs:mud_ball'}
+    {block: 'minecraft:mud', clump: 'kubejs:mud_ball'},
+    {block: 'minecraft:ice', clump: 'goety:ice_cube'},
+    {block: 'minecraft:blue_ice', clump: 'goety:ice_cube'},
+    {block: 'minecraft:packed_ice', clump: 'goety:ice_cube'},
+    {block: 'minecraft:packed_ice', clump: 'goety:ice_cube'},
+    {block: 'biomeswevegone:black_ice', clump: 'goety:ice_cube'},
+    {block: 'biomeswevegone:packed_black_ice', clump: 'goety:ice_cube'},
+
 ]
 
 const clumpChances = [

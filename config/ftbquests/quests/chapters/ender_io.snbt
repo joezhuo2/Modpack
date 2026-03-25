@@ -35,7 +35,7 @@
 				item: "enderio:energetic_alloy_ingot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: -0.5d
 		}
 		{
@@ -65,7 +65,7 @@
 				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: -0.5d
 		}
 		{

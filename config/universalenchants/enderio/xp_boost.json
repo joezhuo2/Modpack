@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:eio_xpboost",
+    "apotheosis:bow_tome",
+    "apotheosis:pickaxe_tome",
+    "apotheosis:weapon_tome",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "industrialforegoing:infinity_trident",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticaddons:the_bless"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:silk_touch"
+  ]
+}

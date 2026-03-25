@@ -53,8 +53,8 @@
 				item: "bloodmagic:soulsnare"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			id: "0CF1E95CFB8EA913"
@@ -64,7 +64,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			id: "0456D72B2CD478F4"
@@ -74,7 +74,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			id: "04F52200543FCC5B"

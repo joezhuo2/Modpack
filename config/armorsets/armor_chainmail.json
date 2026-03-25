@@ -28,36 +28,36 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": 1.0,
+      "value": 4.0,
       "attributeOperation": 0,
       "modifierUUID": "272af2d6-20e4-4f43-9994-a162359a3d87",
-      "description": "+1 Armor"
+      "description": "+4 Armor"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.armor_toughness",
-      "value": 1.0,
+      "value": 2.0,
       "attributeOperation": 0,
       "modifierUUID": "b68664ac-1614-40dc-a396-164af6e74963",
-      "description": "+1 Armor Toughness"
+      "description": "+2 Armor Toughness"
     }
   ],
   "fullSetBonuses": [
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": 3.0,
+      "value": 8.0,
       "attributeOperation": 0,
       "modifierUUID": "83798036-8f03-4299-9841-f44218831967",
-      "description": "+4 Armor"
+      "description": "+8 Armor"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.armor_toughness",
-      "value": 3.0,
+      "value": 4.0,
       "attributeOperation": 0,
       "modifierUUID": "022c983b-b2d8-4433-882b-3a56837ff7ba",
-      "description": "+3 Armor Toughness"
+      "description": "+4 Armor Toughness"
     },
     {
         "type": "effect",

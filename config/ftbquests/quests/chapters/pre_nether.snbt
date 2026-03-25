@@ -5,7 +5,7 @@
 	group: "0BE42B5AD6E4C6EE"
 	icon: "minecraft:iron_block"
 	id: "2CF919E2AF55ECCA"
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [{
 		id: "1B679E43DB547C6E"

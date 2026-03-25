@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:enchantable"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "enigmaticlegacy:eternal_binding",
+    "minecraft:vanishing_curse"
+  ]
+}

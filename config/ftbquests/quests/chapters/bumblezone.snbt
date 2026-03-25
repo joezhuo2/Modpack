@@ -5,7 +5,7 @@
 	group: "639F1BAEFB3D9BE5"
 	icon: "minecraft:honeycomb"
 	id: "11F3836D0B73131E"
-	order_index: 0
+	order_index: 5
 	quest_links: [ ]
 	quests: [ ]
 	title: "Bumblezone"

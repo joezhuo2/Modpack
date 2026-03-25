@@ -5,8 +5,30 @@
 	group: "0BE42B5AD6E4C6EE"
 	icon: "thermal_extra:soul_infused_block"
 	id: "77C4FB84008A4140"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "04B5DFB27193719C"
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: "born_in_chaos_v1:lifestealer_skull"
+			id: "5CFE1122DF8E204E"
+			ignore_dimension: false
+			position: [I;
+				0
+				-80
+				0
+			]
+			size: [I;
+				80
+				40
+				80
+			]
+			title: "Find the entrance to the Deep Void"
+			type: "location"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
 	title: "Pre Deep Void"
 }

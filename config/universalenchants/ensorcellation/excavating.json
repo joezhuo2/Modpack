@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pickaxe_or_shovel",
+    "apotheosis:pickaxe_tome",
+    "industrialforegoing:infinity_drill",
+    "sons_of_sins:shape_shifting_tool",
+    "draconicevolution:draconic_staff",
+    "draconicevolution:chaotic_staff"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:looting"
+  ]
+}

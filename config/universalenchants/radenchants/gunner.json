@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:re_weapons_projectiles",
+    "apotheosis:bow_tome",
+    "industrialforegoing:infinity_trident"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

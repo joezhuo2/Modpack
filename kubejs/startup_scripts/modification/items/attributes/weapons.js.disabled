@@ -1,0 +1,14 @@
+const weaponsToChange = [
+  {
+    id: 'minecraft:iron_sword',
+    damage: 10.0,
+  }
+]
+
+ItemEvents.modification(event => {
+  weaponsToChange.forEach(tool => {
+    event.modify(tool.id, item => {
+      item.attackDamage = tool.damage
+    })
+  })
+})

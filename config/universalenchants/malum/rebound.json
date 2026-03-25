@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:malum_scythe_only",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "malum:ascension"
+  ]
+}

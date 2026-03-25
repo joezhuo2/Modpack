@@ -15,14 +15,6 @@
 	images: [
 		{
 			height: 3.0d
-			image: "minecraft:item/honeycomb"
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			height: 3.0d
 			image: "blue_skies:item/misc/star_flare"
 			rotation: 0.0d
 			width: 3.0d
@@ -59,6 +51,14 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 42.5d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "botania:block/vivid_grass_top"
+			rotation: -45.0d
+			width: 2.0d
+			x: 0.0d
 			y: -2.5d
 		}
 	]
@@ -325,8 +325,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			id: "3BD3F8B76DC59204"
@@ -410,7 +410,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
@@ -655,7 +655,7 @@
 				}
 			]
 			x: 10.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			id: "41D7F88E973E1908"
@@ -705,8 +705,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 0.5d
+			x: 14.0d
+			y: 5.5d
 		}
 		{
 			id: "4F586FD21E82EB05"
@@ -1062,8 +1062,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 0.5d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			id: "0B7D6BBA7D912C9B"
@@ -1164,8 +1164,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 0.5d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			id: "09D624369D659912"
@@ -1215,8 +1215,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: 2.0d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			id: "68CC00FD1ADD2FC0"
@@ -1266,7 +1266,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 11.5d
 			y: 2.0d
 		}
 		{
@@ -1282,8 +1282,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
-			y: 2.0d
+			x: 20.0d
+			y: 0.5d
 		}
 		{
 			id: "5A232B23B7F18DC3"
@@ -1298,8 +1298,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 2.0d
+			x: 11.5d
+			y: 0.5d
 		}
 		{
 			id: "4EA5357644263AB1"
@@ -1354,8 +1354,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 0.5d
+			x: 7.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2DCC80EEB78F167B"]
@@ -1560,6 +1560,134 @@
 				}
 			]
 			x: 44.0d
+			y: 0.5d
+		}
+		{
+			id: "304DBB7C09B088D3"
+			tasks: [{
+				id: "0ADA5864C4EE0C54"
+				item: {
+					Count: 1
+					id: "create_sa:zinc_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "5763CE7F62A4EAA8"
+			tasks: [{
+				id: "2E8B0E5835096567"
+				item: {
+					Count: 1
+					id: "create_sa:brass_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "22888E92A6415EFA"
+			tasks: [{
+				id: "28F3F05CDF0C5827"
+				item: {
+					Count: 1
+					id: "immersiveengineering:armor_steel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			id: "6610C5D4695A8BFF"
+			tasks: [{
+				id: "6FF661AD82BE6D10"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wandering_magician_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "79FD710741854240"
+			tasks: [{
+				id: "1FB9E0BEB304F8F8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pumpkin_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "16F12C4C076863EE"
+			tasks: [{
+				id: "107D29D5EC152127"
+				item: {
+					Count: 1
+					id: "betternether:cincinnasite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "300754AB742AF037"
+			tasks: [{
+				id: "356314BA46D5A041"
+				item: {
+					Count: 1
+					id: "betternether:nether_ruby_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			id: "22D97835E609145A"
+			tasks: [{
+				id: "6EBCFC9321B32859"
+				item: {
+					Count: 1
+					id: "eidolon:silver_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
 			y: 0.5d
 		}
 	]

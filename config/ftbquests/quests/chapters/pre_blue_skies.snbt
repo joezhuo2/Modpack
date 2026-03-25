@@ -3,25 +3,59 @@
 	default_quest_shape: ""
 	filename: "pre_blue_skies"
 	group: "0BE42B5AD6E4C6EE"
-	icon: "minecraft:copper_block"
+	icon: "immersiveengineering:storage_aluminum"
 	id: "337271C4637A29DA"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "25E3DE986587A06B"
-		tasks: [{
-			id: "33F5DDB0271709BD"
-			item: {
-				Count: 1
-				id: "blue_skies:zeal_lighter"
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			id: "25E3DE986587A06B"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "33F5DDB0271709BD"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		x: 1.5d
-		y: -0.5d
-	}]
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "757EDBCFF1AD95B8"
+			tasks: [{
+				id: "27B04C75E2B7A891"
+				item: "elevatorid:elevator_white"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "4B540AFBBAC122A6"
+			tasks: [{
+				id: "76926B3BF5DCF1E8"
+				item: "xycraft_machines:extractor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "1D12325BFAF4B030"
+			tasks: [{
+				id: "34B65DA8F02F2E1D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+	]
 	title: "Pre Blue Skies"
 }

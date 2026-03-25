@@ -139,8 +139,8 @@
 				item: "occultism:otherworld_log"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.0d
+			x: 2.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["712F31069D8AB551"]
@@ -150,8 +150,38 @@
 				item: "occultism:otherstone"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.0d
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			id: "35C785918BF14515"
+			tasks: [{
+				id: "566792B5139F37E5"
+				item: "occultism:demons_dream_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "1EA2D67C78E7B26A"
+			tasks: [{
+				id: "71BFD68E3FA821FD"
+				item: "occultism:otherworld_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			id: "6D65A24A96869ED9"
+			tasks: [{
+				id: "3B1ED89DCB001C21"
+				item: "occultism:chalk_white_impure"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
 		}
 	]
 	title: "Occultism"

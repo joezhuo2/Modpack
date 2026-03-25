@@ -117,6 +117,9 @@
     "advanced_auto_table": true,
     "compressor": true
   },
+  "createlowheated": {
+    "basic_burner_info": true
+  },
   "hammerlib": {
     "root": true
   },

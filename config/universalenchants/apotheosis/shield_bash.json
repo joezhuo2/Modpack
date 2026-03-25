@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:shield",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "deeperdarker:sculk_smite",
+    "minecraft:bane_of_arthropods",
+    "apotheosis:bane_of_illagers",
+    "minecraft:sharpness",
+    "minecraft:smite"
+  ]
+}

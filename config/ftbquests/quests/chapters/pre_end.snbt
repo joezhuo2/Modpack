@@ -5,8 +5,18 @@
 	group: "0BE42B5AD6E4C6EE"
 	icon: "thermal:enderium_block"
 	id: "0A1D4A7086F93AD7"
-	order_index: 10
+	order_index: 13
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "7D56E3952BBCA901"
+		tasks: [{
+			advancement: "minecraft:story/follow_ender_eye"
+			criterion: ""
+			id: "3FA3E365B5C3B259"
+			type: "advancement"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Pre End"
 }

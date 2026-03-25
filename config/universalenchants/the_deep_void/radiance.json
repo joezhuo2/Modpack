@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "apotheosis:other_tome",
+    "apotheosis:weapon_tome",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "sons_of_sins:shape_shifting_tool",
+    "goety:dark_scythe",
+    "goety:dark_metal_scythe",
+    "goety:death_scythe",
+    "goety:great_hammer",
+    "goety:bonehead_hammer",
+    "goety:stormlander",
+    "goety:philosophers_mace",
+    "twilightforest:block_and_chain",
+    "the_bumblezone:carpenter_bee_boots_1",
+    "the_bumblezone:carpenter_bee_boots_2"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:bane_of_arthropods",
+    "the_deep_void:scourge_of_flesh",
+    "minecraft:sharpness",
+    "minecraft:smite"
+  ]
+}

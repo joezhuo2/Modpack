@@ -5,7 +5,7 @@
 	group: "0BE42B5AD6E4C6EE"
 	icon: "theabyss:unstable_obsidian"
 	id: "3F960AAF72C10AD8"
-	order_index: 6
+	order_index: 14
 	quest_links: [ ]
 	quests: [{
 		id: "2A97ED3C1F6303C5"

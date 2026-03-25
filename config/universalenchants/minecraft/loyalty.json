@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "apotheosis:other_tome",
+    "hunters_return:boomerang",
+    "mythicbotany:mjoellnir",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche",
+    "thermal_extra:signalum_knife",
+    "thermal_extra:lumium_knife",
+    "thermal_extra:enderium_knife",
+    "thermal_extra:soul_infused_knife",
+    "thermal_extra:shellite_knife",
+    "thermal_extra:twinite_knife",
+    "thermal_extra:dragonsteel_knife",
+    "thermal_extra:abyssal_knife",
+    "blue_skies:soulbound_spear",
+    "blue_skies:bluebright_spear",
+    "blue_skies:starlit_spear",
+    "blue_skies:frostbright_spear",
+    "blue_skies:lunar_spear",
+    "blue_skies:dusk_spear",
+    "blue_skies:maple_spear",
+    "blue_skies:comet_spear",
+    "aether_redux:spear_of_the_blight",
+    "supplementaries:slingshot"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:riptide"
+  ]
+}

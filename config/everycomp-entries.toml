@@ -236,6 +236,9 @@
 			jellyshroom = true
 			lucernia = true
 
+		[types.wood_type.enigmaticdelicacy]
+			astral = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.ars_nouveau]
@@ -492,6 +495,13 @@
 			dragon_tree = true
 			tenanea = true
 			lucernia = true
+
+		[types.leaves_type.enigmaticdelicacy]
+			astral = true
+			blossoming_astral = true
+
+		[types.leaves_type.twilightdelight]
+			ironwood = true
 
 #Disables specific entries
 [entries]

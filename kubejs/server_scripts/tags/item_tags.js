@@ -1,7 +1,8 @@
-// priority: 1000
+// priority: 1001
 
 const keepOnlyItemFromTag = [
     { tag: 'forge:nuggets/tin', item: 'thermal:tin_nugget' },
+
     { tag: 'forge:rods/stone', item: 'kubejs:rod_stone' },
     
     { tag: 'forge:ingots/tin', item: 'thermal:tin_ingot' },
@@ -60,9 +61,52 @@ ServerEvents.tags('item', event => {
     event.add('kubejs:can_harvest_mystical_flowers', 'botania:elementium_shears')
     event.add('kubejs:can_harvest_mystical_flowers', 'amethyst_tools:amethyst_shears')
 
+    // ores
+    event.add('forge:ores/tungsten', 'stalwart_dungeons:tungsten_ore')
+    event.add('forge:ores/titanium', 'occultism:silver_ore_deepslate')
+    event.remove('forge:ores/silver', 'occultism:silver_ore_deepslate')
+    event.add('forge:ores/platinum', 'eidolon:deepslate_silver_ore')
+    event.remove('forge:ores/silver', 'eidolon:deepslate_silver_ore')
+
+    // raw materials
+    event.add('forge:raw_materials/tungsten', 'stalwart_dungeons:raw_tungsten')
+    event.add('forge:raw_materials/titanium', 'occultism:raw_silver')
+    event.remove('forge:raw_materials/silver', 'occultism:raw_silver')
+    event.add('forge:raw_materials/platinum', 'eidolon:raw_silver')
+    event.remove('forge:raw_materials/silver', 'eidolon:raw_silver')
+    
+    // raw block
+    event.add('forge:storage_blocks/raw_titanium', 'occultism:raw_silver_block')
+    event.remove('forge:storage_blocks/raw_silver', 'occultism:raw_silver_block')
+    event.add('forge:storage_blocks/raw_platinum', 'eidolon:raw_silver_block')
+    event.remove('forge:storage_blocks/raw_silver', 'eidolon:raw_silver_block')
+
     // crushed raw
     event.add('kubejs:crushed_raw/copper', 'create:crushed_raw_copper')
     event.add('kubejs:crushed_raw/tin', 'create:crushed_raw_tin')
+
+    // nuggets
+    event.add('forge:nuggets/titanium', 'occultism:silver_nugget')
+    event.remove('forge:nuggets/silver', 'occultism:silver_nugget')
+    event.add('forge:nuggets/platinum', 'eidolon:silver_nugget')
+    event.remove('forge:nuggets/silver', 'eidolon:silver_nugget')
+
+    // ingots
+    event.add('forge:ingots/tungsten', 'stalwart_dungeons:tungsten_ingot')
+    event.add('forge:ingots/titanium', 'occultism:silver_ingot')
+    event.remove('forge:ingots/silver', 'occultism:silver_ingot')
+    event.add('forge:ingots/platinum', 'eidolon:silver_ingot')
+    event.remove('forge:ingots/silver', 'eidolon:silver_ingot')
+
+    // dust
+    event.add('forge:dusts/titanium', 'occultism:silver_dust')
+    event.remove('forge:dusts/silver', 'occultism:silver_dust')
+
+    // block
+    event.remove('forge:storage_blocks/silver', 'occultism:silver_block')
+    event.add('forge:storage_blocks/titanium', 'occultism:silver_block')
+    event.add('forge:storage_blocks/platinum', 'eidolon:silver_block')
+    event.remove('forge:storage_blocks/silver', 'eidolon:silver_block')
 
     keepOnlyItemFromTag.forEach(entry => {
         event.removeAll(entry.tag)

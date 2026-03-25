@@ -6,6 +6,14 @@
 	hide_quest_until_deps_complete: true
 	icon: "create:cogwheel"
 	id: "6DFC64DB51577E14"
+	images: [{
+		height: 32.0d
+		image: "create:block/andesite_casing"
+		rotation: 0.0d
+		width: 32.0d
+		x: 3.0d
+		y: 0.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -35,6 +43,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["32ECB5E7CAC2DA39"]
 			id: "100B5CFBE62676F1"
 			tasks: [
 				{
@@ -57,6 +66,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["100B5CFBE62676F1"]
 			id: "7CBFDC657ABC4B19"
 			tasks: [{
 				id: "1378E92773FB21CA"
@@ -109,12 +119,19 @@
 		}
 		{
 			id: "0FCC6B73418C71DD"
-			tasks: [{
-				id: "1080C02C1AD4EE92"
-				item: "create:mechanical_mixer"
-				type: "item"
-			}]
-			x: 8.0d
+			tasks: [
+				{
+					id: "1080C02C1AD4EE92"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "30F88FE44EAD6756"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -124,8 +141,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			id: "6FD643CE3394DD49"
@@ -134,7 +151,7 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -164,8 +181,28 @@
 				item: "createlowheated:basic_burner"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 0.0d
+		}
+		{
+			id: "1CD10E9F3899C4C4"
+			tasks: [{
+				id: "7E53D1C764417794"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "509A8200BA6356CF"
+			tasks: [{
+				id: "6BD127649712357E"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
 		}
 	]
 	title: "Create"

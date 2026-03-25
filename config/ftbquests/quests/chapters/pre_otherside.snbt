@@ -7,6 +7,16 @@
 	id: "0A366F9991DFD0F2"
 	order_index: 11
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "357A56AFA9C7DE33"
+		tasks: [{
+			advancement: "deeperdarker:main/kill_warden"
+			criterion: ""
+			id: "62EC9BB22170EE57"
+			type: "advancement"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
 	title: "Pre Otherside"
 }

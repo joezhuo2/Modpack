@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:sword_or_axe",
+    "apotheosis:weapon_tome",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "sons_of_sins:shape_shifting_tool",
+    "draconicevolution:draconic_staff",
+    "draconicevolution:chaotic_staff",
+    "twilightforest:block_and_chain",
+    "actuallyadditions:wooden_aiot",
+    "actuallyadditions:stone_aiot",
+    "actuallyadditions:iron_aiot",
+    "actuallyadditions:gold_aiot",
+    "actuallyadditions:diamond_aiot",
+    "actuallyadditions:netherite_aiot",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:eldritch_pan",
+    "enigmaticaddons:astral_spear",
+    "enigmaticaddons:the_bless",
+    "enigmaticaddons:disaster_sword",
+    "mahoutsukai:proximity_projection_keys"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "ensorcellation:instigating",
+    "deeperdarker:sculk_smite",
+    "minecraft:bane_of_arthropods",
+    "ensorcellation:damage_villager",
+    "minecraft:sweeping",
+    "apotheosis:bane_of_illagers",
+    "ensorcellation:damage_ender",
+    "ensorcellation:damage_illager",
+    "minecraft:sharpness",
+    "minecraft:smite"
+  ]
+}

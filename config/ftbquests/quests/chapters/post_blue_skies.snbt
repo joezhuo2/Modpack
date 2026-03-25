@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "post_blue_skies"
+	group: "0BE42B5AD6E4C6EE"
+	icon: "create:brass_casing"
+	id: "734DF1FD04CE8CD1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "1C9F8BECE4D18CA1"
+		tasks: [{
+			id: "0857614046645FDD"
+			item: "create:zinc_ingot"
+			type: "item"
+		}]
+		x: -4.0d
+		y: -1.5d
+	}]
+	title: "Post Blue Skies"
+}

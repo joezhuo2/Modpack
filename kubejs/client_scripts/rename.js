@@ -79,6 +79,41 @@ const itemsToName = [
     {id: 'iceandfire:copper_hoe', name: 'Bronze Hoe'},
 
     {id: 'immersiveengineering:alloybrick', name: 'Kiln Bricks'},
+
+    {id: 'simpleores:raw_tin_block', name: 'Raw Titanium Block'},
+    {id: 'simpleores:raw_tin', name: 'Raw Titanium'},
+    {id: 'simpleores:tin_ingot', name: 'Titanium Ingot'},
+    {id: 'simpleores:tin_nugget', name: 'Titanium Nugget'},
+    {id: 'simpleores:tin_block', name: 'Titanium Block'},
+    {id: 'simpleores:tin_dust', name: 'Titanium Dust'},
+    {id: 'simpleores:tin_sword', name: 'Titanium Sword'},
+    {id: 'simpleores:tin_pickaxe', name: 'Titanium Pickaxe'},
+    {id: 'simpleores:tin_axe', name: 'Titanium Axe'},
+    {id: 'simpleores:tin_shovel', name: 'Titanium Shovel'},
+    {id: 'simpleores:tin_hoe', name: 'Titanium Hoe'},
+    {id: 'simpleores:tin_helmet', name: 'Titanium Helmet'},
+    {id: 'simpleores:tin_chestplate', name: 'Titanium Chestplate'},
+    {id: 'simpleores:tin_leggings', name: 'Titanium Leggings'},
+    {id: 'simpleores:tin_boots', name: 'Titanium Boots'},
+
+    {id: 'simpleores:copper_nugget', name: 'Orichalcum Nugget'},
+    {id: 'simpleores:copper_dust', name: 'Orichalcum Dust'},
+    {id: 'simpleores:copper_sword', name: 'Orichalcum Sword'},
+    {id: 'simpleores:copper_pickaxe', name: 'Orichalcum Pickaxe'},
+    {id: 'simpleores:copper_axe', name: 'Orichalcum Axe'},
+    {id: 'simpleores:copper_shovel', name: 'Orichalcum Shovel'},
+    {id: 'simpleores:copper_hoe', name: 'Orichalcum Hoe'},
+    {id: 'simpleores:copper_helmet', name: 'Orichalcum Helmet'},
+    {id: 'simpleores:copper_chestplate', name: 'Orichalcum Chestplate'},
+    {id: 'simpleores:copper_leggings', name: 'Orichalcum Leggings'},
+    {id: 'simpleores:copper_boots', name: 'Orichalcum Boots'},
+
+    {id: 'eidolon:raw_silver', name: 'Raw Platinum'},
+    {id: 'eidolon:deep_silver_ore', name: 'Deepslate Platinum Ore'},
+    {id: 'eidolon:silver_ingot', name: 'Platinum Ingot'},
+    {id: 'eidolon:silver_nugget', name: 'Platinum Nugget'},
+    {id: 'eidolon:silver_block', name: 'Platinum Block'},
+    {id: 'eidolon:raw_silver_block', name: 'Raw Platinum Block'},
 ]
 
 ClientEvents.lang('en_us', event => {

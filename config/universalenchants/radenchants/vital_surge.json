@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "radenchants:fateweaver",
+    "radenchants:iron_will",
+    "radenchants:redoubled_offensive",
+    "radenchants:defiance"
+  ]
+}

@@ -15,7 +15,7 @@
 		{
 			id: "1090590E05CD531C"
 			tasks: [{
-				id: "463156194FE73D43"
+				id: "416014627B4254DD"
 				item: {
 					Count: 1
 					id: "enigmaticlegacy:enigmatic_amulet"
@@ -25,28 +25,32 @@
 				}
 				type: "item"
 			}]
-			title: "Normal Mode"
+			title: "Resurgence Mode"
 			x: -4.0d
 			y: -1.5d
 		}
 		{
 			id: "73F3715062EFAAF9"
-			tasks: [
-				{
-					id: "44CDA070D3BB5CA9"
-					item: "enigmaticlegacy:cursed_ring"
-					type: "item"
-				}
-				{
-					advancement: "enigmaticlegacy:main/cursed_ring"
-					criterion: ""
-					id: "0705E4263D177306"
-					type: "advancement"
-				}
-			]
-			title: "Expert Mode"
-			x: -1.5d
-			y: -1.0d
+			min_required_tasks: 1
+			rewards: [{
+				auto: "enabled"
+				command: "/astages add @s expert"
+				elevate_perms: true
+				icon: "iceandfire:dragon_skull_ice"
+				id: "18DA84E219B026C6"
+				silent: true
+				title: "Expert Mode"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				id: "0705E4263D177306"
+				type: "advancement"
+			}]
+			title: "Revengeance Mode"
+			x: 1.0d
+			y: -1.5d
 		}
 	]
 	title: "Game Modes"

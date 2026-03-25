@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "apotheosis:other_tome",
+    "biomancy:caustic_gunblade",
+    "lavafishing:neptunium_slingshot",
+    "lavafishing:promethium_slingshot",
+    "celestisynth:rainfall_serenity",
+    "the_bumblezone:bee_cannon",
+    "the_bumblezone:crystal_cannon",
+    "supplementaries:slingshot",
+    "$minecraft:trident",
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -37,10 +37,10 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": 16.0,
+      "value": 8.0,
       "attributeOperation": 0,
       "modifierUUID": "51cd74eb-4390-4a09-bb17-ea759e021121",
-      "description": "+16 Armor"
+      "description": "+8 Armor"
     },
     {
       "type": "attribute",

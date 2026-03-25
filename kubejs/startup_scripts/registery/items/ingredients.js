@@ -60,6 +60,9 @@ const items = [
     {id: 'coke_blend', name: 'Coke Blend'},
     {id: 'explosive_fuse', name: 'Explosive Fuse'},
     {id: 'rough_andesite_alloy', name: 'Rough Andesite Alloy'},
+    {id: 'rusted_machine_components', name: 'Rusted Machine Components'},
+    {id: 'weathered_hide', name: 'Weathered Hide'},
+    {id: 'fallen_star', name: 'Fallen Star'},
 ]
 
 StartupEvents.registry('item', event => {

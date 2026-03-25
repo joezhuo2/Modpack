@@ -3,24 +3,11 @@
 	default_quest_shape: ""
 	filename: "prebumblezone"
 	group: "0BE42B5AD6E4C6EE"
-	icon: "minecraft:cobblestone"
+	icon: "minecraft:copper_block"
 	id: "388738A249C7291B"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["4391EDF2DD2D05AB"]
-			id: "45A80CD074A48031"
-			shape: "gear"
-			size: 3.0d
-			tasks: [{
-				id: "53FF3FC674F091CF"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.5d
-		}
 		{
 			dependencies: ["2A0438B031B1C785"]
 			id: "454AEF7E83778B95"
@@ -93,12 +80,14 @@
 		{
 			dependencies: ["64E089EC3B1949D5"]
 			id: "4391EDF2DD2D05AB"
+			shape: "gear"
+			size: 3.0d
 			tasks: [{
 				id: "025B713CC42E248E"
 				item: "thermal:bronze_ingot"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
@@ -163,6 +152,27 @@
 			x: -7.0d
 			y: -3.5d
 		}
+		{
+			id: "39A7FE8A376B6D7A"
+			tasks: [{
+				id: "591A53F32B6FE86F"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["39A7FE8A376B6D7A"]
+			id: "677E0FEAC2A61F2F"
+			tasks: [{
+				id: "2FF78F90CD8949D2"
+				item: "woodenhopper:wooden_hopper"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
 	]
-	title: "Pre Bumblezone"
+	title: "Age 1"
 }

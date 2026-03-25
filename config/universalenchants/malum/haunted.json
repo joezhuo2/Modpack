@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:malum_magic_capable_weapon",
+    "apotheosis:other_tome",
+    "animus:runic_sentient_scythe",
+    "animus:hand_of_death"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "malum:animated"
+  ]
+}

@@ -6,6 +6,14 @@
 	hide_quest_until_deps_complete: true
 	icon: "botania:pure_daisy"
 	id: "48ABCC2EF76080E0"
+	images: [{
+		height: 4.0d
+		image: "new:textures/quests/botania_logo.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 7.0d
+		y: -4.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -78,7 +86,7 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -236,6 +244,16 @@
 				type: "item"
 			}]
 			x: 19.5d
+			y: 0.0d
+		}
+		{
+			id: "533AE1BFB85571ED"
+			tasks: [{
+				id: "26BEE155F8DD007F"
+				item: "kubejs:blank_rune"
+				type: "item"
+			}]
+			x: 5.5d
 			y: 0.0d
 		}
 	]

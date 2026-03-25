@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "apotheosis:other_tome",
+    "lavafishing:neptunium_slingshot",
+    "lavafishing:promethium_slingshot",
+    "celestisynth:crescentia",
+    "celestisynth:rainfall_serenity",
+    "celestisynth:keres",
+    "enigmaticaddons:dragon_bow",
+    "enigmaticaddons:evil_dagger",
+    "supplementaries:slingshot",
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "radenchants:bolas",
+    "enigmaticlegacy:sharpshooter",
+    "supplementaries:stasis"
+  ]
+}

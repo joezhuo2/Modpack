@@ -22,15 +22,15 @@ enableSkillLeveling = false
 enableSkillUpMessage = false
 skillAliases = ["defense=defense"]
 #Range: 0.0 ~ 10.0
-attackDamageBonus = 0.05
+attackDamageBonus = 0.03
 #Range: 0.0 ~ 10.0
-armorBonus = 0.05
+armorBonus = 0.03
 #Range: 0.0 ~ 1.0
-movementSpeedBonus = 0.05
+movementSpeedBonus = 0.03
 #The registry ID of the attribute to use for the Magic skill (e.g. 'modid:spell_power')
 magicAttribute = "irons_spellbooks:spell_power"
 #Range: 0.0 ~ 10.0
-MagicBonus = 0.05
+MagicBonus = 0.03
 #Range: 0.0 ~ 5.0
 blockReachBonus = 0.1
 #Range: 0.0 ~ 5.0
@@ -39,10 +39,10 @@ miningSpeedMultiplier = 0.1
 cropGrowthChancePer5Levels = 0.1
 #Bonus XP multiplier per 5 levels of Gathering (e.g., 0.05 = +5% XP per step)
 #Range: 0.0 ~ 1.0
-gatheringXpBonus = 0.05
+gatheringXpBonus = 0.03
 #How many total skill levels are required for each heart gained.
 #Range: 1 ~ 100
-levelsPerHeart = 25
+levelsPerHeart = 10
 #How much health (in half-hearts) is granted per configured levelsPerHeart.
 #Range: 0.5 ~ 20.0
 healthPerHeart = 1.0

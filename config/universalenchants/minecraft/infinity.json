@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "apotheosis:bow_tome",
+    "$minecraft:crossbow"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "apotheosis:endless_quiver",
+    "allurement:reforming"
+  ]
+}

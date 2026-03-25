@@ -6,14 +6,25 @@
 	hide_quest_until_deps_complete: true
 	icon: "naturesaura:gold_leaf"
 	id: "7E3E1B5B8734F127"
-	images: [{
-		height: 0.01d
-		image: "hexalia:textures/armor/bogged_boots.png"
-		rotation: 0.0d
-		width: 0.01d
-		x: -25.0d
-		y: -11.5d
-	}]
+	images: [
+		{
+			height: 0.01d
+			image: "hexalia:textures/armor/bogged_boots.png"
+			rotation: 0.0d
+			width: 0.01d
+			x: -25.0d
+			y: -11.5d
+		}
+		{
+			dependency: "454AEF7E83778B95"
+			height: 32.0d
+			image: "minecraft:block/moss_block"
+			rotation: 0.0d
+			width: 32.0d
+			x: -6.0d
+			y: -9.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

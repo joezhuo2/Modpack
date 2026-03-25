@@ -4,8 +4,18 @@
 	filename: "pre_twilight_forest"
 	group: "0BE42B5AD6E4C6EE"
 	id: "73A87510E16570DF"
-	order_index: 12
+	order_index: 15
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "304CF54499999F6F"
+		tasks: [{
+			advancement: "twilightforest:root"
+			criterion: ""
+			id: "7F1244AAD2347193"
+			type: "advancement"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Pre Twilight Forest"
 }

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:re_sword_axe",
+    "apotheosis:weapon_tome",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "sons_of_sins:shape_shifting_tool",
+    "twilightforest:block_and_chain",
+    "actuallyadditions:wooden_aiot",
+    "actuallyadditions:stone_aiot",
+    "actuallyadditions:iron_aiot",
+    "actuallyadditions:gold_aiot",
+    "actuallyadditions:diamond_aiot",
+    "actuallyadditions:netherite_aiot",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:eldritch_pan",
+    "enigmaticaddons:astral_spear",
+    "enigmaticaddons:the_bless",
+    "enigmaticaddons:disaster_sword",
+    "mahoutsukai:proximity_projection_keys"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

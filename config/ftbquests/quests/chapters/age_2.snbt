@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_2"
+	group: "0BE42B5AD6E4C6EE"
+	icon: "thermal:bronze_block"
+	id: "0DA5D6F99403F219"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0F3158AAB89934C7"
+			tasks: [{
+				id: "5A7825CAF3F28537"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "4771998C578CC7FE"
+			tasks: [{
+				id: "42D03BBEB5291E8F"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "5D8449AEA8638C66"
+			tasks: [{
+				id: "660B3343AAE45CD0"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "5ECFD23C647A8E59"
+			tasks: [{
+				id: "3805B1CA7F5B614A"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "1E8964A2F76BBBF5"
+			tasks: [{
+				id: "221511BEED4F011A"
+				item: "kubejs:molten_remains"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "562B5BBE4A16464E"
+			tasks: [{
+				id: "73638612E72667A1"
+				item: "extendedcrafting:advanced_component"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "4E86BA7D9EB60300"
+			tasks: [{
+				id: "32B6707537BC19B9"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "53E0A895BBDAE2BB"
+			tasks: [{
+				id: "78291F885F708DFE"
+				item: "xycraft_world:aluminum_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "5F928C3B35ED7D74"
+			tasks: [{
+				id: "632D55861714BF77"
+				item: "kubejs:rusted_machine_components"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "12BF992D77232545"
+			tasks: [{
+				id: "5ABB46B2ABBCD520"
+				item: "kubejs:heating_components"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "7C19EBFB131D3E5E"
+			tasks: [{
+				id: "67C10949A57F7595"
+				item: "kubejs:cooling_components"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "686128AE91441DC7"
+			tasks: [{
+				id: "03B75ABE90A2C372"
+				item: "goety:ice_cube"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "2EDA7246B189B81E"
+			tasks: [{
+				id: "65E3BF298E89D12F"
+				item: "actuallyadditions:wood_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "4C8EF7B1088E769F"
+			tasks: [{
+				id: "6E9D4FD480C1155B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "671EF6129F10FD94"
+			tasks: [{
+				id: "5DEADCCDE65134BF"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+	]
+	title: "Age 2"
+}

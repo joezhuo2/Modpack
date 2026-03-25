@@ -19,7 +19,7 @@
 			image: "new:textures/quests/totemic_logo.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: 0.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -696,6 +696,16 @@
 			width: 1.0d
 			x: -5.5d
 			y: 5.0d
+		}
+		{
+			dependency: "6AD8B042A038499B"
+			height: 32.0d
+			image: "naturesaura:block/ancient_bark"
+			order: -1
+			rotation: 0.0d
+			width: 32.0d
+			x: -0.5d
+			y: 2.0d
 		}
 	]
 	order_index: 0

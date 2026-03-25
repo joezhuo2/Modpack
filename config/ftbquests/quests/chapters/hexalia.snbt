@@ -25,7 +25,7 @@
 				item: "hexalia:small_cauldron"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -46,7 +46,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			id: "217773697A965505"
@@ -71,7 +71,7 @@
 				item: "hexalia:ritual_brazier"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: 2.0d
 		}
 		{
@@ -83,6 +83,16 @@
 			}]
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			id: "24545A768C7B738B"
+			tasks: [{
+				id: "3476AD3EA0509098"
+				item: "hexalia:lotus_flower"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
 		}
 	]
 	title: "Hexalia"
