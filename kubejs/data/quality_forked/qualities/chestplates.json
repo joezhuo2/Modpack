@@ -1,0 +1,5205 @@
+{
+    "items": [],
+    "item_tags": [
+        "forge:armors/chestplates"
+    ],
+    "qualities": [
+        {
+            "name": "quality_equipment.quality.normal",
+            "weight": 622
+        },
+        {
+            "name": "quality_equipment.quality.omnipotent",
+            "weight": 1,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.transcendent",
+            "weight": 1,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.absolute",
+            "weight": 1,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:overheal",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.infallible",
+            "weight": 1,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:prot_shred",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:current_hp_damage",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_damage",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "combatroll:count",
+                    "value": 2.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.universal",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sovereign",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_resist",
+                    "value": 0.09,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:prot_pierce",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.exalted",
+            "weight": 2,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.illustrious",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "confluence:pickup_range",
+                    "value": 1.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.prime",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.grand",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.supreme",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.renowned",
+            "weight": 2,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.ascendant",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:prot_pierce",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:current_hp_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.resplendent",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:mining_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.peerless",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "combatroll:count",
+                    "value": 1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.paramount",
+            "weight": 2,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.majestic",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:overheal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.incinerating",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.glacial",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.thundering",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sanguine",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.abyssal",
+            "weight": 7,
+            "attributes": [
+                {
+                    "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:current_hp_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.technological",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "cataclysm_spellbooks:technomancy_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:magic_projectile_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.verdant",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:summon_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sacred",
+            "weight": 2,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:overheal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.eldritch",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:magic_projectile_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.evocative",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.geological",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.aquatic",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "traveloptics:aqua_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "forge:swim_speed",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.mechanical",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "cataclysm_spellbooks:technomancy_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:mining_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.vampiric",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.void",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.forest",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:summon_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "forge:step_height_addition",
+                    "value": 0.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.celestial",
+            "weight": 2,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:jump_height",
+                    "value": 0.3,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.volcanic",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.arctic",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_resist",
+                    "value": 0.09,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:prot_shred",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.static",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.runic",
+            "weight": 7,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.forbidden",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:current_hp_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.stalwart",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.nimble",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.deadly",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.wizardly",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.archerly",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:arrow_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.berserk",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.tanks",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sprinting",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sniper",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:arrow_velocity",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:prot_pierce",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.leeching",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.mystic",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.spelling",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.fleet",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:jump_height",
+                    "value": 0.2,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sturdy",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.potent",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:magic_projectile_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.shielding",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "forge:block_reach",
+                    "value": 1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.hastey",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.brutal",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.clerical",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.acrobatic",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "combatroll:count",
+                    "value": 1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.gilded",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.heavy",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.arcane",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sharp",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.healthy",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.explorer",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:mining_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.durable",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.quick",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.piercing",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:prot_pierce",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.giant",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "forge:entity_reach",
+                    "value": 0.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sighted",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:arrow_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.athletic",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "combatroll:count",
+                    "value": 1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.reinforced",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.tactical",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.enchanted",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:overheal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.robust",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.lethal",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:current_hp_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.rapid",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.bulky",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.shifting",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.radiant",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.cunning",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.tenacious",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.energetic",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.strong",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.vital",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.hardened",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.fast",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.smart",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.lucky",
+            "weight": 18,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.tough",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.keen",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.violent",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.agile",
+            "weight": 18,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.healed",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.mending",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:overheal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.protected",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.swift",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.focused",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.vibrant",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.reliable",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "forge:block_reach",
+                    "value": 1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.springy",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:jump_height",
+                    "value": 0.2,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.long",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "forge:entity_reach",
+                    "value": 0.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.deep",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:mining_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.eager",
+            "weight": 18,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.steady",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.mobile",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "combatroll:count",
+                    "value": 1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.breezy",
+            "weight": 16,
+            "attributes": []
+        },
+        {
+            "name": "quality_equipment.quality.wild",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:summon_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.pointy",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:arrow_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.zippy",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:arrow_velocity",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.quickdraw",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.magical",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.forceful",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_knockback",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.graceful",
+            "weight": 17,
+            "attributes": []
+        },
+        {
+            "name": "quality_equipment.quality.wading",
+            "weight": 18,
+            "attributes": [
+                {
+                    "attribute": "forge:swim_speed",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.high",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "forge:step_height_addition",
+                    "value": 0.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.wide",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "confluence:pickup_range",
+                    "value": 1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.searing",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.cold",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sparking",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.grounded",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.nature",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.abyss",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.divine",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.tainted",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.warped",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.clockwork",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "cataclysm_spellbooks:technomancy_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.shredding",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.cleaving",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.ruining",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:prot_shred",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.vanish",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "confluence:aggro",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.solid",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_resist",
+                    "value": 0.09,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.quickened",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.mighty",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "gtbcs_spell_lib:magic_projectile_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sorcerous",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.ethereal",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.bloody",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.cruel",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:current_hp_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.rugged",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.spry",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.lithe",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.03,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.honed",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.scholar",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.squire",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.apprentice",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.scout",
+            "weight": 18,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.miner",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:mining_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.brute",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.weighty",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.fragile",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.clumsy",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": -0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.tiring",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_damage",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.noisy",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "confluence:aggro",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sluggish",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.dull",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.shaky",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": -0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.leaky",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.blind",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.heated",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": 0.09,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.chilled",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": 0.09,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.hollow",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.rooted",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:jump_height",
+                    "value": -0.2,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sinking",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "forge:swim_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.greedy",
+            "weight": 18,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": -0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.glassy",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.09,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.short",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "forge:entity_reach",
+                    "value": -0.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.unsteady",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.faded",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.reckless",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:current_hp_damage",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.stiff",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "combatroll:count",
+                    "value": -1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.burdensome",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.unlucky",
+            "weight": 18,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.vulnerable",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_resist",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.draining",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.brittle",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.obvious",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "confluence:aggro",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.slow",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.weak",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.small",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.rusty",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:mining_speed",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.charged",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.earthy",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.wilds",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.dark",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.saintly",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.cursed",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.odd",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.rigid",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "cataclysm_spellbooks:technomancy_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": -0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.broken",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.broad",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "confluence:pickup_range",
+                    "value": 2.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.clinging",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sleepy",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.lame",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "forge:step_height_addition",
+                    "value": -0.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.heavier",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:jump_height",
+                    "value": -0.2,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.thin",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.quiet",
+            "weight": 18,
+            "attributes": [
+                {
+                    "attribute": "confluence:aggro",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.aged",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.blunt",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.salty",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "forge:swim_speed",
+                    "value": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.dim",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.rough",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_knockback",
+                    "value": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.stable",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "forge:block_reach",
+                    "value": 1.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.stout",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": -0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.bright",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.dense",
+            "weight": 13,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.feral",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:summon_damage",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.deft",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.edged",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:arrow_damage",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.hard",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.bold",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_resist",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.brisk",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.rich",
+            "weight": 18,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.pure",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.feeble",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.soft",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.tired",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.poor",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.lumbering",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.frail",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.dimwitted",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.clunky",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.unskilled",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.crisp",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.boring",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_damage",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.leaking",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.ignorant",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.damned",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.massive",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.falling",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "forge:swim_speed",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:mining_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.brief",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "forge:entity_reach",
+                    "value": -0.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.electric",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.weakened",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.unstable",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.tardy",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.susceptible",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.cowardly",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": 0.03,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.loud",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "confluence:aggro",
+                    "value": 0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.anchored",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:jump_height",
+                    "value": -0.3,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.obtuse",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.low",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "forge:step_height_addition",
+                    "value": -0.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.narrow",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "confluence:pickup_range",
+                    "value": -1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.trembling",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:arrow_damage",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.loose",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:arrow_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.delicate",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:overheal",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.mushy",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:prot_pierce",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": 0.03,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.empty",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.blighted",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.frozen",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.burned",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.insane",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.clean",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "cataclysm_spellbooks:abyssal_spell_power",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.muted",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:mining_speed",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.hapless",
+            "weight": 12,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.ponderous",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "combatroll:count",
+                    "value": -1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.puny",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_knockback",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.yielding",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.shallow",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "forge:swim_speed",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.rotting",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.faint",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.softened",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.lethargic",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.bare",
+            "weight": 7,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.hexed",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": -0.15,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.flimsy",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.unsharpened",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.tedious",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_damage",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.awkward",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:dodge_chance",
+                    "value": -0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sickly",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.exposed",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": -0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.delaying",
+            "weight": 7,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.unfocused",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.drained",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.leaden",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:jump_height",
+                    "value": -0.4,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.stunted",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "forge:entity_reach",
+                    "value": -1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.corroded",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:mining_speed",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.amateur",
+            "weight": 8,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": -0.15,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.volatile",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.15,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.inflexible",
+            "weight": 7,
+            "attributes": [
+                {
+                    "attribute": "combatroll:count",
+                    "value": -2.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.shocking",
+            "weight": 6,
+            "attributes": []
+        },
+        {
+            "name": "quality_equipment.quality.doomed",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": -0.2,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.withered",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.shattered",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.paralyzed",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "combatroll:count",
+                    "value": -2.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.null",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.bewitched",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:overheal",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sightless",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": -0.2,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.crumbly",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.languid",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_knockback",
+                    "value": -0.15,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.crawling",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.mute",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.hefty",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "quality_forked:jump_height",
+                    "value": -0.5,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.breakable",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.ill-fated",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": -0.25,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": -0.2,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.busted",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:armor_pierce",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:prot_pierce",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.immobile",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "combatroll:count",
+                    "value": -2.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.flat",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "attributeslib:crit_damage",
+                    "value": -0.12,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:crit_chance",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.infirm",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:healing_received",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.impotent",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:armor_shred",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.slothful",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.barren",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.sunken",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "forge:swim_speed",
+                    "value": -0.2,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        }
+    ]
+}

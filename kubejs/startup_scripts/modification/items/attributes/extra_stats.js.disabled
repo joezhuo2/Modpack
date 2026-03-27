@@ -1,0 +1,30 @@
+const UUID = Java.loadClass('java.util.UUID')
+
+const itemsToChange = [
+  {
+    id: 'minecraft:iron_chestplate',
+    attributes: [
+      {id: 'minecraft:generic.max_health', val: 4, op: 'addition'},
+    ]
+  }
+]
+
+const desc = 'Attribute Bonus'
+
+ItemEvents.modification(event => {
+  itemsToChange.forEach(itemObj => {
+    event.modify(itemObj.id, item => {
+      itemObj.attributes.forEach(attr => {
+        let uuid = UUID.randomUUID()
+        
+        item.addAttribute(
+            attr.id,
+            uuid,
+            desc,
+            attr.val,
+            attr.op
+        )
+      })
+    })
+  })
+})

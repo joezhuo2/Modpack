@@ -63,6 +63,7 @@ const items = [
     {id: 'rusted_machine_components', name: 'Rusted Machine Components'},
     {id: 'weathered_hide', name: 'Weathered Hide'},
     {id: 'fallen_star', name: 'Fallen Star'},
+    {id: 'reforge_scrap', name: 'Reforging Scrap'},
 ]
 
 StartupEvents.registry('item', event => {
