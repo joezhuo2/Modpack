@@ -10,6 +10,34 @@ const keepOnlyItemFromTag = [
     {tag: 'forge:raw_materials/tin', item: 'thermal:raw_tin' },
 ]
 
+const allCurios = [
+    'curios:all',
+    'curios:an_focus',
+    'curios:back',
+    'curios:belt',
+    'curios:bindingkey',
+    'curios:body',
+    'curios:bracelet',
+    'curios:brooch',
+    'curios:bundle',
+    'curios:charm',
+    'curios:curio',
+    'curios:deep_learner',
+    'curios:feet',
+    'curios:hands',
+    'curios:head',
+    'curios:living_armour_socket',
+    'curios:necklace',
+    'curios:ring',
+    'curios:rune',
+    'curios:scroll',
+    'curios:sheath',
+    'curios:shoes',
+    'curios:spellbook',
+    'curios:spellstone',
+    'curios:talent',
+]
+
 ServerEvents.tags('item', event => {
     // materials
     materialsList.forEach(mat => {
@@ -107,6 +135,11 @@ ServerEvents.tags('item', event => {
     event.add('forge:storage_blocks/titanium', 'occultism:silver_block')
     event.add('forge:storage_blocks/platinum', 'eidolon:silver_block')
     event.remove('forge:storage_blocks/silver', 'eidolon:silver_block')
+
+    // curios
+    allCurios.forEach(tag => {
+        event.add('kubejs:curios', tag)
+    })
 
     keepOnlyItemFromTag.forEach(entry => {
         event.removeAll(entry.tag)

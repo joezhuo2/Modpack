@@ -6,7 +6,7 @@
     "qualities": [
         {
             "name": "quality_equipment.quality.normal",
-            "weight": 1122
+            "weight": 1500
         },
         {
             "name": "quality_equipment.quality.omnipotent",
@@ -806,19 +806,19 @@
             "attributes": [
                 {
                     "attribute": "irons_spellbooks:blood_spell_power",
-                    "value": 0.07,
+                    "value": 0.05,
                     "operation": "multiply_base",
                     "slot": "CHEST"
                 },
                 {
                     "attribute": "attributeslib:life_steal",
-                    "value": 0.04,
+                    "value": 0.05,
                     "operation": "multiply_base",
                     "slot": "CHEST"
                 },
                 {
                     "attribute": "attributeslib:healing_received",
-                    "value": 0.06,
+                    "value": 0.05,
                     "operation": "multiply_base",
                     "slot": "CHEST"
                 }
@@ -1803,7 +1803,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.vital",
+            "name": "quality_equipment.quality.healthy",
             "weight": 16,
             "attributes": [
                 {
@@ -1875,7 +1875,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.keen",
+            "name": "quality_equipment.quality.sharp",
             "weight": 15,
             "attributes": [
                 {
@@ -2353,7 +2353,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.solid",
+            "name": "quality_equipment.quality.sturdy",
             "weight": 15,
             "attributes": [
                 {
@@ -2377,7 +2377,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.mighty",
+            "name": "quality_equipment.quality.potent",
             "weight": 15,
             "attributes": [
                 {
@@ -2389,7 +2389,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.sorcerous",
+            "name": "quality_equipment.quality.mystic",
             "weight": 15,
             "attributes": [
                 {
@@ -2491,7 +2491,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.honed",
+            "name": "quality_equipment.quality.sharp",
             "weight": 15,
             "attributes": [
                 {
@@ -2617,7 +2617,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.weighty",
+            "name": "quality_equipment.quality.heavy",
             "weight": 15,
             "attributes": [
                 {
@@ -2845,7 +2845,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.rooted",
+            "name": "quality_equipment.quality.grounded",
             "weight": 16,
             "attributes": [
                 {
@@ -3187,7 +3187,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.charged",
+            "name": "quality_equipment.quality.static",
             "weight": 15,
             "attributes": [
                 {
@@ -3217,7 +3217,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.wilds",
+            "name": "quality_equipment.quality.nature",
             "weight": 15,
             "attributes": [
                 {
@@ -3343,7 +3343,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.broad",
+            "name": "quality_equipment.quality.wide",
             "weight": 17,
             "attributes": [
                 {
@@ -3553,7 +3553,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.stable",
+            "name": "quality_equipment.quality.steady",
             "weight": 14,
             "attributes": [
                 {
@@ -3625,7 +3625,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.feral",
+            "name": "quality_equipment.quality.wild",
             "weight": 12,
             "attributes": [
                 {
@@ -3643,7 +3643,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.deft",
+            "name": "quality_equipment.quality.fast",
             "weight": 17,
             "attributes": [
                 {
@@ -3661,7 +3661,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.edged",
+            "name": "quality_equipment.quality.sharp",
             "weight": 14,
             "attributes": [
                 {
@@ -3715,7 +3715,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.brisk",
+            "name": "quality_equipment.quality.swift",
             "weight": 17,
             "attributes": [
                 {
@@ -3859,24 +3859,6 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.frail",
-            "weight": 10,
-            "attributes": [
-                {
-                    "attribute": "minecraft:generic.max_health",
-                    "value": -0.07,
-                    "operation": "multiply_base",
-                    "slot": "CHEST"
-                },
-                {
-                    "attribute": "irons_spellbooks:spell_power",
-                    "value": 0.04,
-                    "operation": "multiply_base",
-                    "slot": "CHEST"
-                }
-            ]
-        },
-        {
             "name": "quality_equipment.quality.dimwitted",
             "weight": 11,
             "attributes": [
@@ -3931,7 +3913,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.crisp",
+            "name": "quality_equipment.quality.brittle",
             "weight": 8,
             "attributes": [
                 {
@@ -4003,7 +3985,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.damned",
+            "name": "quality_equipment.quality.cursed",
             "weight": 8,
             "attributes": [
                 {
@@ -4021,7 +4003,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.massive",
+            "name": "quality_equipment.quality.heavy",
             "weight": 9,
             "attributes": [
                 {
@@ -4033,7 +4015,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.falling",
+            "name": "quality_equipment.quality.sinking",
             "weight": 10,
             "attributes": [
                 {
@@ -4051,7 +4033,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.brief",
+            "name": "quality_equipment.quality.short",
             "weight": 11,
             "attributes": [
                 {
@@ -4069,7 +4051,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.electric",
+            "name": "quality_equipment.quality.static",
             "weight": 10,
             "attributes": [
                 {
@@ -4117,7 +4099,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.tardy",
+            "name": "quality_equipment.quality.slow",
             "weight": 9,
             "attributes": [
                 {
@@ -4135,7 +4117,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.susceptible",
+            "name": "quality_equipment.quality.vulnerable",
             "weight": 10,
             "attributes": [
                 {
@@ -4189,7 +4171,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.anchored",
+            "name": "quality_equipment.quality.grounded",
             "weight": 10,
             "attributes": [
                 {
@@ -4207,7 +4189,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.obtuse",
+            "name": "quality_equipment.quality.blunt",
             "weight": 9,
             "attributes": [
                 {
@@ -4261,7 +4243,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.trembling",
+            "name": "quality_equipment.quality.shaky",
             "weight": 10,
             "attributes": [
                 {
@@ -4297,7 +4279,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.delicate",
+            "name": "quality_equipment.quality.fragile",
             "weight": 8,
             "attributes": [
                 {
@@ -4315,7 +4297,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.mushy",
+            "name": "quality_equipment.quality.soft",
             "weight": 10,
             "attributes": [
                 {
@@ -4423,7 +4405,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.clean",
+            "name": "quality_equipment.quality.pure",
             "weight": 11,
             "attributes": [
                 {
@@ -4441,7 +4423,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.muted",
+            "name": "quality_equipment.quality.dull",
             "weight": 10,
             "attributes": [
                 {
@@ -4459,7 +4441,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.hapless",
+            "name": "quality_equipment.quality.unlucky",
             "weight": 12,
             "attributes": [
                 {
@@ -4477,7 +4459,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.ponderous",
+            "name": "quality_equipment.quality.heavy",
             "weight": 9,
             "attributes": [
                 {
@@ -4495,7 +4477,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.puny",
+            "name": "quality_equipment.quality.weak",
             "weight": 10,
             "attributes": [
                 {
@@ -4513,7 +4495,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.yielding",
+            "name": "quality_equipment.quality.soft",
             "weight": 9,
             "attributes": [
                 {
@@ -4561,7 +4543,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.faint",
+            "name": "quality_equipment.quality.feeble",
             "weight": 4,
             "attributes": [
                 {
@@ -4585,19 +4567,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.lethargic",
-            "weight": 5,
-            "attributes": [
-                {
-                    "attribute": "minecraft:generic.movement_speed",
-                    "value": -0.08,
-                    "operation": "multiply_base",
-                    "slot": "CHEST"
-                }
-            ]
-        },
-        {
-            "name": "quality_equipment.quality.bare",
+            "name": "quality_equipment.quality.empty",
             "weight": 7,
             "attributes": [
                 {
@@ -4609,7 +4579,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.hexed",
+            "name": "quality_equipment.quality.cursed",
             "weight": 3,
             "attributes": [
                 {
@@ -4621,7 +4591,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.flimsy",
+            "name": "quality_equipment.quality.fragile",
             "weight": 4,
             "attributes": [
                 {
@@ -4633,7 +4603,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.unsharpened",
+            "name": "quality_equipment.quality.blunt",
             "weight": 6,
             "attributes": [
                 {
@@ -4645,7 +4615,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.tedious",
+            "name": "quality_equipment.quality.boring",
             "weight": 5,
             "attributes": [
                 {
@@ -4657,7 +4627,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.awkward",
+            "name": "quality_equipment.quality.clumsy",
             "weight": 8,
             "attributes": [
                 {
@@ -4681,7 +4651,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.exposed",
+            "name": "quality_equipment.quality.vulnerable",
             "weight": 3,
             "attributes": [
                 {
@@ -4693,7 +4663,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.delaying",
+            "name": "quality_equipment.quality.slow",
             "weight": 7,
             "attributes": [
                 {
@@ -4729,7 +4699,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.leaden",
+            "name": "quality_equipment.quality.heavy",
             "weight": 5,
             "attributes": [
                 {
@@ -4741,7 +4711,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.stunted",
+            "name": "quality_equipment.quality.short",
             "weight": 4,
             "attributes": [
                 {
@@ -4753,7 +4723,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.corroded",
+            "name": "quality_equipment.quality.rusty",
             "weight": 6,
             "attributes": [
                 {
@@ -4765,7 +4735,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.amateur",
+            "name": "quality_equipment.quality.unskilled",
             "weight": 8,
             "attributes": [
                 {
@@ -4777,19 +4747,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.volatile",
-            "weight": 5,
-            "attributes": [
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.15,
-                    "operation": "multiply_base",
-                    "slot": "CHEST"
-                }
-            ]
-        },
-        {
-            "name": "quality_equipment.quality.inflexible",
+            "name": "quality_equipment.quality.stiff",
             "weight": 7,
             "attributes": [
                 {
@@ -4801,7 +4759,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.shocking",
+            "name": "quality_equipment.quality.static",
             "weight": 6,
             "attributes": []
         },
@@ -4884,7 +4842,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.null",
+            "name": "quality_equipment.quality.void",
             "weight": 4,
             "attributes": [
                 {
@@ -4902,7 +4860,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.bewitched",
+            "name": "quality_equipment.quality.cursed",
             "weight": 5,
             "attributes": [
                 {
@@ -4920,7 +4878,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.sightless",
+            "name": "quality_equipment.quality.blind",
             "weight": 6,
             "attributes": [
                 {
@@ -4938,7 +4896,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.crumbly",
+            "name": "quality_equipment.quality.brittle",
             "weight": 4,
             "attributes": [
                 {
@@ -4956,7 +4914,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.languid",
+            "name": "quality_equipment.quality.feeble",
             "weight": 5,
             "attributes": [
                 {
@@ -4968,24 +4926,6 @@
                 {
                     "attribute": "minecraft:generic.attack_knockback",
                     "value": -0.15,
-                    "operation": "multiply_base",
-                    "slot": "CHEST"
-                }
-            ]
-        },
-        {
-            "name": "quality_equipment.quality.crawling",
-            "weight": 6,
-            "attributes": [
-                {
-                    "attribute": "minecraft:generic.attack_speed",
-                    "value": -0.1,
-                    "operation": "multiply_base",
-                    "slot": "CHEST"
-                },
-                {
-                    "attribute": "minecraft:generic.movement_speed",
-                    "value": -0.1,
                     "operation": "multiply_base",
                     "slot": "CHEST"
                 }
@@ -5010,7 +4950,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.hefty",
+            "name": "quality_equipment.quality.heavy",
             "weight": 4,
             "attributes": [
                 {
@@ -5028,7 +4968,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.breakable",
+            "name": "quality_equipment.quality.fragile",
             "weight": 5,
             "attributes": [
                 {
@@ -5046,7 +4986,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.ill-fated",
+            "name": "quality_equipment.quality.unlucky",
             "weight": 6,
             "attributes": [
                 {
@@ -5064,7 +5004,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.busted",
+            "name": "quality_equipment.quality.broken",
             "weight": 5,
             "attributes": [
                 {
@@ -5094,7 +5034,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.flat",
+            "name": "quality_equipment.quality.dull",
             "weight": 5,
             "attributes": [
                 {
@@ -5112,7 +5052,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.infirm",
+            "name": "quality_equipment.quality.frail",
             "weight": 6,
             "attributes": [
                 {
@@ -5130,7 +5070,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.impotent",
+            "name": "quality_equipment.quality.weak",
             "weight": 5,
             "attributes": [
                 {
@@ -5148,7 +5088,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.slothful",
+            "name": "quality_equipment.quality.slow",
             "weight": 4,
             "attributes": [
                 {
@@ -5166,7 +5106,7 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.barren",
+            "name": "quality_equipment.quality.empty",
             "weight": 5,
             "attributes": [
                 {
@@ -5195,6 +5135,714 @@
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.aetheric",
+            "weight": 1,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.resonating",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.harmonious",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.siphoning",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.conductive",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.primal",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.aetheric",
+            "weight": 1,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.resonating",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.harmonious",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.siphoning",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.conductive",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.primal",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.flowing",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.stable",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.focusing",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.overflowing",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:overheal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.streaming",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.vast",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.luminous",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.ancient",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.astral",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.infused",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.volatile",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.bracing",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.seeping",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.constricted",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "combatroll:count",
+                    "value": -1.0,
+                    "operation": "addition",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.fading",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.depleted",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.starved",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.thirsty",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.vacant",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.obstructed",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.severed",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.hollowed",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "CHEST"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
                     "value": -0.1,
                     "operation": "multiply_base",
                     "slot": "CHEST"

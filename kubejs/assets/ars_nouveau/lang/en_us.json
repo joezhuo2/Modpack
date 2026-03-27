@@ -1,0 +1,10 @@
+{
+  "ars_nouveau.perk.mana_regen": "Source Regen",
+  "ars_nouveau.perk.mana_regen.desc": "Increases the rate at which source regenerates.",
+  "ars_nouveau.perk.max_mana": "Max Source",
+  "ars_nouveau.perk.max_mana.desc": "Increases the maximum amount of source.",
+  "attribute.name.ars_nouveau.mana_regen": "Source Regeneration",
+  "attribute.name.ars_nouveau.max_mana": "Max Source",
+  "effect.ars_nouveau.mana_regen": "Source Regeneration",
+  "effect.ars_nouveau.mana_regen.desc": "Improves source regeneration"
+}

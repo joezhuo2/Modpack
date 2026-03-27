@@ -6,7 +6,7 @@
     "qualities": [
         {
             "name": "quality_equipment.quality.normal",
-            "weight": 1122
+            "weight": 1500
         },
         {
             "name": "quality_equipment.quality.omnipotent",
@@ -806,19 +806,19 @@
             "attributes": [
                 {
                     "attribute": "irons_spellbooks:blood_spell_power",
-                    "value": 0.07,
+                    "value": 0.05,
                     "operation": "multiply_base",
                     "slot": "LEGS"
                 },
                 {
                     "attribute": "attributeslib:life_steal",
-                    "value": 0.04,
+                    "value": 0.05,
                     "operation": "multiply_base",
                     "slot": "LEGS"
                 },
                 {
                     "attribute": "attributeslib:healing_received",
-                    "value": 0.06,
+                    "value": 0.05,
                     "operation": "multiply_base",
                     "slot": "LEGS"
                 }
@@ -3859,24 +3859,6 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.frail",
-            "weight": 10,
-            "attributes": [
-                {
-                    "attribute": "minecraft:generic.max_health",
-                    "value": -0.07,
-                    "operation": "multiply_base",
-                    "slot": "LEGS"
-                },
-                {
-                    "attribute": "irons_spellbooks:spell_power",
-                    "value": 0.04,
-                    "operation": "multiply_base",
-                    "slot": "LEGS"
-                }
-            ]
-        },
-        {
             "name": "quality_equipment.quality.dimwitted",
             "weight": 11,
             "attributes": [
@@ -4585,18 +4567,6 @@
             ]
         },
         {
-            "name": "quality_equipment.quality.sluggish",
-            "weight": 5,
-            "attributes": [
-                {
-                    "attribute": "minecraft:generic.movement_speed",
-                    "value": -0.08,
-                    "operation": "multiply_base",
-                    "slot": "LEGS"
-                }
-            ]
-        },
-        {
             "name": "quality_equipment.quality.empty",
             "weight": 7,
             "attributes": [
@@ -4770,18 +4740,6 @@
             "attributes": [
                 {
                     "attribute": "attributeslib:experience_gained",
-                    "value": -0.15,
-                    "operation": "multiply_base",
-                    "slot": "LEGS"
-                }
-            ]
-        },
-        {
-            "name": "quality_equipment.quality.unstable",
-            "weight": 5,
-            "attributes": [
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
                     "value": -0.15,
                     "operation": "multiply_base",
                     "slot": "LEGS"
@@ -4968,24 +4926,6 @@
                 {
                     "attribute": "minecraft:generic.attack_knockback",
                     "value": -0.15,
-                    "operation": "multiply_base",
-                    "slot": "LEGS"
-                }
-            ]
-        },
-        {
-            "name": "quality_equipment.quality.sluggish",
-            "weight": 6,
-            "attributes": [
-                {
-                    "attribute": "minecraft:generic.attack_speed",
-                    "value": -0.1,
-                    "operation": "multiply_base",
-                    "slot": "LEGS"
-                },
-                {
-                    "attribute": "minecraft:generic.movement_speed",
-                    "value": -0.1,
                     "operation": "multiply_base",
                     "slot": "LEGS"
                 }
@@ -5195,6 +5135,714 @@
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.aetheric",
+            "weight": 1,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.resonating",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.harmonious",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.siphoning",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.conductive",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.primal",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.aetheric",
+            "weight": 1,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.resonating",
+            "weight": 3,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.harmonious",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.siphoning",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "attributeslib:life_steal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.conductive",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.primal",
+            "weight": 4,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "value": 0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.flowing",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.stable",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "quality_forked:damage_resistance",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.focusing",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "gtbcs_spell_lib:spell_crit_chance",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.overflowing",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "attributeslib:overheal",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.streaming",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.vast",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.06,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.luminous",
+            "weight": 17,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.ancient",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.1,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.astral",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.infused",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0.05,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.volatile",
+            "weight": 15,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.bracing",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.seeping",
+            "weight": 16,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "value": -0.05,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.constricted",
+            "weight": 14,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "combatroll:count",
+                    "value": -1.0,
+                    "operation": "addition",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.fading",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 0.08,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.depleted",
+            "weight": 10,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.starved",
+            "weight": 9,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.thirsty",
+            "weight": 11,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": -0.07,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": 0.04,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.vacant",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.obstructed",
+            "weight": 6,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": -0.08,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.severed",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                }
+            ]
+        },
+        {
+            "name": "quality_equipment.quality.hollowed",
+            "weight": 5,
+            "attributes": [
+                {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+                    "value": -0.1,
+                    "operation": "multiply_base",
+                    "slot": "LEGS"
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
                     "value": -0.1,
                     "operation": "multiply_base",
                     "slot": "LEGS"
