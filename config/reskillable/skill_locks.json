@@ -405,8 +405,113 @@
     "simpleores:copper_helmet": ["defense:74", "attack:71", "magic:72"],
     "simpleores:copper_chestplate": ["defense:74", "attack:71", "magic:72"],
     "simpleores:copper_leggings": ["defense:74", "attack:71", "magic:72"],
-    "simpleores:copper_boots": ["defense:74", "attack:71", "magic:72"]
+    "simpleores:copper_boots": ["defense:74", "attack:71", "magic:72"],
 
+    "theabyss:glacerythe_armor_helmet": ["defense:75", "agility:73"],
+    "theabyss:glacerythe_armor_chestplate": ["defense:75", "agility:73"],
+    "theabyss:glacerythe_armor_leggings": ["defense:75", "agility:73"],
+    "theabyss:glacerythe_armor_boots": ["defense:75", "agility:73"],
+
+    "theabyss:aberythe_armor_helmet": ["defense:76", "magic:74"],
+    "theabyss:aberythe_armor_chestplate": ["defense:76", "magic:74"],
+    "theabyss:aberythe_armor_leggings": ["defense:76", "magic:74"],
+    "theabyss:aberythe_armor_boots": ["defense:76", "magic:74"],
+
+    "theabyss:fusion_armor_helmet": ["defense: 78"],
+    "theabyss:fusion_armor_chestplate": ["defense: 78"],
+    "theabyss:fusion_armor_leggings": ["defense: 78"],
+    "theabyss:fusion_armor_boots": ["defense: 78"],
+
+    "theabyss:phantom_armor_helmet": ["defense:78", "attack:77", "agility:75"],
+    "theabyss:phantom_armor_chestplate": ["defense:78", "attack:77", "agility:75"],
+    "theabyss:phantom_armor_leggings": ["defense:78", "attack:77", "agility:75"],
+    "theabyss:phantom_armor_boots": ["defense:78", "attack:77", "agility:75"],
+
+    "theabyss:ignisthe_armor_helmet": ["defense:79", "attack:78"],
+    "theabyss:ignisthe_armor_chestplate": ["defense:79", "attack:78"],
+    "theabyss:ignisthe_armor_leggings": ["defense:79", "attack:78"],
+    "theabyss:ignisthe_armor_boots": ["defense:79", "attack:78"],
+
+    "theabyss:garnite_armor_helmet": ["defense:79"],
+    "theabyss:garnite_armor_chestplate": ["defense:79"],
+    "theabyss:garnite_armor_leggings": ["defense:79"],
+    "theabyss:garnite_armor_boots": ["defense:79"],
+
+    "theabyss:incorythe_armor_helmet": ["defense:80", "agility:78"],
+    "theabyss:incorythe_armor_chestplate": ["defense:80", "agility:78"],
+    "theabyss:incorythe_armor_leggings": ["defense:80", "agility:78"],
+    "theabyss:incorythe_armor_boots": ["defense:80", "agility:78"],
+
+    "theabyss:unorithe_armor_helmet": ["defense:81", "agility:78", "magic:80"],
+    "theabyss:unorithe_armor_chestplate": ["defense:81", "agility:78", "magic:80"],
+    "theabyss:unorithe_armor_leggings": ["defense:81", "agility:78", "magic:80"],
+    "theabyss:unorithe_armor_boots": ["defense:81", "agility:78", "magic:80"],
+
+    "theabyss:bone_armor_helmet": ["defense:82"],
+    "theabyss:bone_armor_chestplate": ["defense:82"],
+    "theabyss:bone_armor_leggings": ["defense:82"],
+    "theabyss:bone_armor_boots": ["defense:82"],
+
+    "twilightforest:naga_chestplate": ["defense:83", "agility:81"],
+    "twilightforest:naga_leggings": ["defense:83", "agility:81"],
+    
+    "twilightforest:arctic_helmet": ["defense:83", "magic:81"],
+    "twilightforest:arctic_chestplate": ["defense:83", "magic:81"],
+    "twilightforest:arctic_leggings": ["defense:83", "magic:81"],
+    "twilightforest:arctic_boots": ["defense:83", "magic:81"],
+
+    "twilightforest:steeleaf_helmet": ["defense:84", "magic:82"],
+    "twilightforest:steeleaf_chestplate": ["defense:84", "magic:82"],
+    "twilightforest:steeleaf_leggings": ["defense:84", "magic:82"],
+    "twilightforest:steeleaf_boots": ["defense:84", "magic:82"],
+
+    "twilightfores:ironwood_helmet": ["defense:85"],
+    "twilightfores:ironwood_chestplate": ["defense:85"],
+    "twilightfores:ironwood_leggings": ["defense:85"],
+    "twilightfores:ironwood_boots": ["defense:85"],
+
+    "twilightforest:yeti_helmet": ["defense:85", "attack:83"],
+    "twilightforest:yeti_chestplate": ["defense:85", "attack:83"],
+    "twilightforest:yeti_leggings": ["defense:85", "attack:83"],
+    "twilightforest:yeti_boots": ["defense:85", "attack:83"],
+
+    "twilightforest:knightmetal_helmet": ["defense:86", "attack:84"],
+    "twilightforest:knightmetal_chestplate": ["defense:86", "attack:84"],
+    "twilightforest:knightmetal_leggings": ["defense:86", "attack:84"],
+    "twilightforest:knightmetal_boots": ["defense:86", "attack:84"],
+
+    "twilightforest:phantom_helmet": ["defense:86", "attack:85", "agility:84"],
+    "twilightforest:phantom_chestplate": ["defense:86", "attack:85", "agility:84"],
+
+    "twilightforest:fiery_helmet": ["defense:87", "attack:85", "magic:83"],
+    "twilightforest:fiery_chestplate": ["defense:87", "attack:85", "magic:83"],
+    "twilightforest:fiery_leggings": ["defense:87", "attack:85", "magic:83"],
+    "twilightforest:fiery_boots": ["defense:87", "attack:85", "magic:83"],
+
+    "ad_astra:space_helmet": ["defense:88"],
+    "ad_astra:space_suit": ["defense:88"],
+    "ad_astra:space_pants": ["defense:88"],
+    "ad_astra:space_boots": ["defense:88"],
+
+    "ad_astra:netherite_space_helmet": ["defense:90"],
+    "ad_astra:netherite_space_suit": ["defense:90"],
+    "ad_astra:netherite_space_pants": ["defense:90"],
+    "ad_astra:netherite_space_boots": ["defense:90"],
+
+    "ad_astra:jet_suit_helmet": ["defense:91"],
+    "ad_astra:jet_suit": ["defense:91"],
+    "ad_astra:jet_suit_pants": ["defense:91"],
+    "ad_astra:jet_suit_boots": ["defense:91"],
+
+    "enigmaticlegacy:etherium_helmet": ["defense:95", "magic:90", "attack:90", "agility:90"],
+    "enigmaticlegacy:etherium_chestplate": ["defense:95", "magic:90", "attack:90", "agility:90"],
+    "enigmaticlegacy:etherium_leggings": ["defense:95", "magic:90", "attack:90", "agility:90"],
+    "enigmaticlegacy:etherium_boots": ["defense:95", "magic:90", "attack:90", "agility:90"],
+
+    "avaritia:infinity_armor_helmet": ["defense:100", "magic:100", "attack:100", "agility:100"],
+    "avaritia:infinity_armor_chestplate": ["defense:100", "magic:100", "attack:100", "agility:100"],
+    "avaritia:infinity_armor_leggings": ["defense:100", "magic:100", "attack:100", "agility:100"],
+    "avaritia:infinity_armor_boots": ["defense:100", "magic:100", "attack:100", "agility:100"]
 
   }
 }

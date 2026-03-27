@@ -34,6 +34,7 @@
 #657B45 minecraft:bone_block
 #B9C3E6 betterend:brimstone
 #207534 minecraft:brown_mushroom
+#3AE802 minecraft:brown_mushroom_block
 #90ED78 twilightforest:brown_thorns
 #31A995 betterend:bulb_vine
 #6C27FD betterend:bushy_grass
@@ -41,6 +42,7 @@
 #EE8AC6 twilightforest:canopy_leaves
 #F522F4 minecraft:chest
 #AA9109 minecraft:chiseled_stone_bricks
+#7FDE54 minecraft:clay
 #2848C0 minecraft:cobbled_deepslate
 #43C85F minecraft:cobbled_deepslate_slab
 #4341EF minecraft:cobbled_deepslate_stairs
@@ -78,6 +80,7 @@
 #F7ADDC betterend:endstone_dust
 #626C0F betternether:feather_fern
 #F7E3A7 the_bumblezone:filled_porous_honeycomb_block
+#6ADC4C twilightforest:firefly_jar
 #721F77 betterend:flavolite
 #639593 twilightforest:fluffy_cloud
 #B5B7E0 betterend:fracturn
@@ -86,6 +89,7 @@
 #482EEB minecraft:glowstone
 #3F84B7 minecraft:grass_block
 #88BAFA minecraft:gravel
+#1701D7 twilightforest:hollow_twilight_oak_log_horizontal
 #3967C2 betterend:hydrothermal_vent
 #52D27E minecraft:ice
 #2BCA18 evilcraft:infested_nether_soul_sand
@@ -100,6 +104,8 @@
 #02D09C mekanism:lead_ore
 #6BCAC8 thermal:lead_ore
 #27E8B8 minecraft:light_blue_stained_glass
+#7482E4 minecraft:lilac
+#74A7CF twilightforest:liveroot_block
 #0EC131 lootr:lootr_barrel
 #9E7DD4 theabyss:loran_end_ore
 #C3E315 betterend:lucernia_outer_leaves
@@ -111,6 +117,7 @@
 #A4FC4B minecraft:mossy_cobblestone
 #483B67 minecraft:mossy_stone_bricks
 #04E1C3 betterend:murkweed
+#B514D6 minecraft:mycelium
 #4FDFD8 regions_unexplored:mycotoxic_moss
 #D6C2FC betterend:needlegrass
 #0EFBB2 minecraft:nether_brick_slab
@@ -122,6 +129,7 @@
 #454322 minecraft:netherrack
 #61394A betternether:netherrack_moss
 #AD9EB5 minecraft:oak_leaves
+#E3886A minecraft:oak_planks
 #4A5E4E minecraft:obsidian
 #1C54FB the_deep_void:old_corpse
 #090A64 the_deep_void:old_corpse_pile
@@ -132,6 +140,8 @@
 #25EEAD betterend:orango
 #067C92 immersiveengineering:ore_silver
 #71CB60 regions_unexplored:overgrown_bone_block
+#F6678E minecraft:oxeye_daisy
+#AB1C58 minecraft:peony
 #D09F29 the_deep_void:pile_of_bones_block
 #85B520 betterend:pink_moss
 #36285C minecraft:pink_tulip
@@ -145,7 +155,10 @@
 #AFAC0D minecraft:poppy
 #F447DE twilightforest:rainbow_oak_leaves
 #025439 minecraft:red_mushroom
+#78AF47 minecraft:red_mushroom_block
 #465F37 minecraft:red_tulip
+#34B7D5 twilightforest:root
+#9C3ECB minecraft:rose_bush
 #873AB2 the_deep_void:rotten_bone_block
 #3D190F betternether:rubeus_leaves
 #B66D5B betterend:rutiscus
@@ -182,6 +195,7 @@
 #DC3458 minecraft:stone
 #F8955F minecraft:stone_bricks
 #B96EB4 minecraft:structure_block
+#5CF3F1 minecraft:sugar_cane
 #FC4320 betterend:sulphuric_rock
 #C3BA86 betterend:tail_moss
 #CE6C4A betterend:tenanea_leaves
@@ -190,10 +204,12 @@
 #F20CD7 twilightforest:thorn_leaves
 #6846C4 twilightforest:twilight_oak_leaves
 #07A722 twilightforest:twilight_oak_log
+#09CE15 twilightforest:twilight_oak_wood
 #E35A90 betterend:twisted_moss
 #9EBF99 betterend:twisted_umbrella_moss
 #21BA12 betterend:umbrella_moss
 #B963C0 betterend:vaiolush_fern
+#88779D minecraft:vine
 #43178F betternether:wall_moss
 #28C45C betternether:wall_mushroom_brown
 #E83F37 betternether:wall_mushroom_red

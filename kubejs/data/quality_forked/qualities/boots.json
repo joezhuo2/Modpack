@@ -6,7 +6,7 @@
     "qualities": [
         {
             "name": "quality_equipment.quality.normal",
-            "weight": 622
+            "weight": 1122
         },
         {
             "name": "quality_equipment.quality.omnipotent",
@@ -806,19 +806,19 @@
             "attributes": [
                 {
                     "attribute": "irons_spellbooks:blood_spell_power",
-                    "value": 0.07,
+                    "value": 0.05,
                     "operation": "multiply_base",
                     "slot": "FEET"
                 },
                 {
                     "attribute": "attributeslib:life_steal",
-                    "value": 0.04,
+                    "value": 0.05,
                     "operation": "multiply_base",
                     "slot": "FEET"
                 },
                 {
                     "attribute": "attributeslib:healing_received",
-                    "value": 0.06,
+                    "value": 0.05,
                     "operation": "multiply_base",
                     "slot": "FEET"
                 }

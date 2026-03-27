@@ -114,6 +114,11 @@ const itemsToName = [
     {id: 'eidolon:silver_nugget', name: 'Platinum Nugget'},
     {id: 'eidolon:silver_block', name: 'Platinum Block'},
     {id: 'eidolon:raw_silver_block', name: 'Raw Platinum Block'},
+
+    {id: 'theabyss:bone_armor_helmet', name: 'Titan Bone Helmet'},
+    {id: 'theabyss:bone_armor_chestplate', name: 'Titan Bone Chestplate'},
+    {id: 'theabyss:bone_armor_leggings', name: 'Titan Bone Leggings'},
+    {id: 'theabyss:bone_armor_boots', name: 'Titan Bone Boots'},
 ]
 
 ClientEvents.lang('en_us', event => {

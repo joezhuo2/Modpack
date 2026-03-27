@@ -2,11 +2,13 @@
 #6CE deeperdarker:blooming_caverns
 #649 betterend:blossoming_spires
 #276 the_bumblezone:crystal_canyon
+#430 twilightforest:dense_forest
 #3D6 betterend:dry_shrubland
 #003 deeperdarker:echoing_forest
 #277 twilightforest:enchanted_forest
 #65A minecraft:end_barrens
 #489 the_deep_void:filled_graveyard
+#712 twilightforest:firefly_forest
 #3D5 betternether:flooded_deltas
 #573 the_bumblezone:floral_meadow
 #7FB the_deep_void:gathering_grounds
@@ -16,9 +18,11 @@
 #1DE the_bumblezone:hive_pillar
 #03E the_bumblezone:hive_wall
 #5A9 betterend:ice_starfield
+#0D7 twilightforest:mushroom_forest
 #0B5 regions_unexplored:mycotoxic_undergrowth
 #0F1 betternether:nether_grasslands
 #13C betternether:nether_jungle
+#679 twilightforest:oak_savannah
 #614 betternether:poor_nether_grasslands
 #491 betterend:shadow_forest
 #255 minecraft:small_end_islands
@@ -28,3 +32,4 @@
 #01B betterend:sulphur_springs
 #495 minecraft:the_void
 #144 twilightforest:thornlands
+#152 twilightforest:underground
