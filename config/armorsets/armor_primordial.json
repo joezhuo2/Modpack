@@ -23,6 +23,14 @@
       "description": "+15% Arrow Damage"
     },
     {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.15,
+      "attributeOperation": 2,
+      "modifierUUID": "50d3c2c2-9429-4ddc-8ea5-9619b134b638",
+      "description": "+15% Attack Damage"
+    },
+    {
         "type": "effect",
         "name": "minecraft:speed",
         "value": 0.0

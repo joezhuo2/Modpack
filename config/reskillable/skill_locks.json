@@ -28,10 +28,10 @@
     "hexerei:pestle_and_mortar": ["building:6", "magic:3"],
     "minecraft:ender_pearl": ["magic:7", "agility:4"],
 
-    "ceramics:clay_helmet": ["defense:3"],
-    "ceramics:clay_chestplate": ["defense:3"],
-    "ceramics:clay_leggings": ["defense:3"],
-    "ceramics:clay_boots": ["defense:3"],
+    "ceramics:clay_helmet": ["defense:2"],
+    "ceramics:clay_chestplate": ["defense:2"],
+    "ceramics:clay_leggings": ["defense:2"],
+    "ceramics:clay_boots": ["defense:2"],
 
     "minecraft:leather_helmet": ["defense:3", "agility:2"],
     "minecraft:leather_chestplate": ["defense:3", "agility:2"],
@@ -39,10 +39,20 @@
     "minecraft:leather_boots": ["defense:3", "agility:2"],
     "aether:leather_gloves": ["defense:3", "agility:2"],
 
+    "iceandfire:sheep_helmet": ["defense:4", "agility:3"],
+    "iceandfire:sheep_chestplate": ["defense:4", "agility:3"],
+    "iceandfire:sheep_leggings": ["defense:4", "agility:3"],
+    "iceandfire:sheep_boots": ["defense:4", "agility:3"],
+
     "create:cardboard_helmet": ["defense:4"],
     "create:cardboard_chestplate": ["defense:4"],
     "create:cardboard_leggings": ["defense:4"],
     "create:cardboard_boots": ["defense:4"],
+
+    "forbidden_arcanus:mortem_helmet": ["defense:4"],
+    "forbidden_arcanus:mortem_chestplate": ["defense:4"],
+    "forbidden_arcanus:mortem_leggings": ["defense:4"],
+    "forbidden_arcanus:mortem_boots": ["defense:4"],
 
     "create_sa:copper_helmet": ["defense:5", "agility:4"],
     "create_sa:copper_chestplate": ["defense:5", "agility:4"],
@@ -72,10 +82,19 @@
     "iceandfire:armor_copper_metal_leggings" : ["defense:8", "magic:3"],
     "iceandfire:armor_copper_metal_boots" : ["defense:8", "magic:3"],
 
+    "immersiveengineering:armor_faraday_helmet": ["defense:9", "agility:4"],
+    "immersiveengineering:armor_faraday_chestplate": ["defense:9", "agility:4"],
+    "immersiveengineering:armor_faraday_leggings": ["defense:9", "agility:4"],
+    "immersiveengineering:armor_faraday_boots": ["defense:9", "agility:4"],
+
     "minecraft:chainmail_helmet": ["defense:9"],
     "minecraft:chainmail_chestplate": ["defense:9"],
     "minecraft:chainmail_leggings": ["defense:9"],
     "minecraft:chainmail_boots": ["defense:9"],
+
+    "alexscaves:primordial_helmet": ["defense:9", "attack:6", "agility:4"],
+    "alexscaves:primordial_tunic": ["defense:9", "attack:6", "agility:4"],
+    "alexscaves:primordial_pants": ["defense:9", "attack:6", "agility:4"],
 
     "create_sa:zinc_helmet": ["defense:10", "agility:4"],
     "create_sa:zinc_chestplate": ["defense:10", "agility:4"],
@@ -92,6 +111,11 @@
     "irons_spellbooks:pumpkin_leggings": ["defense:11", "magic:7"],
     "irons_spellbooks:pumpkin_boots": ["defense:11", "magic:7"],
 
+    "rootsclassic:wildwood_mask": ["defense:11", "magic:9"],
+    "rootsclassic:wildwood_plate": ["defense:11", "magic:9"],
+    "rootsclassic:wildwood_leggings": ["defense:11", "magic:9"],
+    "rootsclassic:wildwood_boots": ["defense:11", "magic:9"],
+
     "create_sa:brass_helmet": ["defense:12", "agility:6"],
     "create_sa:brass_chestplate": ["defense:12", "agility:6"],
     "create_sa:brass_leggings": ["defense:12", "agility:6"],
@@ -102,15 +126,25 @@
     "eidolon:silver_leggings": ["defense:13", "magic:7"],
     "eidolon:silver_boots": ["defense:13", "magic:7"],
 
+    "bloodmagic:livinghelmet": ["defense:13", "magic:6", "attack:8"],
+    "bloodmagic:livingplate": ["defense:13", "magic:6", "attack:8"],
+    "bloodmagic:livingleggings": ["defense:13", "magic:6", "attack:8"],
+    "bloodmagic:livingboots": ["defense:13", "magic:6", "attack:8"],
+
     "blue_skies:pyrope_helmet": ["defense:14", "attack:8"],
     "blue_skies:pyrope_chestplate": ["defense:14", "attack:8"],
     "blue_skies:pyrope_leggings": ["defense:14", "attack:8"],
     "blue_skies:pyrope_boots": ["defense:14", "attack:8"],
 
-    "blue_skies:aquite_helmet": ["defense:13", "magic:9"],
-    "blue_skies:aquite_chestplate": ["defense:13", "magic:9"],
-    "blue_skies:aquite_leggings": ["defense:13", "magic:9"],
-    "blue_skies:aquite_boots": ["defense:13", "magic:9"],
+    "rootsclassic:sylvan_hood": ["defense:14", "magic:14"],
+    "rootsclassic:sylvan_robe": ["defense:14", "magic:14"],
+    "rootsclassic:sylvan_tunic": ["defense:14", "magic:14"],
+    "rootsclassic:sylvan_boots": ["defense:14", "magic:14"],
+
+    "blue_skies:aquite_helmet": ["defense:15", "magic:12"],
+    "blue_skies:aquite_chestplate": ["defense:15", "magic:12"],
+    "blue_skies:aquite_leggings": ["defense:15", "magic:12"],
+    "blue_skies:aquite_boots": ["defense:15", "magic:12"],
 
     "blue_skies:diopside_helmet": ["defense:15", "agility:11"],
     "blue_skies:diopside_chestplate": ["defense:15", "agility:11"],
@@ -162,15 +196,30 @@
     "betternether:nether_ruby_leggings": ["defense:24", "magic:16", "attack:18"],
     "betternether:nether_ruby_boots": ["defense:24", "magic:16", "attack:18"],
 
-    "blue_skies:horizonite_helmet": ["defense:26", "attack:18"],
-    "blue_skies:horizonite_chestplate": ["defense:26", "attack:18"],
-    "blue_skies:horizonite_leggings": ["defense:26", "attack:18"],
-    "blue_skies:horizonite_boots": ["defense:26", "attack:18"],
+    "stalwart_dungeons:tungsten_helmet": ["defense:25", "attack:17"],
+    "stalwart_dungeons:tungsten_chestplate": ["defense:25", "attack:17"],
+    "stalwart_dungeons:tungsten_leggings": ["defense:25", "attack:17"],
+    "stalwart_dungeons:tungsten_boots": ["defense:25", "attack:17"],
+
+    "stalwart_dungeons:warted_tungsten_helmet": ["defense:25", "attack:24"],
+    "stalwart_dungeons:warted_tungsten_chestplate": ["defense:25", "attack:24"],
+    "stalwart_dungeons:warted_tungsten_leggings": ["defense:25", "attack:24"],
+    "stalwart_dungeons:warted_tungsten_boots": ["defense:25", "attack:24"],
 
     "aether:zanite_helmet": ["defense:25", "magic:20"],
     "aether:zanite_chestplate": ["defense:25", "magic:20"],
     "aether:zanite_leggings": ["defense:25", "magic:20"],
     "aether:zanite_boots": ["defense:25", "magic:20"],
+
+    "blue_skies:horizonite_helmet": ["defense:26", "attack:18"],
+    "blue_skies:horizonite_chestplate": ["defense:26", "attack:18"],
+    "blue_skies:horizonite_leggings": ["defense:26", "attack:18"],
+    "blue_skies:horizonite_boots": ["defense:26", "attack:18"],
+
+    "betternether:flaming_ruby_helmet": ["defense:26", "attack:20", "magic:16"],
+    "betternether:flaming_ruby_chestplate": ["defense:26", "attack:20", "magic:16"],
+    "betternether:flaming_ruby_leggings": ["defense:26", "attack:20", "magic:16"],
+    "betternether:flaming_ruby_boots": ["defense:26", "attack:20", "magic:16"],
 
     "aether:obsidian_helmet": ["defense:26"],
     "aether:obsidian_chestplate": ["defense:26"],
@@ -217,6 +266,10 @@
     "deep_aether:stratus_leggings": ["defense:34", "magic:30"],
     "deep_aether:stratus_boots": ["defense:34", "magic:30"],
 
+    "undergarden:ancient_helmet": ["defense:35"],
+    "undergarden:ancient_chestplate": ["defense:35"],
+    "undergarden:ancient_leggings": ["defense:35"],
+
     "undergarden:cloggrum_helmet": ["defense:36"],
     "undergarden:cloggrum_chestplate": ["defense:36"],
     "undergarden:cloggrum_leggings": ["defense:36"],
@@ -237,15 +290,20 @@
     "undergarden:utherium_leggings": ["defense:44", "attack:38"],
     "undergarden:utherium_boots": ["defense:44", "attack:38"],
 
+    "the_deep_void:cult_helmet": ["defense:45", "magic:49"],
+    "the_deep_void:cult_chestplate": ["defense:45", "magic:49"],
+    "the_deep_void:cult_leggings": ["defense:45", "magic:49"],
+    "the_deep_void:cult_boots": ["defense:45", "magic:49"],
+
     "thermal_extra:soul_infused_helmet": ["defense:46", "magic:40"],
     "thermal_extra:soul_infused_chestplate": ["defense:46", "magic:40"],
     "thermal_extra:soul_infused_leggings": ["defense:46", "magic:40"],
     "thermal_extra:soul_infused_boots": ["defense:46", "magic:40"],
 
-    "the_deep_void:cult_helmet": ["defense:45", "magic:49"],
-    "the_deep_void:cult_chestplate": ["defense:45", "magic:49"],
-    "the_deep_void:cult_leggings": ["defense:45", "magic:49"],
-    "the_deep_void:cult_boots": ["defense:45", "magic:49"],
+    "thermal_extra:abyssal_helmet": ["defense:47", "agility:42"],
+    "thermal_extra:abyssal_chestplate": ["defense:47", "agility:42"],
+    "thermal_extra:abyssal_leggings": ["defense:47", "agility:42"],
+    "thermal_extra:abyssal_boots": ["defense:47", "agility:42"],
 
     "the_deep_void:rotten_bone_armor_helmet": ["defense:48", "magic:45"],
     "the_deep_void:rotten_bone_armor_chestplate": ["defense:48", "magic:45"],
@@ -402,6 +460,16 @@
     "simpleores:tin_leggings": ["defense:71"],
     "simpleores:tin_boots": ["defense:71"],
 
+    "thermal_extra:enderium_helmet": ["defense:72", "agility:69"],
+    "thermal_extra:enderium_chestplate": ["defense:72", "agility:69"],
+    "thermal_extra:enderium_leggings": ["defense:72", "agility:69"],
+    "thermal_extra:enderium_boots": ["defense:72", "agility:69"],
+
+    "thermal_extra:shellite_helmet": ["defense:73", "magic:70"],
+    "thermal_extra:shellite_chestplate": ["defense:73", "magic:70"],
+    "thermal_extra:shellite_leggings": ["defense:73", "magic:70"],
+    "thermal_extra:shellite_boots": ["defense:73", "magic:70"],
+
     "simpleores:copper_helmet": ["defense:74", "attack:71", "magic:72"],
     "simpleores:copper_chestplate": ["defense:74", "attack:71", "magic:72"],
     "simpleores:copper_leggings": ["defense:74", "attack:71", "magic:72"],
@@ -427,10 +495,10 @@
     "theabyss:phantom_armor_leggings": ["defense:78", "attack:77", "agility:75"],
     "theabyss:phantom_armor_boots": ["defense:78", "attack:77", "agility:75"],
 
-    "theabyss:ignisthe_armor_helmet": ["defense:79", "attack:78"],
-    "theabyss:ignisthe_armor_chestplate": ["defense:79", "attack:78"],
-    "theabyss:ignisthe_armor_leggings": ["defense:79", "attack:78"],
-    "theabyss:ignisthe_armor_boots": ["defense:79", "attack:78"],
+    "theabyss:ignisithe_armor_helmet": ["defense:79", "attack:78"],
+    "theabyss:ignisithe_armor_chestplate": ["defense:79", "attack:78"],
+    "theabyss:ignisithe_armor_leggings": ["defense:79", "attack:78"],
+    "theabyss:ignisithe_armor_boots": ["defense:79", "attack:78"],
 
     "theabyss:garnite_armor_helmet": ["defense:79"],
     "theabyss:garnite_armor_chestplate": ["defense:79"],
@@ -465,10 +533,10 @@
     "twilightforest:steeleaf_leggings": ["defense:84", "magic:82"],
     "twilightforest:steeleaf_boots": ["defense:84", "magic:82"],
 
-    "twilightfores:ironwood_helmet": ["defense:85"],
-    "twilightfores:ironwood_chestplate": ["defense:85"],
-    "twilightfores:ironwood_leggings": ["defense:85"],
-    "twilightfores:ironwood_boots": ["defense:85"],
+    "twilightforest:ironwood_helmet": ["defense:85"],
+    "twilightforest:ironwood_chestplate": ["defense:85"],
+    "twilightforest:ironwood_leggings": ["defense:85"],
+    "twilightforest:ironwood_boots": ["defense:85"],
 
     "twilightforest:yeti_helmet": ["defense:85", "attack:83"],
     "twilightforest:yeti_chestplate": ["defense:85", "attack:83"],
@@ -502,6 +570,26 @@
     "ad_astra:jet_suit": ["defense:91"],
     "ad_astra:jet_suit_pants": ["defense:91"],
     "ad_astra:jet_suit_boots": ["defense:91"],
+
+    "inventorypets:solstice_helmet": ["defense:92", "magic:90"],
+    "inventorypets:solstice_chestplate": ["defense:92", "magic:90"],
+    "inventorypets:solstice_leggings": ["defense:92", "magic:90"],
+    "inventorypets:solstice_boots": ["defense:92", "magic:90"],
+
+    "advanced_ae:quantum_helmet": ["defense:93"],
+    "advanced_ae:quantum_chestplate": ["defense:93"],
+    "advanced_ae:quantum_leggings": ["defense:93"],
+    "advanced_ae:quantum_boots": ["defense:93"],
+
+    "celestisynth:solar_crystal_helmet": ["defense:94", "attack:94"],
+    "celestisynth:solar_crystal_chestplate": ["defense:94", "attack:94"],
+    "celestisynth:solar_crystal_leggings": ["defense:94", "attack:94"],
+    "celestisynth:solar_crystal_boots": ["defense:94", "attack:94"],
+
+    "celestisynth:lunar_stone_helmet": ["defense:94", "magic:94"],
+    "celestisynth:lunar_stone_chestplate": ["defense:94", "magic:94"],
+    "celestisynth:lunar_stone_leggings": ["defense:94", "magic:94"],
+    "celestisynth:lunar_stone_boots": ["defense:94", "magic:94"],
 
     "enigmaticlegacy:etherium_helmet": ["defense:95", "magic:90", "attack:90", "agility:90"],
     "enigmaticlegacy:etherium_chestplate": ["defense:95", "magic:90", "attack:90", "agility:90"],

@@ -119,6 +119,11 @@ const itemsToName = [
     {id: 'theabyss:bone_armor_chestplate', name: 'Titan Bone Chestplate'},
     {id: 'theabyss:bone_armor_leggings', name: 'Titan Bone Leggings'},
     {id: 'theabyss:bone_armor_boots', name: 'Titan Bone Boots'},
+
+    {id: 'immersiveengineering:armor_faraday_helmet', name: 'Aluminum Helmet'},
+    {id: 'immersiveengineering:armor_faraday_chestplate', name: 'Aluminum Chestplate'},
+    {id: 'immersiveengineering:armor_faraday_leggings', name: 'Aluminum Leggings'},
+    {id: 'immersiveengineering:armor_faraday_boots', name: 'Aluminum Boots'},
 ]
 
 ClientEvents.lang('en_us', event => {

@@ -14,59 +14,93 @@
 	id: "21D4ADA95DD33649"
 	images: [
 		{
-			height: 3.0d
-			image: "blue_skies:item/misc/star_flare"
+			height: 8.0d
+			image: "minecraft:block/cave_vines_plant_lit"
 			rotation: 0.0d
-			width: 3.0d
-			x: 8.5d
-			y: -2.5d
+			width: 8.0d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
-			height: 2.0d
-			image: "minecraft:textures/gui/advancements/backgrounds/nether.png"
-			rotation: 45.0d
-			width: 2.0d
-			x: 17.0d
-			y: -2.5d
-		}
-		{
-			height: 3.0d
-			image: "undergarden:item/catalyst"
+			height: 8.0d
+			image: "deep_aether:block/fruit_golden_vines_plant"
+			order: 1
 			rotation: 0.0d
-			width: 3.0d
-			x: 25.5d
-			y: -2.5d
+			width: 8.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
-			height: 3.0d
-			image: "theabyss:item/loranenergy"
+			height: 8.0d
+			image: "deeperdarker:block/glowing_vines_plant_berries"
+			order: 1
 			rotation: 0.0d
-			width: 3.0d
-			x: 34.0d
-			y: -2.5d
+			width: 8.0d
+			x: 12.0d
+			y: 0.5d
 		}
 		{
-			height: 2.0d
-			image: "the_deep_void:textures/i_am_you.png"
+			height: 8.0d
+			image: "projectvibrantjourneys:block/pink_vines_plant"
 			rotation: 0.0d
-			width: 2.0d
-			x: 42.5d
-			y: -2.5d
+			width: 8.0d
+			x: 19.0d
+			y: 0.5d
 		}
 		{
-			height: 2.0d
-			image: "botania:block/vivid_grass_top"
-			rotation: -45.0d
-			width: 2.0d
-			x: 0.0d
-			y: -2.5d
+			height: 8.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.0d
+			y: 7.25d
+		}
+		{
+			height: 8.0d
+			image: "deep_aether:block/fruit_golden_vines"
+			rotation: 180.0d
+			width: 8.0d
+			x: 5.425d
+			y: 11.5d
+		}
+		{
+			height: 8.0d
+			image: "deeperdarker:block/glowing_vines_plant"
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			height: 8.0d
+			image: "deeperdarker:block/glowing_vines"
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.0d
+			y: 13.25d
+		}
+		{
+			height: 8.0d
+			image: "projectvibrantjourneys:block/pink_vines"
+			rotation: 0.0d
+			width: 8.0d
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			height: 8.0d
+			image: "deep_aether:block/fruit_golden_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: 5.0d
+			y: 5.5d
 		}
 	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["16BCF7F61DAC20B9"]
 			id: "089A4A9592AEF454"
 			tasks: [
 				{
@@ -130,11 +164,10 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 0.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["5EF7075B7F409543"]
 			id: "4B3A1BC9AFA5FA69"
 			tasks: [
 				{
@@ -193,11 +226,10 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 0.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["2A0438B031B1C785"]
 			id: "7F9F25A37CC60957"
 			tasks: [
 				{
@@ -245,11 +277,10 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 2.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["64E089EC3B1949D5"]
 			id: "42BAFF1460F0A1C7"
 			tasks: [
 				{
@@ -308,8 +339,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			id: "4F69B5A714F34CA8"
@@ -325,8 +356,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			id: "3BD3F8B76DC59204"
@@ -410,8 +441,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 0.5d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			id: "3D98C3B5AF80C820"
@@ -472,11 +503,10 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: 0.5d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["5A51E8E84597E9B2"]
 			id: "25D5C188E773E273"
 			tasks: [
 				{
@@ -535,8 +565,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			id: "0CB461F260D3040D"
@@ -552,8 +582,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			id: "6AC4C4CDE5E9627F"
@@ -603,8 +633,8 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
-			y: 0.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			id: "6FF7665A9FE41B5D"
@@ -654,8 +684,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 2.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			id: "41D7F88E973E1908"
@@ -705,8 +735,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 5.5d
+			x: 10.0d
+			y: 25.5d
 		}
 		{
 			id: "4F586FD21E82EB05"
@@ -756,8 +786,8 @@
 					type: "item"
 				}
 			]
-			x: 25.5d
-			y: 0.5d
+			x: 29.0d
+			y: 25.5d
 		}
 		{
 			id: "701EE4B61F7F7590"
@@ -808,7 +838,7 @@
 				}
 			]
 			x: 27.0d
-			y: 0.5d
+			y: 25.5d
 		}
 		{
 			id: "280DF95098385450"
@@ -858,8 +888,8 @@
 					type: "item"
 				}
 			]
-			x: 24.0d
-			y: 0.5d
+			x: 28.0d
+			y: 25.5d
 		}
 		{
 			id: "032869DB9C4BAD93"
@@ -909,8 +939,8 @@
 					type: "item"
 				}
 			]
-			x: 28.5d
-			y: 0.5d
+			x: 26.0d
+			y: 25.5d
 		}
 		{
 			id: "65FD0371D695D0E2"
@@ -960,8 +990,8 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
-			y: 0.5d
+			x: 25.0d
+			y: 25.5d
 		}
 		{
 			id: "4B0A0C37AC9F72DD"
@@ -1011,8 +1041,8 @@
 					type: "item"
 				}
 			]
-			x: 25.5d
-			y: 2.0d
+			x: 20.0d
+			y: 24.0d
 		}
 		{
 			id: "429DF008858C7C19"
@@ -1062,8 +1092,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 7.0d
+			x: 23.0d
+			y: 24.0d
 		}
 		{
 			id: "0B7D6BBA7D912C9B"
@@ -1113,8 +1143,8 @@
 					type: "item"
 				}
 			]
-			x: 34.0d
-			y: 0.5d
+			x: 21.0d
+			y: 24.0d
 		}
 		{
 			id: "4F44BCC1B234C97A"
@@ -1164,8 +1194,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 2.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			id: "09D624369D659912"
@@ -1215,8 +1245,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			id: "68CC00FD1ADD2FC0"
@@ -1266,8 +1296,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 2.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			id: "7605A04C8A85483C"
@@ -1282,8 +1312,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: 0.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			id: "5A232B23B7F18DC3"
@@ -1298,8 +1328,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 0.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			id: "4EA5357644263AB1"
@@ -1354,11 +1384,10 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 7.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["2DCC80EEB78F167B"]
 			id: "6550A234F40BCC8D"
 			tasks: [
 				{
@@ -1406,8 +1435,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 2.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			id: "597C0D7E29151259"
@@ -1468,8 +1497,8 @@
 					type: "item"
 				}
 			]
-			x: 42.5d
-			y: 0.5d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			id: "457419BA9BB100FA"
@@ -1519,8 +1548,8 @@
 					type: "item"
 				}
 			]
-			x: 35.5d
-			y: 0.5d
+			x: 30.0d
+			y: 28.5d
 		}
 		{
 			id: "472EB9998D6934E2"
@@ -1558,9 +1587,20 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4E6AA098F20DCBA6"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			x: 44.0d
-			y: 0.5d
+			x: 32.0d
+			y: 28.5d
 		}
 		{
 			id: "304DBB7C09B088D3"
@@ -1575,8 +1615,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			id: "5763CE7F62A4EAA8"
@@ -1591,8 +1631,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			id: "22888E92A6415EFA"
@@ -1607,8 +1647,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			id: "6610C5D4695A8BFF"
@@ -1623,8 +1663,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			id: "79FD710741854240"
@@ -1639,8 +1679,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			id: "16F12C4C076863EE"
@@ -1655,24 +1695,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: 2.0d
-		}
-		{
-			id: "300754AB742AF037"
-			tasks: [{
-				id: "356314BA46D5A041"
-				item: {
-					Count: 1
-					id: "betternether:nether_ruby_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: 2.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			id: "22D97835E609145A"
@@ -1687,8 +1711,3333 @@
 				}
 				type: "item"
 			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "10B524AC54BCE88F"
+			tasks: [{
+				id: "046B4AF2EC39AF41"
+				item: {
+					Count: 1
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "57D21D9226BF36B0"
+			tasks: [{
+				id: "1C3812B09F409EED"
+				item: {
+					Count: 1
+					id: "betternether:nether_ruby_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "4D8A06409EAC5A79"
+			tasks: [{
+				id: "4677949054B69B3C"
+				item: {
+					Count: 1
+					id: "aether:zanite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "7B0B5DEC33AD8F63"
+			tasks: [{
+				id: "43621CFBD1FD728C"
+				item: {
+					Count: 1
+					id: "aether:obsidian_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "4F0BE769CE43A6C2"
+			tasks: [{
+				id: "3948663920CC5B70"
+				item: {
+					Count: 1
+					id: "aether:gravitite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "242DC32D2D8FB763"
+			tasks: [{
+				id: "7F74BBBCDD24369E"
+				item: {
+					Count: 1
+					id: "aether:neptune_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "3D799C2DE22232A1"
+			tasks: [{
+				id: "1A5B4D9A5A359FD8"
+				item: {
+					Count: 1
+					id: "deep_aether:skyjade_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "391B341C46433790"
+			tasks: [{
+				id: "429E9E9CB6363202"
+				item: {
+					Count: 1
+					id: "deep_aether:stormforged_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "50FC91C02120B15A"
+			tasks: [{
+				id: "7D3D8EABA60C3498"
+				item: {
+					Count: 1
+					id: "aether:valkyrie_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "1741511F38A848F9"
+			tasks: [{
+				id: "601505043F3D675A"
+				item: {
+					Count: 1
+					id: "thermal_extra:lumium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "13D21D411410122F"
+			tasks: [{
+				id: "5ACCFB39EF517065"
+				item: {
+					Count: 1
+					id: "aether:phoenix_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "0B9FF366135B8B0B"
+			tasks: [{
+				id: "71C95F534FF82F48"
+				item: {
+					Count: 1
+					id: "deep_aether:stratus_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "00C9435EE486D9B2"
+			tasks: [{
+				id: "79761A5ACA92591B"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "52244B09C3B8FA64"
+			tasks: [{
+				id: "2024D7F94E3733B6"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "3E12476E3A8C748C"
+			tasks: [{
+				id: "275633F57EE6705E"
+				item: {
+					Count: 1
+					id: "undergarden:utherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "07256E949009E3F2"
+			tasks: [{
+				id: "176B01159A58461C"
+				item: {
+					Count: 1
+					id: "thermal_extra:soul_infused_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "09D7D4F84FE605D6"
+			tasks: [{
+				id: "7D70EA5FB326495A"
+				item: {
+					Count: 1
+					id: "the_deep_void:cult_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "6D4B1999FC3B1B9D"
+			tasks: [{
+				id: "2DE734ADEA937760"
+				item: {
+					Count: 1
+					id: "the_deep_void:rotten_bone_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "7691ABA2D56867EF"
+			tasks: [{
+				id: "674040A9CE7F2D8E"
+				item: {
+					Count: 1
+					id: "the_deep_void:bloodstone_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "62E99D9AE6F7F824"
+			tasks: [{
+				id: "7A8ECC6AE68D077F"
+				item: {
+					Count: 1
+					id: "the_deep_void:lavendite_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "2440866C4145A093"
+			tasks: [{
+				id: "74A0F2C84C9C58C9"
+				item: {
+					Count: 1
+					id: "the_deep_void:hunters_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "2D35361803ADAF66"
+			tasks: [{
+				id: "27789E49D6CD0B9C"
+				item: {
+					Count: 1
+					id: "the_deep_void:grim_rotten_bone_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "2827DD100005DA02"
+			tasks: [{
+				id: "0670FEEC468F4F9C"
+				item: {
+					Count: 1
+					id: "the_deep_void:onyx_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "58B068E67050C11F"
+			tasks: [{
+				id: "7CD587A8AD1667E5"
+				item: {
+					Count: 1
+					id: "the_deep_void:flesh_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "6D8F3C2EBE111DBF"
+			tasks: [{
+				id: "18EC27937C2BA687"
+				item: {
+					Count: 1
+					id: "the_deep_void:grim_lavendite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			id: "76AC7E6A568EAC94"
+			tasks: [{
+				id: "6DA8DEAD7C6C2CFB"
+				item: {
+					Count: 1
+					id: "the_deep_void:dark_steel_onyx_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "74BA926D4342F98F"
+			tasks: [{
+				id: "1C141B12F672BFAE"
+				item: {
+					Count: 1
+					id: "the_deep_void:plague_doctor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "19A8DFFCC4041516"
+			tasks: [{
+				id: "1D18AFE022BE20B3"
+				item: {
+					Count: 1
+					id: "the_deep_void:crawler_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "5D7AD7686F6364F4"
+			tasks: [{
+				id: "77216CFEE543538E"
+				item: {
+					Count: 1
+					id: "the_deep_void:bismuth_netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "22C0708024D9DE9C"
+			tasks: [{
+				id: "52687A1685038748"
+				item: {
+					Count: 1
+					id: "the_deep_void:grim_crawler_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "2822E1DB352A32BF"
+			tasks: [{
+				id: "51B59136B15F9087"
+				item: {
+					Count: 1
+					id: "the_deep_void:crawler_royalty_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "55568B691635BA31"
+			tasks: [{
+				id: "0E5723DE630B0A0B"
+				item: {
+					Count: 1
+					id: "the_deep_void:weaver_mask_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "6CE0D0FC8D1C7A8D"
+			tasks: [{
+				id: "3F582E2F8E833E22"
+				item: {
+					Count: 1
+					id: "the_deep_void:all_seeing_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "364D60844B55F5BC"
+			tasks: [{
+				id: "3CE3B5B37430AAAE"
+				item: {
+					Count: 1
+					id: "the_deep_void:voidrium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			id: "07182001526BE647"
+			tasks: [{
+				id: "53192695FDE5F111"
+				item: {
+					Count: 1
+					id: "the_deep_void:sacred_voidrium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			id: "4B2980B16FAF0BA2"
+			tasks: [{
+				id: "56D1143188C64AD0"
+				item: {
+					Count: 1
+					id: "simpleores:mythril_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "6F9AA99620622FA4"
+			tasks: [{
+				id: "31DBD180DEC64721"
+				item: {
+					Count: 1
+					id: "bloodyhell:blood_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "3736D289EBC2D9C1"
+			tasks: [{
+				id: "2C1D186BB000C285"
+				item: {
+					Count: 1
+					id: "bloodyhell:blasphemite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "37516498BC51325B"
+			tasks: [{
+				id: "368538E3B57D9CFD"
+				item: {
+					Count: 1
+					id: "bloodyhell:rhnull_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "0977B45335A77064"
+			tasks: [{
+				id: "52000CD44DD3775B"
+				item: {
+					Count: 1
+					id: "simpleores:adamantium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "3170A66658532DEA"
+			tasks: [{
+				id: "5063914CEA760E46"
+				item: {
+					Count: 1
+					id: "deeperdarker:resonarium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			id: "65B57E6B3FA5FB34"
+			tasks: [{
+				id: "3D8823162950294F"
+				item: {
+					Count: 1
+					id: "simpleores:onyx_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			id: "46D752535476F712"
+			tasks: [{
+				id: "02F7C0C4BF625EE3"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "4902D3C857829D29"
+			tasks: [{
+				id: "086A64DA33CB17ED"
+				item: {
+					Count: 1
+					id: "betterend:thallasium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "2900C12F975FDC7D"
+			tasks: [{
+				id: "59338FC69D16E659"
+				item: {
+					Count: 1
+					id: "betterend:terminite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "6F0BBFBE0BBE0361"
+			tasks: [{
+				id: "350E0CA46532D414"
+				item: {
+					Count: 1
+					id: "betterend:crystalite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "6E149D33B3DB8A76"
+			tasks: [{
+				id: "709807EC410DEB94"
+				item: {
+					Count: 1
+					id: "betterend:aeternium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "7787479800B02A47"
+			tasks: [{
+				id: "7FABD0F502F6D434"
+				item: {
+					Count: 1
+					id: "simpleores:tin_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "5BEAE7C20E1159CC"
+			tasks: [{
+				id: "112540FE3494C2AB"
+				item: {
+					Count: 1
+					id: "simpleores:copper_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			id: "09C9FA27683D7BAE"
+			tasks: [{
+				id: "31D7788EEE5875D9"
+				item: {
+					Count: 1
+					id: "theabyss:glacerythe_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			id: "420C8566BC01EF39"
+			tasks: [{
+				id: "245F1AF6BE757CC3"
+				item: {
+					Count: 1
+					id: "theabyss:aberythe_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			id: "573F537401C590AD"
+			tasks: [{
+				id: "75B5D6B10EA2F9DC"
+				item: {
+					Count: 1
+					id: "theabyss:fusion_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "1063A1940D72ECAA"
+			tasks: [{
+				id: "508520D906B1E99D"
+				item: {
+					Count: 1
+					id: "theabyss:phantom_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			id: "699743D3D56FA8D4"
+			tasks: [{
+				id: "067BE7BF2407742C"
+				item: {
+					Count: 1
+					id: "theabyss:ignisithe_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			id: "50AB4741D547F544"
+			tasks: [{
+				id: "4BAE6C45E86C1EE4"
+				item: {
+					Count: 1
+					id: "theabyss:garnite_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			id: "3E609C52FC0B2CDE"
+			tasks: [{
+				id: "248A2CF3B92D2797"
+				item: {
+					Count: 1
+					id: "theabyss:incorythe_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			id: "38EE34DF7A93BB42"
+			tasks: [{
+				id: "2EFF7018F9DF535C"
+				item: {
+					Count: 1
+					id: "theabyss:unorithe_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			id: "5CA1608521DDE470"
+			tasks: [{
+				id: "789BBE4130029BD9"
+				item: {
+					Count: 1
+					id: "theabyss:bone_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			id: "08BF19F345999BC3"
+			tasks: [{
+				id: "5DCB3C07F1431ED6"
+				item: {
+					Count: 1
+					id: "twilightforest:naga_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fire_protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			id: "1C022243D9DE1BC8"
+			tasks: [{
+				id: "7047050A4D5D7F8B"
+				item: {
+					Count: 1
+					id: "twilightforest:arctic_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			id: "75D93D8408834807"
+			tasks: [{
+				id: "40B9DE4238DFA2AB"
+				item: {
+					Count: 1
+					id: "twilightforest:steeleaf_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:projectile_protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "5C79A683CC25A372"
+			tasks: [{
+				id: "3148ECA22D174D25"
+				item: {
+					Count: 1
+					id: "twilightforest:ironwood_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:aqua_affinity"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			id: "152FABFF41F39C53"
+			tasks: [{
+				id: "7AEF2FEB0D310587"
+				item: {
+					Count: 1
+					id: "twilightforest:yeti_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			id: "340C7E2619494165"
+			tasks: [{
+				id: "1C37A1A0BF7763E0"
+				item: {
+					Count: 1
+					id: "twilightforest:knightmetal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			id: "5A475385701C3873"
+			tasks: [{
+				id: "5F1E14F65B9165CB"
+				item: {
+					Count: 1
+					id: "twilightforest:phantom_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			id: "0966CBD8B3B1051B"
+			tasks: [{
+				id: "2AF1344C590C6FCB"
+				item: {
+					Count: 1
+					id: "twilightforest:fiery_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			id: "2A9ADDE493766E4F"
+			tasks: [{
+				id: "34BA0C40B97DCF52"
+				item: {
+					Count: 1
+					id: "ad_astra:space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			id: "10946FC83334CFD1"
+			tasks: [{
+				id: "0466B78188E4DA3A"
+				item: {
+					Count: 1
+					id: "ad_astra:netherite_space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			id: "7E8D96ADA89ABA69"
+			tasks: [{
+				id: "1798AC81704E5E16"
+				item: {
+					Count: 1
+					id: "ad_astra:jet_suit_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			id: "68696B84D58D5894"
+			tasks: [{
+				id: "213F3A07B3156EC7"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			id: "72FA9040F2B1239C"
+			tasks: [{
+				id: "08BA872DFFC765ED"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			id: "576350C34DD5957D"
+			tasks: [{
+				id: "21C18D7BAAE2EB89"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 46.0d
+			y: 27.0d
+		}
+		{
+			id: "40F03B2478B51E61"
+			tasks: [{
+				id: "2EDC6275AEC73309"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_gold_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 47.0d
+			y: 27.0d
+		}
+		{
+			id: "0514DC6F0C34DBD7"
+			tasks: [{
+				id: "67EE58A4EC14082E"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_emerald_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 48.0d
+			y: 27.0d
+		}
+		{
+			id: "220CC1BBCD8AC418"
+			tasks: [{
+				id: "15676A501440D1CF"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 49.0d
+			y: 27.0d
+		}
+		{
+			id: "0763E3D003D7A7B5"
+			tasks: [{
+				id: "2FE81E23BE407652"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.0d
+			y: 25.5d
+		}
+		{
+			id: "5AB69B233D356BC3"
+			tasks: [{
+				id: "6D0152917C69B991"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:prudentium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 42.0d
+			y: 27.0d
+		}
+		{
+			id: "3D8ED2067A6F7C5D"
+			tasks: [{
+				id: "54CA00C59B281C16"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:tertium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 43.0d
+			y: 27.0d
+		}
+		{
+			id: "64BEC8F39EA80321"
+			tasks: [{
+				id: "7B19026407178FF7"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:imperium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.0d
+			y: 27.0d
+		}
+		{
+			id: "061BAD97A3FE0BC6"
+			tasks: [{
+				id: "29474F73D3BFDD56"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:supremium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 27.0d
+			y: 28.5d
+		}
+		{
+			id: "2F3A349511B9C801"
+			tasks: [{
+				id: "1F6AF6D399777BCB"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:awakened_supremium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: 28.5d
+		}
+		{
+			id: "05C17005D4F16459"
+			tasks: [{
+				id: "121883A51312159F"
+				item: {
+					Count: 1
+					id: "botania:manasteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 31.0d
+			y: 25.5d
+		}
+		{
+			id: "7EF16C803FCE0090"
+			tasks: [{
+				id: "110E15F510E18B77"
+				item: {
+					Count: 1
+					id: "botania:terrasteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 25.5d
+		}
+		{
+			id: "307AD5749C9FD82C"
+			tasks: [{
+				id: "755E041BD74C539C"
+				item: {
+					Count: 1
+					id: "botania:elementium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 27.0d
+		}
+		{
+			id: "7A4101B362B5C348"
+			tasks: [{
+				id: "2471A8A139B6BC40"
+				item: {
+					Count: 1
+					id: "betternether:flaming_ruby_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "betternether:ruby_fire"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "2A89A5FF14CE4D60"
+			tasks: [{
+				id: "76A8A022C69A9F6D"
+				item: {
+					Count: 1
+					id: "botania:manaweave_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 24.0d
+		}
+		{
+			id: "7EE8FE47E9F39348"
+			tasks: [{
+				id: "310CA1C1AAA9A14F"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 27.0d
+		}
+		{
+			id: "785C3A576081E315"
+			tasks: [{
+				id: "1354F1828D29A000"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 27.0d
+		}
+		{
+			id: "759D6AC18387C03C"
+			tasks: [{
+				id: "79A681FFC59B71BF"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:cursium_mage_circlet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 28.0d
+			y: 27.0d
+		}
+		{
+			id: "44351622181E7F74"
+			tasks: [{
+				id: "36B3AFFBA757288F"
+				item: "cataclysm_ut:helrite_chestplate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 27.0d
+		}
+		{
+			id: "03B93F69A3C6A3DD"
+			tasks: [{
+				id: "3BD3C7B344324E59"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 24.0d
+		}
+		{
+			id: "7C28F60A96AD62ED"
+			tasks: [{
+				id: "0F670B3172A909E2"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:ignis_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: 27.0d
+		}
+		{
+			id: "62B4B435B93104E1"
+			tasks: [{
+				id: "08DDB1A61C3C007C"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:abyssal_warlock_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 27.0d
+		}
+		{
+			id: "48F5B3A3CB07B6A6"
+			tasks: [{
+				id: "45BF91CA775E6301"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:bloom_stone_hat"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 31.0d
+			y: 27.0d
+		}
+		{
+			id: "0C3052C61AE4C921"
+			tasks: [{
+				id: "03A12AE15F61142D"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:pharaoh_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 27.0d
+		}
+		{
+			id: "4377D87778DCEB80"
+			tasks: [{
+				id: "053482E7F043A64F"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:excelsius_speed_visors"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 33.0d
+			y: 27.0d
+		}
+		{
+			id: "64439A22640B70B2"
+			tasks: [{
+				id: "5BFB62A8D5050B01"
+				item: {
+					Count: 1
+					id: "cataclysm_spellbooks:engineer_hood"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 42.0d
+			y: 25.5d
+		}
+		{
+			id: "71A951A2BC00CF6E"
+			tasks: [{
+				id: "28599A682A1D2287"
+				item: {
+					Count: 1
+					id: "celestisynth:solar_crystal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			id: "1BBE1604C7C68238"
+			tasks: [{
+				id: "39DF97FF41630197"
+				item: {
+					Count: 1
+					id: "celestisynth:lunar_stone_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			id: "474A51D6D2FFF050"
+			tasks: [{
+				id: "069AE78AADF03250"
+				item: {
+					Count: 1
+					id: "thermal:diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 24.0d
+		}
+		{
+			id: "5D3CFC4B0BAC1F09"
+			tasks: [{
+				id: "7E0AD51FC689851A"
+				item: "mekanism:hazmat_mask"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 25.5d
+		}
+		{
+			id: "0927946BD2E0DE9E"
+			tasks: [{
+				id: "2C6160A99B396F77"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 24.0d
+		}
+		{
+			id: "27C2A399505FB0BC"
+			tasks: [
+				{
+					id: "2BDC64FBD614673E"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FFF782B66CD264C"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EC1AC902ABB252F"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "278AB24608ACBC8C"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			id: "74187A8F1D131EE0"
+			tasks: [{
+				id: "1B6CA9DCE759061B"
+				item: {
+					Count: 1
+					id: "dimdoors:garment_of_reality_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 25.5d
+		}
+		{
+			id: "4770B681A877AEF7"
+			tasks: [{
+				id: "022C831FD60314AE"
+				item: {
+					Count: 1
+					id: "dimdoors:world_thread_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			id: "187B92D0268C6135"
+			tasks: [{
+				id: "11A0D9B0C52C2D35"
+				item: {
+					Count: 1
+					id: "experienceobelisk:cognitive_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 25.5d
+		}
+		{
+			id: "1E02972A1B0F0DC9"
+			tasks: [{
+				id: "6228ABA6C80F3C99"
+				item: {
+					Count: 1
+					id: "eidolon:warlock_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			id: "6BC161A37602DFCD"
+			tasks: [{
+				id: "2C9F13461E93162A"
+				item: {
+					Count: 1
+					id: "embers:ashen_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 25.5d
+		}
+		{
+			id: "508265387C335BF1"
+			tasks: [{
+				id: "37B28E7C84990D0D"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:draco_arcanus_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 28.5d
+		}
+		{
+			id: "47A8461F2D5AF291"
+			tasks: [{
+				id: "6C6C95498D970A53"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:tyr_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 27.0d
+		}
+		{
+			id: "35530D22F4ABFC49"
+			tasks: [{
+				id: "479C62A254C31F38"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:mortem_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "7E885ABBE8576C0C"
+			tasks: [{
+				id: "4CAB889808ECA13A"
+				item: "goety:dark_hat"
+				type: "item"
+			}]
 			x: 7.0d
-			y: 0.5d
+			y: 24.0d
+		}
+		{
+			id: "4EE6F8DABA4D8CA3"
+			tasks: [{
+				id: "4911DE5D8E233A0A"
+				item: {
+					Count: 1
+					id: "hazennstuff:hazel_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 27.0d
+		}
+		{
+			id: "5E97DCED924AA2CA"
+			tasks: [{
+				id: "6D91C2810D70A365"
+				item: {
+					Count: 1
+					id: "hazennstuff:blazeborne_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 27.0d
+		}
+		{
+			id: "41C1590FFD2FFF89"
+			tasks: [{
+				id: "24110F61A603B9B9"
+				item: {
+					Count: 1
+					id: "hazennstuff:cryogenic_ruler_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 27.0d
+		}
+		{
+			id: "4885D1E2291B8D72"
+			tasks: [{
+				id: "0A22057985BFD765"
+				item: {
+					Count: 1
+					id: "hazennstuff:creaking_sorcerer_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 27.0d
+		}
+		{
+			id: "092F8E3A73F931C8"
+			tasks: [{
+				id: "47C7728780ACF760"
+				item: {
+					Count: 1
+					id: "hazennstuff:thunder_prowler_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 27.0d
+		}
+		{
+			id: "2F98BA76335045FF"
+			tasks: [{
+				id: "0BCF846C32F8A587"
+				item: {
+					Count: 1
+					id: "hazennstuff:ender_dragon_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 27.0d
+		}
+		{
+			id: "7B534D10770B2D39"
+			tasks: [{
+				id: "7FBFDCA92DA4EC97"
+				item: {
+					Count: 1
+					id: "hazennstuff:flesh_mass_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 27.0d
+		}
+		{
+			id: "40D98DD024F0205D"
+			tasks: [{
+				id: "5F34BD52EB8F2586"
+				item: {
+					Count: 1
+					id: "hazennstuff:alchemist_supreme_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 27.0d
+		}
+		{
+			id: "2590762412AEC750"
+			tasks: [{
+				id: "46752F270549557F"
+				item: {
+					Count: 1
+					id: "hazennstuff:seraph_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 27.0d
+		}
+		{
+			id: "2A0AC38430829514"
+			tasks: [{
+				id: "71DD41C6151C037D"
+				item: {
+					Count: 1
+					id: "iceandfire:sheep_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "4000D544508F2E6B"
+			tasks: [{
+				id: "3F578BE981713F4E"
+				item: {
+					Count: 1
+					id: "iceandfire:deathworm_yellow_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 24.0d
+		}
+		{
+			id: "1F801F1B99892F25"
+			tasks: [{
+				id: "21B58B48A98DE537"
+				item: {
+					Count: 1
+					id: "iceandfire:deathworm_red_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 24.0d
+		}
+		{
+			id: "244C1998CA1E1BCD"
+			tasks: [{
+				id: "7D52FFE6E08DCBB8"
+				item: {
+					Count: 1
+					id: "iceandfire:deathworm_white_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 24.0d
+		}
+		{
+			id: "52B14310C4D610C3"
+			tasks: [{
+				id: "2D127E79BED214B4"
+				item: {
+					Count: 1
+					id: "thermal_extra:dragonsteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 28.5d
+		}
+		{
+			id: "45DBF7C95CD50157"
+			tasks: [{
+				id: "4A9ABF9B24F2C888"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 28.5d
+		}
+		{
+			id: "27C58FDA4FE181D5"
+			tasks: [{
+				id: "2D4F62441CB50CD5"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 28.5d
+		}
+		{
+			id: "4E9D1F55D423C894"
+			tasks: [{
+				id: "45AE25F5993583F0"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 28.5d
+		}
+		{
+			id: "47993E1B48D5CCFB"
+			tasks: [{
+				id: "1CB67AE5F9ED163A"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_red_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 28.5d
+		}
+		{
+			id: "2EF93A1DDC6F9C3D"
+			tasks: [{
+				id: "3D25A5F4F7E29FB0"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_bronze_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 28.5d
+		}
+		{
+			id: "1586562703DBF130"
+			tasks: [{
+				id: "4EFBBCEA9363DF7A"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_green_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 28.5d
+		}
+		{
+			id: "1FBEA424CB6E9E4A"
+			tasks: [{
+				id: "57507D59314B3553"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_gray_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 28.5d
+		}
+		{
+			id: "00A009990A644C0A"
+			tasks: [{
+				id: "7CBEA55D827D18CC"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_blue_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 28.5d
+		}
+		{
+			id: "2D26E1A2AC19E290"
+			tasks: [{
+				id: "62E868EDF6EA8CF1"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_white_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 28.5d
+		}
+		{
+			id: "77D790CA0EBC0E73"
+			tasks: [{
+				id: "474BF25AC57362FF"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_sapphire_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 28.5d
+		}
+		{
+			id: "69A0C167BF61A608"
+			tasks: [{
+				id: "3DF84457178385F3"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_silver_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 28.5d
+		}
+		{
+			id: "3D3D57C481E58C98"
+			tasks: [{
+				id: "11ED48A95A53B2C6"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_electric_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 28.5d
+		}
+		{
+			id: "6EA4B68882D5857C"
+			tasks: [{
+				id: "77E261C38FCD46C9"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_amythest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 28.5d
+		}
+		{
+			id: "0EA14960AC8875A6"
+			tasks: [{
+				id: "7BA0D1679092CDFB"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_copper_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 28.5d
+		}
+		{
+			id: "366FB0052BA750E5"
+			tasks: [{
+				id: "028B756B90137A77"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_black_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 28.5d
+		}
+		{
+			id: "2E08790FC8310350"
+			tasks: [{
+				id: "635F0CBD8F1A1F2D"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_blue_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 25.5d
+		}
+		{
+			id: "3F1A2D878CF602F4"
+			tasks: [{
+				id: "73BCB75836BB5E2C"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_bronze_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 25.5d
+		}
+		{
+			id: "277D14769F21D29C"
+			tasks: [{
+				id: "73052E544F2C181F"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_deepblue_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 25.5d
+		}
+		{
+			id: "224EFAADFCEFDEBD"
+			tasks: [{
+				id: "51D78C9156D5042E"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_green_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 25.5d
+		}
+		{
+			id: "66C2C16A88354541"
+			tasks: [{
+				id: "757E89D689826447"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_purple_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 25.5d
+		}
+		{
+			id: "67442CBA356ADA27"
+			tasks: [{
+				id: "5C978E87E07D89C5"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_red_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 25.5d
+		}
+		{
+			id: "567F92073523EC54"
+			tasks: [{
+				id: "5AFF0F77D50FEB4F"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_teal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 25.5d
+		}
+		{
+			id: "379533127590A46D"
+			tasks: [{
+				id: "6469FCAE920B664D"
+				item: {
+					Count: 1
+					id: "iceandfire:forest_troll_leather_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 24.0d
+		}
+		{
+			id: "10D2BCDB883DDBF8"
+			tasks: [{
+				id: "699F279305EF5C68"
+				item: {
+					Count: 1
+					id: "iceandfire:frost_troll_leather_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 24.0d
+		}
+		{
+			id: "021E77C02194FC9F"
+			tasks: [{
+				id: "6026BA6E2C8A9370"
+				item: {
+					Count: 1
+					id: "iceandfire:mountain_troll_leather_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 24.0d
+		}
+		{
+			id: "1353FA9E95C09A90"
+			tasks: [{
+				id: "0EF6C36E675134B2"
+				item: {
+					Count: 1
+					id: "ice_and_fire_spellbooks:fire_dragon_priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 28.5d
+		}
+		{
+			id: "6B83700D668FA7DE"
+			tasks: [{
+				id: "22A6C4EDD3551B4A"
+				item: {
+					Count: 1
+					id: "ice_and_fire_spellbooks:ice_dragon_priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 28.5d
+		}
+		{
+			id: "176C52CD1D0C6C8F"
+			tasks: [{
+				id: "3A662137CAD869E6"
+				item: {
+					Count: 1
+					id: "ice_and_fire_spellbooks:lightning_dragon_priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 28.5d
+		}
+		{
+			id: "19EF03839B2726D4"
+			tasks: [{
+				id: "00C3D85EC12ECD15"
+				item: {
+					Count: 1
+					id: "immersiveengineering:armor_faraday_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "5DD6DC6CA69130AC"
+			tasks: [{
+				id: "1259710E0A5C74AC"
+				item: {
+					Count: 1
+					id: "inventorypets:solstice_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:respiration"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			id: "765185AE600C6AB7"
+			tasks: [{
+				id: "548400B7ADE824D9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:pyromancer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 34.0d
+			y: 25.5d
+		}
+		{
+			id: "5597157D0291CF17"
+			tasks: [{
+				id: "7DE1D2CCC4D200CB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:electromancer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: 25.5d
+		}
+		{
+			id: "7D4EE30DC9782BD9"
+			tasks: [{
+				id: "08C495AB46800B8B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 36.0d
+			y: 25.5d
+		}
+		{
+			id: "3101036CD24FDA21"
+			tasks: [{
+				id: "6780588F3B7CF11E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 37.0d
+			y: 25.5d
+		}
+		{
+			id: "268B62914FBF5371"
+			tasks: [{
+				id: "774977B494825BEF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cryomancer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 38.0d
+			y: 25.5d
+		}
+		{
+			id: "39EFF31CF1E542DD"
+			tasks: [{
+				id: "4270F5948A4BB6CA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:shadowwalker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 39.0d
+			y: 25.5d
+		}
+		{
+			id: "4BE66227BC80320D"
+			tasks: [{
+				id: "0A6FB8567E393FE4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 40.0d
+			y: 25.5d
+		}
+		{
+			id: "2042F28348D77B45"
+			tasks: [{
+				id: "6CA81210260565C8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:plagued_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 41.0d
+			y: 25.5d
+		}
+		{
+			id: "654DF6CD761773E1"
+			tasks: [{
+				id: "3DABD230ABF23F3F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_mage_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 27.0d
+		}
+		{
+			id: "39D67B904834F10B"
+			tasks: [{
+				id: "57F4CC282A14C0D5"
+				item: {
+					Count: 1
+					id: "lavafishing:promethium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 31.0d
+			y: 28.5d
+		}
+		{
+			id: "3DE7F97A3AC98608"
+			tasks: [{
+				id: "3455C7A898F0C1CD"
+				item: {
+					Count: 1
+					id: "malum:soul_stained_steel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 27.0d
+		}
+		{
+			id: "552213EE5967B33A"
+			tasks: [{
+				id: "01D55425475030D5"
+				item: {
+					Count: 1
+					id: "malum:soul_hunter_cloak"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 27.0d
+		}
+		{
+			id: "551819D423C2E993"
+			tasks: [{
+				id: "23DDF32EBFF8CAC4"
+				item: {
+					Count: 1
+					id: "monsterplus:crystal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 25.5d
+		}
+		{
+			id: "7AAB8151E6C93391"
+			tasks: [{
+				id: "30F10E4BEE2D0DE3"
+				item: {
+					Count: 1
+					id: "mythicbotany:alfsteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 27.0d
+		}
+		{
+			id: "4D8ED32B66EE281B"
+			tasks: [{
+				id: "4EDEF0109D015DA8"
+				item: {
+					Count: 1
+					id: "naturesaura:infused_iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 25.5d
+		}
+		{
+			id: "7C2F7B3B33F55EA4"
+			tasks: [{
+				id: "08DDFE1900B03FE3"
+				item: {
+					Count: 1
+					id: "naturesaura:sky_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 27.0d
+		}
+		{
+			id: "4E84C27386841B62"
+			tasks: [{
+				id: "3EC8F43C6542B8AE"
+				item: {
+					Count: 1
+					id: "naturesaura:depth_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 27.0d
+		}
+		{
+			id: "3C4A4D88F9EE9F46"
+			tasks: [{
+				id: "17F7E6DCC2A8DB5C"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:pneumatic_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 25.5d
+		}
+		{
+			id: "439BE90AC921D496"
+			tasks: [{
+				id: "64447E50F39A9E23"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:compressed_iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 25.5d
+		}
+		{
+			id: "610747384EAA3A88"
+			tasks: [{
+				id: "1395C750B15F58B4"
+				item: {
+					Count: 1
+					id: "psi:psimetal_exosuit_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 25.5d
+		}
+		{
+			id: "488D512F7D372422"
+			tasks: [{
+				id: "4D90B65DA6C41F8D"
+				item: {
+					Count: 1
+					id: "redstone_arsenal:flux_helmet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 25.5d
+		}
+		{
+			id: "53029F714B8B3D0E"
+			tasks: [{
+				id: "3CDAFBA0C43088FB"
+				item: {
+					Count: 1
+					id: "rootsclassic:sylvan_hood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "0D51697C140CEA69"
+			tasks: [{
+				id: "047FBE4D2EB3C011"
+				item: {
+					Count: 1
+					id: "rootsclassic:wildwood_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "6007B4484E449B25"
+			tasks: [{
+				id: "6870ACBC1D4E7E81"
+				item: {
+					Count: 1
+					id: "sons_of_sins:remnant_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 25.5d
+		}
+		{
+			id: "46EAF868D76D2019"
+			tasks: [{
+				id: "3576884878F9FF48"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:tungsten_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "29675E0A32C4AD7D"
+			tasks: [{
+				id: "254CF2220AFFDB3A"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:warted_tungsten_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "403483C90982B4EB"
+			tasks: [{
+				id: "6FF13904F5AD8B64"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:chorundum_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 27.0d
+		}
+		{
+			id: "776680F7F1DCC7B1"
+			tasks: [{
+				id: "00A67D3FC6668759"
+				item: {
+					Count: 1
+					id: "traveloptics:deepling_mage_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 27.0d
+			y: 27.0d
+		}
+		{
+			id: "4A03E983212FB818"
+			tasks: [{
+				id: "4CA75156AE8089A2"
+				item: "traveloptics:riptide_sovereign_hat"
+				type: "item"
+			}]
+			x: 35.0d
+			y: 27.0d
+		}
+		{
+			id: "570208EA8CD635A3"
+			tasks: [{
+				id: "35DF205BA27754AB"
+				item: "traveloptics:forlorn_harbinger_hood"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 27.0d
+		}
+		{
+			id: "57C3482C1FCB3318"
+			tasks: [{
+				id: "74F0A4EC4938F251"
+				item: {
+					Count: 1
+					id: "traveloptics:primordial_crest_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 37.0d
+			y: 27.0d
+		}
+		{
+			id: "231E1C19D9366457"
+			tasks: [{
+				id: "7EA07234B120A18D"
+				item: "traveloptics:tectonic_crest_armor_helmet"
+				type: "item"
+			}]
+			x: 38.0d
+			y: 27.0d
+		}
+		{
+			id: "393331F52A7AB224"
+			tasks: [{
+				id: "59371DC6EF6304CA"
+				item: "traveloptics:abyssal_hide_armor_hat"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 27.0d
+		}
+		{
+			id: "27BD1E609358B5A9"
+			tasks: [{
+				id: "4345B92E91219746"
+				item: "traveloptics:cursed_wraithguard_crown"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 27.0d
+		}
+		{
+			id: "50353FBDFB50986D"
+			tasks: [{
+				id: "687EA6F2A869D20A"
+				item: "traveloptics:mechanized_exoskeleton_helmet"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 27.0d
+		}
+		{
+			id: "47278FB654A07A9E"
+			tasks: [{
+				id: "5CBA73C882AC492A"
+				item: {
+					Count: 1
+					id: "the_bumblezone:stingless_bee_helmet_1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 24.0d
+		}
+		{
+			id: "09B4DE2E129108B7"
+			tasks: [{
+				id: "6680A495F27726FA"
+				item: {
+					Count: 1
+					id: "thermal_extra:enderium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "6822D2A6EA35EB14"
+			tasks: [{
+				id: "297DC38B33C0B1C9"
+				item: {
+					Count: 1
+					id: "thermal_extra:shellite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "43201FE6020D1AC9"
+			tasks: [{
+				id: "45052B1ED02E78DB"
+				item: {
+					Count: 1
+					id: "thermal_extra:twinite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 28.5d
+		}
+		{
+			id: "08A5CDD75C7E2FAE"
+			tasks: [{
+				id: "763CA5E45E2ED698"
+				item: {
+					Count: 1
+					id: "thermal_extra:abyssal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "4888BDADDFB7FBBE"
+			tasks: [{
+				id: "1CCA41A7C82A78DE"
+				item: {
+					Count: 1
+					id: "thermal:beekeeper_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			id: "045CCC4ED67C07A1"
+			tasks: [{
+				id: "6B2DFCC2263DCDA8"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 25.5d
+		}
+		{
+			id: "5382C90FC9B33B7A"
+			tasks: [{
+				id: "0D16373EE96A4289"
+				item: {
+					Count: 1
+					id: "tomeofblood:living_mage_hood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 24.0d
+		}
+		{
+			id: "6CDBDA05769378CA"
+			tasks: [{
+				id: "01629280B1869298"
+				item: {
+					Count: 1
+					id: "alexscaves:primordial_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "28B582378B68A066"
+			tasks: [{
+				id: "56075E587CEA72DD"
+				item: {
+					Count: 1
+					id: "advanced_ae:quantum_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
 		}
 	]
 	title: "Armor Progression"
