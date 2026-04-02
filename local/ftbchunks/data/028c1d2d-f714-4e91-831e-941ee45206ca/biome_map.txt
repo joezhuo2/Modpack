@@ -1,6 +1,7 @@
 #618 minecraft:basalt_deltas
 #6CE deeperdarker:blooming_caverns
 #649 betterend:blossoming_spires
+#167 betternether:bone_reef
 #276 the_bumblezone:crystal_canyon
 #430 twilightforest:dense_forest
 #3D6 betterend:dry_shrubland
@@ -22,6 +23,9 @@
 #0B5 regions_unexplored:mycotoxic_undergrowth
 #0F1 betternether:nether_grasslands
 #13C betternether:nether_jungle
+#65C betternether:nether_swampland
+#534 betternether:nether_swampland_terraces
+#653 minecraft:nether_wastes
 #679 twilightforest:oak_savannah
 #614 betternether:poor_nether_grasslands
 #491 betterend:shadow_forest
@@ -29,6 +33,7 @@
 #721 minecraft:soul_sand_valley
 #673 twilightforest:stream
 #060 the_bumblezone:sugar_water_floor
+#5FB betternether:sulfuric_bone_reef
 #01B betterend:sulphur_springs
 #495 minecraft:the_void
 #144 twilightforest:thornlands

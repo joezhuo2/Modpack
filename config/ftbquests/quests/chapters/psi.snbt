@@ -56,7 +56,17 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "2F369EAA68F3D551"
+			tasks: [{
+				id: "03446B8A61248382"
+				item: "psi:ebony_psimetal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
 		}
 	]
 	title: "Psi"

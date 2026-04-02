@@ -23,6 +23,7 @@ ServerEvents.recipes(event => {
     // brazier
     // soul shard
     // silver ingot
+    // lapis ore
 
     // end
     // zinc ore

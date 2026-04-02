@@ -6,10 +6,8 @@ ServerEvents.recipes(event => {
     // ember crystal, grit, shard
     // brass casing
     // deployer
-    // gold ingot
     // crumbling catalyst
     // transmutation catalyst
-    // golden sacrificial bowl
     // alchemy table
     // ritual table
     // amethyst
@@ -19,7 +17,13 @@ ServerEvents.recipes(event => {
     // ivory psimetal ingot
     // crucible
     // archwood
-    // imbuement chamber
-    // source gem
     // mixing cauldron
+    // elite crafting table
+    // diamond ore
+    // emerald ore
+    // redstone ore
+
+    // end
+    // obsidian
+    // nether unlock
 })
