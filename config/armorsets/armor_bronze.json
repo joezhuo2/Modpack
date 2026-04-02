@@ -2,23 +2,23 @@
   "armorSetName": "bronze",
   "performanceMode": true,
   "head": {
-    "itemKey": "iceandfire:armor_copper_metal_helmet",
+    "itemKey": "mekanismtools:bronze_helmet",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "iceandfire:armor_copper_metal_chestplate",
+    "itemKey": "mekanismtools:bronze_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "iceandfire:armor_copper_metal_leggings",
+    "itemKey": "mekanismtools:bronze_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "iceandfire:armor_copper_metal_boots",
+    "itemKey": "mekanismtools:bronze_boots",
     "mustBeEmpty": false
   },
   "mainHand": {
-    "itemKey": "iceandfire:copper_sword",
+    "itemKey": "mekanismtools:bronze_sword",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,

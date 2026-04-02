@@ -5,7 +5,7 @@
 	group: "2F688CAF980A2EE4"
 	icon: "create:precision_mechanism"
 	id: "41DDE7FD5378D748"
-	order_index: 7
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

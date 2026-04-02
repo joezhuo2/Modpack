@@ -55,8 +55,8 @@
 				item: "kubejs:molten_remains"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			id: "562B5BBE4A16464E"
@@ -75,8 +75,8 @@
 				item: "extendedcrafting:advanced_table"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 6.5d
+			y: -2.5d
 		}
 		{
 			id: "53E0A895BBDAE2BB"
@@ -95,8 +95,8 @@
 				item: "kubejs:rusted_machine_components"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			id: "12BF992D77232545"
@@ -105,8 +105,8 @@
 				item: "kubejs:heating_components"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			id: "7C19EBFB131D3E5E"
@@ -115,8 +115,8 @@
 				item: "kubejs:cooling_components"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			id: "686128AE91441DC7"
@@ -125,8 +125,8 @@
 				item: "goety:ice_cube"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			id: "2EDA7246B189B81E"
@@ -135,8 +135,8 @@
 				item: "actuallyadditions:wood_casing"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
 			id: "4C8EF7B1088E769F"
@@ -170,5 +170,5 @@
 			y: -6.0d
 		}
 	]
-	title: "Age 2"
+	title: "Age 3"
 }

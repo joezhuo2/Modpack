@@ -11,6 +11,7 @@
 		{
 			dependencies: ["2A0438B031B1C785"]
 			id: "454AEF7E83778B95"
+			shape: "octagon"
 			tasks: [{
 				id: "3892271E1D8C46CE"
 				item: "hexerei:pestle_and_mortar"
@@ -53,28 +54,14 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"01866A1490116FB3"
-				"3662063930595638"
-			]
-			id: "7E532675E098D68D"
-			tasks: [{
-				id: "476770BD4B38D43A"
-				item: "farmersdelight:cooking_pot"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7476C454E2D75C4C"]
+			dependencies: ["01866A1490116FB3"]
 			id: "64E089EC3B1949D5"
 			tasks: [{
 				id: "38D005DE7121A30D"
 				item: "immersiveengineering:alloybrick"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: -3.5d
 		}
 		{
@@ -93,6 +80,7 @@
 		{
 			dependencies: ["1AE31B4E7941A8F1"]
 			id: "01866A1490116FB3"
+			shape: "octagon"
 			tasks: [{
 				id: "49FBC469BA08C524"
 				item: "minecraft:tnt"
@@ -142,17 +130,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7E532675E098D68D"]
-			id: "7476C454E2D75C4C"
-			tasks: [{
-				id: "3D0F34DB45FEA8B1"
-				item: "integrateddynamics:drying_basin"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -3.5d
-		}
-		{
 			id: "39A7FE8A376B6D7A"
 			tasks: [{
 				id: "591A53F32B6FE86F"
@@ -174,5 +151,5 @@
 			y: -0.5d
 		}
 	]
-	title: "Age 1"
+	title: "Age 2"
 }

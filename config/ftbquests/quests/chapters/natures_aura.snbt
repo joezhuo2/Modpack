@@ -51,7 +51,6 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["14349E566810C017"]
 			id: "1D374E2DD0247790"
 			tasks: [{
 				id: "070EAE308F6DB9E0"
@@ -128,7 +127,6 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["1D374E2DD0247790"]
 			id: "6AD8B042A038499B"
 			tasks: [{
 				icon: "naturesaura:ancient_sapling"

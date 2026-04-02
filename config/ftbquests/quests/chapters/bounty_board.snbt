@@ -1,12 +1,57 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "none"
 	filename: "bounty_board"
 	group: "00EC63AFE5312D99"
 	icon: "bountiful:bountyboard"
 	id: "637A1167953AB417"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "hunters_return:hunter"
+				}
+			}
+			id: "28FB9501073ABD24"
+			tasks: [{
+				entity: "hunters_return:hunter"
+				icon: {
+					Count: 1
+					id: "minecraft:leather_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2F281A4E42377DB5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "conjurer_illager:conjurer"
+				}
+			}
+			id: "319564DB496A239E"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "conjurer_illager:throwable_ball"
+				id: "13B87E6EAEF525BC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
 	title: "Bounty Board"
 }

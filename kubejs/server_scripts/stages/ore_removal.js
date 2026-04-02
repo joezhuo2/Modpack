@@ -14,7 +14,20 @@ let oresToHide = [
     'simpleores:deepslate_mythril_ore',
     'simpleores:adamantium_ore',
     'simpleores:deepslate_adamantium_ore',
-    'simpleores:onyx_ore'
+    'simpleores:onyx_ore',
+    'ancient_elements:nether_steel_ore',
+    'ancient_elements:jungle_steel_ore',
+    'ancient_elements:deepslate_jungle_steel_ore',
+    'ancient_elements:frost_ore',
+    'ancient_elements:aetherium_ore',
+    'ancient_elements:deepslate_frost_ore',
+    'ancient_elements:void_steel_ore',
+    'ancient_elements:meteorite_ore',
+    'ancient_elements:ender_steel_ore',
+    'ancient_elements:infernal_ore',
+    'ancient_elements:celestium_ore',
+    'ancient_elements:abyssal_debris',
+    'ancient_elements:endrium_ore',
 ]
 
 let oreReplacement = Block.getBlock("kubejs:ore_replacement").defaultBlockState()

@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         var rod = Ingredient.of(`#forge:rods/${mat.id}`).itemIds[0] ?? null
         var gear = Ingredient.of(`#forge:gears/${mat.id}`).itemIds[0] ?? null
         var plate = Ingredient.of(`#forge:plates/${mat.id}`).itemIds[0] ?? null
-        // var wire = Ingredient.of(`#forge:wires/${mat.id}`).itemIds[0] ?? null
+        var wire = Ingredient.of(`#forge:wires/${mat.id}`).itemIds[0] ?? null
 
         var raw = Ingredient.of(`#forge:raw_materials/${mat.id}`).itemIds[0] ?? null
         var crushed_raw = Ingredient.of(`#kubejs:crushed_raw/${mat.id}`).itemIds[0] ?? null

@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "square"
+	default_quest_shape: "diamond"
 	filename: "armor_set"
 	group: "00EC63AFE5312D99"
 	hide_quest_until_deps_complete: true
@@ -97,7 +97,7 @@
 			y: 5.5d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -164,8 +164,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 3.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			id: "4B3A1BC9AFA5FA69"
@@ -226,8 +226,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -1.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			id: "7F9F25A37CC60957"
@@ -277,8 +277,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 4.0d
+			x: 3.0d
+			y: 31.5d
 		}
 		{
 			id: "42BAFF1460F0A1C7"
@@ -340,11 +340,10 @@
 				}
 			]
 			x: -3.0d
-			y: -1.0d
+			y: 1.5d
 		}
 		{
 			id: "4F69B5A714F34CA8"
-			shape: "circle"
 			tasks: [{
 				id: "0ECE5D5213E58A26"
 				item: {
@@ -356,8 +355,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			id: "3BD3F8B76DC59204"
@@ -441,8 +440,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -1.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			id: "3D98C3B5AF80C820"
@@ -503,8 +502,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 1.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			id: "25D5C188E773E273"
@@ -566,11 +565,10 @@
 				}
 			]
 			x: -3.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			id: "0CB461F260D3040D"
-			shape: "circle"
 			tasks: [{
 				id: "41E95BDCE0B841E8"
 				item: {
@@ -582,8 +580,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			id: "6AC4C4CDE5E9627F"
@@ -633,8 +631,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 2.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			id: "6FF7665A9FE41B5D"
@@ -684,8 +682,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 4.0d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			id: "41D7F88E973E1908"
@@ -1194,8 +1192,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -2.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			id: "09D624369D659912"
@@ -1245,8 +1243,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			id: "68CC00FD1ADD2FC0"
@@ -1296,8 +1294,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 1.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			id: "7605A04C8A85483C"
@@ -1312,8 +1310,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			id: "5A232B23B7F18DC3"
@@ -1328,8 +1326,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			id: "4EA5357644263AB1"
@@ -1384,8 +1382,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 3.0d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			id: "6550A234F40BCC8D"
@@ -1435,8 +1433,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -2.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			id: "597C0D7E29151259"
@@ -1498,7 +1496,7 @@
 				}
 			]
 			x: 4.5d
-			y: -1.0d
+			y: 3.5d
 		}
 		{
 			id: "457419BA9BB100FA"
@@ -1555,6 +1553,18 @@
 			id: "472EB9998D6934E2"
 			tasks: [
 				{
+					id: "4E6AA098F20DCBA6"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:blinding_abyss_helmet)"
+						}
+					}
+					title: "Any #kubejs:blinding_abyss_helmet"
+					type: "item"
+				}
+				{
 					id: "570646B2AA96F491"
 					item: {
 						Count: 1
@@ -1587,17 +1597,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4E6AA098F20DCBA6"
-					item: {
-						Count: 1
-						id: "aquamirae:abyssal_heaume"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
 			x: 32.0d
 			y: 28.5d
@@ -1616,7 +1615,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			id: "5763CE7F62A4EAA8"
@@ -1631,8 +1630,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
 			id: "22888E92A6415EFA"
@@ -1640,15 +1639,15 @@
 				id: "28F3F05CDF0C5827"
 				item: {
 					Count: 1
-					id: "immersiveengineering:armor_steel_helmet"
+					id: "mekanismtools:steel_helmet"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			id: "6610C5D4695A8BFF"
@@ -1663,8 +1662,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			id: "79FD710741854240"
@@ -1679,8 +1678,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			id: "16F12C4C076863EE"
@@ -1695,8 +1694,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			id: "22D97835E609145A"
@@ -1711,8 +1710,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			id: "10B524AC54BCE88F"
@@ -1727,8 +1726,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			id: "57D21D9226BF36B0"
@@ -1743,8 +1742,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
 			id: "4D8A06409EAC5A79"
@@ -1759,7 +1758,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -1775,8 +1774,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			id: "4F0BE769CE43A6C2"
@@ -1791,8 +1790,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			id: "242DC32D2D8FB763"
@@ -1807,8 +1806,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			id: "3D799C2DE22232A1"
@@ -1823,8 +1822,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			id: "391B341C46433790"
@@ -1839,8 +1838,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			id: "50FC91C02120B15A"
@@ -1855,8 +1854,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			id: "1741511F38A848F9"
@@ -1871,8 +1870,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			id: "13D21D411410122F"
@@ -1887,8 +1886,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			id: "0B9FF366135B8B0B"
@@ -1903,8 +1902,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			id: "00C9435EE486D9B2"
@@ -1919,8 +1918,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "52244B09C3B8FA64"
@@ -1935,8 +1934,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			id: "3E12476E3A8C748C"
@@ -1952,7 +1951,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 4.5d
 		}
 		{
 			id: "07256E949009E3F2"
@@ -1967,8 +1966,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "09D7D4F84FE605D6"
@@ -1983,7 +1982,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -2000,7 +1999,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			id: "7691ABA2D56867EF"
@@ -2015,8 +2014,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			id: "62E99D9AE6F7F824"
@@ -2032,7 +2031,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			id: "2440866C4145A093"
@@ -2047,8 +2046,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			id: "2D35361803ADAF66"
@@ -2064,7 +2063,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 0.5d
 		}
 		{
 			id: "2827DD100005DA02"
@@ -2079,8 +2078,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			id: "58B068E67050C11F"
@@ -2096,7 +2095,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.0d
+			y: 1.5d
 		}
 		{
 			id: "6D8F3C2EBE111DBF"
@@ -2111,8 +2110,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			id: "76AC7E6A568EAC94"
@@ -2127,8 +2126,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			id: "74BA926D4342F98F"
@@ -2143,8 +2142,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			id: "19A8DFFCC4041516"
@@ -2159,8 +2158,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			id: "5D7AD7686F6364F4"
@@ -2175,8 +2174,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			id: "22C0708024D9DE9C"
@@ -2191,8 +2190,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			id: "2822E1DB352A32BF"
@@ -2207,8 +2206,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			id: "55568B691635BA31"
@@ -2223,8 +2222,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 5.0d
+			x: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "6CE0D0FC8D1C7A8D"
@@ -2239,7 +2238,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 6.0d
 		}
 		{
@@ -2255,8 +2254,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.0d
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			id: "07182001526BE647"
@@ -2271,8 +2270,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
+			x: 6.5d
+			y: 7.0d
 		}
 		{
 			id: "4B2980B16FAF0BA2"
@@ -2287,7 +2286,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -2303,8 +2302,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 10.0d
+			y: -1.5d
 		}
 		{
 			id: "3736D289EBC2D9C1"
@@ -2319,8 +2318,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			id: "37516498BC51325B"
@@ -2335,8 +2334,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 10.0d
+			y: -0.5d
 		}
 		{
 			id: "0977B45335A77064"
@@ -2351,8 +2350,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			id: "3170A66658532DEA"
@@ -2367,8 +2366,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.0d
+			x: 10.0d
+			y: 0.5d
 		}
 		{
 			id: "65B57E6B3FA5FB34"
@@ -2384,7 +2383,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			id: "46D752535476F712"
@@ -2399,8 +2398,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.0d
+			x: 10.0d
+			y: 1.5d
 		}
 		{
 			id: "4902D3C857829D29"
@@ -2415,8 +2414,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			id: "2900C12F975FDC7D"
@@ -2431,8 +2430,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -1.0d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			id: "6F0BBFBE0BBE0361"
@@ -2447,8 +2446,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			id: "6E149D33B3DB8A76"
@@ -2463,8 +2462,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.0d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			id: "7787479800B02A47"
@@ -2472,15 +2471,15 @@
 				id: "7FABD0F502F6D434"
 				item: {
 					Count: 1
-					id: "simpleores:tin_helmet"
+					id: "ancient_elements:titanium_helmet"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.0d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
 			id: "5BEAE7C20E1159CC"
@@ -2495,8 +2494,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 5.0d
+			x: 10.0d
+			y: 5.5d
 		}
 		{
 			id: "09C9FA27683D7BAE"
@@ -2527,8 +2526,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.0d
+			x: 14.0d
+			y: -1.5d
 		}
 		{
 			id: "573F537401C590AD"
@@ -2544,7 +2543,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			id: "1063A1940D72ECAA"
@@ -2559,8 +2558,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.0d
+			x: 14.0d
+			y: -0.5d
 		}
 		{
 			id: "699743D3D56FA8D4"
@@ -2576,7 +2575,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "50AB4741D547F544"
@@ -2591,8 +2590,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.0d
+			x: 14.0d
+			y: 0.5d
 		}
 		{
 			id: "3E609C52FC0B2CDE"
@@ -2608,7 +2607,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 4.0d
+			y: 1.0d
 		}
 		{
 			id: "38EE34DF7A93BB42"
@@ -2623,8 +2622,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 5.0d
+			x: 13.0d
+			y: 1.5d
 		}
 		{
 			id: "5CA1608521DDE470"
@@ -2640,7 +2639,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			id: "08BF19F345999BC3"
@@ -2659,8 +2658,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.0d
+			x: 13.0d
+			y: 2.5d
 		}
 		{
 			id: "1C022243D9DE1BC8"
@@ -2675,8 +2674,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: -1.0d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			id: "75D93D8408834807"
@@ -2695,8 +2694,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 13.0d
+			y: 3.5d
 		}
 		{
 			id: "5C79A683CC25A372"
@@ -2715,8 +2714,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.0d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			id: "152FABFF41F39C53"
@@ -2735,8 +2734,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.0d
+			x: 13.0d
+			y: 4.5d
 		}
 		{
 			id: "340C7E2619494165"
@@ -2751,8 +2750,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.0d
+			x: 13.5d
+			y: 5.0d
 		}
 		{
 			id: "5A475385701C3873"
@@ -2767,8 +2766,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.0d
+			x: 14.0d
+			y: 5.5d
 		}
 		{
 			id: "0966CBD8B3B1051B"
@@ -2783,8 +2782,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.0d
+			x: 13.5d
+			y: 6.0d
 		}
 		{
 			id: "2A9ADDE493766E4F"
@@ -2799,8 +2798,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -2.0d
+			x: 19.0d
+			y: -2.5d
 		}
 		{
 			id: "10946FC83334CFD1"
@@ -2815,8 +2814,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -1.0d
+			x: 19.5d
+			y: -2.0d
 		}
 		{
 			id: "7E8D96ADA89ABA69"
@@ -2831,8 +2830,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.0d
+			x: 19.0d
+			y: -1.5d
 		}
 		{
 			id: "68696B84D58D5894"
@@ -2847,8 +2846,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 2.0d
+			x: 18.5d
+			y: 1.0d
 		}
 		{
 			id: "72FA9040F2B1239C"
@@ -2863,8 +2862,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -2.0d
+			x: 19.0d
+			y: 1.5d
 		}
 		{
 			id: "576350C34DD5957D"
@@ -3091,8 +3090,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			id: "2A89A5FF14CE4D60"
@@ -3335,7 +3334,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.5d
 			y: 0.0d
 		}
 		{
@@ -3351,8 +3350,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 1.0d
+			x: 19.0d
+			y: 0.5d
 		}
 		{
 			id: "474A51D6D2FFF050"
@@ -3367,7 +3366,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.0d
 			y: 24.0d
 		}
 		{
@@ -3393,7 +3392,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.0d
 			y: 24.0d
 		}
 		{
@@ -3572,8 +3571,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			id: "7E885ABBE8576C0C"
@@ -3796,8 +3795,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			id: "4000D544508F2E6B"
@@ -4324,8 +4323,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			id: "5DD6DC6CA69130AC"
@@ -4354,8 +4353,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: -2.0d
+			x: 18.5d
+			y: -1.0d
 		}
 		{
 			id: "765185AE600C6AB7"
@@ -4704,8 +4703,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			id: "0D51697C140CEA69"
@@ -4720,8 +4719,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			id: "6007B4484E449B25"
@@ -4752,7 +4751,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
@@ -4768,8 +4767,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			id: "403483C90982B4EB"
@@ -4908,8 +4907,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 10.0d
+			y: 4.5d
 		}
 		{
 			id: "6822D2A6EA35EB14"
@@ -4924,8 +4923,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 9.5d
+			y: 5.0d
 		}
 		{
 			id: "43201FE6020D1AC9"
@@ -4957,7 +4956,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 3.0d
+			y: 5.5d
 		}
 		{
 			id: "4888BDADDFB7FBBE"
@@ -5020,8 +5019,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			id: "28B582378B68A066"
@@ -5036,8 +5035,488 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: -1.0d
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			id: "04E1B76FB66834F5"
+			tasks: [{
+				id: "0F926105D7ED57C9"
+				item: {
+					Count: 1
+					id: "immersiveengineering:armor_steel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 31.5d
+		}
+		{
+			id: "7FD90F0902FD4A30"
+			tasks: [{
+				id: "58691CAB45E09710"
+				item: {
+					Count: 1
+					id: "ancient_elements:steel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 31.5d
+		}
+		{
+			id: "1515548BCBFF4666"
+			tasks: [{
+				id: "05A103CCE0E12EDD"
+				item: {
+					Count: 1
+					id: "mekanismtools:lapis_lazuli_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 24.0d
+		}
+		{
+			id: "755D126ECD3E74B0"
+			tasks: [{
+				id: "4208A946D24DDD55"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_glowstone_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 53.0d
+			y: 27.0d
+		}
+		{
+			id: "302F970BE819A34A"
+			tasks: [{
+				id: "56CDDB57225FD04E"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 52.0d
+			y: 27.0d
+		}
+		{
+			id: "31537521A6E5394A"
+			tasks: [{
+				id: "6F789A0769561F72"
+				item: {
+					Count: 1
+					id: "mekanismtools:osmium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 51.0d
+			y: 27.0d
+		}
+		{
+			id: "401F360FEB0A8BAB"
+			tasks: [{
+				id: "1B1EE6C38997BDF0"
+				item: {
+					Count: 1
+					id: "evolvedmekanism:better_gold_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 34.0d
+			y: 28.5d
+		}
+		{
+			id: "5FE66F2A50031A26"
+			tasks: [{
+				id: "06BEA77983C3B29E"
+				item: {
+					Count: 1
+					id: "evolvedmekanism:plaslitherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: 28.5d
+		}
+		{
+			id: "79A45AC3293AE5FB"
+			tasks: [{
+				id: "7162AD17F1D4AA07"
+				item: {
+					Count: 1
+					id: "evolvedmekanism:refined_redstone_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 54.0d
+			y: 27.0d
+		}
+		{
+			id: "5FC4D81AA8AB6213"
+			tasks: [{
+				id: "7F72F9F4F9ECED73"
+				item: {
+					Count: 1
+					id: "ancient_elements:nether_steel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 33.5d
+		}
+		{
+			id: "30D9AFD4A4E9DBD3"
+			tasks: [{
+				id: "1D8D08B89EF769F5"
+				item: {
+					Count: 1
+					id: "ancient_elements:jungle_steel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 33.5d
+		}
+		{
+			id: "15EA8ADA1571EB89"
+			tasks: [{
+				id: "3C7EF0CCA0A6A998"
+				item: {
+					Count: 1
+					id: "simpleores:tin_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "09AE9C1CD7235743"
+			tasks: [{
+				id: "73D28DD12E26D544"
+				item: {
+					Count: 1
+					id: "ancient_elements:palladium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 34.5d
+		}
+		{
+			id: "254A396BF626B380"
+			tasks: [{
+				id: "6035A9E75007A03D"
+				item: {
+					Count: 1
+					id: "ancient_elements:lead_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 34.5d
+		}
+		{
+			id: "6B1B07DE67E0EDB7"
+			tasks: [{
+				id: "4DFB8B13554D9C67"
+				item: {
+					Count: 1
+					id: "ancient_elements:tin_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 31.5d
+		}
+		{
+			id: "06ACC2293751D01B"
+			tasks: [{
+				id: "104D0224576D5A36"
+				item: {
+					Count: 1
+					id: "ancient_elements:hellstone_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 34.5d
+		}
+		{
+			id: "2D9B2B19DE6471BA"
+			tasks: [{
+				id: "23F5A18F9578F884"
+				item: {
+					Count: 1
+					id: "ancient_elements:infernal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 33.5d
+		}
+		{
+			id: "57CDACDC7D143028"
+			tasks: [{
+				id: "506582F3184C565F"
+				item: {
+					Count: 1
+					id: "ancient_elements:aetherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 33.5d
+		}
+		{
+			id: "29ADDA7C29F1C7C5"
+			tasks: [{
+				id: "6F6B88E0F5CC60C9"
+				item: {
+					Count: 1
+					id: "ancient_elements:frost_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 33.5d
+		}
+		{
+			id: "619D243775370705"
+			tasks: [{
+				id: "61F76BBAC281B64A"
+				item: {
+					Count: 1
+					id: "ancient_elements:meteorite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 33.5d
+		}
+		{
+			id: "4E57690DF20C4D95"
+			tasks: [{
+				id: "0E510E9806FA6CD1"
+				item: {
+					Count: 1
+					id: "ancient_elements:void_steel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 33.5d
+		}
+		{
+			id: "72F9CA751FFAA9DE"
+			tasks: [{
+				id: "2904352E6E759114"
+				item: {
+					Count: 1
+					id: "ancient_elements:abyssal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 31.5d
+		}
+		{
+			id: "47CA785E15DFB586"
+			tasks: [{
+				id: "316F045561066CB2"
+				item: {
+					Count: 1
+					id: "ancient_elements:ancient_metal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 34.5d
+		}
+		{
+			id: "26EFF22E7370E68D"
+			tasks: [{
+				id: "5AB2F12739E2F9A8"
+				item: {
+					Count: 1
+					id: "ancient_elements:ender_steel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 33.5d
+		}
+		{
+			id: "01533DAF52A7310B"
+			tasks: [{
+				id: "18FD2265B70923D6"
+				item: {
+					Count: 1
+					id: "ancient_elements:celestium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 33.5d
+		}
+		{
+			id: "76633E81653D11B8"
+			tasks: [{
+				id: "5E88563B0C2D0A34"
+				item: {
+					Count: 1
+					id: "ancient_elements:spectrillium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 34.5d
+		}
+		{
+			id: "6FDE8846FDFA32FC"
+			tasks: [{
+				id: "5BDF194C6FDEB7C2"
+				item: {
+					Count: 1
+					id: "ancient_elements:aeonite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 33.5d
+		}
+		{
+			id: "270C91C19ACFB784"
+			tasks: [{
+				id: "07F1E156307B7A12"
+				item: {
+					Count: 1
+					id: "ancient_elements:galactrium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 34.5d
+		}
+		{
+			id: "42CD2AA5C4EA476A"
+			tasks: [{
+				id: "3DEFCBDA9F8C2C87"
+				item: {
+					Count: 1
+					id: "ancient_elements:elementinium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 31.5d
+		}
+		{
+			id: "1EC9A678B09F37F5"
+			tasks: [{
+				id: "4426BD9C1CCE1622"
+				item: {
+					Count: 1
+					id: "ancient_elements:endrium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 31.5d
 		}
 	]
 	title: "Armor Progression"

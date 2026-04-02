@@ -239,6 +239,10 @@
 		[types.wood_type.enigmaticdelicacy]
 			astral = true
 
+		[types.wood_type.thaumon]
+			greatwood = true
+			silverwood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.ars_nouveau]
@@ -502,6 +506,10 @@
 
 		[types.leaves_type.twilightdelight]
 			ironwood = true
+
+		[types.leaves_type.thaumon]
+			greatwood = true
+			silverwood = true
 
 #Disables specific entries
 [entries]

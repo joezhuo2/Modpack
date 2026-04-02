@@ -67,20 +67,20 @@
     "spartanshields:copper_basic_shield": ["defense:3", "agility:3"],
     "spartanshields:copper_tower_shield": ["defense:4", "agility:2"],
 
-    "iceandfire:armor_silver_metal_helmet" : ["defense:6", "attack:3"],
-    "iceandfire:armor_silver_metal_chestplate" : ["defense:6", "attack:3"],
-    "iceandfire:armor_silver_metal_leggings" : ["defense:6", "attack:3"],
-    "iceandfire:armor_silver_metal_boots" : ["defense:6", "attack:3"],
+    "simpleores:tin_helmet" : ["defense:6", "attack:3"],
+    "simpleores:tin_chestplate" : ["defense:6", "attack:3"],
+    "simpleores:tin_leggings" : ["defense:6", "attack:3"],
+    "simpleores:tin_boots" : ["defense:6", "attack:3"],
 
     "irons_spellbooks:wandering_magician_helmet": ["defense:7", "magic:5"],
     "irons_spellbooks:wandering_magician_chestplate": ["defense:7", "magic:5"],
     "irons_spellbooks:wandering_magician_leggings": ["defense:7", "magic:5"],
     "irons_spellbooks:wandering_magician_boots": ["defense:7", "magic:5"],
 
-    "iceandfire:armor_copper_metal_helmet" : ["defense:8", "magic:3"],
-    "iceandfire:armor_copper_metal_chestplate" : ["defense:8", "magic:3"],
-    "iceandfire:armor_copper_metal_leggings" : ["defense:8", "magic:3"],
-    "iceandfire:armor_copper_metal_boots" : ["defense:8", "magic:3"],
+    "mekanismtools:bronze_helmet" : ["defense:8", "attack:3"],
+    "mekanismtools:bronze_chestplate" : ["defense:8", "attack:3"],
+    "mekanismtools:bronze_leggings" : ["defense:8", "attack:3"],
+    "mekanismtools:bronze_boots" : ["defense:8", "attack:3"],
 
     "immersiveengineering:armor_faraday_helmet": ["defense:9", "agility:4"],
     "immersiveengineering:armor_faraday_chestplate": ["defense:9", "agility:4"],
@@ -156,10 +156,10 @@
     "blue_skies:charoite_leggings": ["defense:16", "magic:12"],
     "blue_skies:charoite_boots": ["defense:16", "magic:12"],
 
-    "immersiveengineering:armor_steel_helmet": ["defense:17"],
-    "immersiveengineering:armor_steel_chestplate": ["defense:17"],
-    "immersiveengineering:armor_steel_leggings": ["defense:17"],
-    "immersiveengineering:armor_steel_boots": ["defense:17"],
+    "mekanismtools:steel_helmet": ["defense:17"],
+    "mekanismtools:steel_chestplate": ["defense:17"],
+    "mekanismtools:steel_leggings": ["defense:17"],
+    "mekanismtools:steel_boots": ["defense:17"],
 
     "aquamirae:terrible_helmet": ["defense:17", "magic:13"],
     "aquamirae:terrible_chestplate": ["defense:17", "magic:13"],
@@ -455,10 +455,10 @@
     "betterend:aeternium_leggings": ["defense:71", "attack:70"],
     "betterend:aeternium_boots": ["defense:71", "attack:70"],
 
-    "simpleores:tin_helmet": ["defense:71"],
-    "simpleores:tin_chestplate": ["defense:71"],
-    "simpleores:tin_leggings": ["defense:71"],
-    "simpleores:tin_boots": ["defense:71"],
+    "ancient_elements:titanium_helmet": ["defense:71"],
+    "ancient_elements:titanium_chestplate": ["defense:71"],
+    "ancient_elements:titanium_leggings": ["defense:71"],
+    "ancient_elements:titanium_boots": ["defense:71"],
 
     "thermal_extra:enderium_helmet": ["defense:72", "agility:69"],
     "thermal_extra:enderium_chestplate": ["defense:72", "agility:69"],

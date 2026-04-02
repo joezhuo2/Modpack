@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_seven_wonders"
+	group: "00EC63AFE5312D99"
+	icon: "kubejs:fallen_star"
+	id: "6411C4F445652FFB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "228F8094F6C137AA"
+			tasks: [{
+				id: "5EEBAC2874112D22"
+				item: "kubejs:fallen_star"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "08E5814135420869"
+			tasks: [{
+				id: "0A38ADB1F070A24D"
+				item: "kubejs:wonder_chunk"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+	]
+	title: "The Seven Wonders"
+}

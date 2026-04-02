@@ -1,0 +1,7 @@
+#Master switch for Ancient Elements: Better Combat Fix
+enabled = true
+#If true, compatibility logic runs only when Better Combat is loaded
+requireBetterCombat = true
+#Enable extra debug logging (may be noisy)
+debugLogging = false
+

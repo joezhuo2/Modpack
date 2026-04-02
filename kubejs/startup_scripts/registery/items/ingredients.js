@@ -64,6 +64,8 @@ const items = [
     {id: 'weathered_hide', name: 'Weathered Hide'},
     {id: 'fallen_star', name: 'Fallen Star'},
     {id: 'reforge_scrap', name: 'Reforging Scrap'},
+    {id: 'brilliant_dust', name: 'Brilliant Dust'},
+    {id: 'wonder_chunk', name: 'Wonder Chunk'},
 ]
 
 StartupEvents.registry('item', event => {

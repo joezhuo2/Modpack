@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "2849284214DF0BB2"
+	icon: "apotheosis:epic_material"
+	id: "2494C04C8FB08B38"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4CAC29F2FFD952DC"
+			tasks: [{
+				id: "1258BE8B138CD51F"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "022EE4EF9D560F52"
+			tasks: [{
+				id: "410627E839C52EB4"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "4C38B82C621E2E5D"
+			tasks: [{
+				id: "38831814C9AE011E"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "565CBDCB6213BF57"
+			tasks: [{
+				id: "5504444D18F01160"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "30AD2FE309499E09"
+			tasks: [{
+				id: "14594821795570A5"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "62551DD9993652D5"
+			tasks: [{
+				id: "6A31791F5B90D793"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "60156482AA2AB659"
+			tasks: [{
+				id: "73D2FB4FB3C10993"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "7CD0BA200332F467"
+			tasks: [{
+				id: "2FEC826FE03FE220"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "49F6B9F9BBEFE769"
+			tasks: [{
+				id: "4C358753B19B7E52"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			id: "07B4898B284FE292"
+			tasks: [{
+				id: "385A8EA1FE6FDEE9"
+				item: "apotheotic_additions:artifact_material"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "46E2CC2692539B80"
+			tasks: [{
+				id: "06CDEBFFDBAD7B15"
+				item: "apotheotic_additions:esoteric_material"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "5832305A46CDECC0"
+			tasks: [{
+				id: "60766197781A9164"
+				item: "apotheotic_additions:heirloom_material"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	title: "Apotheosis"
+}

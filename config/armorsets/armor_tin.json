@@ -2,19 +2,19 @@
   "armorSetName": "tin",
   "performanceMode": true,
   "head": {
-    "itemKey": "iceandfire:armor_silver_metal_helmet",
+    "itemKey": "simpleores:tin_helmet",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "iceandfire:armor_silver_metal_chestplate",
+    "itemKey": "simpleores:tin_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "iceandfire:armor_silver_metal_leggings",
+    "itemKey": "simpleores:tin_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "iceandfire:armor_silver_metal_boots",
+    "itemKey": "simpleores:tin_boots",
     "mustBeEmpty": false
   },
   "mainHand": {

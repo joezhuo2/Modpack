@@ -5,7 +5,7 @@ deathSkillReset = false
 #Should you gain health on set level ups?
 HealthBonus = true
 #Toggle the visibility of the tab buttons in the inventory.
-showTabButtons = true
+showTabButtons = false
 #Global scaling multiplier for XP costs.
 #Range: 0.1 ~ 10.0
 xpScalingMultiplier = 3.0
