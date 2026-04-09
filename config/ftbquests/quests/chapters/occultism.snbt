@@ -117,8 +117,8 @@
 				item: "occultism:dimensional_mineshaft"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -8.5d
+			x: 9.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7DDACFFB2142968D"]

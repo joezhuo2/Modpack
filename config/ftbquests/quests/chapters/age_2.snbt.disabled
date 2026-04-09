@@ -462,7 +462,7 @@
 			id: "3783E83E9A0C8FFE"
 			tasks: [{
 				id: "6DE627A8D25DFA42"
-				item: "goety:ice_cube"
+				item: "kubejs:ice_cube"
 				type: "item"
 			}]
 			x: 16.0d

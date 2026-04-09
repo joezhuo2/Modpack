@@ -1,0 +1,1 @@
+{"jarName":"BCLib-20.0.7.jar","modId":"bclib","name":"BCLib","version":"20.0.7","mixinConfigs":["together.mixins.client.json","together.mixins.common.json","bclib.mixins.client.json","bclib.mixins.common.json","ui.mixins.client.json"],"jarJarMods":[],"curseForgeHash":3035714173,"modrinthHash":"1a7fcb1afa47435fb6a55d9dc69d75186d19ccdd"}

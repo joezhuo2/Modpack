@@ -1,4 +1,6 @@
 #618 minecraft:basalt_deltas
+#616 bloodyhell:blasphemous_biome
+#41F bloodyhell:blood_biome
 #6CE deeperdarker:blooming_caverns
 #649 betterend:blossoming_spires
 #167 betternether:bone_reef

@@ -306,7 +306,7 @@ const stageTwoItems = [
     'rootsclassic:verdant_sprig',
     'minecraft:ink_sac',
     'minecraft:glow_ink_sac',
-    'goety:ice_cube',
+    'kubejs:ice_cube',
     'minecraft:stone_bricks',
     'upgrade_aquatic:river_log',
     'upgrade_aquatic:driftwood_log',

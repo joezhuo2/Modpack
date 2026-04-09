@@ -4,7 +4,6 @@ ServerEvents.recipes(event => {
     // heavy engineering block
     // redstone engineering block
     // metal press molds
-    // vibrant alloy
     // mechanical crafter
     // crushing wheel
     // blaze burner
@@ -28,4 +27,5 @@ ServerEvents.recipes(event => {
     // source gem
     // scribe's table
     // novice spell book
+    // summoning altar
 })

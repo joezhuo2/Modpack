@@ -1,7 +1,7 @@
 {
 	id: "24FD4E3A9871D8AE"
 	loot_size: 1
-	order_index: 2
+	order_index: 1
 	rewards: [
 		{ count: 2, item: "minecraft:oak_log", random_bonus: 5 }
 		{ count: 4, item: "minecraft:oak_planks", random_bonus: 12 }

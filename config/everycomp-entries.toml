@@ -162,14 +162,6 @@
 			cottonwood = true
 			willow = true
 
-		[types.wood_type.goety]
-			haunted = true
-			rotten = true
-			windswept = true
-			pine = true
-			chorus = true
-			corrupt_chorus = true
-
 		[types.wood_type.theabyss]
 			blaru = true
 			jungle = true
@@ -405,14 +397,6 @@
 		[types.leaves_type.hexalia]
 			cottonwood = true
 			willow = true
-
-		[types.leaves_type.goety]
-			hardened = true
-			rotten = true
-			windswept = true
-			pine = true
-			chorus = true
-			chorus_blossom = true
 
 		[types.leaves_type.animus]
 			blood = true

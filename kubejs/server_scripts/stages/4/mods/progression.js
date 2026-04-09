@@ -28,6 +28,7 @@ ServerEvents.recipes(event => {
     // super glue
     // nickel (from ore)
     // constantan
+    // salvaging table
 
     // end
     // zeal lighter

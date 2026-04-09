@@ -5,7 +5,7 @@
 	group: "2F688CAF980A2EE4"
 	icon: "thermal:diamond_gear"
 	id: "698312E4300ADA79"
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -15,8 +15,8 @@
 				item: "industrialforegoing:latex_processing_unit"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			id: "4CD0ED0E4C7B8D50"
@@ -35,8 +35,8 @@
 				item: "industrialforegoing:fluid_extractor"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			id: "7CB79C91461B7E22"
@@ -55,7 +55,7 @@
 				item: "industrialforegoing:machine_frame_pity"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -2.5d
 			y: 0.5d
 		}
 		{

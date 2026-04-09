@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "endgame"
+	group: "0BE42B5AD6E4C6EE"
+	id: "7D442D942CB8CEFC"
+	order_index: 22
+	quest_links: [ ]
+	quests: [ ]
+	title: "Endgame"
+}

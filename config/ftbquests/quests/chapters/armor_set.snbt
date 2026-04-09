@@ -96,6 +96,15 @@
 			x: 5.0d
 			y: 5.5d
 		}
+		{
+			height: 40.0d
+			image: "minecraft:textures/map/map_background.png"
+			order: -12
+			rotation: 0.0d
+			width: 40.0d
+			x: 8.0d
+			y: 3.0d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -3560,17 +3569,52 @@
 		}
 		{
 			id: "35530D22F4ABFC49"
-			tasks: [{
-				id: "479C62A254C31F38"
-				item: {
-					Count: 1
-					id: "forbidden_arcanus:mortem_helmet"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "479C62A254C31F38"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "631755880508E3A3"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6238E1E9D8EDF69D"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11E7F76C980DEE91"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -0.5d
 		}

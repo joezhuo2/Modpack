@@ -5,3 +5,4 @@ minecraft:the_end
 the_bumblezone:the_bumblezone
 deeperdarker:otherside
 twilightforest:twilight_forest
+bloodyhell:soul_dimension

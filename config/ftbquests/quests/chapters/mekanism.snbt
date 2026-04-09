@@ -5,7 +5,7 @@
 	group: "2F688CAF980A2EE4"
 	icon: "mekanism:ultimate_control_circuit"
 	id: "52F4095D01A9960D"
-	order_index: 12
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -15,7 +15,7 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
@@ -75,7 +75,7 @@
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.5d
 			y: -0.5d
 		}
 		{
@@ -85,8 +85,8 @@
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			id: "4DEC8A6A9AFCEBC6"

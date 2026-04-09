@@ -1,0 +1,59 @@
+{
+  "armorSetName": "copper",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "create_sa:copper_helmet"
+  },
+  "chest": {
+    "itemKey": "create_sa:copper_chestplate"
+  },
+  "legs": {
+    "itemKey": "create_sa:copper_leggings"
+  },
+  "boots": {
+    "itemKey": "create_sa:copper_boots"
+  },
+  "mainHand": {
+    "itemKey": "create_sa:copper_sword"
+  },
+  "offHand": {
+    "itemKey": "spartanshields:copper_basic_shield"
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "iceandfire_curios:copper_amulet"
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "modifierUUID": "b8094186-ac7b-44f0-a356-e42e8890353b",
+      "attributeOperation": 1
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.10,
+      "attributeOperation": 1,
+      "modifierUUID": "05d7aace-da8c-474a-a606-7dface38fa41"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:overheal",
+      "value": 0.05,
+      "attributeOperation": 1,
+      "modifierUUID": "640e6856-1913-4f84-b63b-e95e4978c696"
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips" : [
+    "\u00A3bVoltborne Aegis",
+    "\u00A7fPartial (3): \u00A77+15% Move Speed",
+    "\u00A7fFull: \u00A77+10% Armor, +5% Overheal"
+  ]
+}

@@ -12,8 +12,49 @@
 		}
 	}
 	id: "076B35663F6E40A5"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "6357A5A92F6537CF"
+			tasks: [{
+				id: "515BF8DF73A828F2"
+				item: "actuallyadditions:atomic_reconstructor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "3CD6279574A6AD30"
+			tasks: [{
+				id: "7DEE17E6D214BB71"
+				item: "actuallyadditions:crusher"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "6DD479EC528819C4"
+			tasks: [{
+				id: "490070EC2D51BA0B"
+				item: "actuallyadditions:crusher_double"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5C77D29AF3572093"
+			tasks: [{
+				id: "68A3FC36DEBBBBBE"
+				item: "actuallyadditions:empowerer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+	]
 	title: "Actually Additions"
 }

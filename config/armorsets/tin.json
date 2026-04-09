@@ -1,0 +1,51 @@
+{
+  "armorSetName": "tin",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "simpleores:tin_helmet"
+  },
+  "chest": {
+    "itemKey": "simpleores:tin_chestplate"
+  },
+  "legs": {
+    "itemKey": "simpleores:tin_leggings"
+  },
+  "boots": {
+    "itemKey": "simpleores:tin_boots"
+  },
+  "offHand": {
+    "itemKey": "spartanshields:tin_basic_shield"
+  },
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:mining_speed",
+      "value": 0.15,
+      "attributeOperation": 1,
+      "modifierUUID": "0df43244-2547-4b44-aa89-b7ec04bc110c"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "combatroll:count",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "981a28c6-7375-4eda-820d-d911a7b199b6"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_knockback",
+      "value": 0.35,
+      "attributeOperation": 0,
+      "modifierUUID": "cee7cd42-2631-4601-b3d8-4ccc17337a15"
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips" : [
+    "\u00A3bCanner's Intuition",
+    "\u00A7fPartial(3): \u00A77+15% Mining Speed",
+    "\u00A7fFull: \u00A77+1 Roll, +35% Attack Knockback"
+  ]
+}

@@ -2,7 +2,7 @@
 	icon: "enigmaticdice:enigmatic_die"
 	id: "5E9335626F6333D8"
 	loot_size: 1
-	order_index: 1
+	order_index: 0
 	rewards: [
 		{ item: "chancecubes:chance_cube" }
 		{ item: "enigmaticdice:enigmatic_die" }

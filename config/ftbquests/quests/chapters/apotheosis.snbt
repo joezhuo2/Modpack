@@ -5,7 +5,7 @@
 	group: "2849284214DF0BB2"
 	icon: "apotheosis:epic_material"
 	id: "2494C04C8FB08B38"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -25,8 +25,8 @@
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			id: "4C38B82C621E2E5D"

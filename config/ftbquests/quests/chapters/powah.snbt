@@ -5,7 +5,7 @@
 	group: "2F688CAF980A2EE4"
 	icon: "powah:crystal_nitro"
 	id: "487B8EA4169A4745"
-	order_index: 10
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

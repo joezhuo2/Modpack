@@ -35,8 +35,8 @@
 				item: "biomancy:digester"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			id: "335F78A0EBDFED59"

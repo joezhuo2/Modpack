@@ -122,7 +122,7 @@
 			id: "686128AE91441DC7"
 			tasks: [{
 				id: "03B75ABE90A2C372"
-				item: "goety:ice_cube"
+				item: "kubejs:ice_cube"
 				type: "item"
 			}]
 			x: 5.5d

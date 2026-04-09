@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "2849284214DF0BB2"
+	id: "5D996FC37F5CBB8B"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Iron's Spellbooks"
+}

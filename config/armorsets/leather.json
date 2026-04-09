@@ -1,0 +1,60 @@
+{
+  "armorSetName": "leather_extended",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:leather_helmet"
+  },
+  "chest": {
+    "itemKey": "minecraft:leather_chestplate"
+  },
+  "legs": {
+    "itemKey": "minecraft:leather_leggings"
+  },
+  "boots": {
+    "itemKey": "minecraft:leather_boots"
+  },
+  "mainHand": {
+    "itemKey":"mowziesmobs:spear",
+    "mixAndMatch" : [
+      "minecraft:wooden_sword",
+      "farmersdelight:flint_knife"
+    ]
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:leather_gloves"
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:experience_gained",
+      "value": 0.20,
+      "attributeOperation": 1,
+      "modifierUUID": "c97a40ce-93c1-4b5b-a08c-0b25493aff6b"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.30,
+      "attributeOperation": 1,
+      "modifierUUID": "814e871e-2801-4608-83fe-7eabfc16f959"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "attributeOperation": 1,
+      "modifierUUID": "bef6925d-948d-4cf8-a7f8-964a88d33d90"
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips" : [
+    "\u00A7bSilent Stride",
+    "\u00A7fPartial (3): \u00A77+20% Experience Gained",
+    "\u00A7fFull: \u00A77+30% Attack Speed, +15% Move Speed"
+  ]
+}

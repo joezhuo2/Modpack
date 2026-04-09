@@ -1,12 +1,309 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "octagon"
 	filename: "ender_eye_hunt"
 	group: "0BE42B5AD6E4C6EE"
 	icon: "minecraft:ender_eye"
 	id: "14C3F45A380BF144"
-	order_index: 12
+	images: [{
+		height: 16.0d
+		image: "minecraft:textures/map/map_background.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "1EDF14D7B0D4AE05"
+			tasks: [{
+				id: "18B3F6EAB632EE11"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "216B19C0EBD549A0"
+			tasks: [{
+				id: "0AFF8E40CD0A1E68"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "6C52C37A15483CAD"
+			tasks: [{
+				id: "5A623F9C56CCAAA6"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "2590045E074BD703"
+			tasks: [{
+				id: "502E8648D3AD6903"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "3BCA12DBCDF6BFE1"
+			tasks: [{
+				id: "6863DB60DE5D0848"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "130D75D81A1B8390"
+			tasks: [{
+				id: "334F7D46A61A13D8"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "4A36DE2D75171758"
+			tasks: [{
+				id: "3BC2613709BAD564"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "393A4CD4A21FE204"
+			tasks: [{
+				id: "1777140523D5C74E"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "7D08B0DC0C0C52EC"
+			tasks: [{
+				id: "543FFF2BCCABE02C"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "13021A1819DCD229"
+			tasks: [{
+				id: "1409D27AD6D50576"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "7DD910CEBA720186"
+			tasks: [{
+				id: "50315B634B0C19F1"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "700510E1059A48EC"
+			tasks: [{
+				id: "0BD911221BB400FC"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "66754E6871C3762D"
+			tasks: [{
+				id: "3CC8BF240B590329"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "1E1BEC1752A04846"
+			tasks: [{
+				id: "07B2F1A5150B680F"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "41CB5A7A9AE36C3C"
+			tasks: [{
+				id: "6C520899F5E9595D"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "5172C85B648A97F2"
+			tasks: [{
+				id: "4776EB2F32049CCE"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1EDF14D7B0D4AE05"
+				"216B19C0EBD549A0"
+				"2590045E074BD703"
+				"5172C85B648A97F2"
+				"393A4CD4A21FE204"
+				"41CB5A7A9AE36C3C"
+				"13021A1819DCD229"
+				"6C52C37A15483CAD"
+				"700510E1059A48EC"
+				"3BCA12DBCDF6BFE1"
+				"130D75D81A1B8390"
+				"4A36DE2D75171758"
+				"7D08B0DC0C0C52EC"
+				"1E1BEC1752A04846"
+				"66754E6871C3762D"
+				"7DD910CEBA720186"
+			]
+			id: "2B05EE60CEB3E194"
+			min_required_dependencies: 12
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "1DD2E356BCE825AC"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	title: "Ender Eye Hunt"
 }

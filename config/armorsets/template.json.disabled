@@ -2,24 +2,19 @@
   "armorSetName": "xxxxxxxxxxxxxxxxxxxxxx",
   "performanceMode": true,
   "head": {
-    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
-    "mustBeEmpty": false
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx"
   },
   "chest": {
-    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
-    "mustBeEmpty": false
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx"
   },
   "legs": {
-    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
-    "mustBeEmpty": false
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx"
   },
   "boots": {
-    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
-    "mustBeEmpty": false
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx"
   },
   "mainHand": {
-    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
-    "mustBeEmpty": false
+    "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx"
   },
   "offHand": {
     "itemKey": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
@@ -39,8 +34,7 @@
       "name": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
       "value": 0.0,
       "attributeOperation": 0,
-      "modifierUUID": "UUID-GOES-HERE-0000-000000000000",
-      "description": "+xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx"
+      "modifierUUID": "UUID-GOES-HERE-0000-000000000000"
     }
   ],
   "fullSetBonuses": [
@@ -54,9 +48,13 @@
       "name": "xxxxxxxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxx",
       "value": 0.0,
       "attributeOperation": 0,
-      "modifierUUID": "UUID-GOES-HERE-0000-000000000000",
-      "description": "+xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx"
+      "modifierUUID": "UUID-GOES-HERE-0000-000000000000"
     }
   ],
-  "hideGeneratedTooltip": false
+  "hideGeneratedTooltip": true,
+  "customTooltips" : [
+    "\u00A3b(SET NAME)",
+    "\u00A7fPartial (MIN_PIECES): \u00A77(BONUSES)",
+    "\u00A7fFull: \u00A77(BONUSES)"
+  ]
 }

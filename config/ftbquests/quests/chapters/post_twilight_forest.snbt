@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "post_twilight_forest"
+	group: "0BE42B5AD6E4C6EE"
+	id: "1BC2CAEE6B1BCDA1"
+	order_index: 19
+	quest_links: [ ]
+	quests: [ ]
+	title: "Post Twilight Forest"
+}
