@@ -18,7 +18,7 @@
     {
       "type": "attribute",
       "name": "attributeslib:crit_damage",
-      "value": 0.15,
+      "value": 0.1,
       "attributeOperation": 1,
       "modifierUUID": "b06a979b-ca3a-414a-b5d8-676a3b50600a"
     }
@@ -27,8 +27,8 @@
     {
       "type": "attribute",
       "name": "attributeslib:armor_pierce",
-      "value": 0.05,
-      "attributeOperation": 1,
+      "value": 0.03,
+      "attributeOperation": 0,
       "modifierUUID": "51b9d721-d1da-471c-8d2f-e08d1ee8c59c"
     },
     {
@@ -41,8 +41,8 @@
   ],
   "hideGeneratedTooltip": true,
   "customTooltips" : [
-    "\u00A3bOssuary's Echo",
-    "\u00A7fPartial(2): \u00A77+15% Crit Damage",
-    "\u00A7fFull: \u00A77+10% Attack Damage, +5% Armor Pierce"
+    "\u00A7bOssuary's Echo",
+    "\u00A7fPartial(2): \u00A77+10% Crit Damage",
+    "\u00A7fFull(4): \u00A77+10% Attack Damage, +3% Armor Pierce"
   ]
 }

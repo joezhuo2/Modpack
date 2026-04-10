@@ -35,6 +35,7 @@
 #DD013E bloodyhell:blood_dirt_block
 #10A403 bloodyhell:blood_grass_block
 #985085 bloodyhell:blood_leaves
+#D21D34 evilcraft:blood_stain
 #FF0B17 betterend:blooming_cooksonia
 #C18BD4 deeperdarker:blooming_moss_block
 #E78C8E deeperdarker:blooming_sculk_stone
@@ -109,6 +110,7 @@
 #B615DC productivebees:end_stone_nest
 #E9B39D hazennstuff:end_stone_zenalite_ore
 #C4CD60 betterend:ender_ore
+#AB430C alexsmobs:ender_residue
 #F7ADDC betterend:endstone_dust
 #1B0079 bloodyhell:eroded_blasphemous_sandstone
 #626C0F betternether:feather_fern
@@ -149,6 +151,8 @@
 #7482E4 minecraft:lilac
 #74A7CF twilightforest:liveroot_block
 #0EC131 lootr:lootr_barrel
+#EA63C2 lootr:lootr_chest
+#EB292D lootr:lootr_shulker
 #9E7DD4 theabyss:loran_end_ore
 #C3E315 betterend:lucernia_outer_leaves
 #E3024B betternether:lucis_mushroom

@@ -1,0 +1,51 @@
+{
+  "armorSetName": "bronze",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "mekanismtools:bronze_helmet"
+  },
+  "chest": {
+    "itemKey": "mekanismtools:bronze_chestplate"
+  },
+  "legs": {
+    "itemKey": "mekanismtools:bronze_leggings"
+  },
+  "boots": {
+    "itemKey": "mekanismtools:bronze_boots"
+  },
+  "mainHand": {
+    "itemKey": "mekanismtools:bronze_sword"
+  },
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.1,
+      "attributeOperation": 1,
+      "modifierUUID": "2d62860d-9620-4c9d-a9f0-99e5a8613218"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:overheal",
+      "value": 0.03,
+      "attributeOperation": 0,
+      "modifierUUID": "f8c14264-6163-4eb8-ad87-9a2a20416b56"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:crit_chance",
+      "value": 0.05,
+      "attributeOperation": 1,
+      "modifierUUID": "79151fee-8b01-45db-9545-8b722b1ac376"
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips" : [
+    "\u00A7bArtisan's Bulwark",
+    "\u00A7fPartial(3): \u00A77+10% Max Health",
+    "\u00A7fFull(5): \u00A77+3% Overheal, +5% Crit Chance"
+  ]
+}

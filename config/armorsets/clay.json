@@ -20,7 +20,7 @@
       "name": "minecraft:generic.knockback_resistance",
       "value": 0.4,
       "modifierUUID": "28f854bc-d052-49cf-9cee-f381cda387b9",
-      "attributeOperation": 1
+      "attributeOperation": 0
     }
   ],
   "fullSetBonuses": [
@@ -40,7 +40,7 @@
   "hideGeneratedTooltip": true,
   "customTooltips" : [
     "\u00A7bEarthened Fortitude",
-    "\u00A7fPartial (2): \u00A77+40% Knockback Resistance",
-    "\u00A7fFull: \u00A77Resistance 1, +2 Armor Toughness"
+    "\u00A7fPartial(2): \u00A77+40% Knockback Resistance",
+    "\u00A7fFull(4): \u00A77Resistance 1, +2 Armor Toughness"
   ]
 }

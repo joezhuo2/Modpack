@@ -52,8 +52,8 @@
 			image: "minecraft:block/cave_vines"
 			rotation: 0.0d
 			width: 8.0d
-			x: -2.0d
-			y: 7.25d
+			x: -2.5d
+			y: 13.0d
 		}
 		{
 			height: 8.0d
@@ -105,8 +105,16 @@
 			x: 8.0d
 			y: 3.0d
 		}
+		{
+			height: 8.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 180.0d
+			width: 8.0d
+			x: -2.0d
+			y: 7.0d
+		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -286,8 +294,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 31.5d
+			x: 41.0d
+			y: 28.5d
 		}
 		{
 			id: "42BAFF1460F0A1C7"
@@ -296,7 +304,7 @@
 					id: "7494198F43997B4A"
 					item: {
 						Count: 1
-						id: "iceandfire:armor_copper_metal_helmet"
+						id: "mekanismtools:bronze_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -307,7 +315,7 @@
 					id: "1F66B64B82BB4595"
 					item: {
 						Count: 1
-						id: "iceandfire:armor_copper_metal_chestplate"
+						id: "mekanismtools:bronze_chestplate"
 						tag: {
 							Damage: 0
 						}
@@ -318,7 +326,7 @@
 					id: "50E0698E6F5B8DCF"
 					item: {
 						Count: 1
-						id: "iceandfire:armor_copper_metal_leggings"
+						id: "mekanismtools:bronze_leggings"
 						tag: {
 							Damage: 0
 						}
@@ -329,7 +337,7 @@
 					id: "40BCBA4E803271CD"
 					item: {
 						Count: 1
-						id: "iceandfire:armor_copper_metal_boots"
+						id: "mekanismtools:bronze_boots"
 						tag: {
 							Damage: 0
 						}
@@ -340,7 +348,7 @@
 					id: "13FC371EA3665140"
 					item: {
 						Count: 1
-						id: "iceandfire:copper_sword"
+						id: "mekanismtools:bronze_sword"
 						tag: {
 							Damage: 0
 						}
@@ -1048,8 +1056,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 24.0d
+			x: -4.0d
+			y: 13.5d
 		}
 		{
 			id: "429DF008858C7C19"
@@ -1099,8 +1107,8 @@
 					type: "item"
 				}
 			]
-			x: 23.0d
-			y: 24.0d
+			x: -4.0d
+			y: 14.5d
 		}
 		{
 			id: "0B7D6BBA7D912C9B"
@@ -1150,8 +1158,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 24.0d
+			x: -3.5d
+			y: 14.0d
 		}
 		{
 			id: "4F44BCC1B234C97A"
@@ -1391,8 +1399,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 6.5d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			id: "6550A234F40BCC8D"
@@ -1639,8 +1647,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.5d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			id: "22888E92A6415EFA"
@@ -1660,17 +1668,52 @@
 		}
 		{
 			id: "6610C5D4695A8BFF"
-			tasks: [{
-				id: "6FF661AD82BE6D10"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:wandering_magician_helmet"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6FF661AD82BE6D10"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "741264C5A7F568D3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D206FAABF819C2D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D8E5EC5DECD9F13"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 1.0d
 		}
@@ -1687,8 +1730,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			id: "16F12C4C076863EE"
@@ -1719,8 +1762,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.0d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			id: "10B524AC54BCE88F"
@@ -1735,8 +1778,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			id: "57D21D9226BF36B0"
@@ -3115,8 +3158,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.0d
-			y: 24.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			id: "7EE8FE47E9F39348"
@@ -3195,8 +3238,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 24.0d
+			x: 54.0d
+			y: 25.5d
 		}
 		{
 			id: "7C28F60A96AD62ED"
@@ -3375,8 +3418,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 24.0d
+			x: 57.0d
+			y: 25.5d
 		}
 		{
 			id: "5D3CFC4B0BAC1F09"
@@ -3401,8 +3444,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: 24.0d
+			x: -5.5d
+			y: 11.5d
 		}
 		{
 			id: "27C2A399505FB0BC"
@@ -3452,8 +3495,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 24.0d
+			x: -6.5d
+			y: 15.0d
 		}
 		{
 			id: "74187A8F1D131EE0"
@@ -3617,16 +3660,6 @@
 			]
 			x: -3.0d
 			y: -0.5d
-		}
-		{
-			id: "7E885ABBE8576C0C"
-			tasks: [{
-				id: "4CAB889808ECA13A"
-				item: "goety:dark_hat"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 24.0d
 		}
 		{
 			id: "4EE6F8DABA4D8CA3"
@@ -3855,8 +3888,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 24.0d
+			x: 0.5d
+			y: 15.5d
 		}
 		{
 			id: "1F801F1B99892F25"
@@ -3871,8 +3904,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 24.0d
+			x: 0.0d
+			y: 16.0d
 		}
 		{
 			id: "244C1998CA1E1BCD"
@@ -3887,8 +3920,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 24.0d
+			x: 0.5d
+			y: 16.5d
 		}
 		{
 			id: "52B14310C4D610C3"
@@ -4271,8 +4304,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 24.0d
+			x: 1.0d
+			y: 14.0d
 		}
 		{
 			id: "10D2BCDB883DDBF8"
@@ -4287,8 +4320,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: 24.0d
+			x: 0.5d
+			y: 13.5d
 		}
 		{
 			id: "021E77C02194FC9F"
@@ -4303,8 +4336,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 24.0d
+			x: 1.0d
+			y: 13.0d
 		}
 		{
 			id: "1353FA9E95C09A90"
@@ -4763,8 +4796,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.0d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
 			id: "6007B4484E449B25"
@@ -4935,8 +4968,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 24.0d
+			x: -6.5d
+			y: 13.0d
 		}
 		{
 			id: "09B4DE2E129108B7"
@@ -5015,8 +5048,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 24.0d
+			x: -5.0d
+			y: 15.5d
 		}
 		{
 			id: "045CCC4ED67C07A1"
@@ -5047,8 +5080,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 24.0d
+			x: -3.5d
+			y: 13.0d
 		}
 		{
 			id: "6CDBDA05769378CA"
@@ -5127,8 +5160,8 @@
 				}
 				type: "item"
 			}]
-			x: 26.0d
-			y: 24.0d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			id: "755D126ECD3E74B0"
@@ -5239,8 +5272,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 33.5d
+			x: 46.0d
+			y: 25.5d
 		}
 		{
 			id: "30D9AFD4A4E9DBD3"
@@ -5255,22 +5288,57 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 33.5d
+			x: -0.5d
+			y: 11.0d
 		}
 		{
 			id: "15EA8ADA1571EB89"
-			tasks: [{
-				id: "3C7EF0CCA0A6A998"
-				item: {
-					Count: 1
-					id: "simpleores:tin_helmet"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "3C7EF0CCA0A6A998"
+					item: {
+						Count: 1
+						id: "simpleores:tin_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "03DA5FEA5828D50D"
+					item: {
+						Count: 1
+						id: "simpleores:tin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C1BAD0E2D2D01AF"
+					item: {
+						Count: 1
+						id: "simpleores:tin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D60EC14EDF8DB95"
+					item: {
+						Count: 1
+						id: "simpleores:tin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 0.5d
 		}
@@ -5287,24 +5355,59 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 34.5d
+			x: 58.0d
+			y: 27.0d
 		}
 		{
 			id: "254A396BF626B380"
-			tasks: [{
-				id: "6035A9E75007A03D"
-				item: {
-					Count: 1
-					id: "ancient_elements:lead_helmet"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6035A9E75007A03D"
+					item: {
+						Count: 1
+						id: "ancient_elements:lead_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 34.5d
+				{
+					id: "66BE53F4AC478898"
+					item: {
+						Count: 1
+						id: "ancient_elements:lead_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C0101184F9A30BC"
+					item: {
+						Count: 1
+						id: "ancient_elements:lead_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67C2821544915387"
+					item: {
+						Count: 1
+						id: "ancient_elements:lead_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 8.0d
 		}
 		{
 			id: "6B1B07DE67E0EDB7"
@@ -5319,7 +5422,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 31.5d
 		}
 		{
@@ -5335,8 +5438,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 34.5d
+			x: 49.0d
+			y: 25.5d
 		}
 		{
 			id: "2D9B2B19DE6471BA"
@@ -5351,8 +5454,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 33.5d
+			x: 47.0d
+			y: 25.5d
 		}
 		{
 			id: "57CDACDC7D143028"
@@ -5367,8 +5470,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 33.5d
+			x: 48.0d
+			y: 25.5d
 		}
 		{
 			id: "29ADDA7C29F1C7C5"
@@ -5383,8 +5486,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 33.5d
+			x: 0.5d
+			y: 11.0d
 		}
 		{
 			id: "619D243775370705"
@@ -5399,8 +5502,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 33.5d
+			x: 51.0d
+			y: 25.5d
 		}
 		{
 			id: "4E57690DF20C4D95"
@@ -5415,8 +5518,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 33.5d
+			x: 56.0d
+			y: 27.0d
 		}
 		{
 			id: "72F9CA751FFAA9DE"
@@ -5431,8 +5534,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 31.5d
+			x: 56.0d
+			y: 25.5d
 		}
 		{
 			id: "47CA785E15DFB586"
@@ -5447,8 +5550,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 34.5d
+			x: -3.5d
+			y: 11.5d
 		}
 		{
 			id: "26EFF22E7370E68D"
@@ -5463,8 +5566,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 33.5d
+			x: 57.0d
+			y: 27.0d
 		}
 		{
 			id: "01533DAF52A7310B"
@@ -5479,8 +5582,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 33.5d
+			x: 38.0d
+			y: 28.5d
 		}
 		{
 			id: "76633E81653D11B8"
@@ -5495,8 +5598,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 34.5d
+			x: 52.0d
+			y: 25.5d
 		}
 		{
 			id: "6FDE8846FDFA32FC"
@@ -5511,8 +5614,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 33.5d
+			x: 37.0d
+			y: 28.5d
 		}
 		{
 			id: "270C91C19ACFB784"
@@ -5527,8 +5630,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 34.5d
+			x: 39.0d
+			y: 28.5d
 		}
 		{
 			id: "42CD2AA5C4EA476A"
@@ -5543,7 +5646,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 31.5d
 		}
 		{
@@ -5559,8 +5662,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 31.5d
+			x: 42.0d
+			y: 28.5d
 		}
 	]
 	title: "Armor Progression"

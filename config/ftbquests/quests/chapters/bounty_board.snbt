@@ -1,21 +1,14 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "none"
+	default_quest_shape: "hexagon"
 	filename: "bounty_board"
 	group: "00EC63AFE5312D99"
 	icon: "bountiful:bountyboard"
 	id: "637A1167953AB417"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			icon: {
-				Count: 1
-				id: "alexsmobs:tab_icon"
-				tag: {
-					DisplayEntityType: "hunters_return:hunter"
-				}
-			}
 			id: "28FB9501073ABD24"
 			tasks: [{
 				entity: "hunters_return:hunter"
@@ -30,17 +23,10 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.5d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "alexsmobs:tab_icon"
-				tag: {
-					DisplayEntityType: "conjurer_illager:conjurer"
-				}
-			}
 			id: "319564DB496A239E"
 			tasks: [{
 				entity: "minecraft:illusioner"
@@ -49,8 +35,437 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "71025BAB08985E6D"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "3BA48CA8ABA0558B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "7F0988F6CD6FD5CF"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "437728747EF04B11"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "4622D58130DC0368"
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				id: "376BAC00FEA9283E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "6C2210DB821B63DE"
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "09D8F5E2F2C129AE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "01E2BB5348BF516B"
+			tasks: [{
+				entity: "iceandfire:siren"
+				id: "000D9847EBFB36CA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "6A06550311ABCA24"
+			tasks: [{
+				entity: "iceandfire:hippogryph"
+				id: "19951DB8611C2018"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			id: "75C5A7FF284D9C35"
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				id: "0905B15B84780E6B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			id: "40B4B1B9E44839CC"
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				id: "3843C841915D0D4A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			id: "6CF0356444AAFB9B"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				id: "1D645DFFE2BEF17E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			id: "522AF4AEB3EB0393"
+			tasks: [{
+				entity: "iceandfire:ghost"
+				id: "144A96AAE041D433"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			id: "2DF1716D2FE607BE"
+			tasks: [{
+				entity: "iceandfire:myrmex_queen"
+				id: "4D9024738BC8EDAC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			id: "0135A57763C6764B"
+			tasks: [{
+				entity: "iceandfire:hippocampus"
+				id: "7F84607F3034B737"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			id: "48FC2B2F7702B916"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "686498C51F8FA2A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			id: "555021F4ED08F2A6"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "1B4355BC28A41A99"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.5d
+			y: -3.5d
+		}
+		{
+			id: "51235316BA88DEC1"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "5D6ABFBC9C073C31"
+				type: "kill"
+				value: 1L
+			}]
+			x: 24.0d
+			y: -3.5d
+		}
+		{
+			id: "38B5B34668DCEF38"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "07912181AEFFCDD0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "55CC8C343744C731"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "0811965F018256A7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "058B2D67CAB6BBF5"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "67A7E04330BBA306"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			id: "7CB2B52AF35497FA"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "39A2216E0A6BC164"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			id: "05C62F6A3CA85450"
+			tasks: [{
+				entity: "botania:doppleganger"
+				id: "536AF5EECBE84430"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			id: "1A1F970F86ADB85B"
+			tasks: [{
+				entity: "the_deep_void:weaver_of_souls_boss"
+				id: "3E85D71AB542ABAB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			id: "6CD94AA898ED02DF"
+			tasks: [{
+				entity: "the_deep_void:apostle_of_catastrophe"
+				id: "171DFE8F4EAE1F71"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			id: "40A5EA2F08503760"
+			tasks: [{
+				entity: "the_deep_void:misanthropic_hivemind"
+				id: "6F6D1C8297940A8F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			id: "44DCCEE818C94BF0"
+			tasks: [{
+				entity: "the_deep_void:hive_watcher"
+				id: "64313FCF9448F5CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			id: "0B0C1323D94F2B97"
+			tasks: [{
+				entity: "the_deep_void:primordial_bone_crawler"
+				id: "3BE1922BC43ECE3B"
+				type: "kill"
+				value: 100L
+			}]
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			id: "3BBA0EA8D9AFA7DB"
+			tasks: [{
+				entity: "ancient_elements:ancient_elemental"
+				id: "0E341E725B123C8F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			id: "2844A9410D4F1E0B"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "06DD3595F973438F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			id: "12E7EF8D127528AF"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "14B4C831860D505E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -14.0d
+		}
+		{
+			id: "0348A8700F784C61"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "2046489FB06EC0A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -14.0d
+		}
+		{
+			id: "5F9E00BCBA3F8BBE"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "5EE57B55E262DE82"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -14.0d
+		}
+		{
+			id: "6D1BDE4685754FC5"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "5C5FC97A8BD9ABB8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -14.0d
+		}
+		{
+			id: "52E1A13C6700E736"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "0C34ECDFF76DB36B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: -14.0d
+		}
+		{
+			id: "56BC2804BCFEFBD1"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "70DFF1926EC87E1B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -14.0d
+		}
+		{
+			id: "624E89303339399E"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "7FA65FCBEF6B279C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: -14.0d
+		}
+		{
+			id: "5E141F85A63EF500"
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "50B86E2812ADD7D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: -14.0d
+		}
+		{
+			id: "5823EA00BC17CC32"
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "41D22138E2D011E1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -15.5d
+		}
+		{
+			id: "4B2F17231744BDFD"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				id: "10B98A7F2B6495AF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			id: "17D82FB8412F3804"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "53C85E024CB65844"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -17.0d
+		}
+		{
+			id: "6A7AA04EFE77E05F"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				id: "74B692B9031709EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -17.0d
 		}
 	]
 	title: "Bounty Board"

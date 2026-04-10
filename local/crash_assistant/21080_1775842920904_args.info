@@ -1,9 +1,9 @@
 -jarPath
-local\crash_assistant\29120_1775769089079_app.jar
+local\crash_assistant\21080_1775842920904_app.jar
 -parentPID
-29120
+21080
 -parentStarted
-1775769089079
+1775842920904
 -platform
 FORGE
 -platformOwerridenData
@@ -13,7 +13,7 @@ fmlloader-1.20.1-47.4.13.jar
 -minecraftVersion
 1.20.1
 -childProcessesPIDs
-MTY4MDA6IDE3NzU3NjkwODkxMjg=
+Mjc4MjA6IDE3NzU4NDI5MjA5NTU=
 -minecraftStartCommand
 LS11c2VybmFtZSwgQ3J5c3RhbEZsdXgsIC0tdmVyc2lvbiwgZm9yZ2UtNDcuNC4xMywgLS1nYW1lRGlyLCBDOlxVc2Vyc1w8VVNFUj5cY3Vyc2Vmb3JnZVxtaW5lY3JhZnRcSW5zdGFuY2VzXE5ldywgLS1hc3NldHNEaXIsIEM6XFVzZXJzXDxVU0VSPlxjdXJzZWZvcmdlXG1pbmVjcmFmdFxJbnN0YWxsXGFzc2V0cywgLS1hc3NldEluZGV4LCA1LCAtLXV1aWQsIDY2NDQ3YjA4OTNlZTQwY2E5ZGI4YThlMWYxYjY4YWJkLCAtLWFjY2Vzc1Rva2VuLCA/Pz8/Pz8/PywgLS1jbGllbnRJZCwgNDdhZGI0LWZjOTJmNS01N2Q5OTktMmFkYTFmLWQzMmMwZiwgLS14dWlkLCA/Pz8/Pz8/PywgLS11c2VyVHlwZSwgbXNhLCAtLXZlcnNpb25UeXBlLCByZWxlYXNlLCAtLXdpZHRoLCAxMDI0LCAtLWhlaWdodCwgNzY4LCAtLXF1aWNrUGxheVBhdGgsIEM6XFVzZXJzXDxVU0VSPlxjdXJzZWZvcmdlXG1pbmVjcmFmdFxRdWlja3BsYXlcY2I2Mjk1YWEtZGJlMi00ZTFhLThmZGItMzliMTZmMWFiYjQ0Lmpzb24sIC0tbGF1bmNoVGFyZ2V0LCBmb3JnZWNsaWVudCwgLS1mbWwuZm9yZ2VWZXJzaW9uLCA0Ny40LjEzLCAtLWZtbC5tY1ZlcnNpb24sIDEuMjAuMSwgLS1mbWwuZm9yZ2VHcm91cCwgbmV0Lm1pbmVjcmFmdGZvcmdlLCAtLWZtbC5tY3BWZXJzaW9uLCAyMDIzMDYxMi4xMTQ0MTI=
 -minecraftJvmArgs
@@ -21,7 +21,7 @@ LVhYOkhlYXBEdW1wUGF0aD1Nb2phbmdUcmlja3NJbnRlbERyaXZlcnNGb3JQZXJmb3JtYW5jZV9qYXZh
 -crashAssistantModJarName
 CrashAssistant-forge-1.19-1.20.1-1.11.3.jar
 -classPath
-local\crash_assistant\29120_1775769089079_app.jar;local\crash_assistant\29120_1775769089079_mod.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar
+local\crash_assistant\21080_1775842920904_app.jar;local\crash_assistant\21080_1775842920904_mod.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\Users\Joe\curseforge\minecraft\Install\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar
 -minecraftXms
 256m
 -minecraftXmx
@@ -29,11 +29,11 @@ local\crash_assistant\29120_1775769089079_app.jar;local\crash_assistant\29120_17
 -systemRAM
 31.4g
 -systemUsedRAMAtMinecraftLaunchMoment
-18.3g
+10.9g
 -systemSwapSpace
 15.5g
 -systemUsedSwapSpaceAtMinecraftLaunchMoment
-421.4m
+196.4m
 -processor
 QU1EIFJ5emVuIDcgNTgwMEggd2l0aCBSYWRlb24gR3JhcGhpY3MgICAgICAgICA=
 -serialisedGPUs

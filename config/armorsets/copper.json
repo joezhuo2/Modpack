@@ -44,16 +44,16 @@
     },
     {
       "type": "attribute",
-      "name": "attributeslib:overheal",
-      "value": 0.05,
-      "attributeOperation": 1,
+      "name": "attributeslib:life_steal",
+      "value": 0.03,
+      "attributeOperation": 0,
       "modifierUUID": "640e6856-1913-4f84-b63b-e95e4978c696"
     }
   ],
   "hideGeneratedTooltip": true,
   "customTooltips" : [
-    "\u00A3bVoltborne Aegis",
-    "\u00A7fPartial (3): \u00A77+15% Move Speed",
-    "\u00A7fFull: \u00A77+10% Armor, +5% Overheal"
+    "\u00A7bVoltborne Aegis",
+    "\u00A7fPartial(3): \u00A77+15% Move Speed",
+    "\u00A7fFull(6): \u00A77+10% Armor, +3% Life Steal"
   ]
 }

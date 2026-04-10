@@ -49,10 +49,10 @@
     "create:cardboard_leggings": ["defense:4"],
     "create:cardboard_boots": ["defense:4"],
 
-    "forbidden_arcanus:mortem_helmet": ["defense:4"],
-    "forbidden_arcanus:mortem_chestplate": ["defense:4"],
-    "forbidden_arcanus:mortem_leggings": ["defense:4"],
-    "forbidden_arcanus:mortem_boots": ["defense:4"],
+    "forbidden_arcanus:mortem_helmet": ["defense:4", "attack:3"],
+    "forbidden_arcanus:mortem_chestplate": ["defense:4", "attack:3"],
+    "forbidden_arcanus:mortem_leggings": ["defense:4", "attack:3"],
+    "forbidden_arcanus:mortem_boots": ["defense:4", "attack:3"],
 
     "create_sa:copper_helmet": ["defense:5", "agility:4"],
     "create_sa:copper_chestplate": ["defense:5", "agility:4"],
@@ -101,6 +101,11 @@
     "create_sa:zinc_leggings": ["defense:10", "agility:4"],
     "create_sa:zinc_boots": ["defense:10", "agility:4"],
 
+    "botania:manaweaver_helmet": ["defense:10", "magic:6"],
+    "botania:manaweaver_chestplate": ["defense:10", "magic:6"],
+    "botania:manaweaver_leggings": ["defense:10", "magic:6"],
+    "botania:manaweaver_boots": ["defense:10", "magic:6"],
+
     "minecraft:iron_helmet": ["defense:11", "attack:4"],
     "minecraft:iron_chestplate": ["defense:11", "attack:4"],
     "minecraft:iron_leggings": ["defense:11", "attack:4"],
@@ -125,6 +130,16 @@
     "eidolon:silver_chestplate": ["defense:13", "magic:7"],
     "eidolon:silver_leggings": ["defense:13", "magic:7"],
     "eidolon:silver_boots": ["defense:13", "magic:7"],
+
+    "mekanismtools:lapis_lazuli_helmet": ["defense:13", "magic:5"],
+    "mekanismtools:lapis_lazuli_chestplate": ["defense:13", "magic:5"],
+    "mekanismtools:lapis_lazuli_leggings": ["defense:13", "magic:5"],
+    "mekanismtools:lapis_lazuli_boots": ["defense:13", "magic:5"],
+
+    "ancient_elements:lead_helmet": ["defense:14", "attack:10"],
+    "ancient_elements:lead_chestplate": ["defense:14", "attack:10"],
+    "ancient_elements:lead_leggings": ["defense:14", "attack:10"],
+    "ancient_elements:lead_boots": ["defense:14", "attack:10"],
 
     "bloodmagic:livinghelmet": ["defense:13", "magic:6", "attack:8"],
     "bloodmagic:livingplate": ["defense:13", "magic:6", "attack:8"],

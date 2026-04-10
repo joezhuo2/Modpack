@@ -90,31 +90,31 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 
 	["May Fly"."Fly Ticks"]
 		#Range: > 0
-		FairyBoots = 36
+		FairyBoots = 55
 		#Range: > 0
-		FrostsparkBoots = 40
+		FrostsparkBoots = 70
 		#Range: > 0
-		LightningBoots = 36
+		LightningBoots = 60
 		#Range: > 0
-		RocketBoots = 36
+		RocketBoots = 30
 		#Range: > 0
-		SpectreBoots = 36
+		SpectreBoots = 50
 		#Range: > 0
-		TerrasparkBoots = 40
+		TerrasparkBoots = 80
 
 	["May Fly"."Fly Speed"]
 		#Range: 0.0 ~ 1.7976931348623157E308
-		FairyBoots = 0.3
+		FairyBoots = 0.35
 		#Range: 0.0 ~ 1.7976931348623157E308
-		FrostsparkBoots = 0.3
+		FrostsparkBoots = 0.45
 		#Range: 0.0 ~ 1.7976931348623157E308
-		LightningBoots = 0.3
+		LightningBoots = 0.4
 		#Range: 0.0 ~ 1.7976931348623157E308
-		RocketBoots = 0.3
+		RocketBoots = 0.2
 		#Range: 0.0 ~ 1.7976931348623157E308
 		SpectreBoots = 0.3
 		#Range: 0.0 ~ 1.7976931348623157E308
-		TerrasparkBoots = 0.3
+		TerrasparkBoots = 0.6
 
 ["Multi Jump"]
 

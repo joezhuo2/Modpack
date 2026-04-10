@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
     // nickel (from ore)
     // constantan
     // salvaging table
+    // iron (from ore)
 
     // end
     // zeal lighter

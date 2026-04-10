@@ -5,7 +5,7 @@
 	group: "00EC63AFE5312D99"
 	icon: "reliquary:fortune_coin"
 	id: "784FA820B9779A2A"
-	order_index: 7
+	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
 	title: "Shop"

@@ -6,6 +6,97 @@
 	id: "5D996FC37F5CBB8B"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "651F5C80CBFB9F23"
+			tasks: [{
+				id: "61B72F20A690D1FF"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6B9CE83EA4F42BE4"
+			tasks: [{
+				id: "144B6A85F8FE0D60"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "7FB577379DB180AF"
+			tasks: [{
+				id: "5DC830CD6CC13B45"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0076AA97B2A29C31"
+			tasks: [{
+				id: "61DA55CC2AD45510"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "277E64385E32BADB"
+			tasks: [{
+				id: "696342BFBB0CACF4"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "04F99F1D7AD976F3"
+			tasks: [{
+				id: "68D8A8B56DD0ED81"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "55FAAE92BD65ED04"
+			tasks: [{
+				id: "1A5DEAEDC134F472"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "1F8A07606489A9AB"
+			tasks: [{
+				id: "7AE073B9BDF1E2C0"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "53DA6198309AA581"
+			tasks: [{
+				id: "729DBA88C477A0E1"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+	]
 	title: "Iron's Spellbooks"
 }

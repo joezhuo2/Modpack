@@ -29,9 +29,9 @@
   "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "attributeslib:experience_gained",
-      "value": 0.20,
-      "attributeOperation": 1,
+      "name": "attributeslib:arrow_damage",
+      "value": 0.1,
+      "attributeOperation": 0,
       "modifierUUID": "c97a40ce-93c1-4b5b-a08c-0b25493aff6b"
     }
   ],
@@ -54,7 +54,7 @@
   "hideGeneratedTooltip": true,
   "customTooltips" : [
     "\u00A7bSilent Stride",
-    "\u00A7fPartial (3): \u00A77+20% Experience Gained",
-    "\u00A7fFull: \u00A77+30% Attack Speed, +15% Move Speed"
+    "\u00A7fPartial(3): \u00A77+10% Projectile Damage",
+    "\u00A7fFull(6): \u00A77+30% Attack Speed, +15% Move Speed"
   ]
 }

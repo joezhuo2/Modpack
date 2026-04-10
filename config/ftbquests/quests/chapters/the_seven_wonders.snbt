@@ -5,7 +5,7 @@
 	group: "00EC63AFE5312D99"
 	icon: "kubejs:fallen_star"
 	id: "6411C4F445652FFB"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

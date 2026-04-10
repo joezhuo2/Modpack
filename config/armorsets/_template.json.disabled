@@ -53,7 +53,7 @@
   ],
   "hideGeneratedTooltip": true,
   "customTooltips" : [
-    "\u00A3b(SET NAME)",
+    "\u00A7b(SET NAME)",
     "\u00A7fPartial (MIN_PIECES): \u00A77(BONUSES)",
     "\u00A7fFull: \u00A77(BONUSES)"
   ]

@@ -26,7 +26,6 @@ let oresToHide = [
     'ancient_elements:ender_steel_ore',
     'ancient_elements:infernal_ore',
     'ancient_elements:celestium_ore',
-    'ancient_elements:abyssal_debris',
     'ancient_elements:endrium_ore',
 ]
 

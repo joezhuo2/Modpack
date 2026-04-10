@@ -52,9 +52,9 @@ ServerEvents.recipes(event => {
         { item: 'leather' },
         'forge:tools/knives',
         [
-            { item: 'kubejs:cut_leather' }, 
-            { item: 'kubejs:cut_leather' , chance: 0.75},
-            { item: 'kubejs:cut_leather' , chance: 0.4}
+            { item: 'betterend:leather_stripe' }, 
+            { item: 'betterend:leather_stripe' , chance: 0.75},
+            { item: 'betterend:leather_stripe' , chance: 0.4}
         ]
     )
     // handle
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
             'ABC'
         ],
         {
-            A: 'kubejs:cut_leather',
+            A: 'betterend:leather_stripe',
             B: 'kubejs:rod_wood',
             C: 'feather'
         }

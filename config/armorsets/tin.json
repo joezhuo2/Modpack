@@ -22,7 +22,7 @@
       "type": "attribute",
       "name": "attributeslib:mining_speed",
       "value": 0.15,
-      "attributeOperation": 1,
+      "attributeOperation": 0,
       "modifierUUID": "0df43244-2547-4b44-aa89-b7ec04bc110c"
     }
   ],
@@ -44,8 +44,8 @@
   ],
   "hideGeneratedTooltip": true,
   "customTooltips" : [
-    "\u00A3bCanner's Intuition",
+    "\u00A7bCanner's Intuition",
     "\u00A7fPartial(3): \u00A77+15% Mining Speed",
-    "\u00A7fFull: \u00A77+1 Roll, +35% Attack Knockback"
+    "\u00A7fFull(5): \u00A77+1 Roll, +35% Attack Knockback"
   ]
 }

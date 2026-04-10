@@ -202,9 +202,7 @@ const itemsToRemove = [
     'ancient_elements:raw_block_of_celestium',
     'ancient_elements:endrium_ore',
     'ancient_elements:raw_endrium',
-    'ancient_elements:raw_block_of_endrium',
-    'ancient_elements:abyssal_debris',
-    'ancient_elements:abyssal_scrap'
+    'ancient_elements:raw_block_of_endrium'
 ]
 
 ServerEvents.tags('item', event => {

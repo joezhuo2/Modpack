@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
         {
             A: 'supplementaries:flax',
             B: 'farmersdelight:half_tatami_mat',
-            C: 'kubejs:cut_leather'
+            C: 'betterend:leather_stripe'
         }
     )
     // tatami block

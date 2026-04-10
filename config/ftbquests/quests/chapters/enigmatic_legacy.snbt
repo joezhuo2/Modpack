@@ -3,9 +3,159 @@
 	default_quest_shape: ""
 	filename: "enigmatic_legacy"
 	group: "2849284214DF0BB2"
+	icon: "enigmaticlegacy:astral_dust"
 	id: "464990CCCA331B47"
 	order_index: 15
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "448457F02DABCC13"
+			tasks: [{
+				id: "6195E1BF453DA7F4"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5F460D0B91959449"
+			tasks: [{
+				id: "3C97BC40B618598E"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "6E2EA5672228A45F"
+			tasks: [{
+				id: "15D1300CDED5EA3C"
+				item: "enigmaticdelicacy:astral_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "5615145E1BED9E33"
+			tasks: [{
+				id: "5092FCBEFFD4B306"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "357379FB3F0FC87C"
+			tasks: [{
+				id: "1847FA255FB70016"
+				item: "enigmaticdelicacy:cursed_soul_fragment"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "73F242AB3FA03E6A"
+			tasks: [{
+				id: "2864F6D014804B8D"
+				item: "enigmaticdelicacy:cursed_soul_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0B958FFE02C926C0"
+			tasks: [{
+				id: "2685FB54907294D9"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "5A9172B68FDD1DC1"
+			tasks: [{
+				id: "7A1B81AFE631E193"
+				item: "enigmaticlegacy:infinimeal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "5E97F1FD232634D4"
+			tasks: [{
+				id: "4C2E54AB2CE2D2B4"
+				item: "enigmaticlegacy:soul_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "42D53239E767AA80"
+			tasks: [{
+				id: "315B1DE0C6617BBE"
+				item: "enigmaticlegacy:star_fabric"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "1AF1859D42CF6EF5"
+			tasks: [{
+				id: "791FB204C73D82B4"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "1A584F484785EB68"
+			tasks: [{
+				id: "2DF53FDBF761EDA6"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "501D72F4D24DEBE7"
+			tasks: [{
+				id: "07DC15A44B2CD3C6"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "40E2E613F3DC801D"
+			tasks: [{
+				id: "14E29E39B47B02C9"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
 	title: "Enigmatic Legacy"
 }

@@ -60,10 +60,10 @@ const itemsToName = [
     {id: "eidolon:silver_hoe", name: "Tin Hoe"},
     {id: "eidolon:silver_sword", name: "Tin Sword"},
     
-    // {id: "iceandfire:armor_silver_metal_helmet", name: "Tin Helmet"},
-    // {id: "iceandfire:armor_silver_metal_chestplate", name: "Tin Chestplate"},
-    // {id: "iceandfire:armor_silver_metal_leggings", name: "Tin Leggings"},
-    // {id: "iceandfire:armor_silver_metal_boots", name: "Tin Boots"},
+    {id: "iceandfire:armor_silver_metal_helmet", name: "Stellarium Helmet"},
+    {id: "iceandfire:armor_silver_metal_chestplate", name: "Stellarium Chestplate"},
+    {id: "iceandfire:armor_silver_metal_leggings", name: "Stellarium Leggings"},
+    {id: "iceandfire:armor_silver_metal_boots", name: "Stellarium Boots"},
 
     {id: 'alexscaves:pewen_sap', name: 'Sap'},
     {id: 'immersiveengineering:dust_wood', name: 'Fine Wood Dust'},
@@ -126,6 +126,16 @@ const itemsToName = [
     {id: 'immersiveengineering:armor_faraday_chestplate', name: 'Aluminum Chestplate'},
     {id: 'immersiveengineering:armor_faraday_leggings', name: 'Aluminum Leggings'},
     {id: 'immersiveengineering:armor_faraday_boots', name: 'Aluminum Boots'},
+
+    {id: 'ancient_elements:abyssal_helmet', name: 'Prismalium Helmet'},
+    {id: 'ancient_elements:abyssal_chestplate', name: 'Prismalium Chestplate'},
+    {id: 'ancient_elements:abyssal_leggings', name: 'Prismalium Leggings'},
+    {id: 'ancient_elements:abyssal_boots', name: 'Prismalium Boots'},
+
+    {id: 'ancient_elements:endrium_helmet', name: 'Melodium Helmet'},
+    {id: 'ancient_elements:endrium_chestplate', name: 'Melodium Chestplate'},
+    {id: 'ancient_elements:endrium_leggings', name: 'Melodium Leggings'},
+    {id: 'ancient_elements:endrium_boots', name: 'Melodium Boots'},
 ]
 
 ClientEvents.lang('en_us', event => {

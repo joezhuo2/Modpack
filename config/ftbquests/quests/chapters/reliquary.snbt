@@ -3,9 +3,31 @@
 	default_quest_shape: ""
 	filename: "reliquary"
 	group: "2849284214DF0BB2"
+	icon: {
+		Count: 1
+		id: "reliquary:alkahestry_tome"
+		tag: {
+			Damage: 1001
+		}
+	}
 	id: "440BDB194A390BBF"
-	order_index: 12
+	order_index: 14
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "12252541BDCC9EBA"
+		tasks: [{
+			id: "24257C6F7B841968"
+			item: {
+				Count: 1
+				id: "reliquary:alkahestry_tome"
+				tag: {
+					Damage: 1001
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Reliquary"
 }
