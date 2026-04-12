@@ -101,10 +101,10 @@
     "create_sa:zinc_leggings": ["defense:10", "agility:4"],
     "create_sa:zinc_boots": ["defense:10", "agility:4"],
 
-    "botania:manaweaver_helmet": ["defense:10", "magic:6"],
-    "botania:manaweaver_chestplate": ["defense:10", "magic:6"],
-    "botania:manaweaver_leggings": ["defense:10", "magic:6"],
-    "botania:manaweaver_boots": ["defense:10", "magic:6"],
+    "botania:manaweave_helmet": ["defense:10", "magic:6"],
+    "botania:manaweave_chestplate": ["defense:10", "magic:6"],
+    "botania:manaweave_leggings": ["defense:10", "magic:6"],
+    "botania:manaweave_boots": ["defense:10", "magic:6"],
 
     "minecraft:iron_helmet": ["defense:11", "attack:4"],
     "minecraft:iron_chestplate": ["defense:11", "attack:4"],

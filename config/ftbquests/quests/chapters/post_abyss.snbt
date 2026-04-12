@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "post_abyss"
-	group: "0BE42B5AD6E4C6EE"
+	group: "44FDABB45749F0DE"
 	id: "023BA57431F4CC73"
-	order_index: 17
+	order_index: 2
 	quest_links: [ ]
 	quests: [ ]
 	title: "Post Abyss"

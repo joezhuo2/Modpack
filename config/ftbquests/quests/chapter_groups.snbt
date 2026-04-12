@@ -1,6 +1,8 @@
 {
 	chapter_groups: [
+		{ id: "1FC2F26FDE71076A", title: "Arc 1" }
 		{ id: "0BE42B5AD6E4C6EE", title: "Gates" }
+		{ id: "44FDABB45749F0DE", title: "Arc 3" }
 		{ id: "2F688CAF980A2EE4", title: "Technology" }
 		{ id: "2849284214DF0BB2", title: "Magic" }
 		{ id: "639F1BAEFB3D9BE5", title: "Dimensions" }

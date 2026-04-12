@@ -16,6 +16,9 @@
   "mainHand": {
     "itemKey": "mekanismtools:bronze_sword"
   },
+  "offHand": {
+    "itemKey": "mekanismtools:bronze_shield"
+  },
   "partialBonusRequiredAmount": 3,
   "partialSetBonuses": [
     {
@@ -46,6 +49,6 @@
   "customTooltips" : [
     "\u00A7bArtisan's Bulwark",
     "\u00A7fPartial(3): \u00A77+10% Max Health",
-    "\u00A7fFull(5): \u00A77+3% Overheal, +5% Crit Chance"
+    "\u00A7fFull(6): \u00A77+3% Overheal, +5% Crit Chance"
   ]
 }

@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
-    // 1 (unlock iron)
+    // 1
+    // iron ingot
     
     // rattle
     // (eagle dance)
@@ -21,15 +22,11 @@ ServerEvents.recipes(event => {
     // drying basin
     // iron cad assembly
     // psimetal
-    // niter (from ore)
-    // sulfur (from ore)
-    // phyto gro
     // slimeball
     // super glue
     // nickel (from ore)
     // constantan
     // salvaging table
-    // iron (from ore)
 
     // end
     // zeal lighter

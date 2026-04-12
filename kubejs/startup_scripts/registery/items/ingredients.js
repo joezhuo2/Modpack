@@ -46,8 +46,8 @@ const items = [
     
     {id: 'salt', name: 'Salt Dust'},
     {id: 'plant_fiber', name: 'Plant Fiber'},
-    {id: 'handle', name: 'Rough Handle'},
-    {id: 'handle_10', name: 'Simple Handle'},
+    // {id: 'handle', name: 'Rough Handle'},
+    // {id: 'handle_10', name: 'Simple Handle'},
     {id: 'cooling_components', name: 'Machine Cooling Components'},
     {id: 'heating_components', name: 'Machine Heating Components'},
     {id: 'molten_remains', name: 'Molten Remains'},

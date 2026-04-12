@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "introduction"
-	group: "0BE42B5AD6E4C6EE"
+	group: "1FC2F26FDE71076A"
 	icon: "minecraft:oak_wood"
 	id: "412F0EEEB4D618CC"
 	order_index: 1

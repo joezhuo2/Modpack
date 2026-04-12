@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         ]
     )
     // handle
-    event.shaped(Item.of('kubejs:handle', 1),
+    event.shaped(Item.of('betterend:leather_wrapped_stick', 1),
         [
             'ABC'
         ],

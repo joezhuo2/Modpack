@@ -2,22 +2,25 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "age_2"
-	group: "0BE42B5AD6E4C6EE"
+	group: "1FC2F26FDE71076A"
 	icon: "thermal:bronze_block"
 	id: "0DA5D6F99403F219"
 	order_index: 3
-	quest_links: [ ]
-	quests: [
+	quest_links: [
 		{
-			id: "0F3158AAB89934C7"
-			tasks: [{
-				id: "5A7825CAF3F28537"
-				item: "enderio:copper_alloy_ingot"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -2.5d
+			id: "468372F7FE75DFB2"
+			linked_quest: "094CEA0A59887F02"
+			x: -4.0d
+			y: -5.0d
 		}
+		{
+			id: "512CE73663E8498E"
+			linked_quest: "019637FD0ED1A830"
+			x: -4.0d
+			y: -3.0d
+		}
+	]
+	quests: [
 		{
 			id: "4771998C578CC7FE"
 			tasks: [{

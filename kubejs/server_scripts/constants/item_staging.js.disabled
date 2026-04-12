@@ -339,7 +339,7 @@ const stageTwoItems = [
     'iceandfire_curios:copper_amulet',
     'mekanism:dye_base',
     'totemic:cedar_sapling',
-    'kubejs:handle_10',
+    'betterend:leather_wrapped_stick',
     'kubejs:heating_components',
     'kubejs:cooling_components',
     'thermal:watering_can',

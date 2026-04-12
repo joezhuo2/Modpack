@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'crafting_table',
-            B: 'kubejs:handle'
+            B: 'betterend:leather_wrapped_stick'
         }
     )
 })

@@ -1,11 +1,12 @@
 ServerEvents.recipes(event => {
-    // 1 (unlock: aluminum, grains of infinity)
-    //
+    // 1 
+    // (unlock: aluminum, grains of infinity)
 
     // 1a
+    // aluminum ingot
     // wind chime
-    // (buffalo dance)
-    //
+    // (buffalo dance) - buffalo hide, buffalo tooth
+    // 
 
     // 1b
     // copper alloy (copper + aluminum)
@@ -16,25 +17,33 @@ ServerEvents.recipes(event => {
 
     // 1c
     // apatite
-    // token of joy
-    // token of fear
-    // token of sorrow
+    // niter 
+    // sulfur 
+    // phyto gro
+    // token of joy 
+
+    // 1d
+    // 
     // token of anger
 
     // 2
     // blood altar
 
     // 2a
+    // token of fear
     // dagger of sacrifice
-    // blank slate (from grains of infinity)
 
     // 2b
     // demon's dream essence
     // otherworld essence
 
+    // 2c
+    // grains of infinity
+    // blank slate 
+
     // 2d
     // <something> stone
-    // otherstone (from something stone in spirit fire)
+    // otherstone (from <something> stone in spirit fire)
 
     // 3
     // athame
@@ -44,9 +53,14 @@ ServerEvents.recipes(event => {
     // industrial hemp seeds (hemp seeds in blood altar)
     // industrial hemp fiber
     // basket
-    // hempcrete (from tree resin, hemp fiber)
 
     // 3b
+    // concrete powder
+    // concrete
+    // tree resin [3], industrial hemp fiber [3a]
+    // hempcrete 
+
+    // 3c
     // pure daisy
     // livingrock (from otherstone in pure daisy)
 
@@ -59,16 +73,22 @@ ServerEvents.recipes(event => {
     // machine heating components
 
     // 4b
+    // brilliant powder (from gold leaf)
     // advanced component (from blank slate)
 
     // 4c
+    // molten remains [4a], kivi dust, thermal blend
+    // fiery blend 
+
+    // 4d
+    // fiery blend [4c]
     // coke blend
     // coke brick
     // coke bricks
     // coal coke
 
-    // 4d
-    // crude casing
+    // 4e
+    // crude casing (coal coke, aluminum sheet, cardboard box, <>)
 
     // end 
     // advanced crafting table

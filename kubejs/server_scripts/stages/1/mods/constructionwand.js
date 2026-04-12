@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'kubejs:plate_stone',
-            B: 'kubejs:handle',
+            B: 'betterend:leather_wrapped_stick',
             C: 'kubejs:rod_fine_wood'
         }
     )

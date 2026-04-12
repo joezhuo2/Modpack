@@ -144,7 +144,7 @@ ServerEvents.recipes(event => {
         {
             A: 'kubejs:plate_ash',
             B: 'kubejs:gear_flint',
-            C: 'kubejs:handle',
+            C: 'betterend:leather_wrapped_stick',
             D: 'kubejs:rod_fine_wood'
         }
     )

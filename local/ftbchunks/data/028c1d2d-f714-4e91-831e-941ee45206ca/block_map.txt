@@ -3,6 +3,7 @@
 #FBEB73 minecraft:allium
 #384494 immersiveengineering:alloy_smelter
 #D0995E immersiveengineering:alloybrick
+#D72E07 bloodmagic:altar
 #2EF75E betterend:ancient_emerald_ice
 #ADF429 supplementaries:ash
 #1CE73B enigmaticdelicacy:astral_leaves

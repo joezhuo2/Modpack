@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pre_abyss"
-	group: "0BE42B5AD6E4C6EE"
+	group: "44FDABB45749F0DE"
 	icon: "theabyss:unstable_obsidian"
 	id: "3F960AAF72C10AD8"
-	order_index: 16
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		id: "2A97ED3C1F6303C5"

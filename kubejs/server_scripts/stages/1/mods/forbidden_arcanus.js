@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
             A: 'kubejs:plate_wood',
             B: 'forbidden_arcanus:blacksmith_gavel_head',
             C: 'kubejs:gear_fine_wood',
-            D: 'kubejs:handle',
+            D: 'betterend:leather_wrapped_stick',
             E: 'mekanism:sawdust'
         }
     )

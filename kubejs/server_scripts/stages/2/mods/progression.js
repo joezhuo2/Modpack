@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
     // 1
+    // 
     // pestle and mortar
     
     // 1a
@@ -19,37 +20,48 @@ ServerEvents.recipes(event => {
     // 1c
     // pulp
     // paper
+    // 
     // cardboard
+    // 
     
     // 2
     // rough andesite alloy
     // andesite alloy
     
     // 2a
+    // 
     // botanist's shears
+    // mystical flowers
     // petal apothecary
-    // demon's dream seeds
+    // demon's dream seeds (from <>, <>, <>)
+    // demon's dream fruit
     // otherworld wood
     // otherworld ashes
     // brilliant fiber
     
-    // 2b
+    // 2c
+    // 
     // hand crank
+    // 
     // mill stone
     
     // 3
     // brilliant dust
 
     // 3a
+    // brilliant dust, <>, <>
     // wood stand
     // ancient sapling
+    // ancient wood 
 
     // 3b
+    // brilliant dust, thermal blend, <>
     // kiln blend
     // kiln brick
     // kiln bricks
 
-    // 4
+    // 3c
+    //
     // engineer's hammer
 
     //  end

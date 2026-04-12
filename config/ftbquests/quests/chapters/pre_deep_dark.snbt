@@ -5,7 +5,7 @@
 	group: "0BE42B5AD6E4C6EE"
 	icon: "thermal_extra:soul_infused_block"
 	id: "77C4FB84008A4140"
-	order_index: 11
+	order_index: 4
 	quest_links: [ ]
 	quests: [{
 		id: "04B5DFB27193719C"

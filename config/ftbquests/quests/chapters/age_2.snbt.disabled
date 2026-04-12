@@ -904,7 +904,7 @@
 			id: "3742792E0E32EE57"
 			tasks: [{
 				id: "6268AA26C52E7F76"
-				item: "kubejs:handle_10"
+				item: "betterend:leather_wrapped_stick"
 				type: "item"
 			}]
 			x: 21.0d
