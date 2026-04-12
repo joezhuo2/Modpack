@@ -137,7 +137,7 @@ const itemsToName = [
     {id: 'ancient_elements:endrium_leggings', name: 'Melodium Leggings'},
     {id: 'ancient_elements:endrium_boots', name: 'Melodium Boots'},
 
-    {id: 'naturesaura:gold_powder', name: 'Brilliant Dust'}
+    {id: 'naturesaura:gold_powder', name: 'Brilliant Powder'}
 ]
 
 ClientEvents.lang('en_us', event => {
