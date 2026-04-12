@@ -1,0 +1,51 @@
+{
+  "armorSetName": "aluminum",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "immersiveengineering:armor_faraday_helmet"
+  },
+  "chest": {
+    "itemKey": "immersiveengineering:armor_faraday_chestplate"
+  },
+  "legs": {
+    "itemKey": "immersiveengineering:armor_faraday_leggings"
+  },
+  "boots": {
+    "itemKey": "immersiveengineering:armor_faraday_boots"
+  },
+  "offHand": {
+    "itemKey": "spartanshields:aluminum_basic_shield"
+  },
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:armor_pierce",
+      "value": 4.0,
+      "attributeOperation": 0,
+      "modifierUUID": "f3c8f420-5c27-4a96-8890-c2e6bf6dff6e"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:dodge_chance",
+      "value": 0.05,
+      "attributeOperation": 0,
+      "modifierUUID": "156eb0d8-8fc3-4f0b-9680-b447102ea06d"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_velocity",
+      "value": 0.8,
+      "attributeOperation": 0,
+      "modifierUUID": "2ff0064a-119b-48c1-bfdd-6fb92903326d"
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips" : [
+    "\u00A7bArtisan's Shroud",
+    "\u00A7fPartial(3): \u00A77+4 Armor Pierce",
+    "\u00A7fFull(5): \u00A77+5% Dodge Chance, +80% Arrow Velocity"
+  ]
+}

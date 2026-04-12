@@ -13,6 +13,9 @@
   "boots": {
     "itemKey": "simpleores:tin_boots"
   },
+  "mainhand": {
+    "itemKey": "eidolon:silver_sword"
+  },
   "offHand": {
     "itemKey": "spartanshields:tin_basic_shield"
   },
@@ -36,8 +39,8 @@
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_knockback",
-      "value": 0.35,
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.15,
       "attributeOperation": 0,
       "modifierUUID": "cee7cd42-2631-4601-b3d8-4ccc17337a15"
     }
@@ -46,6 +49,6 @@
   "customTooltips" : [
     "\u00A7bCanner's Intuition",
     "\u00A7fPartial(3): \u00A77+15% Mining Speed",
-    "\u00A7fFull(5): \u00A77+1 Roll, +35% Attack Knockback"
+    "\u00A7fFull(6): \u00A77+1 Roll, +15% Attack Damage"
   ]
 }

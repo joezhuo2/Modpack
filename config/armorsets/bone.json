@@ -26,8 +26,8 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "attributeslib:armor_pierce",
-      "value": 0.03,
+      "name": "attributeslib:armor_shred",
+      "value": 0.08,
       "attributeOperation": 0,
       "modifierUUID": "51b9d721-d1da-471c-8d2f-e08d1ee8c59c"
     },
@@ -43,6 +43,6 @@
   "customTooltips" : [
     "\u00A7bOssuary's Echo",
     "\u00A7fPartial(2): \u00A77+10% Crit Damage",
-    "\u00A7fFull(4): \u00A77+10% Attack Damage, +3% Armor Pierce"
+    "\u00A7fFull(4): \u00A77+10% Attack Damage, +8% Armor Shred"
   ]
 }

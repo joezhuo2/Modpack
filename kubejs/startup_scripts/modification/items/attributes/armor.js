@@ -1,19 +1,18 @@
 const UUID = Java.loadClass('java.util.UUID')
 
 const armorPiecesToChange = [
-    {
-        id: 'minecraft:iron_chestplate',
-        armor: 12,
-        toughness: 4,
-        hp: 4
-    }
+    { id: 'immersiveengineering:armor_faraday_helmet', armor: 2 },
+    { id: 'immersiveengineering:armor_faraday_chestplate', armor: 5 },
+    { id: 'immersiveengineering:armor_faraday_leggings', armor: 4 },
+    { id: 'immersiveengineering:armor_faraday_boots', armor: 2 },
 ]
 
 ItemEvents.modification(event => {
   armorPiecesToChange.forEach(piece => {
     event.modify(piece.id, item => {
       item.armorProtection = piece.armor
-      item.armorToughness = piece.toughness
+
+      if (piece.toughness) item.armorToughness = piece.toughness
 
       if (piece.hp) {
         let uuid = UUID.randomUUID()

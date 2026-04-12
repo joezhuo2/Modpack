@@ -1,0 +1,48 @@
+{
+  "armorSetName": "wool",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "iceandfire:sheep_helmet"
+  },
+  "chest": {
+    "itemKey": "iceandfire:sheep_chestplate"
+  },
+  "legs": {
+    "itemKey": "iceandfire:sheep_leggings"
+  },
+  "boots": {
+    "itemKey": "iceandfire:sheep_boots"
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_damage",
+      "value": 0.15,
+      "attributeOperation": 0,
+      "modifierUUID": "a874dd3a-e15b-41db-ab45-a0e3fdb8b1c7"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:arrow_velocity",
+      "value": 0.2,
+      "attributeOperation": 0,
+      "modifierUUID": "ecfbe882-98d1-4c07-b14d-057c8abfb3e3"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:draw_speed",
+      "value": 0.1,
+      "attributeOperation": 0,
+      "modifierUUID": "35569dd2-f39e-454b-b88b-7c1868329276"
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips" : [
+    "\u00A7bOvine's Might",
+    "\u00A7fPartial(2): \u00A77+15% Projectile Damage",
+    "\u00A7fFull(4): \u00A77+20% Arrow Velocity, +10% Draw Speed"
+  ]
+}

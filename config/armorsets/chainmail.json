@@ -1,0 +1,62 @@
+{
+  "armorSetName": "chainmail",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "minecraft:chainmail_helmet"
+  },
+  "chest": {
+    "itemKey": "minecraft:chainmail_chestplate"
+  },
+  "legs": {
+    "itemKey": "minecraft:chainmail_leggings"
+  },
+  "boots": {
+    "itemKey": "minecraft:chainmail_boots"
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:chainmail_gloves"
+    }
+      
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "attributeOperation": 0,
+      "modifierUUID": "b68664ac-1614-40dc-a396-164af6e74963"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 6.0,
+      "attributeOperation": 0,
+      "modifierUUID": "83798036-8f03-4299-9841-f44218831967",
+      "description": "+6 Armor"
+    },
+    {
+      "type": "attribute",
+      "name": "quality_forked:damage_resistance",
+      "value": 0.1,
+      "attributeOperation": 0,
+      "modifierUUID": "022c983b-b2d8-4433-882b-3a56837ff7ba"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:distance",
+      "value": -0.4,
+      "attributeOperation": 0,
+      "modifierUUID": "272af2d6-20e4-4f43-9994-a162359a3d87"
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips" : [
+    "\u00A7bIronclad's Fortress",
+    "\u00A7fPartial(3): \u00A77+4 Armor Toughness",
+    "\u00A7fFull(5): \u00A77+6 Armor, +10% Damage Resistance, -40% Roll Distance"
+  ]
+}
