@@ -1,9 +1,9 @@
 {
-  "icon": "minecraft:honey_bottle",
+  "icon": "minecraft:honeycomb",
   "color": "#ff8fe9",
   "order": 5,
   "default_value": 0.5,
   "gain_multiplier": 1.0,
-  "decay_multiplier": 1.5,
+  "decay_multiplier": 1.25,
   "beneficial": true
 }

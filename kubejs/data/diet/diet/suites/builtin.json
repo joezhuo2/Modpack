@@ -36,7 +36,7 @@
           "groups": ["fruits"],
           "match": "all",
           "above": 0.0,
-          "below": 0.2
+          "below": 0.15
         }
       ]
     },
@@ -45,7 +45,7 @@
         {
           "name": "minecraft:generic.max_health",
           "operation": "add",
-          "amount": 4.0
+          "amount": 6.0
         }
       ],
       "conditions": [
@@ -62,7 +62,7 @@
         {
           "name": "minecraft:generic.max_health",
           "operation": "add",
-          "amount": 2.0
+          "amount": 3.0
         }
       ],
       "conditions": [
@@ -120,7 +120,7 @@
           "groups": ["proteins"],
           "match": "all",
           "above": 0.8,
-          "below": 0.9
+          "below": 0.95
         }
       ]
     },
@@ -135,7 +135,7 @@
         {
           "groups": ["proteins"],
           "match": "all",
-          "above": 0.9,
+          "above": 0.95,
           "below": 1.0
         }
       ]
@@ -184,7 +184,7 @@
           "groups": ["sugars"],
           "match": "all",
           "above": 0.8,
-          "below": 0.9
+          "below": 0.95
         }
       ]
     },
@@ -199,7 +199,7 @@
         {
           "groups": ["sugars"],
           "match": "all",
-          "above": 0.9,
+          "above": 0.95,
           "below": 1.0
         }
       ]
@@ -248,7 +248,7 @@
           "groups": ["vegetables"],
           "match": "all",
           "above": 0.8,
-          "below": 0.9
+          "below": 0.95
         }
       ]
     },
@@ -263,7 +263,7 @@
         {
           "groups": ["vegetables"],
           "match": "all",
-          "above": 0.9,
+          "above": 0.95,
           "below": 1.0
         }
       ]

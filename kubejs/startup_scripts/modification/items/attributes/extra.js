@@ -1,4 +1,4 @@
-const UUID = Java.loadClass('java.util.UUID')
+var UUID = Java.loadClass('java.util.UUID')
 
 const itemsToChange = [
   { id: 'minecraft:leather_helmet', attributes: [{id: 'minecraft:generic.movement_speed', val: 0.03, op: 'multiply_base'}]},

@@ -5,9 +5,12 @@
 #D0995E immersiveengineering:alloybrick
 #D72E07 bloodmagic:altar
 #2EF75E betterend:ancient_emerald_ice
+#EA3D60 ancientreforging:ancient_reforging_table
+#DBECBF minecraft:anvil
 #ADF429 supplementaries:ash
 #1CE73B enigmaticdelicacy:astral_leaves
 #B4879B enigmaticdelicacy:astral_log
+#0761C1 apotheosis:augmenting_table
 #C0B7ED stalwart_dungeons:awful_dungeons_spawn
 #0F359D minecraft:azure_bluet
 #18D108 minecraft:basalt
@@ -252,6 +255,7 @@
 #764CDB occultism:silver_ore
 #5DBDF9 thermal:silver_ore
 #ED0389 occultism:silver_ore_deepslate
+#9BB654 apotheosis:simple_reforging_table
 #B88B9B betternether:smoker
 #8638B9 minecraft:smooth_basalt
 #AB0514 bloodyhell:smooth_blasphemous_sandstone_block

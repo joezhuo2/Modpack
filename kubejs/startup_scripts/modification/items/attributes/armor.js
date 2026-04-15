@@ -1,4 +1,4 @@
-const UUID = Java.loadClass('java.util.UUID')
+var UUID = Java.loadClass('java.util.UUID')
 
 const armorPiecesToChange = [
     { id: 'immersiveengineering:armor_faraday_helmet', armor: 2 },

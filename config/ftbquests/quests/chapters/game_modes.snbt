@@ -14,6 +14,11 @@
 	quests: [
 		{
 			id: "1090590E05CD531C"
+			rewards: [{
+				id: "160957963099812D"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				id: "416014627B4254DD"
 				item: {
@@ -32,16 +37,28 @@
 		{
 			id: "73F3715062EFAAF9"
 			min_required_tasks: 1
-			rewards: [{
-				auto: "enabled"
-				command: "/astages add @s expert"
-				elevate_perms: true
-				icon: "iceandfire:dragon_skull_ice"
-				id: "18DA84E219B026C6"
-				silent: true
-				title: "Expert Mode"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/astages add @s expert"
+					elevate_perms: true
+					icon: "iceandfire:dragon_skull_ice"
+					id: "18DA84E219B026C6"
+					silent: true
+					title: "Expert Mode"
+					type: "command"
+				}
+				{
+					id: "435E2211A810D817"
+					item: "confluence:demon_heart"
+					type: "item"
+				}
+				{
+					id: "5DA3670219919B9F"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "enigmaticlegacy:main/cursed_ring"
 				criterion: ""

@@ -7,7 +7,7 @@ rareBlocks = ["minecraft:ancient_debris", "minecraft:suspicious_gravel", "minecr
 #The order of the entities in the list is the order of their rarity
 rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay", "minecraft:axolotl", "minecraft:evoker", "minecraft:piglin_brute", "minecraft:vindicator", "minecraft:enderman"]
 #Range: 6 ~ 100
-"Max Accessory Amount" = 15
+"Max Accessory Amount" = 9
 
 ["Random Attack Damage"]
 	enable = false
@@ -104,17 +104,17 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 
 	["May Fly"."Fly Speed"]
 		#Range: 0.0 ~ 1.7976931348623157E308
-		FairyBoots = 0.35
+		FairyBoots = 0.7
 		#Range: 0.0 ~ 1.7976931348623157E308
-		FrostsparkBoots = 0.45
+		FrostsparkBoots = 0.85
 		#Range: 0.0 ~ 1.7976931348623157E308
-		LightningBoots = 0.4
+		LightningBoots = 0.75
 		#Range: 0.0 ~ 1.7976931348623157E308
-		RocketBoots = 0.2
+		RocketBoots = 0.4
 		#Range: 0.0 ~ 1.7976931348623157E308
-		SpectreBoots = 0.3
+		SpectreBoots = 0.6
 		#Range: 0.0 ~ 1.7976931348623157E308
-		TerrasparkBoots = 0.6
+		TerrasparkBoots = 0.9
 
 ["Multi Jump"]
 
@@ -122,11 +122,11 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		#Range: > 0
 		BlizzardInABalloon = 14
 		#Range: > 0
-		BlizzardInABottle = 14
+		BlizzardInABottle = 18
 		#Range: > 0
-		SandstormInABalloon = 17
+		SandstormInABalloon = 14
 		#Range: > 0
-		SandstormInABottle = 17
+		SandstormInABottle = 18
 
 	["Multi Jump"."Jump Speed"]
 		#Range: 0.0 ~ 1.7976931348623157E308

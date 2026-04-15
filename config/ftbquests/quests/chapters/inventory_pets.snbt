@@ -13,6 +13,1129 @@
 	id: "649D7BC61EFA91F8"
 	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "6CEC76E2611E38AB"
+			tasks: [{
+				id: "27997718F1216985"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_blaze"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "20CEEA0B2C69A430"
+			tasks: [{
+				id: "5283CCAF45C024A0"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_creeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "1B083DF2A55ACB33"
+			tasks: [{
+				id: "17CE93F6111A770C"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_enderman"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "0997BE3EE290C8C3"
+			tasks: [{
+				id: "7CA2BCEB9C0E9C73"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_ghast"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "223894BFBEC18FE1"
+			tasks: [{
+				id: "3FC2734784EF747F"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_iron_golem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "48D58780645B7E33"
+			tasks: [{
+				id: "12FD9C13DBCC33DC"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_magma_cube"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "04BFF20759982CCF"
+			tasks: [{
+				id: "1FB26E33E58D1867"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_snow_golem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "7BD9E28AB71AE5D7"
+			tasks: [{
+				id: "64D36B04BF3332BA"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_spider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "137F0D9DEDD7F140"
+			tasks: [{
+				id: "6B42E10FC4C2D3A0"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_chicken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "6246AD74A4F02A84"
+			tasks: [{
+				id: "5363EB2BF2EDDCF1"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_cow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "3352B7C6587812A4"
+			tasks: [{
+				id: "3F62031C8F1651EC"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_mooshroom"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "202DD80B7DD7ED8D"
+			tasks: [{
+				id: "145831A6755CDF35"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_ocelot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "554E46F8E4FE20E7"
+			tasks: [{
+				id: "458FE6C777F8D461"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_pig"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4EA92CFCB10A9607"
+			tasks: [{
+				id: "4BC46649AE4555BF"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_sheep"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "27EB0150DA28EDE6"
+			tasks: [{
+				id: "6F89EC9E999D21EF"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_squid"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "771AF2CCAF352305"
+			tasks: [{
+				id: "187DD01BB3FDC89A"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_anvil"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "1F9FDFADF8F94580"
+			tasks: [{
+				id: "75C3E2734B566C11"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_brewing_stand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "67040EE6FE46A511"
+			tasks: [{
+				id: "4A7AF96DBD2233F0"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_bed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "59400683EA73E287"
+			tasks: [{
+				id: "09B9EECB420E944D"
+				item: "inventorypets:temp_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "6D3AF4CD5F82DC00"
+			tasks: [{
+				id: "4683174E9D786B42"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_crafting_table"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "0727E4E9C2912EB9"
+			tasks: [{
+				id: "42BB93943FD05E47"
+				item: "inventorypets:temp_double_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "4F8B16998EE6B117"
+			tasks: [{
+				id: "7D84677A219330E7"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_enchanting_table"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "4B52B50083CEF73A"
+			tasks: [{
+				id: "233BB5D63E366672"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_ender_chest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "613C097DA2D7E3B8"
+			tasks: [{
+				id: "76572019D4FCEFB7"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_furnace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "18F632425B5E737D"
+			tasks: [{
+				id: "56861F385A1BAADC"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_jukebox"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "403798A6EDBA01D7"
+			tasks: [{
+				id: "41D209E6AE4A1B2B"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_lead"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "2FB95FDAACA4BA8D"
+			tasks: [{
+				id: "600869B942C68688"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_nether_portal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "4EE8FDC1BB72BE7F"
+			tasks: [{
+				id: "153C85B8AFCB8275"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_saddle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "670DF7E629432C06"
+			tasks: [{
+				id: "4D07CF5EEB87EEDF"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_end_portal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "13B52FDF5995484D"
+			tasks: [{
+				id: "01CD759245B29382"
+				item: "inventorypets:temp_sated_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "0EA90EF0C730D69C"
+			tasks: [{
+				id: "109F1E29A044C37A"
+				item: "inventorypets:temp_sated_double_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "5047ABF2D536A7F3"
+			tasks: [{
+				id: "5F081E99DB1CA5A1"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_banana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "6575D8751A87C09D"
+			tasks: [{
+				id: "78016BC6EAD51033"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_biome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "2D7FCD53827F6EB6"
+			tasks: [{
+				id: "4DB98CF887866619"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_flying_saddle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "4118A95FAAB38DFF"
+			tasks: [{
+				id: "3257429EB6C47CF3"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_dingot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "667F49C055AB4B0F"
+			tasks: [{
+				id: "5AE9A339B416A819"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_grave"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "4F2F686DF44460EC"
+			tasks: [{
+				id: "2619FD57176D432D"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_loot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "63A5C8562BB26890"
+			tasks: [{
+				id: "6BB8BDEC71F663AA"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_meta"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "06B0F5743C2290FC"
+			tasks: [{
+				id: "16D0EDAF7493ACA1"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_pingot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "67A252E5C86F146A"
+			tasks: [{
+				id: "373D8C719F16F079"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_purplicious_cow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "1395340D466265B6"
+			tasks: [{
+				id: "662EB0D8429B556A"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_qcm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "1D2DEE758F700297"
+			tasks: [{
+				id: "45449A6A375FDAB3"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_quiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "50F4A81367833537"
+			tasks: [{
+				id: "35E9FBCB75382818"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_sponge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "6C9EE0CC281EECC2"
+			tasks: [{
+				id: "19FE3D03C52D0831"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_cobblestone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "074F9E58E277726E"
+			tasks: [{
+				id: "5B9C200E3A19B1F9"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_mickerson"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "16219384A1AAB2C9"
+			tasks: [{
+				id: "7EC7F4BE26652594"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_dirt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "36515E285AFC669A"
+			tasks: [{
+				id: "0CB33B0442E53C79"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_juggernaut"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "7F02A97CC55F8488"
+			tasks: [{
+				id: "0DC7A5A4430724A9"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_illuminati"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "5EE6163AA118B314"
+			tasks: [{
+				id: "140892A1DA58BDA3"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_siamese"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "7A3AA1938E826861"
+			tasks: [{
+				id: "5B5BE9A38169197B"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_apple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "6A9DD1FABDC1219E"
+			tasks: [{
+				id: "7BA7F532A03F03BE"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_cheetah"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "25F0F8DA036E06B1"
+			tasks: [{
+				id: "6AF1153935A9683E"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_house"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "12454B7840C38470"
+			tasks: [{
+				id: "082162C4B7342563"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_pacman"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "4735A8F411955BDE"
+			tasks: [{
+				id: "5155DA55F9D08A9C"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_pixie"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "7BC1DCDDAEAFF12B"
+			tasks: [{
+				id: "45B20305078E4EDF"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_silverfish"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "5DD3DE5F40FBA34F"
+			tasks: [{
+				id: "51109D964B5EBDF6"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_torch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "6AE332F2B29278E9"
+			tasks: [{
+				id: "3D3C79EF37B66EB3"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_wolf"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "27C7F0358324DEFD"
+			tasks: [{
+				id: "2055BE21080ABAB7"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_dubstep"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "2040412178F7989B"
+			tasks: [{
+				id: "36F21850EDBD78CD"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "4E7EDF60CDC864F5"
+			tasks: [{
+				id: "7E39A462B20DE219"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_moon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "374C0E091B69A07D"
+			tasks: [{
+				id: "2F50E96A4F031790"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "3839842BB80E2CBA"
+			tasks: [{
+				id: "26144B7A7A13CA42"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_april_fool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "508F67A616A8E5BA"
+			tasks: [{
+				id: "1F75871309AC1053"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_christmas_tree"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "16827A10D7E471FA"
+			tasks: [{
+				id: "4549C905E971EB8E"
+				item: "inventorypets:pet_menorah"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "5A5C337C6B92ED55"
+			tasks: [{
+				id: "414684C637786F1F"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_mishumaa_saba"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "65A347E611973952"
+			tasks: [{
+				id: "125999AD7866330B"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_politically_correct"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "0A7A4C72B7784C6A"
+			tasks: [{
+				id: "76E92C471271BB6D"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_black_hole"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "36E20226DC92405A"
+			tasks: [{
+				id: "54DAFD9875A564FB"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_cloud"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "0053F72303BC1DF2"
+			tasks: [{
+				id: "6559962A5B696D35"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_pufferfish"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "58D104B55A0F8242"
+			tasks: [{
+				id: "77079B0AF49CB0AA"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_slime"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "254C9236A9E8BA7C"
+			tasks: [{
+				id: "0C6A8B93FC444277"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_sun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "315D04AC867E29B6"
+			tasks: [{
+				id: "493BEC72C93ECC45"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_wither"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+	]
 	title: "Inventory Pets"
 }
