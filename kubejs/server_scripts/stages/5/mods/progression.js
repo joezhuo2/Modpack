@@ -1,4 +1,11 @@
 ServerEvents.recipes(event => {
+    // 1
+    // lapis, zinc, silver, lead (from world)
+
+    // 1a
+    // brass, pewter
+    // 
+
     // eagle bone whistle
     // (totentanz)
     // engineer's workbench
@@ -18,18 +25,10 @@ ServerEvents.recipes(event => {
     // tier 2 altar
     // soul snare
     // demonic will
-    // lead ingot
-    // pewter ingot
     // brazier
     // soul shard
-    // silver ingot
-    // lapis ore
     // impure white chalk
     // white chalk
     // sacrificial bowl
     // golden sacrificial bowl
-
-    // end
-    // zinc ore
-    // brass ingot
 })

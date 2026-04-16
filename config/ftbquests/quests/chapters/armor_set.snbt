@@ -5177,17 +5177,41 @@
 		}
 		{
 			id: "6CDBDA05769378CA"
-			tasks: [{
-				id: "01629280B1869298"
-				item: {
-					Count: 1
-					id: "alexscaves:primordial_helmet"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "01629280B1869298"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "34810E3436DA5D99"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D084AB652C52139"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 3.0d
 		}
