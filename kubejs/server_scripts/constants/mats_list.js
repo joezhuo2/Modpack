@@ -25,7 +25,6 @@ const materialsList = [
     {id: 'diorite', raw_resource: 'polished_diorite'},
     {id: 'andesite', raw_resource: 'polished_andesite'},
     {id: 'limestone', raw_resource: 'create:limestone'},
-    {id: 'marble', raw_resource: 'goety:marble'},
     {id: 'scoria', raw_resource: 'create:scoria'},
     {id: 'basalt', raw_resource: 'smooth_basalt'},
     {id: 'calcite', raw_resource: 'quark:polished_calcite'},

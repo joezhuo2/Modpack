@@ -1,33 +1,94 @@
 ServerEvents.recipes(event => {
     // 1
-    // iron ingot
+    // iron, nickel, natural quartz (from world)
     
+    // 1a
+    // iron, <>, <>, <>
     // rattle
     // (eagle dance)
+    // eagle bone, eagle feather
+
+    // 1b
+    // eagle bone, <>, <>, <>
+    // whisk 
+    // whisk, <>, <>, <>, <>
     // mechanical mixer
     // basin
-    // basic burner
-    // encased fan
+    // 
+
+    // 1c (natural unlock)
     // treated wood
-    // caminite brick
-    // primitive alloy smelter
-    // livingwood
-    // mana pool 
-    // impure white chalk
-    // white chalk
-    // weak blood orb
-    // small cauldron
+    //(blood altar)
+    // livingwood 
+    // livingwood frame
+
+    // 1d (exploration)
     // silkworm
     // silk fiber
-    // drying basin
-    // iron cad assembly
-    // psimetal
-    // slimeball
+    // safety net, <>, <>, <>
+    // luxurious silk
+
+    // 2
+    // mesh
+    // 
+    // vent
+
+    // 2a
+    // 
+    // encased fan
+    // 
+
+    // 2b
+    // slimeball (world)
+    // 
+    // cooking pot
+    // 
     // super glue
-    // nickel (from ore)
-    // constantan
-    // salvaging table
+
+    // 2c
+    // 
+    // weak blood orb
+    // 
+
+    // 3
+    // primitive alloy smelter
+    // 
+    // caminite brick
+
+    // 3a 
+    // 
+    // mana pool 
+    // 
+
+    // 3b
+    // constantan ingot
+
+    // 3c
+
+    // 4
+    // basic burner
+
+    // 4a
+    // quartz (overworld quartz ore => natural quartz => process from basic burner)
+    // calcite, iron, <>
+    // basic cad assembly
+    // psimetal ingot
+
+    // 4b
+    // 
+
+    // 4c
+    
+    // 4d
 
     // end
+    // turquoise stone bricks, lunar stone bricks
     // zeal lighter
+
+
+
+    
+    // ##
+    // drying basin
+    // salvaging table
 })

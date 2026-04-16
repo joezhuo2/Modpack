@@ -24,6 +24,10 @@ ServerEvents.recipes(event => {
     // soul shard
     // silver ingot
     // lapis ore
+    // impure white chalk
+    // white chalk
+    // sacrificial bowl
+    // golden sacrificial bowl
 
     // end
     // zinc ore

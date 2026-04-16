@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
     // livingrock (from otherstone in pure daisy)
 
     // 4
-    // cooking pot
+    // small cauldron
 
     // 4a
     // rusted machine components (from hunter), molten remains (from magma monster)

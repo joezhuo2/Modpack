@@ -354,7 +354,8 @@
         "hexalia:core_mechanics/mutation",
         "hexalia:core_mechanics/enchanted_plants",
         "hexalia:content/tools",
-        "hexalia:content/structures"
+        "hexalia:content/structures",
+        "hexalia:resources/natural_resources"
       ],
       "bookmarks": [],
       "completedManualQuests": []

@@ -58,6 +58,25 @@
 					item: "paraglider:heart_container"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7D15AF3EAF1B2FA8"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2917D1BA8D4D6052"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2C38C2E439FEB607"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
 			]
 			tasks: [{
 				advancement: "enigmaticlegacy:main/cursed_ring"

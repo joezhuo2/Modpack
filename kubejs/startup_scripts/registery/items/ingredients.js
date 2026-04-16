@@ -66,6 +66,8 @@ const items = [
     {id: 'brilliant_dust', name: 'Brilliant Dust'},
     {id: 'wonder_chunk', name: 'Wonder Chunk'},
     {id: 'ice_cube', name: 'Ice Cube'},
+    {id: 'mesh', name: 'Mesh'},
+    {id: 'livingwood_frame', name: 'Livingwood Frame'}
 ]
 
 StartupEvents.registry('item', event => {

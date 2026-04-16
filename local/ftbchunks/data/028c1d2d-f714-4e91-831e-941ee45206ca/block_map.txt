@@ -15,6 +15,7 @@
 #0F359D minecraft:azure_bluet
 #18D108 minecraft:basalt
 #73F436 betternether:basalt_stalactite
+#DDDF66 createlowheated:basic_burner
 #B831E2 extendedcrafting:basic_table
 #840F59 minecraft:bedrock
 #D1B3D5 the_bumblezone:beehive_beeswax
@@ -106,6 +107,7 @@
 #4B435D deeperdarker:echo_soil
 #FB1469 betternether:egg_plant
 #430A65 betterend:emerald_ice
+#548B83 create:encased_fan
 #C6551F draconicevolution:end_draconium_ore
 #E7031D mysticalagradditions:end_inferium_ore
 #1E84DB betterend:end_moss
@@ -123,6 +125,7 @@
 #721F77 betterend:flavolite
 #639593 twilightforest:fluffy_cloud
 #B5B7E0 betterend:fracturn
+#8BEEB2 botania:framed_livingwood
 #2E68CE bloodyhell:fully_eroded_blasphemous_sandstone
 #1E33BF minecraft:gilded_blackstone
 #B9EDC5 regions_unexplored:glistering_nylium

@@ -137,7 +137,14 @@ const itemsToName = [
     {id: 'ancient_elements:endrium_leggings', name: 'Melodium Leggings'},
     {id: 'ancient_elements:endrium_boots', name: 'Melodium Boots'},
 
-    {id: 'naturesaura:gold_powder', name: 'Brilliant Powder'}
+    {id: 'naturesaura:gold_powder', name: 'Brilliant Powder'},
+
+    {id: 'psi:cad_assembly_iron', name: 'Basic CAD assembly'},
+    {id: 'psi:cad_assembly_gold', name: 'Advanced CAD assembly'},
+    {id: 'psi:cad_assembly_psimetal', name: 'Elite CAD assembly'},
+
+    {id: 'hexalia:silk_fiber', name: 'Silk Cocoon'}
+
 ]
 
 ClientEvents.lang('en_us', event => {
