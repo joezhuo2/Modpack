@@ -3444,17 +3444,52 @@
 		}
 		{
 			id: "0927946BD2E0DE9E"
-			tasks: [{
-				id: "2C6160A99B396F77"
-				item: {
-					Count: 1
-					id: "alexscaves:diving_helmet"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "2C6160A99B396F77"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4F7B9492EA1109AF"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70A8CCCFCD22DD47"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "333D47743C1A9082"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 1.0d
 		}

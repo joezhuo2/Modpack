@@ -1,0 +1,46 @@
+{
+  "armorSetName": "diving",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "alexscaves:diving_helmet"
+  },
+  "chest": {
+    "itemKey": "alexscaves:diving_chestplate"
+  },
+  "legs": {
+    "itemKey": "alexscaves:diving_leggings"
+  },
+  "boots": {
+    "itemKey": "alexscaves:diving_boots"
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.4,
+      "attributeOperation": 0,
+      "modifierUUID": "bed41907-d5fa-40fa-8cf5-c8ecaa45f660"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:cold_damage",
+      "value": 4.0,
+      "attributeOperation": 0,
+      "modifierUUID": "3ef15e7d-8ef3-4fed-b11d-fa1b7a393453"
+    },
+    {
+        "type": "effect",
+        "name": "minecraft:water_breathing",
+        "value": 0
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips" : [
+    "\u00A7bEmbrace the Deep",
+    "\u00A7fPartial(2): \u00A77+40% Swim Speed",
+    "\u00A7fFull(4): \u00A77+4 Cold Damage, Water Breathing"
+  ]
+}

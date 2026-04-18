@@ -72,6 +72,11 @@
     "simpleores:tin_leggings" : ["defense:6", "attack:3"],
     "simpleores:tin_boots" : ["defense:6", "attack:3"],
 
+    "alexscaves:diving_helmet": ["defense:7"],
+    "alexscaves:diving_chestplate": ["defense:7"],
+    "alexscaves:diving_leggings": ["defense:7"],
+    "alexscaves:diving_boots": ["defense:7"],
+
     "irons_spellbooks:wandering_magician_helmet": ["defense:7", "magic:5"],
     "irons_spellbooks:wandering_magician_chestplate": ["defense:7", "magic:5"],
     "irons_spellbooks:wandering_magician_leggings": ["defense:7", "magic:5"],

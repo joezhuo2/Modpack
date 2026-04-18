@@ -1,12 +1,138 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "pentagon"
 	filename: "shop"
 	group: "00EC63AFE5312D99"
 	icon: "reliquary:fortune_coin"
 	id: "784FA820B9779A2A"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: "supplementaries:globe_sepia"
+			id: "7638707021020712"
+			repeatable: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tp @s 0 150 0"
+					elevate_perms: true
+					icon: "supplementaries:globe"
+					id: "1FDFCF3168433236"
+					silent: true
+					title: "Teleport to World Center"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/effect give @s minecraft:slow_falling 30 0"
+					elevate_perms: true
+					icon: "minecraft:feather"
+					id: "4B146E7E902C7360"
+					silent: true
+					title: "Safety Packet"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/effect give @s minecraft:blindness 30 0"
+					elevate_perms: true
+					icon: "occultism:purified_ink"
+					id: "1A0C5FBC525C0F45"
+					silent: true
+					title: "Blinding Experience"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 7638707021020712"
+					elevate_perms: true
+					icon: "irons_spellbooks:furled_map"
+					id: "1D58A42AF1B88007"
+					silent: true
+					title: "Be sure to return again soon!"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "1D56B1B6746E3101"
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "402228C18EAA7EAC"
+					title: "Confirmation"
+					type: "checkmark"
+				}
+			]
+			title: "Quick Trip to World Center"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			icon: "cataclysm_spellbooks:abyssal_upgrade_orb"
+			id: "653FA3338E5F6EAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BC6409B9BE26807"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					command: "/ftbquests change_progress @s reset 653FA3338E5F6EAE"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "minecraft:oak_sapling"
+					id: "007D917EB25621C6"
+					silent: true
+					title: "Reset Quest Progress"
+					type: "command"
+				}
+			]
+			tasks: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "6EEF859BB098BB06"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Choice of Skill Level"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			icon: "irons_spellbooks:ice_upgrade_orb"
+			id: "6ED205D59F801014"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0A0BC281204939A8"
+					table_id: 7868780761192702625L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 6ED205D59F801014"
+					elevate_perms: true
+					icon: "minecraft:oak_sapling"
+					id: "7B42185F5B33C666"
+					silent: true
+					title: "Reset Quest Progress"
+					type: "command"
+				}
+			]
+			tasks: [{
+				amount: 200L
+				currency: "eternalcurrencies:coins"
+				id: "3DD14E48D50B29E3"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "Random Skill Level"
+			x: -1.0d
+			y: 1.0d
+		}
+	]
 	title: "Shop"
 }

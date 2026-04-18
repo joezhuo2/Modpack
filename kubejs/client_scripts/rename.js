@@ -80,6 +80,7 @@ const itemsToName = [
 
     {id: 'immersiveengineering:alloybrick', name: 'Kiln Bricks'},
     {id: 'immersiveengineering:cokebrick', name: 'Coke Bricks'},
+    {id: 'immersiveengineering:blastbrick', name: 'Blast Bricks'},
 
     // {id: 'occultism:silver_ore_deepslate', name: 'Deepslate Titanium Ore'},
     // {id: 'simpleores:raw_tin_block', name: 'Raw Titanium Block'},

@@ -30,6 +30,12 @@
 					type: "choice"
 				}
 				{
+					exclude_from_claim_all: true
+					id: "63E2D6A5CF8013F4"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
 					amount: 10L
 					currency: "eternalcurrencies:coins"
 					id: "5C3B6DF9AFC9727A"
@@ -58,7 +64,13 @@
 					type: "choice"
 				}
 				{
-					amount: 10L
+					exclude_from_claim_all: true
+					id: "02BBC4A6E51D2908"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 125L
 					currency: "eternalcurrencies:coins"
 					id: "2F98E388B93E332E"
 					ignore_reward_blocking: true
@@ -86,7 +98,13 @@
 					type: "choice"
 				}
 				{
-					amount: 20L
+					exclude_from_claim_all: true
+					id: "59B09FE28F0D2CA0"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 150L
 					currency: "eternalcurrencies:coins"
 					id: "5B486B51F5268DCB"
 					ignore_reward_blocking: true
@@ -114,6 +132,12 @@
 					type: "choice"
 				}
 				{
+					exclude_from_claim_all: true
+					id: "194686AAA6C73553"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
 					id: "51430E9772ED71ED"
 					item: {
 						Count: 1
@@ -123,7 +147,7 @@
 					type: "item"
 				}
 				{
-					amount: 35L
+					amount: 185L
 					currency: "eternalcurrencies:coins"
 					id: "6732D8A5681A905A"
 					ignore_reward_blocking: true
@@ -151,7 +175,13 @@
 					type: "choice"
 				}
 				{
-					amount: 50L
+					exclude_from_claim_all: true
+					id: "0ACDF9A277809E74"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 265L
 					currency: "eternalcurrencies:coins"
 					id: "0F17D425B216DAA2"
 					ignore_reward_blocking: true
@@ -179,7 +209,13 @@
 					type: "choice"
 				}
 				{
-					amount: 70L
+					exclude_from_claim_all: true
+					id: "3BF1E7AE10999DDA"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 400L
 					currency: "eternalcurrencies:coins"
 					id: "13AB61101472ACEC"
 					ignore_reward_blocking: true
@@ -207,7 +243,13 @@
 					type: "choice"
 				}
 				{
-					amount: 90L
+					exclude_from_claim_all: true
+					id: "5EBC6A716232AD7F"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 600L
 					currency: "eternalcurrencies:coins"
 					id: "26DB055278C468C7"
 					ignore_reward_blocking: true
@@ -235,7 +277,13 @@
 					type: "choice"
 				}
 				{
-					amount: 135L
+					exclude_from_claim_all: true
+					id: "2DC21CED57FEE0FF"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 800L
 					currency: "eternalcurrencies:coins"
 					id: "39A92DCEDE20E7C0"
 					ignore_reward_blocking: true
@@ -263,7 +311,13 @@
 					type: "choice"
 				}
 				{
-					amount: 180L
+					exclude_from_claim_all: true
+					id: "178E8C89F04CDD8B"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 950L
 					currency: "eternalcurrencies:coins"
 					id: "25FFDB35BCF8616E"
 					ignore_reward_blocking: true
@@ -291,7 +345,13 @@
 					type: "choice"
 				}
 				{
-					amount: 240L
+					exclude_from_claim_all: true
+					id: "0E2CEE67D2D4778C"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 1150L
 					currency: "eternalcurrencies:coins"
 					id: "0CE10145F79689EC"
 					ignore_reward_blocking: true
@@ -311,12 +371,27 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "423CBC70269F7B70"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "392C73D61B6852AB"
-				table_id: 6814849358033531864L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "392C73D61B6852AB"
+					table_id: 6814849358033531864L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A6E9E2FA3F214B9"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 1350L
+					currency: "eternalcurrencies:coins"
+					id: "671368DF1A296CB7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
 			tasks: [{
 				days: 1500
 				id: "1F37291C4B24464F"
@@ -338,7 +413,13 @@
 					type: "choice"
 				}
 				{
-					amount: 500L
+					exclude_from_claim_all: true
+					id: "080238F748AC3AF6"
+					table_id: 7868780761192702625L
+					type: "choice"
+				}
+				{
+					amount: 1800L
 					currency: "eternalcurrencies:coins"
 					id: "22F452EEB7555A67"
 					ignore_reward_blocking: true

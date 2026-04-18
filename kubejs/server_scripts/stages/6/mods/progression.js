@@ -1,9 +1,11 @@
 ServerEvents.recipes(event => {
+    // blast blend
     // blast brick
+    // blast bricks
     // steel ingot
     // mechanical core
     // ember bore
-    // ember crystal, grit, shard
+    // ember crystal, grit, shard (from ember boring)
     // brass casing
     // deployer
     // crumbling catalyst
@@ -12,16 +14,16 @@ ServerEvents.recipes(event => {
     // ritual table
     // amethyst
     // hex focus
-    // psimetal cad assembly
+    // advanced cad assembly
     // ebony psimetal ingot
     // ivory psimetal ingot
     // crucible
     // archwood
     // mixing cauldron
     // elite crafting table
-    // diamond ore
-    // emerald ore
     // redstone ore
+    // amethyst ore
+    // platinum ore
 
     // end
     // obsidian
